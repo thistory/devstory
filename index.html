@@ -354,7 +354,17 @@ function createVineSvg() {
 }
 
 function getTitle(item) { return currentLang === 'ko' ? item.title_ko : item.title; }
-function getSummary(item) { return item.summary_ko; }
+function getSummary(item) {
+  if (currentLang === 'en') {
+    var en = item.detail_en || '';
+    if (en) {
+      var first = en.split('\n')[0];
+      return first.length > 150 ? first.substring(0, 147) + '...' : first;
+    }
+    return item.summary_ko;
+  }
+  return item.summary_ko;
+}
 function getDetail(item) {
   if (currentLang === 'en') return item.detail_en || item.detail_ko || item.summary_ko;
   return item.detail_ko || item.summary_ko;
@@ -501,7 +511,7 @@ document.getElementById('btnKo').classList.toggle('active', currentLang === 'ko'
 document.getElementById('btnEn').classList.toggle('active', currentLang === 'en');
 
 (async function() {
-  var res = await fetch('data/2026/03/22/raw.json');
+  var res = await fetch('data/2026/03/22/raw.json?v=' + Date.now());
   globalData = await res.json();
   render(globalData);
 })();

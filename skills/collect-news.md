@@ -100,10 +100,30 @@ Write `data/YYYY/MM/DD/summary.md` in this format:
 
 *Collected by DevStory Collector*
 
-## Step 9: Report to User
+## Step 9: Enrich with Detailed Translations
+
+After saving raw.json, run the enrichment process:
+
+1. Split the saved items into 5 batches
+2. Dispatch 5 parallel agents — each agent receives a batch of items and for each:
+   - Use WebFetch to fetch the original URL
+   - Generate `detail_ko`: detailed Korean summary/translation (300-500 words, 3-5 paragraphs)
+   - Generate `detail_en`: detailed English summary (300-500 words, 3-5 paragraphs)
+   - If WebFetch fails, generate both based on existing title/summary
+   - Return JSON array: [{ "id": "...", "detail_ko": "...", "detail_en": "..." }]
+3. Merge detail_ko and detail_en into each item in raw.json
+4. Overwrite the same raw.json with enriched data
+
+Content rules for detail_ko / detail_en:
+- Articles/blog posts: summarize key points
+- GitHub repos: explain what it does, features, tech stack, why notable
+- Discussions: summarize main arguments and reactions
+- Papers: explain research question, methodology, findings, implications
+
+## Step 10: Report to User
 
 Print a brief summary:
-- Total items collected / filtered / saved
+- Total items collected / filtered / saved / enriched
 - Any source errors
 - Path to saved files
 - Top 5 items as a preview
