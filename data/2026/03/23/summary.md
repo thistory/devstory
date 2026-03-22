@@ -1,57 +1,64 @@
 # DevStory Daily — 2026-03-23
 
-> 수집 시각: 01:33 KST | 총 수집: 127개 | 중복 제거 후: 98개 | 최종 선별: 30개
+> 수집 시각: 07:16 KST | 총 수집: 159개 | 최종 선별: 30개
 
 ## 🔥 Top 10
 
-1. **[에이전트를 위한 인프라: Workers AI에서 Kimi K2.5 서빙 시작](https://blog.cloudflare.com/workers-ai-large-models/)** — Cloudflare Workers AI가 256K 컨텍스트와 멀티턴 도구 호출 지원하는 Kimi K2.5 서빙 시작. 보안 에이전트 비용 77% 절감. `[cloudflare_blog]` ⭐ 95
-2. **[OpenAI, Astral(uv, Ruff, ty) 인수](https://arstechnica.com/ai/2026/03/openai-is-acquiring-open-source-python-tool-maker-astral/)** — 월 1.26억 다운로드의 Python 도구 회사 Astral을 인수. 오픈소스 유지 약속하며 Codex 팀에 통합. `[ars_technica]` ⭐ 94
-3. **[everything-claude-code — 에이전트 최적화 시스템](https://github.com/affaan-m/everything-claude-code)** — Claude Code, Codex, Cursor를 위한 에이전트 하니스. 오늘 3,735스타, 총 96.8K. `[github_trending]` ⭐ 93
-4. **[임베딩 없이 지식 에이전트 구축하기 — Vercel](https://vercel.com/blog/build-knowledge-agents-without-embeddings)** — 벡터 DB 대신 파일시스템+bash로 에이전트 비용 75% 절감. 오픈소스 템플릿 공개. `[vercel_blog]` ⭐ 91
-5. **[Cargo 보안 취약점 CVE-2026-33056](https://blog.rust-lang.org/2026/03/21/cve-2026-33056/)** — Rust Cargo 패키지 관리자 보안 취약점 발견, 즉시 업데이트 권고. `[lobsters]` ⭐ 90
-6. **[Project NOMAD: 오프라인 생존 컴퓨터](https://github.com/Crosstalk-Solutions/project-nomad)** — AI, 위키피디아, Khan Academy를 탑재한 자급자족 오프라인 컴퓨터. 오늘 2,294스타. `[github_trending]` ⭐ 90
-7. **[Ubuntu 26.04, 46년간의 sudo 무표시 전통 종결](https://pbxscience.com/ubuntu-26-04-ends-46-years-of-silent-sudo-passwords/)** — sudo 비밀번호 입력 시 별표 표시. 1980년대 Unix 전통의 종료. `[lobsters]` ⭐ 89
-8. **[Attention Residuals — LLM 잔차 연결 개선](https://huggingface.co/papers/2603.15031)** — Moonshot AI가 제안한 AttnRes, Kimi Linear 아키텍처에 적용하여 성능 향상. `[huggingface_papers]` ⭐ 88
-9. **[Simon Willison의 OpenAI-Astral 인수 분석](https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/)** — Python 생태계와 오픈소스에 미칠 영향 심층 분석. `[lobsters]` ⭐ 88
-10. **[MiroThinker: 상호작용 스케일링 리서치 에이전트](https://huggingface.co/papers/2511.11793)** — 72B 모델로 GAIA 81.9% 달성, GPT-5-high에 근접. `[huggingface_papers]` ⭐ 87
+1. **[버전 관리의 미래](https://bramcohen.com/p/manyana)** — Bram Cohen이 차세대 버전 관리 시스템 Manyana에 대한 비전을 공유하며, 기존 Git의 한계를 넘어서는 새로운 접근 방식을 제안한다. `[hacker_news]` ⭐ 91
+2. **[OpenClaw은 보안 악몽이다](https://composio.dev/content/openclaw-security-and-vulnerabilities)** — OpenClaw의 보안 취약점을 분석한 글로, AI 에이전트 프레임워크의 보안 위험성에 대해 경고한다. `[hacker_news]` ⭐ 91
+3. **[PC Gamer가 37MB짜리 기사에서 RSS 리더를 추천하다](https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/)** — PC Gamer의 과도하게 큰 웹페이지 크기를 지적하며, RSS 리더 사용의 필요성을 역설하는 글. `[hacker_news]` ⭐ 86
+4. **[GrapheneOS, 연령 인증법 거부](https://www.tomshardware.com/software/operating-systems/grapheneos-refuses-to-comply-with-age-verification-laws)** — GrapheneOS가 OS 수준의 연령 인증 법규를 거부하며, 사용자 프라이버시를 우선시한다고 선언. `[hacker_news]` ⭐ 86
+5. **[내가 NixOS를 사랑하는 이유](https://www.birkey.co/2026-03-22-why-i-love-nixos.html)** — NixOS의 선언적 시스템 관리, 재현성, 롤백 등의 장점을 개인 경험과 함께 소개. `[hacker_news]` ⭐ 86
+6. **[Palantir, 영국 금융감독원 민감 데이터 접근 확대](https://www.theguardian.com/technology/2026/mar/22/palantir-extends-reach-into-british-state-as-it-gets-access-to-sensitive-fca-data)** — Palantir가 영국 FCA의 민감한 데이터에 접근하게 되면서, 영국 정부 내 영향력이 더욱 확대. `[hacker_news]` ⭐ 86
+7. **[Flash-MoE: 노트북에서 397B 파라미터 모델 실행](https://github.com/danveloper/flash-moe)** — Mixture of Experts 모델을 노트북에서 실행할 수 있게 하는 메모리 효율적 추론 엔진. `[github_trending]` ⭐ 83
+8. **[Tauri 기반 프록시 GUI 클라이언트](https://github.com/clash-verge-rev/clash-verge-rev)** — Windows, macOS, Linux에서 실행되는 Tauri 기반 모던 프록시 GUI 클라이언트. `[github_trending]` ⭐ 83
+9. **[Trivy - 컨테이너/K8s 보안 취약점 스캐너](https://github.com/aquasecurity/trivy)** — 컨테이너, Kubernetes, 코드 저장소, 클라우드에서 취약점, 설정 오류, 시크릿, SBOM을 탐지하는 보안 스캐너. `[github_trending]` ⭐ 83
+10. **[프로덕션용 에이전틱 RAG 코스](https://github.com/jamwithai/production-agentic-rag-course)** — 프로덕션 환경에서의 에이전틱 RAG 구축 강좌. `[github_trending]` ⭐ 83
 
 ## 📰 뉴스 & 블로그
-- **[OpenAI, Astral(uv, Ruff, ty) 인수](https://arstechnica.com/ai/2026/03/openai-is-acquiring-open-source-python-tool-maker-astral/)** — 월 1.26억 다운로드 Python 도구 회사 인수 ⭐ 94
-- **[Cargo 보안 취약점 CVE-2026-33056](https://blog.rust-lang.org/2026/03/21/cve-2026-33056/)** — Rust 패키지 관리자 보안 권고 ⭐ 90
-- **[Ubuntu 26.04 sudo 비밀번호 표시 변경](https://pbxscience.com/ubuntu-26-04-ends-46-years-of-silent-sudo-passwords/)** — 46년 무표시 전통 종결 ⭐ 89
-- **[curl에서 RTMP 지원 제거](https://daniel.haxx.se/blog/2026/03/21/bye-bye-rtmp/)** — 레거시 프로토콜 정리 ⭐ 80
+
+- **[버전 관리의 미래](https://bramcohen.com/p/manyana)** — Bram Cohen이 차세대 버전 관리 시스템 Manyana에 대한 비전을 공유하며, 기존 Git의 한계를 넘어서는 새로운 접근 방식을 제안한다. `[hacker_news]`
+- **[OpenClaw은 보안 악몽이다](https://composio.dev/content/openclaw-security-and-vulnerabilities)** — OpenClaw의 보안 취약점을 분석한 글로, AI 에이전트 프레임워크의 보안 위험성에 대해 경고한다. `[hacker_news]`
+- **[PC Gamer가 37MB짜리 기사에서 RSS 리더를 추천하다](https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/)** — PC Gamer의 과도하게 큰 웹페이지 크기를 지적하며, RSS 리더 사용의 필요성을 역설하는 글. `[hacker_news]`
+- **[GrapheneOS, 연령 인증법 거부](https://www.tomshardware.com/software/operating-systems/grapheneos-refuses-to-comply-with-age-verification-laws)** — GrapheneOS가 OS 수준의 연령 인증 법규를 거부하며, 사용자 프라이버시를 우선시한다고 선언. `[hacker_news]`
+- **[내가 NixOS를 사랑하는 이유](https://www.birkey.co/2026-03-22-why-i-love-nixos.html)** — NixOS의 선언적 시스템 관리, 재현성, 롤백 등의 장점을 개인 경험과 함께 소개. `[hacker_news]`
+- **[Palantir, 영국 금융감독원 민감 데이터 접근 확대](https://www.theguardian.com/technology/2026/mar/22/palantir-extends-reach-into-british-state-as-it-gets-access-to-sensitive-fca-data)** — Palantir가 영국 FCA의 민감한 데이터에 접근하게 되면서, 영국 정부 내 영향력이 더욱 확대. `[hacker_news]`
+- **[Cloudflare, archive.today를 C&C/봇넷으로 분류](https://radar.cloudflare.com/domains/domain/archive.today)** — Cloudflare가 archive.today를 C&C/봇넷으로 플래그하여 1.1.1.2에서 더 이상 해석되지 않는 문제 발생. `[hacker_news]`
+- **[코드의 죽음은 크게 과장됐다](https://stevekrouse.com/precision)** — AI 시대에도 코딩은 죽지 않았으며, 정밀한 코딩 능력의 중요성을 강조하는 글. `[hacker_news]`
+- **[FPGA로 3dfx Voodoo 그래픽카드 구현하기](https://noquiche.fyi/voodoo)** — 현대 RTL 도구를 사용하여 FPGA에서 클래식 3dfx Voodoo 그래픽 카드를 재현하는 프로젝트. `[hacker_news]`
+- **[MAUI가 리눅스에 온다](https://avaloniaui.net/blog/maui-avalonia-preview-1)** — Avalonia UI가 .NET MAUI 앱을 리눅스에서 실행할 수 있는 프리뷰를 발표. `[hacker_news]`
+- **[시스템 아키텍처 다이어그램에서 피해야 할 추가 실수들](https://www.ilograph.com/blog/posts/more-common-diagram-mistakes/)** — 시스템 아키텍처 다이어그램 작성 시 흔히 범하는 실수들을 정리하고 해결 방안을 제시. `[hacker_news]`
+- **[Microsoft에서 5년간 시스템 읽기 모임 운영하기](https://armaansood.com/posts/systems-reading-group/)** — Microsoft에서 5년간 시스템 관련 논문 읽기 모임을 운영한 경험과 교훈을 공유. `[hacker_news]`
 
 ## 🤖 AI & ML 리서치
-- **[Attention Residuals (AttnRes)](https://huggingface.co/papers/2603.15031)** — LLM 잔차 연결 개선, Kimi Linear 적용 ⭐ 88
-- **[MiroThinker v1.0](https://huggingface.co/papers/2511.11793)** — 상호작용 스케일링 오픈소스 리서치 에이전트 ⭐ 87
-- **[OpenSeeker](https://huggingface.co/papers/2603.15594)** — 완전 오픈소스 프론티어급 검색 에이전트 ⭐ 86
-- **[AI Can Learn Scientific Taste](https://huggingface.co/papers/2603.14473)** — RLCF로 과학적 안목 학습, GPT-5.2 능가 ⭐ 85
-- **[Fish Audio S2](https://huggingface.co/papers/2603.08823)** — 오픈소스 다중 화자 TTS 시스템 ⭐ 84
-- **[Seoul World Model](https://huggingface.co/papers/2603.15583)** — 실제 서울 기반 도시 규모 월드 시뮬레이션 ⭐ 83
-- **[도메인 특화 임베딩 모델 파인튜닝](https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune)** — NVIDIA x HuggingFace 가이드 ⭐ 82
-- **[Memento-Skills](https://huggingface.co/papers/2603.18743)** — 에이전트가 에이전트를 설계하는 시스템 ⭐ 82
+
+- **[Attention Residuals: LLM의 고정 잔차 연결을 대체하는 새로운 방법](https://huggingface.co/papers/2603.15031)** — Moonshot AI 연구진이 LLM의 고정 가중치 잔차 연결을 소프트맥스 어텐션으로 대체하는 AttnRes를 제안. Kimi Linear에 적용. `[huggingface_papers]`
+- **[Fish Audio S2: 오픈소스 다중 화자 음성 합성 시스템](https://huggingface.co/papers/2603.08823)** — 다중 화자, 멀티턴 생성, 자연어 제어를 지원하는 오픈소스 TTS 시스템의 기술 보고서. `[huggingface_papers]`
+- **[MiroThinker: 상호작용 스케일링을 통한 오픈소스 리서치 에이전트](https://huggingface.co/papers/2511.11793)** — 72B 모델로 GAIA 81.9%, HLE 37.7% 달성. 600회 이상 도구 호출, 256K 컨텍스트에서 상호작용 스케일링 시연. `[huggingface_papers]`
+- **[OpenSeeker: 프론티어급 성능의 완전 오픈소스 검색 에이전트](https://huggingface.co/papers/2603.15594)** — 11.7K 합성 샘플만으로 SFT 훈련하여 BrowseComp에서 29.5% 달성. 학습 데이터와 모델 가중치 전체 공개. `[huggingface_papers]`
+- **[AI도 과학적 안목을 배울 수 있다 — 연구 아이디어 평가를 위한 RLCF](https://huggingface.co/papers/2603.14473)** — 70만 논문 쌍으로 훈련한 Scientific Judge가 GPT-5.2, Gemini 3 Pro를 능가하는 연구 아이디어 평가 능력 시연. `[huggingface_papers]`
+- **[서울 월드 모델: 실제 도시 기반 대규모 월드 시뮬레이션](https://huggingface.co/papers/2603.15583)** — 실제 서울시를 기반으로 스트리트뷰 이미지를 활용한 도시 규모 월드 시뮬레이션 모델. `[huggingface_papers]`
+- **[Memento-Skills: 에이전트가 에이전트를 설계하게 하라](https://huggingface.co/papers/2603.18743)** — 범용 언어 모델 에이전트가 메모리 기반 강화학습으로 작업 특화 에이전트를 자율 설계하고 개선하는 시스템. `[huggingface_papers]`
 
 ## 🐙 GitHub & 오픈소스
-- **[everything-claude-code](https://github.com/affaan-m/everything-claude-code)** — AI 에이전트 하니스 최적화, 오늘 3,735⭐ ⭐ 93
-- **[project-nomad](https://github.com/Crosstalk-Solutions/project-nomad)** — 오프라인 생존 컴퓨터, 오늘 2,294⭐ ⭐ 90
-- **[deer-flow](https://github.com/bytedance/deer-flow)** — ByteDance 오픈소스 SuperAgent, 오늘 1,508⭐ ⭐ 87
-- **[TradingAgents](https://github.com/TauricResearch/TradingAgents)** — 멀티 에이전트 금융 트레이딩, 오늘 1,108⭐ ⭐ 86
-- **[MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)** — AI 수익 자동화, 오늘 1,772⭐ ⭐ 82
-- **[claude-hud](https://github.com/jarrodwatts/claude-hud)** — Claude Code 모니터링, 오늘 832⭐ ⭐ 81
-- **[notebooklm-py](https://github.com/teng-lin/notebooklm-py)** — Google NotebookLM Python API, 오늘 230⭐ ⭐ 79
+
+- **[Flash-MoE: 노트북에서 397B 파라미터 모델 실행](https://github.com/danveloper/flash-moe)** — Mixture of Experts 모델을 노트북에서 실행할 수 있게 하는 메모리 효율적 추론 엔진. `[github_trending]`
+- **[Tauri 기반 프록시 GUI 클라이언트](https://github.com/clash-verge-rev/clash-verge-rev)** — Windows, macOS, Linux에서 실행되는 Tauri 기반 모던 프록시 GUI 클라이언트. `[github_trending]`
+- **[Trivy - 컨테이너/K8s 보안 취약점 스캐너](https://github.com/aquasecurity/trivy)** — 컨테이너, Kubernetes, 코드 저장소, 클라우드에서 취약점, 설정 오류, 시크릿, SBOM을 탐지하는 보안 스캐너. `[github_trending]`
+- **[프로덕션용 에이전틱 RAG 코스](https://github.com/jamwithai/production-agentic-rag-course)** — 프로덕션 환경에서의 에이전틱 RAG 구축 강좌. `[github_trending]`
+- **[AI 기반 draw.io 다이어그램 생성기](https://github.com/DayuanJiang/next-ai-draw-io)** — 자연어 명령으로 draw.io 다이어그램을 생성·수정·개선하는 Next.js 웹 앱. `[github_trending]`
 
 ## 💬 커뮤니티 토론
-- **[JavaScript 비대화의 세 가지 기둥](https://43081j.com/2026/03/three-pillars-of-javascript-bloat)** — JS 번들 크기 문제의 근본 원인 분석 ⭐ 85
-- **[Windows 네이티브 앱 개발의 혼란](https://domenic.me/windows-native-dev/)** — 프레임워크 난립 비판 ⭐ 84
-- **[장인정신을 사랑하는 사람들이 잃어가는 것](https://writings.hongminhee.org/2026/03/craft-alienation-llm/)** — LLM 시대의 개발자 정체성 위기 ⭐ 83
-- **[Manyana: 버전 관리의 미래](https://bramcohen.com/p/manyana)** — Bram Cohen의 차세대 VCS 비전 ⭐ 83
-- **[Go는 더 나은 C가 될 수 있다](https://antonz.org/solod/)** — 시스템 프로그래밍에서 Go의 가능성 ⭐ 80
-- **[SSH 인증서와 Git 서명](https://codon.org.uk/~mjg59/blog/p/ssh-certificates-and-git-signing/)** — GPG 대안 기술 가이드 ⭐ 79
-- **[Wayland 앱 개발이 싫다](https://www.p4m.dev/posts/29/index.html)** — Wayland 개발 고충 ⭐ 78
+
+- **[난 Wayland 앱 개발이 싫다](https://www.p4m.dev/posts/29/index.html)** — Wayland 애플리케이션 개발의 고충과 X11 대비 복잡성 증가를 토로하는 글. `[lobsters]`
+- **[Windows 네이티브 앱 개발은 혼란 그 자체](https://domenic.me/windows-native-dev/)** — Windows 네이티브 앱 개발의 프레임워크 난립과 불일치를 고발하는 글. Lobsters에서 활발한 토론. `[lobsters]`
+- **[JavaScript 비대화의 세 가지 기둥](https://43081j.com/2026/03/three-pillars-of-javascript-bloat)** — JavaScript 번들 크기를 불필요하게 키우는 세 가지 근본 원인을 분석한 글. `[lobsters]`
+- **[MIT Flow Matching과 Diffusion 강의 2026](https://www.reddit.com/r/MachineLearning/comments/1s0qi41/n_mit_flow_matching_and_diffusion_lecture_2026/)** — MIT에서 2026년 Flow Matching과 Diffusion 모델에 대한 강의 시리즈를 공개. `[reddit_ml]`
+- **[Q 부분공간 투영으로 LM 아키텍처 시각화](https://www.reddit.com/r/MachineLearning/comments/1s0ov8e/p_visualizing_lms_architecture_and_data_flow_with/)** — Q 부분공간 투영을 활용하여 언어 모델의 아키텍처와 데이터 흐름을 시각화하는 프로젝트. `[reddit_ml]`
 
 ## 🏗️ 엔지니어링 블로그
-- **[Workers AI에서 Kimi K2.5 서빙](https://blog.cloudflare.com/workers-ai-large-models/)** — Cloudflare의 대형 모델 인프라 확장, 77% 비용 절감 ⭐ 95
-- **[임베딩 없는 지식 에이전트](https://vercel.com/blog/build-knowledge-agents-without-embeddings)** — Vercel의 파일시스템 기반 RAG 대안, 75% 비용 절감 ⭐ 91
+
+- **[임베딩 없이 지식 에이전트 구축하기 — Vercel](https://vercel.com/blog/build-knowledge-agents-without-embeddings)** — Vercel이 벡터 DB 대신 파일시스템과 bash를 사용하는 지식 에이전트 템플릿을 오픈소스로 공개. 비용 75% 절감. `[vercel_blog]`
 
 ---
 
