@@ -53,7 +53,10 @@ Select top 30 items.
 
 ## Step 7: Save JSON
 
-Create directory `data/YYYY/MM/DD/` and write `raw.json`:
+Create directory `data/YYYY/MM/DD/` and write `raw.json`.
+Also write `data/latest.json` pointing to the new file: `{ "path": "data/YYYY/MM/DD/raw.json" }`
+
+Format for `raw.json`:
 
 {
   "date": "YYYY-MM-DD",
