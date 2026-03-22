@@ -1,0 +1,559 @@
+{
+  "date": "2026-03-22",
+  "collected_at": "2026-03-22T15:00:00+09:00",
+  "items": [
+    {
+      "id": "hn-47467537",
+      "title": "Some things just take time",
+      "title_ko": "어떤 일은 그저 시간이 걸린다",
+      "summary_ko": "인내심과 점진적 발전에 대한 에세이로, 빠른 결과를 기대하기보다 시간이 필요한 과정을 받아들이는 것의 중요성을 논합니다.",
+      "url": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "productivity",
+        "software-development",
+        "patience",
+        "career"
+      ],
+      "score": 92,
+      "published_at": "2026-03-21T14:46:56Z",
+      "detail_ko": "Armin Ronacher(Flask, Jinja2 등의 창시자)가 작성한 이 에세이는 즉각적인 만족과 AI 가속 워크플로우가 지배하는 현대 문화에서, 의미 있는 성취에는 반드시 오랜 시간이 필요하다는 근본적 진실을 상기시킨다. 저자는 50년 된 참나무를 핵심 비유로 사용하며, 돈이나 속도로는 절대 재현할 수 없는 가치가 시간을 통해서만 만들어진다고 주장한다.\n\n에세이의 핵심 논점 중 하나는 '마찰(friction)'의 역할이다. 스타트업 문화에서는 모든 마찰을 제거하려 하지만, Ronacher는 컴플라이언스나 의사결정 과정에서의 마찰이 성급한 선택으로부터 품질을 보호하는 안전장치 역할을 한다고 역설한다. AI를 통해 모든 마찰을 자동화하려는 시도는 의도적인 느림이 때로는 품질을 지켜준다는 사실을 간과하는 것이다.\n\n또한 현대 소프트웨어 생태계의 지속가능성 위기를 지적한다. 많은 기업들이 아무런 설명 없이 몇 주 만에 사라지고, 오픈소스 프로젝트들은 일주일 정도의 커밋만 남긴 채 방치된다. 이는 진정한 발전이 아니라 건강하지 못한 반복 패턴일 뿐이다. AI가 시간을 절약해준다고 하지만, 전문가들은 오히려 가용 시간이 줄었다고 보고한다. 효율성의 이득은 경쟁 압박과 확대된 산출물 기대에 즉시 흡수되어 러닝머신 효과를 만들어낸다.\n\n거의 20년간 프로젝트를 유지보수하고 스타트업에서 10년간 일한 경험을 바탕으로, Ronacher는 속도가 아닌 지구력이 지속 가능한 가치를 만든다고 결론짓는다. 프로젝트, 관계, 커뮤니티 등 가장 가치 있는 것들은 수년에 걸쳐 발전하며, 어떤 도구도 이 시간표를 가속할 수 없다."
+    },
+    {
+      "id": "gh-trending-affaan-m-everything-claude-code",
+      "title": "affaan-m/everything-claude-code",
+      "title_ko": "Claude Code 에이전트 성능 최적화 시스템",
+      "summary_ko": "스킬, 메모리, 보안, 리서치 기반 개발을 갖춘 에이전트 하니스 성능 최적화 시스템. 오늘 3,370스타 획득.",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "javascript",
+        "claude",
+        "agent",
+        "ai"
+      ],
+      "score": 91,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "Everything Claude Code는 Anthropic 해커톤 우승작에서 발전한 AI 에이전트 하니스 성능 최적화 시스템이다. 단순한 설정 모음이 아니라, Claude Code, Cursor, OpenCode 등 AI 기반 개발 도구를 통합 에이전트, 스킬, 커맨드, 자동화 훅을 통해 강화하는 프로덕션급 생태계다. GitHub에서 96.7K 스타와 12.6K 포크를 기록하며 큰 주목을 받고 있다.\n\n핵심 기능으로는 28개의 특화된 서브에이전트(코드 리뷰, 아키텍처 결정, TDD, 빌드 오류 해결 등), 100개 이상의 워크플로우 스킬(백엔드/프론트엔드 패턴, 보안 리뷰, 검증 루프 등), 59개의 슬래시 커맨드(/plan, /tdd, /code-review, /build-fix 등)가 있다. 훅 자동화 시스템은 세션 생명주기 관리, 전략적 컨텍스트 압축, 세션 간 메모리 지속성을 처리하여 장기 실행 개발 워크플로우에서의 토큰 최적화에 핵심적 역할을 한다.\n\n기술 스택은 TypeScript, Python, Go, Shell을 아우르며, npm/pnpm/yarn/bun 패키지 매니저를 자동 감지한다. Windows, macOS, Linux를 모두 지원하고, Claude Code 플러그인으로 배포되어 마켓플레이스 통합도 제공한다. MCP(Model Context Protocol) 서버를 통한 GitHub, Supabase, Vercel, Railway 연동과 SQLite 기반 세션/상태 저장소로 지속적 학습을 지원한다.\n\n10개월 이상의 실제 프로덕트 개발 경험에서 탄생한 실용적 패턴을 반영하며, 토큰 최적화, 메모리 지속성, 검증 루프, 서브에이전트 오케스트레이션에 대한 세 가지 상세 가이드를 제공한다는 점에서 차별화된다."
+    },
+    {
+      "id": "gh-trending-crosstalk-solutions-project-nomad",
+      "title": "Crosstalk-Solutions/project-nomad",
+      "title_ko": "오프라인 생존용 컴퓨터 프로젝트",
+      "summary_ko": "도구, 지식, AI를 탑재한 자급자족 오프라인 생존 컴퓨터. 오늘 2,294스타 획득.",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "offline",
+        "survival",
+        "ai"
+      ],
+      "score": 88,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "Project N.O.M.A.D.(Node for Offline Media, Archives, and Data)는 도구, 지식, AI를 모두 탑재한 자급자족형 오프라인 생존 컴퓨터 프로젝트다. 인터넷 연결 없이도 학습, 정보 검색, AI 활용이 가능한 독립적인 지식 및 교육 서버로 설계되었으며, 'Command Center'라는 관리 인터페이스를 통해 Docker 컨테이너화된 도구와 리소스를 오케스트레이션한다.\n\n정보 및 학습 분야에서는 Kiwix를 통한 오프라인 위키피디아 및 의료 참고자료, Kolibri를 통한 Khan Academy 강좌(진도 추적 포함), FlatNotes를 이용한 로컬 노트 기능을 제공한다. AI 및 데이터 처리 분야에서는 Ollama 기반 로컬 AI 챗(문서 업로드 가능), Qdrant를 활용한 시맨틱 검색 및 RAG(검색 증강 생성), CyberChef를 통한 암호화/인코딩 도구를 갖추고 있다. 또한 ProtoMaps를 통한 지역 지도 다운로드와 하드웨어 벤치마크 시스템도 포함된다.\n\n하드웨어 요구사항은 최소 듀얼코어 2GHz CPU, 4GB RAM, 5GB 저장공간(Debian 기반 OS)이며, 최적 환경은 AMD Ryzen 7/Intel Core i7, 32GB RAM, NVIDIA RTX 3060 GPU, 250GB SSD다. Apache License 2.0 하에 공개되었으며, 내장 텔레메트리가 전혀 없어 프라이버시를 보장한다. 초기 설치 시에만 인터넷이 필요하고, 이후에는 완전한 오프라인 운용이 가능하다는 점이 재난 대비나 오지 환경에서 특히 유용하다."
+    },
+    {
+      "id": "reddit-bcd480c20562",
+      "title": "Storing 2 bytes of data in your Logitech mouse",
+      "title_ko": "Logitech 마우스에 2바이트 데이터 저장하기",
+      "summary_ko": "Logitech 마우스의 프로토콜을 리버스 엔지니어링하여 DPI 레지스터에 2바이트를 저장하는 실험. 댓글 109개.",
+      "url": "https://www.timwehrle.de/blog/what-if-i-stored-data-in-my-mouse/",
+      "source": "reddit_programming",
+      "category": "community",
+      "tags": [
+        "reverse-engineering",
+        "hardware",
+        "programming"
+      ],
+      "score": 87,
+      "published_at": "2026-03-21T20:48:37Z",
+      "detail_ko": "Tim Wehrle가 작성한 이 글은 Logitech MX Vertical 마우스를 여러 컴퓨터 간에 데이터를 전달하는 휴대용 저장장치로 사용할 수 있는지 실험한 흥미로운 하드웨어 해킹기다. 마우스가 DPI 설정 같은 값을 기기 간에 유지한다는 점에서 플래시 메모리가 있을 것이라 추론하고, 그 메모리에 데이터를 저장할 수 있는지 시도했다.\n\nLogitech 마우스는 표준 USB HID 위에 구축된 독점 프로토콜인 HID++로 통신한다. 저자는 Rust로 코드를 작성하여 마우스가 노출하는 33개의 기능(feature)을 열거하고, 각 기능의 안정적 ID와 기기별 인덱스 번호 간의 매핑을 파악했다. Logitech의 문서가 불완전했기 때문에 'TemplateBytesNVS', 'PersistentRemappableAction' 같은 미문서화된 기능들을 체계적으로 시행착오를 거치며 테스트했다.\n\n과정에서 여러 난관이 있었다. macOS의 IOHIDManager가 특정 레지스터에 필요한 긴 HID++ 패킷을 조용히 차단했고, 기기 이름 레지스터는 쓰기를 받아들이되 실제로는 무시했다. 하지만 DPI 레지스터는 '어떤 u16 값이든 받아들인다'는 사실을 발견했다. 최종적으로 Unifying 리시버를 사용하는 Logitech 마우스의 DPI 레지스터에 2바이트의 데이터를 저장하고 컴퓨터 간에 전달하는 데 성공했다. 실용적으로는 쓸모없지만, 커널 수준 HID 관리, 기능 아키텍처, 프로토콜 세부사항을 이해하는 귀중한 학습 경험이었다."
+    },
+    {
+      "id": "hn-47470773",
+      "title": "Tinybox – A powerful computer for deep learning",
+      "title_ko": "Tinybox - 딥러닝을 위한 강력한 컴퓨터",
+      "summary_ko": "tinygrad에서 만든 딥러닝 전용 컴퓨팅 장비로, 고성능 머신러닝 작업을 위한 특화된 하드웨어 솔루션입니다.",
+      "url": "https://tinygrad.org/#tinybox",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "deep-learning",
+        "hardware",
+        "machine-learning",
+        "tinygrad"
+      ],
+      "score": 85,
+      "published_at": "2026-03-21T20:28:37Z",
+      "detail_ko": "Tinybox는 tinygrad에서 만든 딥러닝 전용 고성능 컴퓨터로, '달러 대비 최고의 딥러닝 성능'을 목표로 한다. 훈련과 추론 모두에서 훨씬 비싼 경쟁 제품들을 능가하는 벤치마크 결과를 보여준다.\n\n현재 두 가지 모델이 판매 중이다. Red V2는 AMD Radeon 9070XT GPU 4장, 64GB GPU RAM(대역폭 2560GB/s), 32코어 AMD EPYC CPU, 128GB 시스템 RAM, 2TB NVMe 스토리지를 탑재하며 FP16 778 TFLOPS 성능에 가격은 12,000달러다. Green V2 Blackwell은 RTX PRO 6000 Blackwell GPU 4장, 384GB GPU RAM(대역폭 7168GB/s), 32코어 AMD GENOA CPU, 192GB 시스템 RAM, 4TB RAID + 1TB 부팅 스토리지를 갖추며 FP16 3,086 TFLOPS 성능에 65,000달러에 판매된다.\n\n두 모델 모두 독립형 또는 랙 마운트 옵션을 지원하고, PCIe/이더넷 패브릭 연결이 가능하며, 결제 후 일주일 이내에 전 세계 배송된다. 또한 2027년 출시 예정인 Exabox는 720개의 RDNA5 AT0 XL GPU로 약 1 EXAFLOP 성능을 목표로 하며, 예상 가격은 약 1,000만 달러다. 커스터마이징은 제공하지 않으며 은행 송금으로만 결제 가능하다는 점이 특징이다."
+    },
+    {
+      "id": "gh-trending-bytedance-deer-flow",
+      "title": "bytedance/deer-flow",
+      "title_ko": "ByteDance 오픈소스 SuperAgent 프레임워크",
+      "summary_ko": "리서치, 코딩, 창작을 위한 오픈소스 SuperAgent 하니스. 샌드박스와 서브에이전트 지원. 오늘 1,508스타.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "agent",
+        "ai",
+        "bytedance"
+      ],
+      "score": 84,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "DeerFlow는 ByteDance가 공개한 오픈소스 SuperAgent 오케스트레이션 플랫폼으로, 수 분에서 수 시간에 걸치는 복잡한 다단계 작업을 AI 에이전트가 처리할 수 있도록 설계되었다. 서브에이전트, 메모리, 샌드박스를 오케스트레이션하여 확장 가능한 스킬 기반으로 거의 모든 작업을 수행할 수 있다.\n\n핵심 기능으로는 작업을 병렬 서브에이전트 워크플로우로 분해하는 태스크 디컴포지션, 지속적 메모리 및 컨텍스트 관리, 샌드박스화된 코드 실행(로컬, Docker, Kubernetes), 토큰 오버헤드를 최소화하는 점진적 스킬 로딩, 스트리밍 응답 및 장기 실행 태스크 관리를 제공한다. 리서치 종합, 보고서 생성, 슬라이드 제작, 웹 페이지 빌드, 이미지/비디오 생성, 데이터 파이프라인 자동화, 대시보드 개발 등 다양한 실제 업무에 활용할 수 있다.\n\n기술 스택은 백엔드에 Python 3.12+와 LangGraph/LangChain 프레임워크, 프론트엔드에 Node.js 22+와 React를 사용한다. Docker/Kubernetes 지원, nginx 프록시, 마이크로서비스 오케스트레이션 인프라를 갖추고 있다. OpenAI, Anthropic, 오픈소스 모델 등 다양한 모델 제공자를 지원하며, MCP 서버 통합을 통해 확장 가능한 도구를 제공한다.\n\nDeerFlow 2.0은 1.0과 코드를 공유하지 않는 완전한 재작성 버전으로, 2026년 2월 출시 후 GitHub Trending 1위를 기록했다."
+    },
+    {
+      "id": "gh-trending-fujiwarachoki-moneyprinterv2",
+      "title": "FujiwaraChoki/MoneyPrinterV2",
+      "title_ko": "온라인 수익 자동화 도구",
+      "summary_ko": "온라인 수익 창출 과정을 자동화하는 도구. 오늘 1,772스타 획득.",
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "automation",
+        "money"
+      ],
+      "score": 82,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "MoneyPrinterV2는 온라인 수익 창출 과정을 자동화하는 Python 기반 오픈소스 프로젝트로, 기존 MoneyPrinter의 완전한 재작성 버전이다. GitHub에서 18.9k 스타를 기록하며 높은 관심을 받고 있으며, AGPL-3.0 라이선스로 공개되어 있다.\n\n이 도구의 핵심 기능은 크게 네 가지로 나뉜다. 첫째, 트위터 봇 기능으로 CRON 작업을 통한 예약 게시가 가능하다. 둘째, YouTube Shorts 콘텐츠를 자동으로 생성하고 예약 업로드할 수 있다. 셋째, 아마존 제휴 마케팅과 트위터를 연동한 수익화 시스템을 제공한다. 넷째, 지역 비즈니스를 자동으로 탐색하고 콜드 아웃리치를 수행하는 기능이 있다.\n\n기술 스택은 Python 3.12를 기반으로 하며, 설치 방법은 저장소를 클론한 후 가상 환경을 생성하고, requirements.txt로 의존성을 설치한 뒤 JSON 설정 파일을 구성하면 된다."
+    },
+    {
+      "id": "hn-47476422",
+      "title": "Flash-Moe: Running a 397B Parameter Model on a Mac with 48GB RAM",
+      "title_ko": "Flash-Moe: 48GB RAM Mac에서 3970억 파라미터 모델 실행하기",
+      "summary_ko": "소비자용 하드웨어에서 초대형 언어 모델을 추론할 수 있는 프로젝트로, 제한된 리소스에서 대형 모델을 실행하는 기술을 소개합니다.",
+      "url": "https://github.com/danveloper/flash-moe",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "llm",
+        "machine-learning",
+        "optimization",
+        "mac",
+        "open-source"
+      ],
+      "score": 80,
+      "published_at": "2026-03-22T11:50:03Z",
+      "detail_ko": "Flash-MoE는 순수 C/Metal로 작성된 추론 엔진으로, 3970억 파라미터의 Mixture-of-Experts 모델(Qwen3.5-397B-A17B)을 48GB RAM의 MacBook Pro에서 초당 약 4.4 토큰 속도로 실행할 수 있다. Python 프레임워크 없이 C, Objective-C, 그리고 수작업으로 최적화된 Metal 셰이더만으로 구현된 것이 핵심이다.\n\n기술적 혁신의 핵심은 SSD 스트리밍 방식에 있다. 209GB 모델 전체를 메모리에 로딩하는 대신, 레이어당 활성화되는 K=4개의 전문가(각 약 6.75MB)만 병렬 pread() 호출로 읽어들이며, OS 페이지 캐시를 활용해 지능적 캐싱을 수행한다. 또한 4비트 역양자화에 FMA 명령어를 사용해 12%의 성능 향상을 달성했고, 약 1,200줄의 커스텀 Metal 커널을 작성했다.\n\n흥미로운 점은 58회의 실험을 통해 발견된 반직관적 결과들이다. OS 페이지 캐싱이 커스텀 솔루션보다 우수했고, 프리페칭은 공유 메모리 컨트롤러 병목으로 오히려 73% 성능 저하를 일으켰다. 이 프로젝트는 인간 엔지니어와 Claude가 24시간 내에 협업하여 90개 이상의 최적화 접근법을 탐구한 논문까지 작성했다."
+    },
+    {
+      "id": "gh-trending-vxcontrol-pentagi",
+      "title": "vxcontrol/pentagi",
+      "title_ko": "자율형 AI 침투 테스트 시스템",
+      "summary_ko": "복잡한 침투 테스트 작업을 수행할 수 있는 완전 자율 AI 에이전트 시스템. 오늘 1,015스타.",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "go",
+        "security",
+        "pentest",
+        "ai-agent"
+      ],
+      "score": 79,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "PentAGI는 인공지능을 활용한 완전 자율형 침투 테스트 시스템으로, 최소한의 인간 개입으로 복잡한 보안 평가를 자동 수행할 수 있는 다중 에이전트 오케스트레이션 플랫폼이다.\n\n시스템은 연구자, 개발자, 실행자, 조언자, 계획자 등 전문화된 에이전트 역할로 구성된다. nmap, metasploit, sqlmap 등 20개 이상의 업계 표준 보안 도구를 샌드박스 Docker 환경에서 통합 운영하며, OpenAI, Anthropic, Ollama 등 10개 이상의 LLM 제공자를 지원한다.\n\n기술 아키텍처는 마이크로서비스 기반으로, React/TypeScript 프론트엔드, Go 기반 백엔드(GraphQL API), pgvector를 탑재한 PostgreSQL, Neo4j 그래프 데이터베이스를 사용한다. 벡터 임베딩과 지식 그래프를 통한 장기 기억 시스템이 특히 차별화 포인트다."
+    },
+    {
+      "id": "gh-trending-anomalyco-opencode",
+      "title": "anomalyco/opencode",
+      "title_ko": "오픈소스 코딩 에이전트",
+      "summary_ko": "오픈소스 코딩 에이전트. 오늘 TypeScript 트렌딩 1,011스타 획득.",
+      "url": "https://github.com/anomalyco/opencode",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "coding-agent",
+        "open-source"
+      ],
+      "score": 78,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "OpenCode는 Anomaly Co.가 개발한 완전 오픈소스 AI 코딩 에이전트로, GitHub에서 128k 스타를 기록하며 폭발적인 인기를 얻고 있다. 터미널 UI(TUI) 최적화와 클라이언트/서버 아키텍처를 통한 원격 운영 지원이 특징이다.\n\n두 가지 기본 내장 에이전트를 Tab 키로 전환하며 사용할 수 있다. Build Agent는 전체 접근 권한을 가진 개발 작업용 도구이며, Plan Agent는 읽기 전용 모드로 코드 탐색에 특화되어 파일 편집을 기본적으로 거부한다.\n\n기술 스택은 TypeScript(55.3%)를 주력으로 Bun을 패키지 매니저로 채택한 모노레포 구조다. 가장 큰 차별점은 공급자 불가지론으로, Claude, OpenAI, Google, 로컬 모델 등을 자유롭게 선택할 수 있다. LSP 기본 지원으로 다양한 프로그래밍 언어를 즉시 활용할 수 있다."
+    },
+    {
+      "id": "hn-47475686",
+      "title": "Hormuz Minesweeper – Are you tired of winning?",
+      "title_ko": "호르무즈 지뢰찾기 - 이기는 것에 지치셨나요?",
+      "summary_ko": "호르무즈 해협을 테마로 한 지뢰찾기 변형 게임으로, 풍자적 요소가 담긴 인터랙티브 웹 프로젝트입니다.",
+      "url": "https://hormuz.pythonic.ninja/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "game",
+        "web",
+        "satire",
+        "interactive"
+      ],
+      "score": 77,
+      "published_at": "2026-03-22T09:20:37Z",
+      "detail_ko": "호르무즈 지뢰찾기는 호르무즈 해협의 지정학적 긴장을 풍자한 웹 기반 지뢰찾기 게임이다. Windows 95 시대의 클래식한 UI를 충실하게 재현하면서, 현대 국제 분쟁이라는 무거운 주제를 캐주얼 컴퓨터 게임으로 표현한 독특한 풍자 작품이다.\n\n게임 조작법은 전통적인 지뢰찾기와 동일하다. 다만 '지뢰는 물 위에만 생성된다'는 독특한 규칙이 있으며, 이는 호르무즈 해협에서의 실제 해상 기뢰 위협을 게임 메커닉으로 반영한 것이다.\n\n인터페이스는 CSS를 활용해 1990년대 Windows의 베벨 버튼, 회색 크롬 표면, 청록색 그라데이션 배경을 정교하게 재현했다. 복잡한 국제 위기가 오락거리로 소비되는 현실을 역설적으로 보여주는 사회적 코멘터리로서 의미가 있다."
+    },
+    {
+      "id": "tc-b7c2e4f5",
+      "title": "An exclusive tour of Amazon's Trainium lab, the chip that's won over Anthropic, OpenAI, even Apple",
+      "title_ko": "아마존 Trainium 연구소 독점 투어: Anthropic, OpenAI, 심지어 Apple도 선택한 칩",
+      "summary_ko": "아마존의 500억 달러 OpenAI 투자 발표 이후, AWS가 Trainium 칩 연구소를 공개하며 주요 AI 기업들의 채택 현황을 보여줬습니다.",
+      "url": "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "amazon",
+        "ai-chips",
+        "trainium",
+        "aws",
+        "hardware"
+      ],
+      "score": 75,
+      "published_at": "2026-03-22T12:00:00Z",
+      "detail_ko": "TechCrunch의 Julie Bort 기자가 아마존의 Trainium 칩 연구소를 독점 방문하여 작성한 심층 기사이다. 아마존이 자체 개발한 AI 반도체 Trainium이 Anthropic, OpenAI, Apple 등 주요 AI 기업들의 선택을 받으며 AI 칩 시장에서 존재감을 키워가고 있음을 보도한다.\n\nTrainium은 아마존 AWS의 자체 설계 AI 훈련 및 추론용 칩으로, NVIDIA의 GPU 독점에 대한 대안으로 주목받고 있다. 특히 Anthropic과 OpenAI, 그리고 Apple까지 Trainium을 선택했다는 사실은 이 칩의 경쟁력을 입증하는 강력한 시그널이다.\n\nAI 반도체 시장의 다변화와 빅테크 기업들의 칩 자급 전략이 가속화되고 있는 현재 업계 흐름을 잘 보여주는 중요한 보도이다."
+    },
+    {
+      "id": "gh-trending-tauricresearch-tradingagents",
+      "title": "TauricResearch/TradingAgents",
+      "title_ko": "멀티 에이전트 LLM 금융 트레이딩 프레임워크",
+      "summary_ko": "대규모 언어 모델 기반 멀티 에이전트 금융 트레이딩 프레임워크. 오늘 1,108스타 획득.",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "trading",
+        "llm",
+        "agent"
+      ],
+      "score": 74,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "TradingAgents는 실제 트레이딩 회사의 조직 구조를 모방하여 여러 전문 AI 에이전트가 협업하는 오픈소스 금융 트레이딩 프레임워크이다. 펀더멘털 애널리스트, 센티멘트 애널리스트, 뉴스 애널리스트, 기술적 애널리스트 등 4명의 전문 분석가 에이전트가 각각 재무제표, 소셜미디어 감성, 거시경제 뉴스, MACD·RSI 같은 기술적 지표를 분석한다.\n\n리서치 팀에는 강세와 약세 연구원이 배치되어 분석가들의 결론을 비판적으로 검토한다. 최종적으로 트레이더 에이전트가 리서치를 종합하여 매매 판단을 내리고, 리스크 관리팀과 포트폴리오 매니저가 거래를 승인하거나 거부하는 구조이다.\n\n기술 스택은 Python 기반이며, LangGraph를 활용하여 모듈식으로 설계되었다. arXiv 논문이 함께 공개된 학술 연구 프레임워크라는 점에서 주목할 만하다."
+    },
+    {
+      "id": "gh-trending-jarrodwatts-claude-hud",
+      "title": "jarrodwatts/claude-hud",
+      "title_ko": "Claude Code 컨텍스트 사용량 모니터링 플러그인",
+      "summary_ko": "Claude Code 플러그인으로 컨텍스트 사용량, 활성 도구, 에이전트 진행 상황을 표시. 오늘 832스타.",
+      "url": "https://github.com/jarrodwatts/claude-hud",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "javascript",
+        "claude",
+        "plugin",
+        "devtools"
+      ],
+      "score": 73,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "Claude HUD는 Claude Code 사용 중 세션 메트릭을 터미널 상태 표시줄에 실시간으로 보여주는 플러그인이다. 컨텍스트 윈도우 사용량을 시각적 프로그레스 바로 표시하며, 사용량에 따라 초록색에서 노란색, 빨간색으로 색상이 변한다.\n\nClaude Pro, Max, Team 구독자를 위해 시간당 및 7일 기준 요금 제한 소비량도 추적한다. 또한 도구 활동 모니터링, 서브에이전트 실행 상태, TODO 항목 완료 진행률, Git 통합 기능을 지원한다.\n\n기술적으로는 Claude Code의 네이티브 statusline API를 활용하며, JSONL 형식의 트랜스크립트 데이터를 파싱하여 약 300밀리초마다 업데이트된다. Full, Essential, Minimal 세 가지 프리셋을 제공한다."
+    },
+    {
+      "id": "reddit-1e6e79b5e32b",
+      "title": "[D] Has industry effectively killed off academic machine learning research in 2026?",
+      "title_ko": "산업계가 2026년 학술 ML 연구를 사실상 죽였는가?",
+      "summary_ko": "컴퓨팅 자원과 인재의 산업계 집중으로 학술 ML 연구의 의미가 퇴색되고 있다는 토론. 댓글 36개.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s0hcit/d_has_industry_effectively_killed_off_academic/",
+      "source": "reddit_ml",
+      "category": "community",
+      "tags": [
+        "machine-learning",
+        "academia",
+        "industry"
+      ],
+      "score": 72,
+      "published_at": "2026-03-22T09:34:10Z",
+      "detail_ko": "이 Reddit 토론은 '산업계가 학술 ML 연구를 사실상 죽였는가'라는 주제로 벌어진 논쟁이다. 핵심 논점은 대규모 컴퓨팅 자원이 소수 빅테크 기업에 집중되면서 학술 연구자들이 최첨단 ML 연구를 수행하기 점점 어려워지고 있다는 것이다.\n\n주요 근거로는 GPU 클러스터 규모의 격차와 산업계의 높은 연봉으로 인한 인재 유출이 제시된다. 반론으로는 이론적 연구, 효율적 학습 방법, 해석 가능성 등에서 학계가 여전히 중요한 기여를 하고 있다는 의견이 있다.\n\n전반적으로 '죽었다'기보다는 역할이 변화하고 있다는 합의가 형성되는 분위기이며, 학계가 장기적·기초적 연구와 비판적 평가 역할에서 차별화된 가치를 찾아야 한다는 목소리가 많다."
+    },
+    {
+      "id": "reddit-5f8e38ce3ede",
+      "title": "Former team lead just tried to give away my project",
+      "title_ko": "전 팀 리드가 내 프로젝트를 넘기려 했다",
+      "summary_ko": "원격 근무 시니어 개발자가 9개월간 진행한 프로젝트를 신입 스태프 엔지니어에게 넘기려 한 상황과 대처법 토론. 댓글 65개.",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s0a1gt/former_team_lead_just_tried_to_give_away_my/",
+      "source": "reddit_experienceddevs",
+      "category": "community",
+      "tags": [
+        "career",
+        "leadership",
+        "project-management"
+      ],
+      "score": 71,
+      "published_at": "2026-03-22T02:11:10Z",
+      "detail_ko": "이 Reddit 게시글은 원격 근무 시니어 개발자가 겪은 프로젝트 소유권 분쟁에 관한 이야기이다. 게시자는 자신이 주도적으로 이끌어온 프로젝트를 전임 팀 리드가 다른 사람에게 넘기려 했다는 상황을 설명한다.\n\n핵심 갈등은 조직 내 권한과 소유권의 모호함에서 비롯된다. 댓글에서는 직속 매니저와 명확하게 소통하여 공식적인 프로젝트 소유권을 확인받아야 한다는 의견이 주류이다.\n\n이 사례는 원격 근무 환경에서 흔히 발생하는 조직 정치 문제를 잘 보여준다. 물리적으로 같은 공간에 없을 때 프로젝트 소유권, 기여도 인정, 의사결정 과정에서 소외되기 쉽다는 점이 부각된다."
+    },
+    {
+      "id": "vercel-knowledge-agents",
+      "title": "Build knowledge agents without embeddings",
+      "title_ko": "임베딩 없이 지식 에이전트 구축하기",
+      "summary_ko": "벡터 데이터베이스와 청킹 파이프라인 대신 파일시스템 접근 방식으로 에이전트에 bash 접근 권한을 부여하는 아키텍처를 소개합니다.",
+      "url": "https://vercel.com/blog/build-knowledge-agents-without-embeddings",
+      "source": "vercel_blog",
+      "category": "eng_blogs",
+      "tags": [
+        "ai-agents",
+        "knowledge-retrieval",
+        "architecture",
+        "embeddings"
+      ],
+      "score": 70,
+      "published_at": "2026-03-22T14:54:24Z",
+      "detail_ko": "Vercel이 발표한 이 블로그 포스트는 전통적인 벡터 데이터베이스와 임베딩 파이프라인 없이 지식 에이전트를 구축하는 새로운 접근 방식을 소개한다. 핵심 아이디어는 LLM이 이미 파일시스템을 잘 이해하고 있으므로, bash 명령어(grep, find, cat)를 통해 실제 파일을 직접 검색하면 된다는 것이다.\n\n전통적 임베딩 방식 대비 주요 장점은 투명성과 디버깅 용이성이다. 파일시스템 검색은 실제 실행된 검색 명령과 접근된 파일을 직접 확인할 수 있어 투명하다. 실제로 호출당 비용을 $1.00에서 $0.25로 줄이면서도 출력 품질을 향상시켰다고 한다.\n\n임베딩 모델 유지보수, 청킹 파이프라인 튜닝, 벡터 DB 인프라가 필요 없다는 점에서 운영 복잡성을 크게 줄일 수 있는 실용적 대안이다. Discord, GitHub, Slack, Teams 등 다양한 플랫폼에 배포 가능하다."
+    },
+    {
+      "id": "hn-47477158",
+      "title": "Bored of eating your own dogfood? Try smelling your own farts",
+      "title_ko": "자사 제품 먹기에 지쳤나요? 자기 방귀 냄새나 맡아보세요",
+      "summary_ko": "자기 참조적 제품 검증의 한계를 비판하는 글로, 내부 피드백만 의존하면 시야가 좁아질 수 있다고 경고합니다.",
+      "url": "https://shkspr.mobi/blog/2026/03/bored-of-eating-your-own-dogfood-try-smelling-your-own-farts/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "product-development",
+        "feedback",
+        "dogfooding"
+      ],
+      "score": 69,
+      "published_at": "2026-03-22T13:32:31Z",
+      "detail_ko": "이 블로그 포스트는 대기업들이 내부 피드백에만 의존하면 고객과의 공감 능력을 잃게 된다고 비판한다. '독푸딩' 관행이 시스템이 정상 작동할 때만 수행되면 의미가 없다는 것이 핵심 주장이다.\n\n저자는 한 기업의 고객 서비스에 전화한 경험을 구체적으로 묘사한다. 부적절한 온라인 해결책으로 안내하는 사전 녹음 스크립트, 예상보다 긴 대기 시간 등이 그 사례이다. 경영진이 KPI 보고서에만 의존하면서 고객의 감정적 좌절감을 통계로는 포착할 수 없다는 것이다.\n\nCEO가 주기적으로 자사 고객 지원 전화에 직접 전화해볼 것, 경영진이 어려운 고객 여정을 직접 체험할 것을 권고한다. 규모가 커질수록 이런 직접적 접촉이 더 중요해진다고 강조한다."
+    },
+    {
+      "id": "tldr-75e7e0ceae39",
+      "title": "Scaling Karpathy's Autoresearch: What Happens When the Agent Gets a GPU Cluster",
+      "title_ko": "Karpathy의 Autoresearch 스케일링: 에이전트가 GPU 클러스터를 얻으면",
+      "summary_ko": "Claude Code가 16개 GPU에서 910개 실험을 실행하여 순차 탐색으로는 발견 못할 파라미터 상호작용을 발견했습니다.",
+      "url": "https://blog.skypilot.co/scaling-autoresearch/",
+      "source": "tldr",
+      "category": "community",
+      "tags": [
+        "ai-research",
+        "gpu",
+        "claude",
+        "autoresearch"
+      ],
+      "score": 68,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "Autoresearch는 Andrej Karpathy가 시작한 프로젝트로, 코딩 에이전트가 자율적으로 신경망 훈련 스크립트를 개선하는 실험이다. SkyPilot 인프라로 Claude Code에게 16개 GPU를 부여하여, 약 8시간 동안 910개의 실험을 수행했다.\n\n성과 면에서 검증 bits-per-byte가 1.003에서 0.974로 2.87% 개선되었으며, 순차 기준선 대비 약 72시간이 걸릴 작업을 8시간 만에 달성했다. 가장 주목할 만한 발견은 아키텍처 변경이 하이퍼파라미터 튜닝보다 훨씬 효과적이었다는 점이다.\n\n특히 에이전트가 명시적 지시 없이도 H200이 H100보다 9% 빠르다는 것을 스스로 발견하고, 저렴한 H100에서 가설을 선별한 뒤 H200에서 검증하는 2단계 전략을 자체적으로 개발했다는 것이 흥미롭다."
+    },
+    {
+      "id": "gh-trending-louis-e-arnis",
+      "title": "louis-e/arnis",
+      "title_ko": "실제 위치를 마인크래프트에 고해상도로 생성",
+      "summary_ko": "현실 세계의 모든 위치를 마인크래프트에서 고해상도로 재현하는 Rust 도구. 오늘 583스타.",
+      "url": "https://github.com/louis-e/arnis",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "rust",
+        "minecraft",
+        "geospatial"
+      ],
+      "score": 67,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "Arnis는 현실 세계의 지리적 위치를 마인크래프트 월드로 변환하는 오픈소스 Rust 도구이다. 마인크래프트 Java Edition(1.17+)과 Bedrock Edition을 모두 지원하며, OpenStreetMap과 고도 데이터셋을 활용하여 건물 및 지형을 정확하게 재현한다.\n\n코드베이스의 99.8%가 Rust로 작성되었으며, 데스크톱 GUI에는 Tauri 프레임워크를 사용한다. GUI와 CLI 인터페이스를 모두 제공하며, 모바일 사용자를 위한 브라우저 기반 대안(MapSmith)도 있다.\n\nGitHub에서 12,500개 이상의 스타를 기록하며, AWS, Hackaday, Tom's Hardware 등 주요 기술 매체에서도 혁신적인 지리공간-게이밍 기술로 인정받았다. Windows, macOS, Linux를 모두 지원하며 완전 무료다."
+    },
+    {
+      "id": "lobsters-ef1ed36ef1c5",
+      "title": "Security advisory for Cargo",
+      "title_ko": "Cargo 보안 권고",
+      "summary_ko": "Rust Cargo 패키지 매니저의 보안 취약점 CVE-2026-33056 공식 공지.",
+      "url": "https://blog.rust-lang.org/2026/03/21/cve-2026-33056/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "rust",
+        "security",
+        "cargo",
+        "cve"
+      ],
+      "score": 66,
+      "published_at": "2026-03-22T07:12:14Z",
+      "detail_ko": "CVE-2026-33056은 Rust의 패키지 매니저인 Cargo에서 사용하는 서드파티 tar 크레이트에서 발견된 보안 취약점이다. 악의적인 크레이트가 패키지를 추출할 때 파일시스템의 임의 디렉토리 권한을 변경할 수 있도록 허용하는 것으로, 잠재적으로 무단 접근이나 권한 상승을 초래할 수 있다.\n\n공식 패치는 2026년 3월 26일에 출시될 Rust 1.94.1에 포함될 예정이며, crates.io에서는 현재 이 취약점을 악용하는 크레이트가 발견되지 않았다. 2026년 3월 13일부터 악용 가능한 크레이트의 업로드를 차단하는 예방 조치가 적용되었다.\n\nRust 개발자들은 가능한 빨리 1.94.1로 업데이트하는 것이 권장된다. 공급망 보안의 중요성을 다시 한번 상기시키는 사례이다."
+    },
+    {
+      "id": "tc-c3d4e5f6",
+      "title": "Are AI tokens the new signing bonus or just a cost of doing business?",
+      "title_ko": "AI 토큰은 새로운 사이닝 보너스인가, 단순한 비즈니스 비용인가?",
+      "summary_ko": "AI 토큰이 엔지니어 보상의 표준이 될 수 있는지, 개발자들이 이를 단순한 복리후생으로 받아들여야 하는지를 검토합니다.",
+      "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "compensation",
+        "engineering",
+        "startups"
+      ],
+      "score": 65,
+      "published_at": "2026-03-22T06:20:43Z",
+      "detail_ko": "실리콘밸리에서 새로운 보상 트렌드가 등장하고 있다. 기업들이 전통적인 급여, 주식, 보너스에 더해 AI 토큰 예산을 엔지니어링 보상 패키지에 포함시키는 실험을 시작한 것이다.\n\nAI 토큰이 '엔지니어링 보상의 네 번째 기둥'이 될 수 있다는 주장이 제기되면서, 경쟁이 치열한 인재 시장에서 매력적인 채용 도구로 부상하고 있다.\n\n그러나 AI 토큰 보상이 진정으로 근로자에게 이익이 되는지, 아니면 단순히 기업의 비용을 직원에게 전가하는 것인지에 대한 근본적인 질문이 해결되지 않았다. 아직 초기 단계의 실험적 트렌드이다."
+    },
+    {
+      "id": "gh-trending-browser-use-browser-use",
+      "title": "browser-use/browser-use",
+      "title_ko": "AI 에이전트용 웹사이트 접근성 자동화",
+      "summary_ko": "AI 에이전트가 웹사이트에 접근하여 온라인 작업을 자동화할 수 있게 하는 도구. 오늘 405스타.",
+      "url": "https://github.com/browser-use/browser-use",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "browser-automation",
+        "ai-agent"
+      ],
+      "score": 64,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "Browser Use는 AI 에이전트가 웹사이트와 자율적으로 상호작용할 수 있게 해주는 오픈소스 Python 라이브러리이다. 자연어 지시만으로 자동화된 웹 작업을 수행할 수 있도록 설계되었다.\n\n핵심 기능으로는 다양한 LLM 통합, 완전한 브라우저 자동화, 확장 가능한 커스텀 도구 시스템, CLI 인터페이스가 있다. Python 3.11+ 기반으로 Playwright/Chromium을 브라우저 엔진으로 사용한다.\n\nGitHub에서 82,200개 이상의 스타를 기록하며 폭발적인 커뮤니티 성장을 보이고 있다. MIT 라이선스로 무료 공개되어 있다."
+    },
+    {
+      "id": "vercel-chat-sdk",
+      "title": "Chat SDK brings agents to your users",
+      "title_ko": "Chat SDK로 사용자에게 에이전트 제공하기",
+      "summary_ko": "단일 코드베이스에서 Slack, Teams, Discord, Telegram 등 여러 플랫폼에서 작동하는 봇을 구축할 수 있는 SDK.",
+      "url": "https://vercel.com/blog/chat-sdk-brings-agents-to-your-users",
+      "source": "vercel_blog",
+      "category": "eng_blogs",
+      "tags": [
+        "sdk",
+        "chatbot",
+        "ai-agents",
+        "multi-platform"
+      ],
+      "score": 63,
+      "published_at": "2026-03-22T14:54:24Z",
+      "detail_ko": "Chat SDK는 Vercel이 공개한 TypeScript 라이브러리로, 단일 코드베이스에서 여러 플랫폼에 배포 가능한 챗봇을 구축할 수 있게 해준다. Slack, Teams, Discord, Telegram, GitHub, Linear 등을 지원한다.\n\n주요 기능으로는 Write-Once 아키텍처, 플랫폼별 어댑터 레이어, JSX 기반 리치 컴포넌트, AI SDK 텍스트 스트림 직접 수용, 플러그형 상태 관리가 있다.\n\n현재 오픈소스 공개 베타 상태이며, AI 에이전트를 실제 업무 환경에 통합하려는 개발자들에게 실용적인 솔루션을 제공한다."
+    },
+    {
+      "id": "lobsters-1a33e91e23b7",
+      "title": "The Three Pillars of JavaScript Bloat",
+      "title_ko": "JavaScript 비대화의 세 기둥",
+      "summary_ko": "현대 웹 애플리케이션의 과도한 JavaScript 원인 분석.",
+      "url": "https://43081j.com/2026/03/three-pillars-of-javascript-bloat",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "javascript",
+        "web-performance",
+        "frontend"
+      ],
+      "score": 62,
+      "published_at": "2026-03-22T06:03:46Z",
+      "detail_ko": "James Garbutt가 현대 JavaScript 생태계에서 npm 패키지 트리를 불필요하게 비대하게 만드는 세 가지 주요 원인을 분석한 글이다.\n\n첫 번째 기둥은 '구형 런타임 지원'으로, ES3 호환성을 위한 폴리필이 최신 환경을 사용하는 99%의 개발자에게 불필요한 비용을 부과한다. 두 번째는 '원자적 아키텍처'로, arrify, shebang-regex 같은 초소형 패키지들이 번들 크기와 공급망 보안 위험을 증가시킨다. 세 번째는 '수명을 다한 포니필'로, globalThis(주간 4,900만 다운로드) 같은 이미 네이티브 지원되는 기능의 포니필이 여전히 막대한 다운로드 수를 기록하고 있다.\n\n저자는 knip(미사용 의존성 탐지), e18e CLI(대체 가능한 의존성 감지), npmgraph(의존성 트리 시각화) 등의 도구를 해결책으로 제안한다."
+    },
+    {
+      "id": "release-nodejs-security",
+      "title": "Node.js Security Releases (March 24, 2026)",
+      "title_ko": "Node.js 보안 릴리스 예정 (3월 24일) - 고위험 취약점 2건 포함",
+      "summary_ko": "3월 24일 Node.js 보안 릴리스 예정. 25.x, 24.x, 22.x, 20.x 대상으로 고위험 2건, 중위험 5건, 저위험 2건의 취약점 수정.",
+      "url": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+      "source": "github_releases",
+      "category": "github_oss",
+      "tags": [
+        "nodejs",
+        "security",
+        "release"
+      ],
+      "score": 61,
+      "published_at": "2026-03-22T00:00:00Z",
+      "detail_ko": "Node.js 프로젝트가 2026년 3월 24일에 여러 버전 라인에 걸쳐 보안 업데이트를 릴리스할 예정이라는 사전 공지이다. 고위험 2건, 중위험 5건, 저위험 2건의 취약점 수정이 포함된다.\n\n영향받는 버전은 25.x, 24.x, 22.x, 20.x이며, 구체적인 CVE와 기술적 세부사항은 실제 릴리스 시 공개된다.\n\n고위험 취약점이 2건 포함되어 있으므로 Node.js를 운영 환경에서 사용하는 팀은 릴리스 일정에 맞춰 신속한 업데이트 계획을 수립해야 한다."
+    },
+    {
+      "id": "hn-47476562",
+      "title": "More common mistakes to avoid when creating system architecture diagrams",
+      "title_ko": "시스템 아키텍처 다이어그램 작성 시 흔히 저지르는 실수들",
+      "summary_ko": "시스템 아키텍처 다이어그램을 만들 때 피해야 할 일반적인 실수들을 정리한 가이드입니다.",
+      "url": "https://www.ilograph.com/blog/posts/more-common-diagram-mistakes/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "architecture",
+        "diagrams",
+        "best-practices",
+        "documentation"
+      ],
+      "score": 60,
+      "published_at": "2026-03-22T12:11:52Z",
+      "detail_ko": "Ilograph 블로그에서 시스템 아키텍처 다이어그램 작성 시 흔히 저지르는 7가지 실수와 해결법을 정리한 가이드이다.\n\n리소스 이름 생략, 연결되지 않은 리소스, '마스터 다이어그램' 만들기, '컨베이어 벨트 증후군', 의미 없는 애니메이션, '팬 트랩', AI가 품질 높은 다이어그램을 생성할 수 있다는 가정 등 7가지를 다룬다.\n\n특히 여러 관점으로 분리하기, 시퀀스 다이어그램 활용하기, 세부 리소스 추가하기 등 실용적인 해결책을 함께 제시한다. AI 생성 다이어그램은 아직 환각이 포함되는 경우가 많아 인간의 영역이라고 강조한다."
+    },
+    {
+      "id": "vercel-durable-scaling",
+      "title": "360 billion tokens, 3 million customers, 6 engineers",
+      "title_ko": "3600억 토큰, 300만 고객, 6명의 엔지니어",
+      "summary_ko": "AI 비즈니스 빌더 Durable은 6명의 엔지니어만으로 300만 기업가에게 서비스를 제공하며, 전체 스택을 Vercel 인프라에 통합하여 운영합니다.",
+      "url": "https://vercel.com/blog/360-billion-tokens-3-million-customers-6-engineers",
+      "source": "vercel_blog",
+      "category": "eng_blogs",
+      "tags": [
+        "scaling",
+        "infrastructure",
+        "ai",
+        "case-study"
+      ],
+      "score": 59,
+      "published_at": "2026-03-22T14:54:24Z",
+      "detail_ko": "AI 기반 비즈니스 빌더 Durable이 6명의 엔지니어로 300만 고객에게 연간 3,600억 토큰을 서비스하는 스케일링 사례이다. 분산된 셀프호스팅 인프라 대신 Vercel로 전면 마이그레이션하여 인프라 비용을 3~4배 절감하고, 1인당 10배의 생산성 향상을 달성했다.\n\n기술 스택은 Next.js, Functions, Turborepo를 핵심으로, AI SDK·AI Gateway·Workflows를 AI 레이어로 사용한다. 코딩 에이전트를 활용한 전면 재작성으로 멀티테넌트 인프라 문제를 해결했다.\n\n창업자는 인프라가 아닌 제품에 집중할 때 모든 팀원이 10배의 성과를 낼 수 있다고 강조한다."
+    },
+    {
+      "id": "hf-blog-lerobot",
+      "title": "Raw Robot Video to VLA-Ready Training Data",
+      "title_ko": "로봇 원시 비디오를 VLA 학습 데이터로 변환",
+      "summary_ko": "로봇의 원시 비디오 데이터를 Vision-Language-Action(VLA) 모델 학습에 적합한 형태로 변환하는 파이프라인. Nomadic과 HuggingFace Buckets 활용.",
+      "url": "https://huggingface.co/blog/nomadicml/raw-video-to-training-data",
+      "source": "huggingface_blog",
+      "category": "ai_research",
+      "tags": [
+        "robotics",
+        "vla",
+        "dataset",
+        "annotation"
+      ],
+      "score": 58,
+      "published_at": "2026-03-21T00:00:00Z",
+      "detail_ko": "로봇 공학 분야에서 원시 비디오 데이터를 VLA 모델 학습에 사용 가능한 형태로 변환하는 파이프라인을 소개하는 HuggingFace 블로그 글이다. HuggingFace Buckets, Nomadic, LeRobot 세 도구를 결합하여 커뮤니티 로봇 데이터셋의 품질 문제를 해결한다.\n\n분석 계층인 Nomadic은 정밀한 타임스탬프의 시간적 세분화, 시각적으로 유사한 객체의 상세 식별, RGB 비디오에서의 3D 공간 추적을 수행한다. 출력은 LeRobot v3 호환 데이터셋 형식으로 변환되어 SmolVLA, pi-zero 같은 VLA 모델 학습에 바로 사용할 수 있다.\n\n수동 큐레이션을 자동화하여 커뮤니티 데이터 수집의 병목을 해결하는 확장성이 핵심 장점이다."
+    }
+  ],
+  "meta": {
+    "total_collected": 125,
+    "after_dedup": 122,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "hacker_news",
+      "techcrunch",
+      "devto",
+      "huggingface_blog",
+      "github_trending",
+      "github_trending_python",
+      "github_trending_typescript",
+      "changelog",
+      "github_releases",
+      "reddit_programming",
+      "reddit_ml",
+      "reddit_experienceddevs",
+      "lobsters",
+      "tldr",
+      "vercel_blog"
+    ],
+    "sources_failed": [
+      "geeknews",
+      "the_verge",
+      "ars_technica",
+      "arxiv_ai",
+      "arxiv_lg",
+      "arxiv_cl",
+      "openai_blog",
+      "anthropic_news",
+      "google_ai",
+      "papers_with_code",
+      "netflix_tech",
+      "uber_eng",
+      "stripe_blog",
+      "cloudflare_blog",
+      "meta_eng"
+    ]
+  }
+}
