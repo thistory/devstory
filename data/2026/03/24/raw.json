@@ -1,0 +1,733 @@
+{
+  "date": "2026-03-24",
+  "collected_at": "2026-03-23T22:12:41.268062+00:00",
+  "items": [
+    {
+      "id": "hacker_news-ce4bdf7b",
+      "title": "Migrating to the EU",
+      "title_ko": "EU로 이주하기",
+      "summary_ko": "미국에서 EU로 이주를 고려하는 사람들을 위한 실용적인 가이드. 비자, 의료, 세금 등 주요 고려사항을 다룬다.",
+      "url": "https://rz01.org/eu-migration/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "immigration"
+      ],
+      "score": 787,
+      "published_at": "2026-03-23T10:17:32.000Z",
+      "quality_score": 93.4,
+      "detail_ko": "이 글은 미국이 아닌 EU로 디지털 서비스를 이전하는 과정을 상세히 기록한 실용적인 가이드다. 저자는 현재 글로벌 정치 상황과 EU의 강력한 데이터 보호법(GDPR)을 이유로 가능한 한 많은 서비스를 유럽 제공업체로 옮기기로 결심했다.\n\n이메일의 경우, 기존에 사용하던 Fastmail(호주 기반)에서 독일의 Uberspace로 전환했다. Uberspace는 '원하는 만큼 지불' 모델을 채택한 호스팅 업체로, 쉘 계정, 웹 호스팅, 이메일 호스팅을 제공하며 자체 도메인에서 임의의 발신자 주소로 메일을 보낼 수 있다. 캘린더는 Uberspace에 NextCloud를 설치하여 CalDAV/CardDAV를 활용하고, 데스크톱에서는 Thunderbird, 안드로이드에서는 DAVx5와 Fossil Calendar를 사용한다.\n\n웹 호스팅도 기존 Hetzner VPS에서 Uberspace로 통합했으며, Apache의 SSI 구현 차이만 약간 조정하면 됐다. 도메인과 DNS는 Namecheap에서 독일 기반의 hosting.de로 이전했고, Git 저장소는 GitHub에서 독일 비영리 단체인 Codeberg로 옮겼다.\n\nVPN은 이미 스웨덴의 Mullvad를 사용 중이라 변경이 필요 없었다. 모바일은 Pixel 9a에 GrapheneOS를 설치하고, 크롬북 대신 중고 MacBook Air에 MX Linux를 설치할 계획이다. 이 글은 Hacker News에서 787점을 받으며 큰 관심을 끌었는데, 미국의 정치적 불확실성 속에서 디지털 주권과 프라이버시에 대한 관심이 높아지고 있음을 보여준다.",
+      "detail_en": "This article is a practical guide documenting the author's journey of migrating digital services from non-EU providers to EU-based alternatives. The motivation is twofold: the current global political situation and the EU's superior data protection laws (GDPR), which the author considers the most user-friendly in the world.\n\nFor email, the author moved from Fastmail (Australia-based) to Germany's Uberspace, a 'pay what you want' hosting provider that offers shell accounts, web hosting, and email hosting with full custom domain support and arbitrary sender addresses. Calendar needs were solved by installing NextCloud on Uberspace for CalDAV/CardDAV, using Thunderbird on desktop and DAVx5 with Fossil Calendar on Android.\n\nWeb hosting was consolidated from a Hetzner VPS to Uberspace as well, requiring only minor adjustments for Apache's SSI implementation versus the previous Nginx setup. Domain registration moved from Namecheap to Germany-based hosting.de, and Git repositories migrated from GitHub to Codeberg, a German nonprofit organization.\n\nThe VPN remained unchanged as the author already used Sweden's Mullvad, praised for its no-logging policy and straightforward €5/month pricing with no account required. On the mobile front, the author purchased a Pixel 9a running GrapheneOS while still maintaining Google Play Store access, and plans to replace a Chromebook with a used MacBook Air running MX Linux.\n\nScoring 787 points on Hacker News, this post reflects growing interest in digital sovereignty and privacy amid political uncertainties. It serves as a comprehensive reference for anyone looking to 'de-Americanize' their digital infrastructure while maintaining quality and affordability."
+    },
+    {
+      "id": "gh-trend-crosstalk-project-nomad",
+      "title": "Crosstalk-Solutions/project-nomad",
+      "title_ko": "Project N.O.M.A.D - 오프라인 생존 컴퓨터",
+      "summary_ko": "자급자족형 오프라인 생존 컴퓨터. 핵심 도구, 지식, AI를 탑재하여 언제 어디서나 정보와 역량을 제공한다.",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "offline",
+        "survival",
+        "ai",
+        "tools"
+      ],
+      "score": 4148,
+      "published_at": "2026-03-24",
+      "language": "TypeScript",
+      "total_stars": 13197,
+      "stars_today": 4148,
+      "quality_score": 90.0,
+      "detail_ko": "Project N.O.M.A.D.(Network of Offline Modules and Data)는 인터넷 없이도 작동하는 자급자족형 오프라인 서바이벌 컴퓨터 플랫폼이다. TypeScript로 구축되었으며, Docker 기반으로 다양한 컨테이너화된 도구와 리소스를 관리하는 'Command Center' UI와 API를 제공한다.\n\n핵심 기능은 매우 인상적이다. Ollama 기반의 로컬 AI 채팅(Qdrant를 활용한 RAG 지원), Kiwix를 통한 오프라인 위키피디아·의료 참고자료·전자책, Kolibri를 통한 Khan Academy 교육 과정, ProtoMaps 기반 오프라인 지도, CyberChef 데이터 분석 도구, FlatNotes 메모 앱 등을 포함한다. 설치는 Debian 기반 OS(Ubuntu 권장)에서 단일 curl 명령으로 완료되며, 모든 도구는 브라우저를 통해 접근한다.\n\n하드웨어 요구사항은 두 가지 티어로 나뉜다. 기본 관리 앱만 실행할 경우 2GHz 듀얼코어, 4GB RAM, 5GB 스토리지면 충분하지만, AI 기능을 활용하려면 Ryzen 7/Core i7 이상, 32GB RAM, RTX 3060급 이상의 GPU, 250GB SSD가 권장된다. 인터넷은 초기 설치 시에만 필요하며, 텔레메트리가 전혀 없다.\n\n오늘 하루에만 4,148개의 스타를 받으며 총 13,197스타를 기록한 이 프로젝트는 자연재해, 네트워크 장애, 오지 생활 등 오프라인 환경에서의 정보 접근이라는 실질적 니즈를 충족시킨다. 프리퍼(prepper) 커뮤니티뿐 아니라 교육, 의료, 탐험 분야에서도 활용 가능성이 높다.",
+      "detail_en": "Project N.O.M.A.D. (Network of Offline Modules and Data) is a self-contained, offline-first knowledge and education server designed to keep users informed and empowered without internet connectivity. Built with TypeScript, it uses Docker to orchestrate a collection of containerized tools through a management UI called the 'Command Center.'\n\nThe platform's capabilities are impressive: local AI chat powered by Ollama with document upload and semantic search via Qdrant (RAG), an offline information library through Kiwix (Wikipedia, medical references, survival guides, ebooks), Khan Academy courses via Kolibri with progress tracking, downloadable offline maps via ProtoMaps, data analysis tools via CyberChef, and local note-taking via FlatNotes. Installation is a single curl command on any Debian-based OS.\n\nHardware requirements come in two tiers. The bare management app needs just a 2GHz dual-core, 4GB RAM, and 5GB storage. For AI capabilities, the project recommends an AMD Ryzen 7/Intel Core i7 or better, 32GB RAM, NVIDIA RTX 3060 or equivalent GPU, and 250GB SSD. Internet is only required during initial installation, and there is zero built-in telemetry.\n\nWith 4,148 stars earned in a single day (13,197 total), the project has struck a chord with developers and survivalists alike. Unlike many lightweight survival computers, N.O.M.A.D. embraces powerful hardware to enable local AI inference. It currently lacks authentication by design, though network-level access controls are recommended. The project addresses real-world needs for offline information access during natural disasters, network outages, or remote living, with applications extending to education, healthcare, and exploration beyond the prepper community."
+    },
+    {
+      "id": "gh-trend-bytedance-deer-flow",
+      "title": "bytedance/deer-flow",
+      "title_ko": "Deer Flow - ByteDance의 오픈소스 SuperAgent",
+      "summary_ko": "리서치, 코딩, 생성을 수행하는 오픈소스 SuperAgent 하네스. 샌드박스, 메모리, 도구, 서브에이전트 등을 활용해 다양한 수준의 작업을 처리한다.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "agent",
+        "ai",
+        "bytedance",
+        "superagent"
+      ],
+      "score": 3569,
+      "published_at": "2026-03-24",
+      "language": "Python",
+      "total_stars": 39033,
+      "stars_today": 3569,
+      "quality_score": 90.0,
+      "detail_ko": "DeerFlow(Deep Exploration and Efficient Research Flow)는 ByteDance가 개발한 오픈소스 SuperAgent 하네스로, 서브에이전트, 메모리, 샌드박스를 오케스트레이션하여 거의 모든 작업을 수행할 수 있다. 2026년 2월 28일 버전 2.0 출시 후 GitHub 트렌딩 1위를 차지했으며, 현재 총 39,033스타를 보유하고 있다.\n\nDeerFlow 2.0은 v1과 코드를 공유하지 않는 완전한 재작성 버전이다. Python 기반으로 구축되었으며, LangGraph를 활용한 모듈식 아키텍처를 채택했다. 핵심 기능으로는 확장 가능한 스킬 시스템, Claude Code 통합, 서브에이전트 관리, 샌드박스 및 파일 시스템, 컨텍스트 엔지니어링, 장기 메모리 등이 있다.\n\n모델 지원이 매우 폭넓다. OpenAI GPT-5.x, Google Gemini 3.x, Anthropic Claude 4.x는 물론, ByteDance 자체의 Doubao-Seed-2.0-Code, DeepSeek v3.2, Kimi 2.5를 권장 모델로 제시한다. CLI 기반 프로바이더(Codex CLI, Claude Code OAuth)도 지원하며, OpenRouter 같은 호환 게이트웨이도 사용 가능하다. Docker 기반 배포와 로컬 개발 모두 지원한다.\n\n또한 BytePlus의 InfoQuest 검색·크롤링 도구셋을 새로 통합했으며, IM 채널과 MCP 서버를 통한 확장도 가능하다. 이 프로젝트는 단순한 딥 리서치 도구에서 범용 SuperAgent 프레임워크로 진화했으며, 다양한 LLM을 백본으로 사용하여 수 분에서 수 시간이 걸리는 복잡한 작업을 처리할 수 있다.",
+      "detail_en": "DeerFlow (Deep Exploration and Efficient Research Flow) is an open-source SuperAgent harness developed by ByteDance that orchestrates sub-agents, memory, and sandboxes to handle virtually any task — powered by extensible skills. After launching version 2.0 on February 28, 2026, it claimed the #1 spot on GitHub Trending and has accumulated 39,033 total stars.\n\nDeerFlow 2.0 is a ground-up rewrite sharing no code with v1. Built in Python, it employs a modular architecture using LangGraph. Core features include an extensible skills and tools system, Claude Code integration, sub-agent orchestration, sandbox and file system access, context engineering, and long-term memory capabilities.\n\nModel support is exceptionally broad. It works with OpenAI GPT-5.x, Google Gemini 3.x, Anthropic Claude 4.x, and recommends ByteDance's own Doubao-Seed-2.0-Code, DeepSeek v3.2, and Kimi 2.5. CLI-backed providers like Codex CLI and Claude Code OAuth are supported, as are OpenAI-compatible gateways like OpenRouter. Deployment options include both Docker (recommended) and local development setups.\n\nThe framework has also integrated BytePlus's InfoQuest intelligent search and crawling toolset, and supports extension through IM channels and MCP servers. Configuration is flexible through YAML files supporting multiple model definitions with different capabilities.\n\nDeerFlow represents the evolution from a focused deep research tool to a general-purpose SuperAgent framework. It can handle tasks ranging from minutes to hours in duration, making it suitable for complex research, coding, and content creation workflows. The project demonstrates ByteDance's commitment to the open-source AI agent ecosystem and competes directly with other agent frameworks like AutoGPT and CrewAI."
+    },
+    {
+      "id": "gh-trend-fujiwarachoki-moneyprinterv2",
+      "title": "FujiwaraChoki/MoneyPrinterV2",
+      "title_ko": "MoneyPrinterV2 - 온라인 수익 자동화",
+      "summary_ko": "온라인으로 돈 버는 과정을 자동화하는 도구.",
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "automation",
+        "money",
+        "online"
+      ],
+      "score": 2902,
+      "published_at": "2026-03-24",
+      "language": "Python",
+      "total_stars": 22684,
+      "stars_today": 2902,
+      "quality_score": 90.0,
+      "detail_ko": "MoneyPrinterV2(MPV2)는 온라인으로 돈 버는 과정을 자동화하는 Python 기반 오픈소스 도구다. 원래 MoneyPrinter 프로젝트의 완전한 재작성 버전으로, 더 넓은 범위의 기능과 모듈식 아키텍처를 갖추고 있다. 총 22,684스타를 보유하고 있으며, 오늘 하루에만 2,902스타가 증가했다.\n\n주요 기능은 네 가지다. 첫째, CRON 기반 스케줄러가 포함된 트위터 봇으로 자동 트윗을 게시한다. 둘째, YouTube Shorts 자동화 기능으로 짧은 동영상을 자동 생성하고 업로드한다. 셋째, 아마존 제품을 트위터와 연동한 제휴 마케팅 자동화다. 넷째, 지역 비즈니스를 검색하고 이메일로 콜드 아웃리치를 수행하는 기능이다(Go 언어 설치 필요).\n\nPython 3.12가 필요하며, 설치는 Git 클론 후 가상환경 생성, 의존성 설치, 설정 파일 구성의 표준적인 과정을 따른다. GPT4Free와 KittenTTS를 의존성으로 활용하여 AI 텍스트 생성과 음성 합성을 처리한다. 스크립트 디렉토리에는 핵심 기능에 직접 접근할 수 있는 유틸리티도 제공된다.\n\n다만 프로젝트는 명시적으로 '교육 목적'임을 밝히고 있으며, 오용에 대한 책임을 지지 않는다는 면책 조항을 포함하고 있다. 중국어 포크(MoneyPrinterTurbo)를 포함한 다국어 커뮤니티 버전도 존재한다. AGPL v3.0 라이선스로 배포되어 수정 버전의 소스 공개를 요구한다.",
+      "detail_en": "MoneyPrinterV2 (MPV2) is a Python-based open-source tool that automates various online money-making processes. It's a complete rewrite of the original MoneyPrinter project, featuring a wider range of capabilities and a more modular architecture. With 22,684 total stars and 2,902 stars gained today, it remains one of the most popular automation tools on GitHub.\n\nThe tool offers four main automation features. First, a Twitter bot with CRON-based scheduling for automated posting. Second, YouTube Shorts automation that generates and uploads short-form video content automatically. Third, affiliate marketing automation combining Amazon products with Twitter promotion. Fourth, local business discovery with email cold outreach capabilities (requires Go language installation).\n\nMPV2 requires Python 3.12 and follows a standard setup process: clone the repository, create a virtual environment, install dependencies, and configure settings via a JSON config file. It leverages GPT4Free for AI text generation and KittenTTS for text-to-speech synthesis. Utility scripts in the scripts directory provide direct access to core functionality without the interactive UI.\n\nThe project explicitly states it is for 'educational purposes only' and includes a comprehensive disclaimer absolving the author of responsibility for misuse. Community-driven multilingual forks exist, including a Chinese version called MoneyPrinterTurbo. The project is licensed under AGPL v3.0, requiring source disclosure for modified versions.\n\nWhile the concept of automated income generation attracts massive attention (evidenced by the star count), users should approach with caution — automated social media posting and cold outreach can violate platform terms of service, and the quality and sustainability of income generated through such tools is not guaranteed."
+    },
+    {
+      "id": "gh-trend-tauricresearch-tradingagents",
+      "title": "TauricResearch/TradingAgents",
+      "title_ko": "TradingAgents - 멀티 에이전트 LLM 금융 트레이딩",
+      "summary_ko": "멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크.",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "llm",
+        "trading",
+        "finance",
+        "multi-agent"
+      ],
+      "score": 2521,
+      "published_at": "2026-03-24",
+      "language": "Python",
+      "total_stars": 39114,
+      "stars_today": 2521,
+      "quality_score": 90.0,
+      "detail_ko": "TradingAgents는 Tauric Research가 개발한 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크로, 실제 트레이딩 회사의 구조를 모방한 혁신적인 시스템이다. 총 39,114스타를 보유하고 있으며, 관련 논문이 arXiv에 게재되어 학술적으로도 인정받고 있다.\n\n프레임워크는 전문화된 LLM 에이전트들로 구성된다. 펀더멘털 애널리스트는 기업 재무와 성과 지표를 평가하고, 센티멘트 애널리스트는 소셜 미디어와 대중 감정을 분석하며, 뉴스 애널리스트는 글로벌 뉴스와 거시경제 지표를 모니터링하고, 테크니컬 애널리스트는 MACD, RSI 같은 기술적 지표를 활용한다. 이 분석 팀 위에 강세/약세 연구원이 토론을 벌이고, 트레이더가 종합 판단을 내리며, 리스크 관리 팀이 최종 검증한 후 포트폴리오 매니저가 승인/거부 결정을 내린다.\n\nv0.2.2 기준으로 GPT-5.4, Gemini 3.1, Claude 4.6 등 최신 모델을 지원하며, OpenAI, Google, Anthropic, xAI, OpenRouter, Ollama 등 다양한 LLM 프로바이더를 사용할 수 있다. LangGraph 기반으로 구축되어 유연성과 모듈성을 보장한다. Python 패키지로 설치하여 코드에서 직접 사용하거나, 인터랙티브 CLI를 통해 티커 선택, 분석 날짜, 리서치 깊이 등을 설정할 수 있다.\n\n단, 이 프레임워크는 연구 목적으로 설계되었으며 재무 투자 조언이 아님을 명시하고 있다. 트레이딩 성과는 모델 선택, 온도 설정, 데이터 품질 등 다양한 요인에 따라 달라질 수 있다.",
+      "detail_en": "TradingAgents is a multi-agent LLM-based financial trading framework developed by Tauric Research that mirrors the organizational dynamics of real-world trading firms. With 39,114 total stars and an accompanying paper published on arXiv, it has gained both community and academic recognition.\n\nThe framework decomposes complex trading decisions into specialized agent roles. The Analyst Team includes a Fundamentals Analyst (company financials and intrinsic values), Sentiment Analyst (social media and public mood), News Analyst (global news and macroeconomic indicators), and Technical Analyst (MACD, RSI, and pattern detection). Above them, a Research Team with bullish and bearish researchers engages in structured debates to balance potential gains against risks. A Trader agent synthesizes all insights into trading decisions, while a Risk Management Team evaluates portfolio risk including volatility and liquidity. Finally, a Portfolio Manager provides the ultimate approval or rejection of trade proposals.\n\nAs of v0.2.2, TradingAgents supports cutting-edge models including GPT-5.4, Gemini 3.1, and Claude 4.6, along with providers like OpenAI, Google, Anthropic, xAI, OpenRouter, and Ollama for local models. Built on LangGraph for flexibility and modularity, it can be used either as a Python package (importable TradingAgentsGraph class with a simple propagate() API) or through an interactive CLI that lets users select tickers, analysis dates, LLM providers, and research depth.\n\nThe framework is explicitly designed for research purposes and is not intended as financial advice. Trading performance varies based on backbone models, temperature settings, trading periods, and data quality. The project also released a companion Trading-R1 technical report, with a terminal implementation expected soon. Contributions are welcomed through the Tauric Research open-source community."
+    },
+    {
+      "id": "gh-trend-pascalorg-editor",
+      "title": "pascalorg/editor",
+      "title_ko": "Pascal Editor - TypeScript 에디터",
+      "summary_ko": "TypeScript로 만든 에디터 프로젝트. 오늘 2,250스타 급상승.",
+      "url": "https://github.com/pascalorg/editor",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "editor"
+      ],
+      "score": 2250,
+      "published_at": "2026-03-24",
+      "language": "TypeScript",
+      "total_stars": 3441,
+      "stars_today": 2250,
+      "quality_score": 90.0,
+      "detail_ko": "Pascal Editor는 React Three Fiber와 WebGPU를 활용하여 구축된 브라우저 기반 3D 건물 에디터다. TypeScript로 작성되었으며, 오늘 하루에만 2,250스타를 받아 총 3,441스타를 기록하며 급격한 관심을 받고 있다.\n\n프로젝트는 Turborepo 모노레포 구조로 세 패키지로 구성된다. @pascal-app/core는 노드 스키마, Zustand 기반 상태 관리, 지오메트리 생성 시스템, 공간 쿼리, 이벤트 버스를 담당한다. @pascal-app/viewer는 React Three Fiber를 통한 3D 렌더링, 카메라/컨트롤, 후처리를 제공한다. apps/editor는 Next.js 앱으로 UI 컴포넌트, 도구, 편집 기능을 구현한다.\n\n아키텍처가 매우 정교하다. 씬 데이터는 플랫 딕셔너리(중첩 트리가 아닌)로 저장되며, parentId를 통한 부모-자식 관계를 정의한다. Site → Building → Level → Wall/Slab/Ceiling/Roof/Zone/Scan/Guide의 노드 계층 구조를 가지며, 벽에는 문과 창문 같은 Item이 부착된다. IndexedDB 영속화와 Zundo를 통한 50단계 실행 취소/다시 실행을 지원한다.\n\n렌더링은 'dirty node' 패턴을 사용한다. 노드가 변경되면 dirtyNodes 셋에 추가되고, 각 시스템(WallSystem, SlabSystem 등)이 useFrame 루프에서 더티 노드만 재계산한다. 벽 시스템은 마이터링과 CSG 컷아웃을 포함한 복잡한 지오메트리를 생성하며, 아이템 시스템은 벽·천장·바닥에 자동 배치를 처리한다. 컴포넌트 간 통신은 mitt 기반 타입 이벤트 이미터를 사용한다. 건축/인테리어 디자인 도구로서의 가능성이 돋보이는 프로젝트다.",
+      "detail_en": "Pascal Editor is a browser-based 3D building editor built with React Three Fiber and WebGPU. Written in TypeScript, it has exploded in popularity with 2,250 stars gained in a single day, reaching 3,441 total stars.\n\nThe project uses a Turborepo monorepo structure with three packages. @pascal-app/core handles node schemas, Zustand-based state management, geometry generation systems, spatial queries, and an event bus. @pascal-app/viewer provides 3D rendering via React Three Fiber with default camera/controls and post-processing. The apps/editor package is a Next.js application implementing UI components, tools, and editing capabilities.\n\nThe architecture is notably sophisticated. Scene data is stored in a flat dictionary (not a nested tree), with parent-child relationships defined through parentId references. The node hierarchy follows Site → Building → Level → Wall/Slab/Ceiling/Roof/Zone/Scan/Guide, with Items (doors, windows, lights) attachable to walls and ceilings. State persistence uses IndexedDB with 50-step undo/redo powered by Zundo middleware.\n\nRendering employs a 'dirty node' pattern for performance. When nodes change, they're added to a dirtyNodes set, and systems (WallSystem, SlabSystem, CeilingSystem, RoofSystem, ItemSystem) only recompute geometry for dirty nodes in the useFrame loop. The WallSystem generates complex geometry with mitering and CSG cutouts for doors and windows. Level visibility supports stacked, exploded, and solo display modes. Inter-component communication uses a typed event emitter (mitt) with structured payloads including 3D positions and normals.\n\nThe three-store architecture (useScene, useViewer, useEditor) cleanly separates concerns between data, rendering state, and editor-specific preferences. A scene registry maps node IDs to Three.js objects for fast lookup, enabling systems to access 3D objects directly without scene graph traversal. This project shows significant potential as a professional-grade architectural and interior design tool running entirely in the browser."
+    },
+    {
+      "id": "arxiv-2603.19461",
+      "title": "Hyperagents",
+      "title_ko": "하이퍼에이전트: 자기 참조적 자기 개선 AI 시스템",
+      "summary_ko": "자기 개선 AI 시스템의 새로운 패러다임을 제시하는 논문. 태스크 에이전트와 메타 에이전트를 하나의 편집 가능한 프로그램으로 통합하여, 메타 수준의 수정 절차 자체도 편집 가능하게 만들어 메타인지적 자기 수정을 가능하게 함. Darwin Gödel Machine을 확장한 DGM-H는 다양한 도메인에서 시간에 따른 성능 향상과 메타 수준 개선의 도메인 간 전이를 보여줌. 저자: Jenny Zhang, Bingchen Zhao, Wannan Yang, Jakob Foerster, Jeff Clune, Minqi Jiang 등",
+      "url": "https://arxiv.org/abs/2603.19461",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "self-improving-ai",
+        "meta-learning",
+        "agents",
+        "open-ended-learning"
+      ],
+      "score": 9,
+      "published_at": "2026-03-23",
+      "quality_score": 87.0,
+      "detail_ko": "하이퍼에이전트(Hyperagents)는 Facebook Research(Meta)에서 발표한 논문으로, 자기 개선(self-improving) AI 시스템의 새로운 패러다임을 제시한다. 기존의 자기 개선 AI 시스템들은 고정된, 수작업으로 설계된 메타 수준 메커니즘에 의존하여 개선 속도에 근본적인 한계가 있었다. 이전 연구인 Darwin Gödel Machine(DGM)은 코딩 영역에서 개방형 자기 개선을 보여주었지만, 코딩 능력의 향상이 자기 수정 능력의 향상으로 이어지는 정렬(alignment)이 코딩 도메인 외에서는 성립하지 않는다는 한계가 있었다.\n\n이 논문에서 제안하는 '하이퍼에이전트'는 자기 참조적(self-referential) 에이전트로, 태스크 에이전트(목표 과제를 해결하는 부분)와 메타 에이전트(자신과 태스크 에이전트를 수정하는 부분)를 하나의 편집 가능한 프로그램으로 통합한다. 핵심적으로, 메타 수준의 수정 절차 자체도 편집 가능하여 메타인지적 자기 수정(metacognitive self-modification)이 가능하다. 즉, 과제 해결 행동만 개선하는 것이 아니라 미래의 개선을 생성하는 메커니즘 자체도 개선할 수 있다.\n\n구체적인 구현으로 DGM을 확장한 DGM-Hyperagents(DGM-H)를 제시하며, 이는 태스크 성능과 자기 수정 스킬 간의 도메인 특화 정렬 가정을 제거하여 어떤 계산 가능한 태스크에서든 자기 가속적 진보를 지원할 수 있다. 다양한 도메인에서의 실험 결과, DGM-H는 시간에 따라 성능이 향상되었고, 자기 개선이나 개방형 탐색이 없는 기준선과 기존 자기 개선 시스템을 모두 능가했다.\n\n특히 주목할 점은 DGM-H가 새로운 에이전트를 생성하는 프로세스 자체를 개선한다는 것이다. 예를 들어 지속적 메모리, 성능 추적 등의 메타 수준 개선이 도메인 간에 전이(transfer)되고 실행 간에 누적된다. 코드는 GitHub에 공개되어 있으며, Jenny Zhang, Jeff Clune 등 저명한 AI 연구자들이 참여했다. 이 연구는 단순히 더 나은 해결책을 검색하는 것이 아니라, 개선 방법을 개선하는 방법을 지속적으로 발전시키는 개방형 AI 시스템의 가능성을 보여준다.",
+      "detail_en": "Hyperagents, published by Facebook Research (Meta), presents a new paradigm for self-improving AI systems. Existing approaches to self-improvement rely on fixed, handcrafted meta-level mechanisms, fundamentally limiting how fast such systems can improve. The prior Darwin Gödel Machine (DGM) demonstrated open-ended self-improvement in coding domains, but its key assumption—that gains in coding ability translate into gains in self-improvement ability—does not generally hold beyond coding.\n\nThe paper introduces 'hyperagents,' self-referential agents that integrate a task agent (which solves the target task) and a meta agent (which modifies itself and the task agent) into a single editable program. Crucially, the meta-level modification procedure is itself editable, enabling metacognitive self-modification. This means the system can improve not only its task-solving behavior but also the very mechanism that generates future improvements.\n\nThe framework is instantiated as DGM-Hyperagents (DGM-H), which extends DGM by eliminating the assumption of domain-specific alignment between task performance and self-modification skill. This potentially supports self-accelerating progress on any computable task, not just coding. Across diverse domains, DGM-H improves performance over time and outperforms baselines without self-improvement or open-ended exploration, as well as prior self-improving systems.\n\nA particularly notable finding is that DGM-H improves the process by which it generates new agents—for example, developing persistent memory and performance tracking capabilities. These meta-level improvements transfer across domains and accumulate across runs, demonstrating genuine open-ended improvement. The code is publicly available on GitHub, and the research team includes prominent AI researchers such as Jenny Zhang, Jakob Foerster, Jeff Clune, and Minqi Jiang. Hyperagents offer a glimpse of open-ended AI systems that do not merely search for better solutions but continually improve their search for how to improve—a significant step toward truly self-evolving artificial intelligence."
+    },
+    {
+      "id": "arxiv-2603.19685",
+      "title": "A Subgoal-driven Framework for Improving Long-Horizon LLM Agents (MiRA)",
+      "title_ko": "MiRA: 서브골 기반 장기 LLM 에이전트 개선 프레임워크",
+      "summary_ko": "웹 네비게이션에서 장기 계획 문제를 해결하기 위한 프레임워크. 서브골 분해를 통한 온라인 계획과 마일스톤 기반 밀집 보상 신호를 사용하는 RL 훈련 프레임워크 MiRA를 제안. Gemma3-12B에 적용 시 성공률이 6.4%에서 43.0%로 증가하여 GPT-4-Turbo(17.6%), GPT-4o(13.9%)를 능가. 저자: Taiyi Wang, Sian Gooding, Florian Hartmann, Oriana Riva, Edward Grefenstette",
+      "url": "https://arxiv.org/abs/2603.19685",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "web-agents",
+        "reinforcement-learning",
+        "long-horizon-planning",
+        "subgoal-decomposition"
+      ],
+      "score": 9,
+      "published_at": "2026-03-23",
+      "quality_score": 87.0,
+      "detail_ko": "MiRA(Milestoning your Reinforcement Learning Enhanced Agent)는 웹 네비게이션과 같은 장기 계획(long-horizon planning) 문제에서 LLM 기반 에이전트의 성능을 크게 향상시키는 프레임워크다. 현재 LLM 기반 에이전트들은 모바일 인터페이스, 운영체제, 웹 브라우저 등의 디지털 환경에서 자율적 컨트롤러로 활용되고 있지만, 장기 계획 수행에서 두 가지 핵심적인 어려움을 겪고 있다.\n\n첫째, 온라인 실행 시 새로운 정보가 도착하면 최종 목표를 향한 명확하고 적응적인 경로를 잃어버리는 문제가 있다. 둘째, 강화학습(RL) 파인튜닝 과정에서 희소하고 지연된 보상 신호로 인해 어떤 행동이 성공으로 이어지는지 식별하기 어려워 장기 태스크에서 일관된 추론을 유지하지 못한다.\n\n이를 해결하기 위해 두 가지 기여를 제안한다. 첫째, 독점 모델(proprietary model)을 활용한 서브골 분해(subgoal decomposition) 기반 온라인 계획 에이전트 프레임워크를 도입한다. 둘째, 마일스톤 기반 밀집 보상 신호를 사용하는 RL 훈련 프레임워크 MiRA를 제시한다. 실시간 계획 메커니즘은 WebArena-Lite 벤치마크에서 Gemini 같은 독점 모델의 성공률을 약 10%p 절대적으로 향상시킨다.\n\n가장 인상적인 결과는 오픈 모델인 Gemma3-12B에 MiRA를 적용했을 때다. 성공률이 6.4%에서 43.0%로 급상승하여, GPT-4-Turbo(17.6%), GPT-4o(13.9%)는 물론 이전 오픈 모델 최고 기록인 WebRL(38.4%)도 능가했다. 이는 명시적 추론 시점 계획(inference-time planning)과 마일스톤 기반 보상의 결합이 에이전트의 장기 계획 능력을 크게 개선할 수 있음을 보여주며, 더 강건하고 범용적인 자율 시스템으로 나아가는 길을 열어준다.",
+      "detail_en": "MiRA (Milestoning your Reinforcement Learning Enhanced Agent) is a framework that dramatically improves LLM-based agents' performance on long-horizon planning tasks such as web navigation. Current LLM-based agents serve as autonomous controllers for digital environments including mobile interfaces, operating systems, and web browsers, but they struggle with long-horizon planning in two key ways.\n\nFirst, during online execution, agents often lose track as new information arrives, lacking a clear and adaptive path toward the final goal. Second, during reinforcement learning (RL) fine-tuning, sparse and delayed rewards make it difficult for agents to identify which actions lead to success, preventing coherent reasoning over extended tasks.\n\nTo address these challenges, the paper makes two contributions. First, it introduces an agent framework that leverages proprietary models for online planning through subgoal decomposition, breaking complex tasks into manageable intermediate goals. Second, it presents MiRA, an RL training framework that uses dense, milestone-based reward signals rather than sparse end-of-task rewards. The real-time planning mechanism improves proprietary models such as Gemini by approximately 10 percentage points absolute in success rate on the WebArena-Lite benchmark.\n\nThe most impressive result comes from applying MiRA to the open-source Gemma3-12B model, which sees its success rate jump from 6.4% to 43.0%. This performance surpasses proprietary systems including GPT-4-Turbo (17.6%) and GPT-4o (13.9%), as well as the previous open-model state of the art, WebRL (38.4%). The paper spans 50 pages with 15 figures, providing thorough experimental analysis. Overall, these findings demonstrate that combining explicit inference-time planning with milestone-based rewards significantly enhances long-horizon capabilities, paving the way for more robust and general-purpose autonomous systems that can reliably complete complex multi-step tasks in real-world digital environments."
+    },
+    {
+      "id": "arxiv-2603.19335",
+      "title": "Do Post-Training Algorithms Actually Differ? (OXRL)",
+      "title_ko": "포스트 트레이닝 알고리즘은 실제로 다른가? 스케일에 따른 랭킹 역전 발견",
+      "summary_ko": "51개 포스트 트레이닝 알고리즘을 동일 인프라로 비교하는 OXRL 프레임워크 발표. 약 240회 훈련 실행 결과 핵심 발견: (1) 알고리즘 랭킹이 모델 스케일에 따라 역전됨 (2) 20개 DPO 변형 중 유의미한 개선 없음 (3) 알고리즘 선택은 훈련 분포 내에서만 중요. 레버리지 순서: 모델 스케일 >> 훈련 패러다임 >> 온라인/오프라인 >> 손실함수. 저자: Xiaoyi Li",
+      "url": "https://arxiv.org/abs/2603.19335",
+      "source": "arxiv_cs.LG",
+      "category": "ai_research",
+      "tags": [
+        "post-training",
+        "rlhf",
+        "dpo",
+        "scaling",
+        "benchmark"
+      ],
+      "score": 9,
+      "published_at": "2026-03-23",
+      "quality_score": 87.0,
+      "detail_ko": "OXRL은 포스트 트레이닝 정렬(post-training alignment) 알고리즘들을 동일 조건에서 비교하기 위한 통합 프레임워크로, DPO, SimPO, KTO, GRPO 등 51개 알고리즘을 동일한 인프라에서 구현하여 최초의 대규모 동일 조건 평가를 가능하게 했다. 연구는 8개 알고리즘을 4가지 모델 스케일(0.5B~7B), 3가지 평가 도메인에 걸쳐 테스트하고, 20가지 DPO 변형에 대해 각 5개 시드로 100회 실행(1.5B 스케일)을 수행하여 총 약 240회 훈련을 H100 GPU에서 진행했다.\n\n세 가지 핵심 발견이 도출되었다. 첫째, 알고리즘 랭킹이 모델 스케일에 따라 불안정하다. 1.5B에서는 온라인 RL(SGRPO)이 GSM8K에서 58.0%로 최고였지만, 7B에서는 소규모에서 최악이었던 SimPO가 85.8%로 최고가 되는 완전한 랭킹 역전이 발생했다. 이는 LoRA 정규화가 아닌 모델 스케일에 의한 것임이 2×2 팩토리얼 실험으로 확인되었다.\n\n둘째, 손실 함수 수정으로는 의미 있는 성능 향상이 없다. 20가지 DPO 변형 중 Bonferroni 보정 후 바닐라 DPO를 유의미하게 능가하는 것이 없었으며, 유일한 유의미 이상치인 SimPO는 오히려 -11.5pp 더 낮았다. 셋째, 알고리즘 선택의 영향력은 태스크에 따라 다르다. GSM8K에서 19.3pp였던 성능 차이가 MATH에서는 0.54pp(36배 축소), 일반 도메인에서는 0.47pp(41배 축소)로 급감했다.\n\n이로부터 실무자를 위한 레버리지 계층 구조가 도출된다: 모델 스케일(약 50pp) >> 훈련 패러다임(약 10pp) >> 온라인/오프라인(약 9pp) >> 손실 함수(약 1pp). 즉, 어떤 손실 함수를 쓸지 고민하는 것보다 더 큰 모델을 쓰는 것이 훨씬 효과적이라는 것이다. 코드, 설정, 평가 데이터가 모두 공개되어 커뮤니티 벤치마크로 활용 가능하다.",
+      "detail_en": "OXRL is a unified framework implementing 51 post-training algorithms with identical infrastructure, enabling the first large-scale apples-to-apples evaluation of post-training alignment methods. Despite dozens of competing algorithms—DPO, SimPO, KTO, GRPO, and others—practitioners have lacked controlled comparisons to guide algorithm selection. This study spans 8 algorithms across 4 model scales (0.5B to 7B), 3 evaluation domains, and a 20-variant DPO taxonomy (100 runs at 1.5B scale, 5 seeds each), totaling approximately 240 training runs on H100 GPUs.\n\nThree headline findings emerge. First, algorithm rankings are unstable across scale: at 1.5B parameters, online RL (SGRPO) tops all methods at 58.0% on GSM8K, but by 7B, the worst small-scale method (SimPO) becomes the best at 85.8%—a complete ranking inversion driven by model scale rather than LoRA regularization, as confirmed via a 2×2 factorial experiment. This is a striking result that challenges the common practice of selecting algorithms based on small-scale experiments.\n\nSecond, loss function modifications yield negligible gains: none of the 20 DPO variants significantly outperform vanilla DPO after Bonferroni correction. The sole significant outlier, SimPO, actually performs worse (−11.5 percentage points, p < 10⁻⁴). This suggests that the proliferation of DPO variants in the literature may not translate to meaningful practical improvements.\n\nThird, algorithm leverage is task-specific: the 19.3pp GSM8K spread collapses to 0.54pp on MATH (36× reduction) and 0.47pp on general-domain benchmarks (41× reduction), confirming that algorithm choice matters primarily within the training distribution. These findings yield a clear hierarchy of leverage for practitioners: model scale (~50pp) >> training paradigm (~10pp) >> online vs. offline (~9pp) >> loss function (~1pp). In other words, scaling up the model matters far more than choosing the right loss function. All code, configs, and evaluation data are released as a living community benchmark."
+    },
+    {
+      "id": "arxiv-2603.19312",
+      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+      "title_ko": "LeWorldModel: 픽셀에서 안정적인 End-to-End JEPA 월드 모델",
+      "summary_ko": "두 가지 손실항만으로 원시 픽셀에서 안정적으로 End-to-End 훈련 가능한 최초의 JEPA. 약 1,500만 파라미터로 단일 GPU에서 수시간 내 훈련 가능하며, 파운데이션 모델 기반 월드 모델 대비 최대 48배 빠른 계획 수행. 잠재 공간이 물리적 구조를 인코딩함을 증명. 저자: Lucas Maes, Quentin Le Lidec, Yann LeCun, Randall Balestriero 등",
+      "url": "https://arxiv.org/abs/2603.19312",
+      "source": "arxiv_cs.LG",
+      "category": "ai_research",
+      "tags": [
+        "world-models",
+        "jepa",
+        "self-supervised-learning",
+        "yann-lecun"
+      ],
+      "score": 9,
+      "published_at": "2026-03-23",
+      "quality_score": 87.0,
+      "detail_ko": "LeWorldModel(LeWM)은 Joint Embedding Predictive Architecture(JEPA) 분야에서 획기적인 진전을 이룬 연구로, 원시 픽셀로부터 안정적으로 End-to-End 훈련이 가능한 최초의 JEPA를 제시한다. JEPA는 압축된 잠재 공간에서 월드 모델을 학습하는 매력적인 프레임워크이지만, 기존 방법들은 표현 붕괴(representation collapse)를 방지하기 위해 복잡한 다중 항 손실, 지수 이동 평균, 사전 훈련된 인코더, 보조 감독 등에 의존하여 불안정했다.\n\nLeWM은 단 두 가지 손실 항만을 사용한다: 다음 임베딩 예측 손실과 잠재 임베딩의 가우시안 분포를 강제하는 정규화 항이다. 이로써 기존의 유일한 End-to-End 대안 대비 조정 가능한 손실 하이퍼파라미터를 6개에서 1개로 줄였다. 약 1,500만 개의 파라미터로 단일 GPU에서 수시간 내에 훈련 가능하며, 이는 접근성 면에서 큰 장점이다.\n\n성능 면에서 LeWM은 파운데이션 모델 기반 월드 모델 대비 최대 48배 빠른 계획 수행이 가능하면서도, 다양한 2D 및 3D 제어 태스크에서 경쟁력 있는 성능을 보인다. 단순히 제어 성능만이 아니라, 잠재 공간이 물리적 양에 대한 프로빙을 통해 의미 있는 물리적 구조를 인코딩하고 있음을 보여준다. 또한 '서프라이즈 평가'를 통해 모델이 물리적으로 비현실적인 이벤트를 신뢰성 있게 감지할 수 있음을 확인했다.\n\n이 연구는 Yann LeCun이 오랫동안 주창해온 JEPA 비전의 실질적 구현으로서 의미가 크다. LeCun은 생성 모델 대신 JEPA 기반 접근법이 AI의 미래라고 주장해왔는데, LeWM은 복잡한 트릭 없이 간결한 설계만으로 이를 실현할 수 있음을 보여준다. Lucas Maes, Yann LeCun, Randall Balestriero 등이 저자로 참여했다.",
+      "detail_en": "LeWorldModel (LeWM) represents a significant breakthrough in Joint Embedding Predictive Architectures (JEPAs), presenting the first JEPA that trains stably end-to-end from raw pixels. JEPAs offer a compelling framework for learning world models in compact latent spaces, but existing methods have been fragile, relying on complex multi-term losses, exponential moving averages, pre-trained encoders, or auxiliary supervision to avoid representation collapse.\n\nLeWM achieves stability using only two loss terms: a next-embedding prediction loss and a regularizer enforcing Gaussian-distributed latent embeddings. This dramatically simplifies the architecture, reducing tunable loss hyperparameters from six to just one compared to the only existing end-to-end alternative. With approximately 15 million parameters, the model is trainable on a single GPU in a few hours, making it highly accessible to researchers without massive compute budgets.\n\nIn terms of performance, LeWM plans up to 48× faster than foundation-model-based world models while remaining competitive across diverse 2D and 3D control tasks. Beyond control performance, the paper demonstrates that LeWM's latent space encodes meaningful physical structure through probing of physical quantities. A surprise evaluation further confirms that the model reliably detects physically implausible events, suggesting it develops a genuine understanding of physical dynamics rather than merely memorizing patterns.\n\nThis work is particularly significant as a practical realization of Yann LeCun's long-advocated JEPA vision. LeCun has argued that JEPA-based approaches, rather than generative models, represent the future of AI. LeWM demonstrates that this vision can be realized with an elegantly simple design—no complex tricks required. The research team includes Lucas Maes, Quentin Le Lidec, Yann LeCun, and Randall Balestriero. The combination of simplicity, efficiency, and interpretable learned representations makes LeWM a compelling step toward practical world models for embodied AI."
+    },
+    {
+      "id": "arxiv-2603.19639",
+      "title": "HyEvo: Self-Evolving Hybrid Agentic Workflows for Efficient Reasoning",
+      "title_ko": "HyEvo: 효율적 추론을 위한 자기 진화 하이브리드 에이전트 워크플로우",
+      "summary_ko": "LLM 노드와 결정론적 코드 노드를 통합하는 이종 원자 합성 기반 자동 워크플로우 생성 프레임워크. LLM 추론에서 예측 가능한 연산을 코드로 오프로드하여 비용과 지연을 최대 19배, 16배까지 줄임. 다양한 추론 및 코딩 벤치마크에서 기존 방법을 능가. 저자: Beibei Xu, Yutong Ye, Chuyun Shen, Yingbo Zhou, Cheng Chen, Mingsong Chen",
+      "url": "https://arxiv.org/abs/2603.19639",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "agentic-workflows",
+        "hybrid-reasoning",
+        "efficiency",
+        "evolutionary-search"
+      ],
+      "score": 8,
+      "published_at": "2026-03-23",
+      "quality_score": 83.5,
+      "detail_ko": "HyEvo는 효율적인 추론을 위한 자기 진화 하이브리드 에이전트 워크플로우 자동 생성 프레임워크다. 기존의 에이전트 워크플로우 자동 생성 방법들은 미리 정의된 연산자 라이브러리에 의존하고, 모든 태스크 수준 계산을 확률적 추론을 통해 수행하는 동질적(homogeneous) LLM 전용 워크플로우를 사용하여 비효율적이고 성능이 떨어진다는 한계가 있었다.\n\nHyEvo는 이종(heterogeneous) 원자 합성을 활용하여 이 문제를 해결한다. 핵심 아이디어는 확률적 LLM 노드(의미적 추론용)와 결정론적 코드 노드(규칙 기반 실행용)를 통합하는 것이다. LLM 추론에서 예측 가능한 연산을 코드로 오프로드함으로써 추론 비용과 실행 지연을 대폭 줄인다. 실험 결과, 최신 오픈소스 기준선 대비 추론 비용을 최대 19배, 실행 지연을 최대 16배까지 줄이는 것으로 나타났다.\n\n하이브리드 검색 공간을 효율적으로 탐색하기 위해 HyEvo는 LLM 기반 다중 섬 진화 전략(multi-island evolutionary strategy)과 반영 후 생성(reflect-then-generate) 메커니즘을 사용한다. 이 방식은 실행 피드백을 통해 워크플로우 토폴로지와 노드 로직을 반복적으로 개선한다. 다양한 추론 및 코딩 벤치마크에서 포괄적인 실험을 통해 HyEvo가 기존 방법들을 일관되게 능가함을 보여준다.\n\n이 연구의 의의는 LLM이 모든 것을 처리해야 한다는 기존 패러다임을 깨고, LLM과 코드의 강점을 조합하는 하이브리드 접근법의 효과를 입증한 것이다. 간단한 수학 연산이나 문자열 처리 같은 결정론적 작업은 코드가 더 정확하고 빠르게 처리할 수 있으며, LLM은 의미 이해와 추론에 집중하는 것이 합리적이다. Beibei Xu, Yutong Ye 등이 저자로 참여했다.",
+      "detail_en": "HyEvo is an automated workflow-generation framework that addresses fundamental inefficiencies in existing agentic workflow systems. Current automated generation methods rely on predefined operator libraries and homogeneous LLM-only workflows where all task-level computation is performed through probabilistic inference. This approach is both inefficient and underperforming, as many operations within complex tasks are deterministic and don't require the full power (and cost) of LLM inference.\n\nHyEvo introduces heterogeneous atomic synthesis, integrating probabilistic LLM nodes for semantic reasoning with deterministic code nodes for rule-based execution. By offloading predictable operations from LLM inference to code execution, the framework dramatically reduces both inference cost and execution latency. Experimental results show reductions of up to 19× in inference cost and 16× in execution latency compared to state-of-the-art open-source baselines.\n\nTo efficiently navigate the hybrid search space of LLM and code nodes, HyEvo employs an LLM-driven multi-island evolutionary strategy with a reflect-then-generate mechanism. This approach iteratively refines both workflow topology (how nodes are connected) and node logic (what each node does) based on execution feedback. The evolutionary strategy allows the system to explore diverse workflow architectures while the reflection mechanism ensures that improvements are guided by actual performance observations.\n\nComprehensive experiments across diverse reasoning and coding benchmarks demonstrate that HyEvo consistently outperforms existing methods while achieving dramatic efficiency gains. The significance of this work lies in challenging the paradigm that LLMs should handle everything in agentic workflows. By recognizing that deterministic tasks like arithmetic, string processing, and rule-based logic are better handled by code, while LLMs focus on semantic understanding and complex reasoning, HyEvo achieves a more rational division of labor. The authors include Beibei Xu, Yutong Ye, Chuyun Shen, and others. This hybrid approach points toward a future where AI systems are not just powerful but also practically efficient."
+    },
+    {
+      "id": "arxiv-2603.19514",
+      "title": "Learning to Disprove: Formal Counterexample Generation with Large Language Models",
+      "title_ko": "반례 생성 학습: LLM을 활용한 형식적 반례 생성",
+      "summary_ko": "LLM이 반례를 생성하고 Lean 4에서 자동 검증 가능한 형식적 증명을 생산하도록 파인튜닝하는 연구. 기호 변이 전략으로 다양한 훈련 데이터를 합성하고, 다중 보상 전문가 반복 프레임워크로 반례 생성과 정리 증명 효과를 크게 향상. 저자: Zenan Li, Zhaoyu Li, Kaiyu Yang, Xiaoxing Ma, Zhendong Su",
+      "url": "https://arxiv.org/abs/2603.19514",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "formal-verification",
+        "theorem-proving",
+        "counterexample",
+        "lean4"
+      ],
+      "score": 8,
+      "published_at": "2026-03-23",
+      "quality_score": 83.5,
+      "detail_ko": "이 논문은 수학적 추론에서 간과되어 온 중요한 능력—반례(counterexample) 생성—에 초점을 맞춘 연구다. 수학적 추론은 참인 명제에 대한 엄밀한 증명 구성과 거짓 명제를 반증하는 반례 발견이라는 두 가지 상호보완적 스킬을 요구하지만, 현재 AI 수학 연구는 증명 구성에만 거의 전적으로 집중하고 있다.\n\n이 연구는 LLM을 파인튜닝하여 반례를 추론하고 생성하도록 한다. 핵심적으로, '형식적 반례 생성(formal counterexample generation)'이라는 과제를 정의하는데, 이는 LLM이 단순히 반례 후보를 제안하는 것을 넘어 Lean 4 정리 증명기에서 자동 검증 가능한 형식적 증명을 생산하도록 요구한다. 즉, 반례가 실제로 해당 명제를 반증한다는 것을 기계적으로 검증 가능한 수준으로 증명해야 한다.\n\n효과적인 학습을 위해 기호 변이 전략(symbolic mutation strategy)을 도입한다. 이 전략은 기존 정리에서 체계적으로 가설을 추출하고 선택적으로 일부를 제거하여 다양한 반례 인스턴스를 합성함으로써 풍부한 훈련 데이터를 생성한다. 이렇게 큐레이션된 데이터셋과 함께 다중 보상 전문가 반복(multi-reward expert iteration) 프레임워크를 적용하여 반례 생성과 정리 증명 모두의 효과를 크게 향상시킨다.\n\n새롭게 수집된 세 가지 벤치마크에서의 실험 결과, 제안된 접근법의 우수성이 검증되었다. 변이 전략과 훈련 프레임워크 모두 유의미한 성능 향상을 가져왔다. 이 연구는 Zenan Li, Zhaoyu Li, Kaiyu Yang 등이 참여했으며, AI의 수학적 추론 능력을 증명뿐 아니라 반증으로까지 확장한다는 점에서 중요하다. 반례 생성은 수학 연구에서 추측의 참/거짓을 판별하는 데 핵심적이며, 형식 검증 시스템에서의 버그 발견에도 응용 가능하다.",
+      "detail_en": "This paper addresses a critical but overlooked aspect of mathematical reasoning: the ability to generate counterexamples that disprove false statements. Mathematical reasoning demands two complementary skills—constructing rigorous proofs for true statements and discovering counterexamples for false ones—yet current AI research in mathematics focuses almost exclusively on proof construction.\n\nThe authors formalize the task as 'formal counterexample generation,' which requires LLMs not only to propose candidate counterexamples but also to produce formal proofs that can be automatically verified in the Lean 4 theorem prover. This is significantly more challenging than simply generating informal counterexamples, as the model must produce machine-checkable proofs that the counterexample indeed violates the given statement.\n\nTo enable effective learning, the paper introduces a symbolic mutation strategy that synthesizes diverse training data by systematically extracting theorems and discarding selected hypotheses, thereby producing diverse counterexample instances. For example, if a theorem states that a continuous bounded function on a closed interval has a maximum, the mutation strategy might remove the 'continuous' or 'bounded' hypothesis, creating a false statement for which the model must find a counterexample. Combined with curated datasets, this strategy feeds into a multi-reward expert iteration framework that substantially enhances both the effectiveness and efficiency of training.\n\nExperiments on three newly collected benchmarks validate the advantages of the approach, demonstrating significant performance gains from both the mutation strategy and the training framework. The research team includes Zenan Li, Zhaoyu Li, Kaiyu Yang, Xiaoxing Ma, and Zhendong Su. This work is important because it expands AI mathematical reasoning capabilities beyond proof construction to include disproof—a skill essential for evaluating conjectures in mathematical research and finding bugs in formal verification systems. The ability to both prove and disprove statements brings AI closer to the full spectrum of human mathematical reasoning."
+    },
+    {
+      "id": "arxiv-2603.19715",
+      "title": "Stepwise: Neuro-Symbolic Proof Search for Automated Systems Verification",
+      "title_ko": "Stepwise: 자동 시스템 검증을 위한 신경-기호적 증명 탐색",
+      "summary_ko": "시스템 수준 검증 프로젝트의 증명 탐색을 자동화하는 신경-기호적 프레임워크. seL4 벤치마크에서 정리의 77.6%를 증명하며 이전 LLM 기반 접근법과 Sledgehammer를 크게 능가. 다단계 증명에서 특히 효과적. 저자: Baoding He, Zenan Li, Wei Sun, Yuan Yao, Taolue Chen, Xiaoxing Ma, Zhendong Su",
+      "url": "https://arxiv.org/abs/2603.19715",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "formal-verification",
+        "neuro-symbolic",
+        "proof-search",
+        "isabelle"
+      ],
+      "score": 8,
+      "published_at": "2026-03-23",
+      "quality_score": 83.5,
+      "detail_ko": "Stepwise는 시스템 수준 소프트웨어의 형식 검증(formal verification)을 자동화하기 위한 신경-기호적(neuro-symbolic) 증명 탐색 프레임워크다. 대화형 정리 증명기(interactive theorem prover)를 통한 형식 검증은 핵심 시스템의 정확성을 보장하는 강력한 방법이지만, 대규모 증명 스크립트 작성이 거의 전적으로 수작업에 의존해 확장성에 한계가 있었다. 이 논문은 대규모 언어 모델(LLM)의 수학적 추론 능력을 활용하여 이 문제를 해결하고자 한다.\n\n프레임워크의 핵심은 증명 상태에 대한 최선 우선 트리 탐색(best-first tree search)이다. 각 단계에서 LLM에게 다음 후보 증명 단계를 질의하고, 신경적(neural) 측면에서는 증명 상태-단계 쌍 데이터셋으로 LLM을 미세조정하며, 기호적(symbolic) 측면에서는 다양한 ITP(Interactive Theorem Proving) 도구를 통합하여 거절된 단계를 복구하고, 증명 상태를 필터링·순위화하며, 탐색이 정체될 때 하위 목표를 자동으로 해결한다. 이러한 신경-기호 시너지가 데이터 효율적인 LLM 적응과 의미론 기반 탐색 공간 가지치기를 가능하게 한다.\n\n구현은 세밀한 증명 상태와 자동화 도구를 노출하는 새로운 Isabelle REPL 위에 이루어졌다. FVEL seL4 벤치마크에서 평가한 결과, 시스템은 정리의 최대 77.6%를 증명하여 이전 LLM 기반 접근법과 독립형 Sledgehammer를 크게 능가했다. 특히 다단계 증명에서 월등한 성능을 보였으며, 추가 벤치마크에서도 강한 일반화 능력을 입증했다.\n\nseL4은 마이크로커널 운영체제로 형식 검증의 대표적 사례이기에, 이 결과는 실제 시스템 검증 자동화를 향한 실질적 진전을 의미한다. 신경 네트워크와 기호적 추론의 결합이 각각의 한계를 보완하여, 확장 가능한 자동 소프트웨어 검증으로 가는 실현 가능한 경로를 제시한다.",
+      "detail_en": "Stepwise is a neuro-symbolic proof generation framework designed to automate proof search for systems-level formal verification projects. While formal verification through interactive theorem proving is a powerful method for ensuring the correctness of critical systems, constructing large proof scripts remains highly manual, severely limiting scalability. This paper leverages advances in large language models (LLMs), particularly in mathematical reasoning, to address this bottleneck.\n\nThe framework performs a best-first tree search over proof states, repeatedly querying an LLM for the next candidate proof step. On the neural side, LLMs are fine-tuned using datasets of proof state-step pairs. On the symbolic side, the framework incorporates a range of ITP (Interactive Theorem Proving) tools to repair rejected steps, filter and rank proof states, and automatically discharge subgoals when search progress stalls. This synergy enables data-efficient LLM adaptation and semantics-informed pruning of the search space.\n\nThe system is implemented on a new Isabelle REPL that exposes fine-grained proof states and automation tools. Evaluated on the FVEL seL4 benchmark and additional Isabelle developments, the system proves up to 77.6% of theorems, substantially surpassing previous LLM-based approaches and standalone Sledgehammer. It shows particularly strong performance on multi-step proofs, which are traditionally the most challenging for automated tools.\n\nResults across further benchmarks demonstrate strong generalization capabilities, indicating that the approach is not overfitted to a specific verification project. Given that seL4 is a landmark microkernel operating system in the formal verification community, these results represent meaningful progress toward scalable automated software verification. The combination of neural and symbolic reasoning compensates for the limitations of each approach individually, offering a viable path forward for reducing the enormous human effort currently required in formal verification."
+    },
+    {
+      "id": "arxiv-2603.20046",
+      "title": "HeRL: Hindsight Experience Guided Reinforcement Learning for LLMs",
+      "title_ko": "HeRL: 사후 경험 기반 LLM 강화학습",
+      "summary_ko": "LLM의 비효율적 탐색 문제를 해결하기 위해 실패한 궤적과 미충족 루브릭을 사후 경험으로 활용하여 효과적 탐색을 유도하는 프레임워크. 다양한 벤치마크에서 기준선 대비 우수한 성능 향상을 보이며, 테스트 시 자기 개선에도 활용 가능. 저자: Wenjian Zhang, Kongcheng Zhang, Jiaxin Qi, Baisheng Lai, Jianqiang Huang",
+      "url": "https://arxiv.org/abs/2603.20046",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "reinforcement-learning",
+        "llm-training",
+        "exploration",
+        "hindsight-experience"
+      ],
+      "score": 8,
+      "published_at": "2026-03-23",
+      "quality_score": 83.5,
+      "detail_ko": "HeRL(Hindsight Experience guided Reinforcement Learning)은 대규모 언어 모델(LLM)의 강화학습(RL) 훈련에서 비효율적인 탐색 문제를 해결하기 위한 프레임워크다. 루브릭 기반 보상을 활용한 RL은 LLM의 일반 추론 능력을 향상시키는 데 큰 진전을 보였지만, 현재 정책 분포에 갇힌 비효율적 탐색이라는 근본적 한계를 안고 있었다.\n\nHeRL의 핵심 아이디어는 RL 최적화를 보상을 최대화하는 이상적 분포로 정책을 유도하는 과정으로 보고, 효과적 탐색은 이 목표와 일치해야 한다는 통찰에 기반한다. 구체적으로, 실패한 궤적(trajectory)과 그 미충족 루브릭을 '사후 경험(hindsight experience)'으로 활용한다. 이 사후 경험이 정책에 대한 문맥 내 가이던스 역할을 하여, 현재 분포를 넘어선 바람직한 응답 탐색을 유도한다.\n\n추가로 HeRL은 이러한 가이던스 하에서 개선 잠재력이 큰 응답에 보너스 보상을 부여하는 메커니즘을 도입했다. 이를 통해 처음부터 반복적인 시행착오 없이도 고품질 샘플로부터 효과적으로 학습할 수 있으며, 이론적으로 기대 기울기의 더 정확한 추정을 가능하게 한다.\n\n다양한 벤치마크에 걸친 실험에서 HeRL은 기준선 대비 우수한 성능 향상을 달성했다. 특히 주목할 점은 테스트 시에도 경험 기반 자기 개선이 가능하다는 것으로, 훈련 시뿐 아니라 추론 시에도 활용 가능한 유연한 프레임워크임을 보여준다. 코드는 GitHub에서 공개되어 있어 재현 및 후속 연구가 용이하다.",
+      "detail_en": "HeRL (Hindsight Experience guided Reinforcement Learning) is a framework that addresses the problem of ineffective exploration in reinforcement learning training of large language models (LLMs). While RL with rubric-based rewards has shown remarkable progress in enhancing LLM reasoning capabilities, it still suffers from exploration that remains confined to the current policy distribution, limiting the discovery of high-quality solutions.\n\nThe key insight behind HeRL is viewing RL optimization as steering the policy toward an ideal distribution that maximizes rewards, where effective exploration should align with this desired target. Concretely, HeRL treats failed trajectories along with their unmet rubrics as \"hindsight experience.\" This experience serves as in-context guidance for the policy to explore desired responses beyond its current distribution, effectively telling the LLM what behaviors are desired as specified in the reward criteria.\n\nAdditionally, HeRL introduces a bonus reward mechanism to incentivize responses that show greater potential for improvement under such guidance. This design allows the model to learn effectively from desired high-quality samples without repeated trial-and-error from scratch, yielding a more accurate estimation of the expected gradient from a theoretical perspective.\n\nExtensive experiments across various benchmarks demonstrate that HeRL achieves superior performance gains over baselines. Notably, the framework can further benefit from experience-guided self-improvement at test time, showing that the hindsight experience mechanism is useful not only during training but also during inference. The approach bridges the gap between RL's need for broad exploration and the computational constraints of LLM training, offering a practical method to bootstrap more effective exploration through explicit behavioral guidance. The code is publicly available on GitHub for reproducibility."
+    },
+    {
+      "id": "arxiv-2603.20101",
+      "title": "Pitfalls in Evaluating Interpretability Agents",
+      "title_ko": "해석 가능성 에이전트 평가의 함정",
+      "summary_ko": "자동화된 해석 가능성 시스템의 평가 문제를 조사. LLM 기반 연구 에이전트가 회로 분석 작업에서 인간 전문가와 경쟁력 있어 보이지만, 복제 기반 평가의 여러 함정(주관성, 과정 무시, 암기)을 발견. 기능적 상호교환성 기반 비지도 내재적 평가 제안. 저자: Tal Haklay, Nikhil Prakash, Antonio Torralba, Aaron Mueller, Jacob Andreas 등",
+      "url": "https://arxiv.org/abs/2603.20101",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "interpretability",
+        "evaluation",
+        "mechanistic-interpretability",
+        "agents"
+      ],
+      "score": 8,
+      "published_at": "2026-03-23",
+      "quality_score": 83.5,
+      "detail_ko": "이 논문은 자동화된 해석 가능성(interpretability) 시스템의 평가에 존재하는 근본적 문제점을 조사한다. 최근 자동 해석 가능성 연구는 고정된 원샷 워크플로우부터 완전 자율 에이전트까지, LLM을 점점 높은 자율성 수준으로 활용하고 있다. 이러한 변화는 생성된 설명의 양과 복잡성에 맞춰 평가 방법론도 확장해야 하는 과제를 만든다.\n\n연구팀은 자동화된 회로 분석(circuit analysis) 맥락에서 이 문제를 탐구했다. 특정 작업 수행 시 모델 구성요소의 역할을 설명하는 에이전트 시스템을 구축하여, 연구 에이전트가 반복적으로 실험을 설계하고 가설을 정제하도록 했다. 문헌의 6개 회로 분석 작업에서 인간 전문가 설명과 비교 평가한 결과, 시스템은 경쟁력 있어 보였다.\n\n그러나 면밀한 검토에서 복제 기반(replication-based) 평가의 여러 함정이 드러났다. 첫째, 인간 전문가의 설명 자체가 주관적이거나 불완전할 수 있다. 둘째, 결과 기반 비교는 연구 과정을 가린다—올바른 답에 도달했더라도 잘못된 이유로 도달했을 수 있다. 셋째, LLM 기반 시스템이 기존 발표 결과를 암기하거나 정보에 기반한 추측으로 재현할 수 있어, 진정한 분석 능력과 구분이 어렵다.\n\n이러한 함정을 해결하기 위해 저자들은 모델 구성요소의 기능적 상호교환성(functional interchangeability)에 기반한 비지도 내재적 평가 방법을 제안한다. 이 연구는 복잡한 자동 해석 가능성 시스템 평가의 근본적 도전과 복제 기반 평가의 핵심 한계를 보여주며, 해석 가능성 연구의 자동화가 진전되려면 평가 방법론의 근본적 개선이 선행되어야 함을 시사한다.",
+      "detail_en": "This paper investigates fundamental challenges in evaluating automated interpretability systems. As the field increasingly leverages LLMs at rising levels of autonomy—from fixed one-shot workflows to fully autonomous interpretability agents—there is a corresponding need to scale evaluation approaches to match both the volume and complexity of generated explanations.\n\nThe authors explore this challenge in the context of automated circuit analysis, which aims to explain the roles of model components when performing specific tasks. They build an agentic system where a research agent iteratively designs experiments and refines hypotheses about neural circuit function. When evaluated against human expert explanations across six circuit analysis tasks from the literature, the system appears competitive with human researchers.\n\nHowever, closer examination reveals several critical pitfalls of replication-based evaluation. First, human expert explanations can be subjective or incomplete, making them unreliable gold standards. Second, outcome-based comparisons obscure the research process—a system might arrive at the right answer for the wrong reasons. Third, and perhaps most concerning, LLM-based systems may reproduce published findings through memorization or informed guessing rather than genuine analytical reasoning, since these findings exist in the training data.\n\nTo address some of these pitfalls, the authors propose an unsupervised intrinsic evaluation method based on the functional interchangeability of model components. Rather than comparing against human explanations, this approach evaluates whether the identified components are truly functionally equivalent based on their computational roles.\n\nThe work demonstrates fundamental challenges in evaluating complex automated interpretability systems and reveals key limitations of replication-based evaluation. It suggests that advancing automation in interpretability research requires first solving the evaluation problem—without reliable metrics, it is difficult to know whether automated systems truly understand model internals or merely pattern-match against existing literature."
+    },
+    {
+      "id": "arxiv-2603.19289",
+      "title": "Speculating Experts Accelerates Inference for Mixture-of-Experts",
+      "title_ko": "전문가 투기 실행으로 MoE 추론 가속화",
+      "summary_ko": "MoE 모델의 CPU-GPU 전송 병목을 해결하기 위한 전문가 프리페칭 기법. 현재 계산 중인 내부 표현으로 미래 전문가를 예측하여 메모리 전송과 계산을 겹침. 최적화된 추론 엔진에서 토큰당 출력 시간을 최대 14% 단축. 저자: Vivan Madan, Prajwal Singhania, Abhinav Bhatele, Tom Goldstein, Ashwinee Panda",
+      "url": "https://arxiv.org/abs/2603.19289",
+      "source": "arxiv_cs.LG",
+      "category": "ai_research",
+      "tags": [
+        "mixture-of-experts",
+        "inference-optimization",
+        "speculative-execution",
+        "efficiency"
+      ],
+      "score": 8,
+      "published_at": "2026-03-23",
+      "quality_score": 83.5,
+      "detail_ko": "이 논문은 Mixture-of-Experts(MoE) 모델의 추론 속도를 높이기 위한 전문가 프리페칭(expert prefetching) 기법을 제안한다. MoE 모델은 대규모 언어 모델의 용량을 확장하면서도 희소 활성화와 토큰당 적은 연산량을 유지하는 방법으로 인기를 얻고 있다. 그러나 메모리 제약이 있는 추론 환경에서는 전문가 가중치를 CPU에 오프로드해야 하며, 디코딩 시 CPU-GPU 전송이 성능 병목이 된다.\n\n핵심 아이디어는 투기적 실행(speculative execution)에서 영감을 받았다. 현재 계산 중인 모델의 내부 표현(intermediate representations)을 활용하여 미래에 필요한 전문가를 예측하고, 예측된 전문가의 메모리 전송을 현재 계산과 병렬로 수행한다. 다양한 MoE 아키텍처에서 실험한 결과, 내부 표현이 미래 전문가를 신뢰성 있게 예측할 수 있음을 확인했다.\n\n또한 투기적으로 실행된 전문가가 일반적으로 다운스트림 작업 정확도를 유지함을 보여주었다. 이는 실제 라우터가 선택한 전문가를 다시 가져올 필요를 없애, 더 효과적인 계산-메모리 중첩을 보존한다. 최적화된 추론 엔진에 통합한 결과, CPU 메모리에서 온디맨드 로딩 대비 토큰당 출력 시간(TPOT)을 최대 14% 단축했다.\n\n투기적 실행만으로 정확도가 부족한 MoE의 경우, 전문가 예측 적중률을 개선하는 경량 추정기(lightweight estimator)를 추가로 검토하여 성능 저하를 줄였다. 코드는 오픈소스로 공개되어 있다. 이 연구는 대규모 MoE 모델을 소비자급 하드웨어에서 실용적으로 운용하기 위한 중요한 최적화 기법을 제시한다.",
+      "detail_en": "This paper proposes an expert prefetching scheme to accelerate inference for Mixture-of-Experts (MoE) models. MoE models have gained popularity as a means of scaling LLM capacity while maintaining sparse activations and reduced per-token compute. However, in memory-constrained inference settings, expert weights must be offloaded to CPU, creating a significant performance bottleneck from CPU-GPU transfers during decoding.\n\nThe core idea draws inspiration from speculative execution in computer architecture. The approach leverages currently computed internal model representations to predict (speculate) which experts will be needed in future layers, enabling memory transfers to overlap with ongoing computation. Across multiple MoE architectures, the authors demonstrate that future experts can be reliably predicted from these intermediate representations.\n\nA key finding is that executing speculated experts—rather than waiting for the true router-selected experts—generally maintains downstream task accuracy. This preserves more effective compute-memory overlap by eliminating the need to re-fetch the actual router-selected experts when speculation is correct. Integrated into an optimized inference engine, the approach achieves up to 14% reduction in time per output token (TPOT) compared to on-demand loading of experts from CPU memory.\n\nFor MoE architectures where speculative execution alone yields suboptimal accuracy, the authors further examine lightweight estimators that improve expert prediction hit rates, thereby reducing performance degradation. This provides a graceful fallback mechanism that balances speed and accuracy.\n\nThe code is released as open-source as part of the YALIS inference framework. This work addresses a practical and increasingly important problem: as MoE models grow larger, the ability to run them efficiently on hardware with limited GPU memory becomes crucial. The prefetching approach offers a complementary optimization to existing techniques like quantization and distillation, and can be combined with them for further speedups."
+    },
+    {
+      "id": "arxiv-2603.19294",
+      "title": "Maximizing mutual information between user-contexts and responses improve LLM personalization (MIPO)",
+      "title_ko": "MIPO: 사용자 맥락-응답 간 상호정보 최대화로 LLM 개인화 향상",
+      "summary_ko": "외부 감독 없이 LLM을 자기 개선시키는 MIPO(Mutual Information Preference Optimization) 제안. 올바른 프롬프트와 무관한 프롬프트로 생성한 응답 쌍을 사용하여 DPO 학습. 개인화 작업에서 3-40% 향상, 수학 및 MCQ에서도 1-18% 향상 달성. 저자: Hyunji Nam, Haoran Li, Natasha Jaques",
+      "url": "https://arxiv.org/abs/2603.19294",
+      "source": "arxiv_cs.LG",
+      "category": "ai_research",
+      "tags": [
+        "personalization",
+        "self-improvement",
+        "mutual-information",
+        "preference-optimization"
+      ],
+      "score": 8,
+      "published_at": "2026-03-23",
+      "quality_score": 83.5,
+      "detail_ko": "MIPO(Mutual Information Preference Optimization)는 외부 감독이나 추가 데이터 없이 LLM을 자기 개선시키는 대조적 데이터 증강 방법이다. 현재 포스트 트레이닝은 LLM의 다양한 영역에서 성능을 향상시키는 데 성공했지만, 인간 레이블 데이터나 외부 검증기에 크게 의존한다. 기존 데이터는 이미 활용되었고 새로운 고품질 데이터 수집은 비용이 많이 든다. 더 근본적으로, 진정한 지능은 쉽게 검증 가능한 작업을 훨씬 넘어선다.\n\nMIPO의 핵심은 간단하면서도 독창적인 선호도 쌍 구성 방법에 있다. 올바른 프롬프트를 조건으로 양성(positive) 응답을 생성하고, 무관한 랜덤 프롬프트를 조건으로 음성(negative) 응답을 생성한다. 이렇게 구성된 쌍에 대해 DPO(Direct Preference Optimization)를 적용하면, 기저 LLM 하에서 프롬프트와 모델 응답 사이의 점별 조건부 상호정보(pointwise conditional mutual information)를 최대화하는 효과가 있음을 수학적으로 보인다.\n\n다양한 크기의 Llama 및 Qwen-Instruct 모델로 실험한 결과, 사용자 맥락과 응답 사이의 상호정보를 최대화하도록 적용했을 때 MIPO는 효과적인 개인화 기법으로 작동하여, 실제 사용자 데이터셋에서 강력한 기준선 대비 3-40%의 개선을 달성했다. 놀랍게도 MIPO는 수학 및 객관식 문제에서도 추가 데이터나 인간 감독 없이 1-18%의 성능 향상을 보였다.\n\n이 결과는 자기 개선의 유망한 방향을 제시한다. 외부 보상 신호 없이도, 프롬프트에 대한 응답의 관련성을 높이는 것만으로 다양한 작업에서 성능이 향상될 수 있다는 점은, LLM 훈련에서 상호정보 극대화의 폭넓은 가능성을 시사한다.",
+      "detail_en": "MIPO (Mutual Information Preference Optimization) is a contrastive data augmentation method that enables LLM self-improvement without external supervision or additional data. While post-training has successfully improved LLMs across various domains, these gains heavily rely on human-labeled data or external verifiers. Existing data has been largely exploited, and new high-quality data is expensive to collect. More fundamentally, true intelligence extends far beyond easily verifiable tasks.\n\nMIPO's core mechanism is elegantly simple: it constructs preference pairs by generating a positive response conditioned on the correct prompt, and a negative response conditioned on a random, unrelated prompt. The authors prove that using Direct Preference Optimization (DPO) to learn from this paired data effectively maximizes pointwise conditional mutual information between prompts and model responses under the base LLM distribution.\n\nEmpirical results with various-sized Llama and Qwen-Instruct models demonstrate the approach's effectiveness. When used to maximize mutual information between user context and response, MIPO serves as an effective personalization technique, achieving 3-40% improvements on personalization tasks using real-user datasets compared to strong baselines. This makes intuitive sense: a personalized response should be highly informative about the user context that generated it.\n\nSurprisingly, MIPO can also improve performance on math and multiple-choice problems, yielding 1-18% gains without any additional data or human supervision. This suggests that the mutual information objective captures something fundamental about response quality beyond just personalization—responses that are more informative about their prompts tend to be better responses overall.\n\nThese results point to a promising direction for self-improvement in LLMs. The ability to improve model performance without external reward signals, using only the model's own generations and a principled information-theoretic objective, could reduce dependence on expensive human annotation and enable continuous improvement cycles."
+    },
+    {
+      "id": "arxiv-2603.19310",
+      "title": "MemReward: Graph-Based Experience Memory for LLM Reward Prediction with Limited Labels",
+      "title_ko": "MemReward: 제한된 레이블로 LLM 보상 예측을 위한 그래프 기반 경험 메모리",
+      "summary_ko": "제한된 보상 레이블로 RL 기반 LLM 훈련 효과를 극대화하는 그래프 기반 프레임워크. 이종 그래프에서 GNN으로 레이블된 노드의 보상을 전파. 20% 레이블만으로 Oracle 성능의 97.3% 달성, 도메인 외 작업에서는 Oracle을 능가. 저자: Tianyang Luo, Tao Feng, Jiaxuan You 등",
+      "url": "https://arxiv.org/abs/2603.19310",
+      "source": "arxiv_cs.LG",
+      "category": "ai_research",
+      "tags": [
+        "reward-modeling",
+        "graph-neural-networks",
+        "reinforcement-learning",
+        "label-efficiency"
+      ],
+      "score": 8,
+      "published_at": "2026-03-23",
+      "quality_score": 83.5,
+      "detail_ko": "MemReward는 제한된 보상 레이블 환경에서 강화학습(RL) 기반 LLM 훈련의 효과를 극대화하기 위한 그래프 기반 경험 메모리 프레임워크다. 복잡한 추론을 위한 LLM의 RL 훈련에는 생성된 롤아웃의 정확성을 판별하는 보상 레이블이 필수적이지만, 대규모 보상 레이블 확보는 비용이 크다. 수학적 증명 평가에는 전문가 검토가 필요하고, 개방형 질의응답에는 확실한 정답이 없기 때문이다.\n\nMemReward의 동작 방식은 다음과 같다. 초기 LLM 정책이 각 쿼리에 대해 사고 과정과 최종 답변으로 구성된 롤아웃을 생성하고, 이들을 경험 메모리로 저장한다. 쿼리, 사고 과정, 답변이 이종 그래프(heterogeneous graph)의 노드가 되며, 유사성 및 구조적 엣지로 연결된다. 레이블이 있는 노드에서 GNN(Graph Neural Network)을 훈련하여, 온라인 최적화 과정에서 레이블이 없는 롤아웃에 보상을 전파한다.\n\nQwen2.5-3B와 1.5B 모델로 수학, 질의응답, 코드 생성 작업에서 실험한 결과, MemReward는 단 20%의 레이블만으로 Oracle 성능의 97.3%(3B)와 96.6%(1.5B)를 달성했다. 특히 도메인 외(out-of-domain) 작업에서는 Oracle을 능가하는 놀라운 결과를 보였다. 레이블 예산에 따라 성능이 부드럽게 스케일링되어, 70% 레이블에서는 Oracle의 99.4%에 도달한다.\n\n이 연구는 보상 레이블의 희소성이라는 실용적 문제를 그래프 구조와 GNN을 통해 우아하게 해결한다. 소수의 레이블로부터 보상 신호를 효과적으로 전파함으로써, 비용 효율적인 RL 기반 LLM 훈련을 가능하게 하는 중요한 기여를 한다.",
+      "detail_en": "MemReward is a graph-based experience memory framework designed to maximize the effectiveness of reinforcement learning (RL) fine-tuning for LLMs when reward labels are scarce. Training LLMs for complex reasoning via RL requires reward labels specifying whether generated rollouts are correct, but obtaining these at scale is expensive—evaluating mathematical proofs demands expert review, while open-ended question answering lacks definitive ground truth.\n\nThe framework operates as follows: an initial LLM policy generates rollouts for each query, each comprising a thinking process and a final answer, which are stored as experience memory. Queries, thinking processes, and answers form nodes in a heterogeneous graph connected by similarity and structural edges. A Graph Neural Network (GNN) is trained on the subset of labeled nodes and then propagates reward signals to unlabeled rollouts during online optimization.\n\nExperiments on Qwen2.5-3B and 1.5B models across mathematics, question answering, and code generation demonstrate impressive results. With only 20% of labels, MemReward achieves 97.3% of Oracle performance on the 3B model and 96.6% on 1.5B. Remarkably, it surpasses Oracle performance on out-of-domain tasks, suggesting that the graph-based reward propagation provides beneficial regularization. Performance scales smoothly with label budget, reaching 99.4% of Oracle at 70% labels.\n\nThe key innovation lies in treating the collection of rollouts as a structured graph rather than independent samples. By encoding relationships between queries, reasoning processes, and answers, the GNN can leverage structural patterns to infer rewards for unlabeled examples. This is particularly valuable because similar queries tend to have similar reward structures, and the graph captures these similarities explicitly.\n\nMemReward addresses a practical bottleneck in RL-based LLM training: the cost of reward annotation. By enabling effective training with a fraction of the labels, it makes RL fine-tuning more accessible and cost-efficient, which is especially important as models scale and the demand for diverse training signals grows."
+    },
+    {
+      "id": "gh-trend-github-spec-kit",
+      "title": "github/spec-kit",
+      "title_ko": "GitHub Spec Kit - 스펙 기반 개발 도구",
+      "summary_ko": "Spec-Driven Development를 시작할 수 있는 도구 모음. GitHub 공식 프로젝트.",
+      "url": "https://github.com/github/spec-kit",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "github",
+        "spec-driven",
+        "development"
+      ],
+      "score": 1550,
+      "published_at": "2026-03-24",
+      "language": "Python",
+      "total_stars": 81446,
+      "stars_today": 1550,
+      "quality_score": 82.1,
+      "detail_ko": "GitHub에서 공식적으로 개발한 Spec Kit은 '스펙 기반 개발(Spec-Driven Development)'이라는 새로운 소프트웨어 개발 패러다임을 지원하는 오픈소스 툴킷이다. 전통적인 소프트웨어 개발에서는 코드가 중심이고 스펙은 코딩이 시작되면 버려지는 부수적 산출물이었지만, Spec Kit은 이를 뒤집어 스펙 자체가 실행 가능한 형태가 되어 직접 구현을 생성하는 방식을 제안한다.\n\nSpec Kit의 핵심은 'specify'라는 CLI 도구로, Python 기반의 uv 패키지 매니저를 통해 설치할 수 있다. `specify init` 명령으로 새 프로젝트를 초기화하면, AI 에이전트(Claude 등)와 연동하여 스펙 기반의 개발 워크플로우를 시작할 수 있다. Cursor, Claude Code 등 인기 있는 코딩 에이전트들과도 슬래시 커맨드(`/speckit.*`) 형태로 통합이 가능하다.\n\n주요 기능으로는 프로젝트의 헌법(constitution) 생성, 확장 기능과 프리셋을 통한 커스터마이징, 그리고 다양한 AI 에이전트 지원 등이 있다. 기업 환경이나 에어갭(air-gapped) 환경을 위한 설치 가이드도 별도로 제공한다. 프로젝트는 MIT 라이선스로 공개되어 있다.\n\n출시 직후 하루 만에 1,550개의 스타를 받으며 GitHub 트렌딩 1위를 기록했고, 총 누적 스타는 81,000개를 넘었다. 이는 GitHub가 공식적으로 AI 에이전트 시대에 맞는 새로운 개발 방법론을 제시하고 있다는 점에서 큰 의미가 있다. '바이브 코딩(vibe coding)'이 아닌, 구조화된 스펙에 기반한 예측 가능한 개발을 강조하는 것이 핵심 철학이다.",
+      "detail_en": "GitHub's Spec Kit is an official open-source toolkit designed to facilitate Spec-Driven Development (SDD), a paradigm that flips the traditional software development approach. Instead of treating specifications as disposable scaffolding that gets discarded once coding begins, SDD makes specifications executable artifacts that directly generate working implementations.\n\nThe toolkit centers around the `specify` CLI, installable via Python's uv package manager. Developers can initialize projects with `specify init`, which sets up the SDD workflow with AI agent integration. The tool supports popular coding agents including Cursor, Claude Code, and Codex CLI through slash commands (`/speckit.*` or `$speckit-*`), making it easy to integrate into existing AI-assisted development workflows.\n\nKey features include constitution generation for establishing project-level governing principles, an extension and preset system for customization, and comprehensive documentation. The project also provides enterprise and air-gapped installation guides for restricted environments, demonstrating GitHub's commitment to making this accessible across different organizational contexts.\n\nThe project has gained remarkable traction since its release, earning 1,550 stars in a single day and trending at the top of GitHub with over 81,000 total stars. This signals strong developer interest in more structured approaches to AI-assisted development. The core philosophy explicitly contrasts with \"vibe coding\" — the practice of letting AI generate code without clear specifications — advocating instead for predictable outcomes driven by well-defined product scenarios.\n\nAs an official GitHub project, Spec Kit represents a significant endorsement of the idea that AI-powered development needs guardrails and structure. It positions specifications not as bureaucratic overhead but as the primary driver of software creation in the age of AI coding agents."
+    },
+    {
+      "id": "hacker_news-16842075",
+      "title": "iPhone 17 Pro Demonstrated Running a 400B LLM",
+      "title_ko": "iPhone 17 Pro에서 4000억 파라미터 LLM 구동 시연",
+      "summary_ko": "iPhone 17 Pro에서 4000억 파라미터 대규모 언어 모델을 로컬에서 실행하는 데모가 공개되어 모바일 AI 성능의 새로운 가능성을 보여줬다.",
+      "url": "https://twitter.com/anemll/status/2035901335984611412",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "mobile"
+      ],
+      "score": 398,
+      "published_at": "2026-03-23T14:30:10.000Z",
+      "quality_score": 76.4,
+      "detail_ko": "iPhone 17 Pro에서 4,000억(400B) 파라미터 규모의 대규모 언어 모델(LLM)을 로컬에서 구동하는 데모가 공개되어 기술 커뮤니티에서 큰 화제를 모았다. 이 시연은 X(구 트위터)의 anemll 계정을 통해 공개되었으며, Hacker News에서 398포인트를 기록하며 활발한 토론이 이어졌다.\n\n이 데모는 모바일 기기에서의 AI 처리 능력이 어디까지 발전했는지를 보여주는 상징적인 사건이다. 기존에는 400B 파라미터 급 모델을 실행하려면 여러 대의 고성능 GPU가 장착된 서버급 하드웨어가 필요했다. 그러나 iPhone 17 Pro의 향상된 Neural Engine과 메모리 아키텍처, 그리고 모델 양자화 및 최적화 기술의 발전이 결합되어 스마트폰에서의 실행이 가능해진 것이다.\n\n이는 AI의 민주화라는 관점에서 중요한 의미를 가진다. 클라우드 서버에 의존하지 않고 개인 기기에서 대규모 AI 모델을 실행할 수 있다면, 프라이버시 보호, 오프라인 사용, 지연 시간 감소 등 다양한 이점을 얻을 수 있다. 특히 민감한 데이터를 외부 서버로 보내지 않아도 되는 점은 기업과 개인 사용자 모두에게 매력적이다.\n\n물론 실제 추론 속도, 정확도, 배터리 소모량 등 실용적인 측면에서의 검증은 아직 필요하다. 하지만 스마트폰이라는 제한된 환경에서 이 정도 규모의 모델을 구동할 수 있다는 사실 자체가, 엣지 AI 컴퓨팅의 미래에 대한 기대를 높이는 중요한 이정표가 되고 있다.",
+      "detail_en": "A demonstration of Apple's iPhone 17 Pro running a 400-billion parameter large language model (LLM) locally has captured significant attention in the tech community. The demo was shared via the anemll account on X (formerly Twitter) and garnered 398 points on Hacker News, sparking extensive discussion about the future of on-device AI.\n\nThis achievement represents a remarkable milestone in mobile AI computing. Running a 400B parameter model has traditionally required server-grade hardware with multiple high-end GPUs and substantial memory. The fact that it can now run on a smartphone speaks to advances on multiple fronts: Apple's improved Neural Engine and memory architecture in the iPhone 17 Pro, as well as significant progress in model quantization and optimization techniques that reduce computational requirements without catastrophic quality loss.\n\nThe implications for AI democratization are significant. On-device execution of large models enables enhanced privacy (sensitive data never leaves the device), offline functionality, and reduced latency compared to cloud-based inference. This is particularly appealing for enterprise applications where data sovereignty is critical, as well as for consumer use cases in areas with limited connectivity.\n\nThat said, practical considerations remain. The actual inference speed, output quality compared to full-precision models, battery consumption, and thermal management during sustained use are all factors that need real-world validation. The demo's significance lies less in immediate practical utility and more in what it signals about the trajectory of edge AI computing.\n\nThis demonstration marks an important milestone in the convergence of mobile hardware capabilities and AI model optimization, suggesting that the gap between cloud and edge AI inference is closing faster than many expected."
+    },
+    {
+      "id": "gh-trend-browser-use",
+      "title": "browser-use/browser-use",
+      "title_ko": "Browser Use - AI 에이전트용 웹 자동화",
+      "summary_ko": "AI 에이전트가 웹사이트에 접근할 수 있게 해주는 도구. 온라인 작업을 쉽게 자동화한다.",
+      "url": "https://github.com/browser-use/browser-use",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai",
+        "browser",
+        "automation",
+        "agent"
+      ],
+      "score": 1160,
+      "published_at": "2026-03-24",
+      "language": "Python",
+      "total_stars": 83548,
+      "stars_today": 1160,
+      "quality_score": 75.3,
+      "detail_ko": "Browser Use는 AI 에이전트가 웹 브라우저를 직접 조작할 수 있게 해주는 오픈소스 Python 라이브러리다. 83,000개 이상의 GitHub 스타를 기록하며 AI 에이전트 도구 분야에서 가장 주목받는 프로젝트 중 하나로 자리잡았다. 핵심 아이디어는 간단하다 — AI에게 '웹사이트에 접근하는 능력'을 부여하여 온라인 작업을 자동화하는 것이다.\n\n설치는 Python의 uv 패키지 매니저를 통해 간단하게 할 수 있으며, Chromium 브라우저와 함께 사용한다. OpenAI, Anthropic(Claude), Google(Gemini) 등 다양한 LLM 프로바이더를 지원하며, Browser Use 자체의 클라우드 모델도 제공한다. 사용법은 직관적으로, Agent 객체에 작업(task)과 LLM을 지정하면 에이전트가 브라우저를 열어 해당 작업을 수행한다.\n\n제공되는 예제에는 구직 지원서 자동 작성, 온라인 장보기, PC 부품 가격 비교 등 실용적인 사용 사례가 포함되어 있다. 오픈소스 버전과 클라우드 버전 두 가지를 제공하는데, 클라우드 버전은 프록시 로테이션, 캡차 우회, Gmail/Slack/Notion 등 1,000개 이상의 서비스 통합 등 고급 기능을 포함한다. 100개의 실제 브라우저 작업에 대한 벤치마크도 공개하여 성능을 투명하게 검증하고 있다.\n\nBrowser Use는 커스텀 도구 확장, 템플릿 기반 빠른 시작(`uvx browser-use init`), 코딩 에이전트(Cursor, Claude Code 등)와의 통합 지원 등 개발자 친화적인 기능도 제공한다. AI 에이전트가 단순 텍스트 처리를 넘어 실제 웹 환경에서 행동할 수 있게 해주는 핵심 인프라로서, 에이전트 기반 자동화 시대의 중요한 빌딩 블록이 되고 있다.",
+      "detail_en": "Browser Use is an open-source Python library that enables AI agents to interact with websites and automate online tasks. With over 83,000 GitHub stars and 1,160 new stars in a single day, it has become one of the most popular tools in the AI agent ecosystem. The core concept is straightforward: give AI agents the ability to access and control web browsers, enabling them to perform tasks that previously required human interaction.\n\nGetting started is simple using Python's uv package manager, and the library works with Chromium browsers. It supports multiple LLM providers including OpenAI, Anthropic (Claude), and Google (Gemini), as well as Browser Use's own cloud-hosted model. The API is intuitive — developers create an Agent with a task description and an LLM, and the agent opens a browser to complete the task autonomously.\n\nThe project ships with practical example use cases including automated job applications, online grocery shopping, and PC parts price comparison. It offers both an open-source version for self-hosting and a cloud version that provides enhanced capabilities like proxy rotation, captcha solving, persistent filesystem and memory, and integrations with over 1,000 services including Gmail, Slack, and Notion. An open benchmark suite of 100 real-world browser tasks provides transparent performance validation.\n\nDeveloper-friendly features include custom tool extensions, template-based quick starts (`uvx browser-use init`), and integration with popular coding agents like Cursor and Claude Code via an Agents.md specification file. The architecture follows a clean separation between the browser control layer and the AI reasoning layer, making it extensible.\n\nBrowser Use represents a critical piece of infrastructure for the emerging agent-based automation paradigm, bridging the gap between AI language capabilities and real-world web interaction. As AI agents evolve from text processors to active participants in digital workflows, tools like Browser Use serve as essential building blocks."
+    },
+    {
+      "id": "gh-trend-harry0703-moneyprinterturbo",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "title_ko": "MoneyPrinterTurbo - AI 숏폼 영상 자동 생성",
+      "summary_ko": "AI 대형 모델을 활용해 원클릭으로 고화질 숏폼 영상을 생성한다.",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai",
+        "video",
+        "short-form",
+        "automation"
+      ],
+      "score": 1030,
+      "published_at": "2026-03-24",
+      "language": "Python",
+      "total_stars": 51883,
+      "stars_today": 1030,
+      "quality_score": 73.0,
+      "detail_ko": "MoneyPrinterTurbo는 AI 대규모 언어 모델을 활용하여 원클릭으로 고화질 숏폼 영상을 자동 생성하는 오픈소스 프로젝트다. GitHub에서 51,000개 이상의 스타를 기록하고 있으며, 하루에 1,030개의 새로운 스타를 받을 정도로 꾸준한 인기를 유지하고 있다. 사용자가 영상 주제나 키워드만 입력하면 AI가 영상 문안, 소재, 자막, 배경 음악을 자동으로 생성하고 이를 하나의 완성된 영상으로 합성한다.\n\n기술 스택 면에서 Python 기반의 MVC 아키텍처를 채택하여 코드 구조가 깔끔하고, Web UI와 API 두 가지 인터페이스를 모두 지원한다. 영상 크기는 세로형(9:16, 1080x1920)과 가로형(16:9, 1920x1080)을 지원하며, 배치 생성을 통해 한 번에 여러 영상을 만들어 가장 마음에 드는 것을 선택할 수도 있다.\n\nLLM 연동은 매우 유연하여 OpenAI, DeepSeek, Moonshot, Google Gemini, Ollama, Azure, 통의천문(通义千问), 문심일언(文心一言) 등 다양한 모델을 지원한다. 특히 중국 사용자를 위해 DeepSeek과 Moonshot을 추천하고 있다. 영상 소재는 저작권 무료 고화질 영상을 자동으로 가져오며, 로컬 소재 사용도 가능하다. 자막의 폰트, 위치, 색상, 크기 조절이 가능하고 배경 음악 설정도 지원한다.\n\n설치는 Docker, Google Colab, 또는 Windows 원클릭 패키지를 통해 할 수 있어 접근성이 좋다. ImageMagick을 필수 의존성으로 사용하며, 최소 CPU 4코어, 메모리 4GB 이상이면 GPU 없이도 실행 가능하다. 향후 로드맵으로는 GPT-SoVITS 더빙 지원, 영상 전환 효과 개선, YouTube 자동 업로드 기능 등이 계획되어 있다.",
+      "detail_en": "MoneyPrinterTurbo is an open-source tool that leverages AI large language models to automatically generate high-quality short-form videos with a single click. With over 51,000 GitHub stars and 1,030 new stars daily, it remains one of the most popular AI video generation projects. Users simply provide a video topic or keyword, and the system automatically generates the script, sources video footage, creates subtitles, adds background music, and composites everything into a finished video.\n\nThe project is built with a clean MVC architecture in Python, offering both a Web UI (via Streamlit) and a REST API interface. It supports vertical (9:16, 1080x1920) and horizontal (16:9, 1920x1080) video formats, and includes batch generation capability so users can create multiple videos and select the best one. Video clip duration is configurable to control the pacing of footage transitions.\n\nLLM integration is remarkably flexible, supporting OpenAI, DeepSeek, Moonshot, Google Gemini, Ollama, Azure, Tongyi Qianwen, Wenxin Yiyan, Pollinations, ModelScope, and more. Video footage is automatically sourced from copyright-free high-quality stock libraries (like Pexels), though users can also use their own local materials. Subtitle customization includes font, position, color, size, and outline settings, while background music can be randomly selected or specified.\n\nDeployment options include Docker, Google Colab, Windows one-click packages, and manual conda installation, making it accessible across different skill levels. The minimum requirements are modest: 4-core CPU, 4GB RAM, with no GPU required. ImageMagick is a required dependency for video processing.\n\nThe project roadmap includes GPT-SoVITS voice dubbing support, improved video transitions, more video source integrations, variable video length options, and automatic YouTube upload. MoneyPrinterTurbo democratizes short-form video creation, making it particularly valuable for content creators, marketers, and anyone looking to produce video content at scale without professional video editing skills."
+    },
+    {
+      "id": "eng_blogs_cloudflare_gen13_config_20260323",
+      "title": "Inside Gen 13: how we built our most powerful server yet",
+      "title_ko": "Gen 13 서버 내부: Cloudflare가 역대 최강 서버를 설계한 방법",
+      "summary_ko": "Cloudflare의 Gen 13 서버는 AMD EPYC Turin 9965 192코어 프로세서, 768GB DDR5-6400 메모리, 24TB PCIe 5.0 NVMe 스토리지, 듀얼 100GbE 네트워크를 탑재했다. Gen 12 대비 처리량 2배, 전력 효율 50% 향상, 랙당 처리량 60% 증가를 달성했다. Rust 기반 FL2 스택으로 전환하면서 L3 캐시 의존도가 낮아져 코어 수 확장이 가능해졌고, CPU/메모리/스토리지/네트워크/보안 각 컴포넌트의 엔지니어링 설계 근거를 상세히 설명한다.",
+      "url": "https://blog.cloudflare.com/gen13-config/",
+      "source": "cloudflare",
+      "category": "eng_blogs",
+      "tags": [
+        "hardware",
+        "server-design",
+        "infrastructure",
+        "amd-epyc",
+        "networking",
+        "performance",
+        "scaling"
+      ],
+      "score": 0,
+      "published_at": "2026-03-23T13:00:00Z",
+      "quality_score": 71.5,
+      "detail_ko": "Cloudflare가 역대 가장 강력한 서버인 Gen 13의 기술적 세부사항을 공개했다. 이 블로그 포스트는 CPU, 메모리, 스토리지, 네트워크, 보안 등 각 핵심 컴포넌트의 선택 근거를 상세히 설명하는 기술 심층 분석 글이다.\n\nGen 13의 핵심은 AMD EPYC Turin 9965 192코어 프로세서다. Cloudflare는 설계 단계에서 Turin 9755(128코어), 9845(160코어), 9965(192코어) 세 가지 후보를 실제 프로덕션 환경에서 평가했다. Gen 12에 사용된 Genoa-X 9684X 대비 모든 후보가 코어 수는 증가하되 코어당 L3 캐시는 줄었다. 그러나 Rust 기반 FL2 스택으로의 전환으로 L3 캐시 의존도가 낮아지면서 코어 수 확장이 효과적으로 처리량 향상으로 이어졌다. 최종적으로 전력 효율과 처리량의 균형이 가장 좋은 9965가 선택되었다.\n\n메모리는 DDR5-6400 768GB로 Gen 12의 DDR5-4800 384GB 대비 2배 용량과 더 빠른 속도를 제공한다. 스토리지는 삼성 PM9D3a/Micron 7600 Pro 7.68TB NVMe 3개(총 24TB)로 Gen 12의 2개(15.36TB) 대비 1.5배 확장되었다. 네트워크는 듀얼 25GbE에서 듀얼 100GbE로 4배 대역폭 향상을 달성했으며, Intel E830-CDA2와 NVIDIA ConnectX-6 Dx를 사용한다.\n\n성능 측면에서 Gen 13은 Gen 12 대비 처리량 최대 2배, 와트당 성능 50% 향상, 랙 전력 예산 동일 조건에서 랙당 처리량 60% 증가를 달성했다. 보안 면에서는 메모리 암호화에 더해 PCIe 암호화 하드웨어 지원이 새로 추가되었고, 고성능 PCIe 가속기를 위한 열 관리도 개선되었다. 전원 공급 장치는 800W에서 1,300W Titanium 등급으로 업그레이드되었다.",
+      "detail_en": "Cloudflare has published a detailed technical deep dive into Gen 13, their most powerful server generation to date. The blog post meticulously explains the engineering rationale behind every major component selection, from CPU to networking, providing a rare look into hyperscale infrastructure decision-making.\n\nThe heart of Gen 13 is the AMD EPYC Turin 9965, a 192-core processor with a 500W TDP. During the design phase, Cloudflare evaluated three Turin candidates in their hardware lab: the 9755 (128 cores, optimized for per-core performance), the 9845 (160 cores, lower socket power), and the 9965 (192 cores, optimized for efficiency). All three offered more cores but less L3 cache per core compared to Gen 12's Genoa-X 9684X (96 cores, 1,152 MB L3). The critical insight was that Cloudflare's migration to FL2, their Rust-based request handling stack, reduced L3 cache dependency, allowing core count increases to translate directly into throughput gains of up to 100%.\n\nMemory doubles from 384GB DDR5-4800 to 768GB DDR5-6400, storage increases 1.5x from two 7.68TB NVMe drives to three (totaling 24TB with Samsung PM9D3a or Micron 7600 Pro), and network bandwidth quadruples from dual 25 GbE to dual 100 GbE using Intel E830-CDA2 or NVIDIA ConnectX-6 Dx adapters. The power supply upgrades from 800W to 1,300W Titanium-grade to support the increased compute density.\n\nThe performance results are impressive: up to 2x throughput compared to Gen 12 while staying within latency SLAs, up to 50% improvement in performance per watt, and up to 60% higher throughput per rack at constant power budget. Security improvements include new PCIe encryption hardware support alongside existing memory encryption, and the thermal design accommodates powerful drop-in PCIe accelerators.\n\nThis post is notable not just for the hardware specs but for the holistic approach to server design — showing how software architecture changes (the FL2 migration) directly influenced hardware selection decisions, and how each component choice cascades through the entire system design."
+    },
+    {
+      "id": "hacker_news-3c176c5b",
+      "title": "US and TotalEnergies reach 'nearly $1B' deal to end offshore wind projects",
+      "title_ko": "미국과 토탈에너지, 해상 풍력 프로젝트 종료 위해 약 10억 달러 합의",
+      "summary_ko": "트럼프 행정부가 토탈에너지에 약 10억 달러를 지불하고 미국 내 해상 풍력 개발을 중단시키는 거래를 체결했다.",
+      "url": "https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "energy"
+      ],
+      "score": 255,
+      "published_at": "2026-03-23T17:35:38.000Z",
+      "quality_score": 70.2,
+      "detail_ko": "미국 내무부 장관 더그 버검과 프랑스 에너지 기업 토탈에너지(TotalEnergies)의 CEO 파트릭 푸야네가 2026년 3월 23일 휴스턴에서 열린 CERAWeek 컨퍼런스에서 약 10억 달러 규모의 해상 풍력 프로젝트 종료 합의서에 서명했다. 이 합의에 따라 토탈에너지는 노스캐롤라이나와 뉴욕 해안에 보유한 두 개의 해상 풍력 임대권에 투자한 9억 2,800만 달러를 미국 천연가스 프로젝트, 특히 리오그란데 LNG 플랜트로 전환하게 된다.\n\n토탈에너지는 뉴욕 바이트(3GW)와 노스캐롤라이나(1GW) 등 총 4GW 규모의 해상 풍력 프로젝트를 개발 중이었으나, 2024년 말 트럼프 행정부로부터 연방 허가를 받기 어렵다고 판단하여 이미 프로젝트를 보류한 상태였다. 푸야네 CEO는 해상 풍력이 미국에서 '가장 저렴한 전력 생산 방식이 아니다'라고 언급하며, 천연가스 발전이 더 경제적이라고 평가했다.\n\n이번 합의는 트럼프 행정부의 반(反) 풍력 에너지 정책의 연장선에 있다. 바이든 전 대통령은 기후변화 대응의 일환으로 풍력 발전소 건설을 가속화했으나, 트럼프 대통령은 풍력 발전의 미관과 높은 전기요금을 비판하며 정책을 뒤집었다. 2025년 12월에는 '국가 안보' 위험을 이유로 5개 풍력 프로젝트를 보류시켰지만, 이 명령은 연방 법원들에 의해 무효화된 바 있다.\n\n토탈에너지는 추가로 알래스카 LNG 프로젝트 개발사 글렌파른(Glenfarne)과 20년간 연간 200만 톤의 LNG 장기 구매 의향서도 체결했다. 이는 신재생에너지에서 화석연료로의 투자 전환이라는 상징적 사건으로, 미국 에너지 정책의 방향 전환을 극명하게 보여주고 있다.",
+      "detail_en": "US Interior Secretary Doug Burgum and TotalEnergies CEO Patrick Pouyanné signed an agreement on March 23, 2026, at the CERAWeek conference in Houston to terminate TotalEnergies' offshore wind projects in the United States. The deal, valued at \"nearly $1 billion,\" redirects the French energy giant's $928 million investment in two wind farm leases off the North Carolina and New York coasts into US natural gas projects, particularly the Rio Grande LNG plant.\n\nTotalEnergies had been developing four gigawatts of offshore wind capacity, including 3 GW for the New York Bight project and 1 GW in North Carolina. However, at the end of 2024, Pouyanné announced these projects were \"put on hold\" due to the unlikelihood of obtaining federal licenses from the Trump administration. At the signing, Pouyanné characterized offshore wind as \"not the most affordable way to produce electricity\" in the US, pointing to natural gas-fired power plants as the more economical alternative. He described the deal as recycling funds into \"smarter investment\" and called it a \"win-win dialog.\"\n\nThe agreement represents a continuation of the Trump administration's aggressive reversal of renewable energy policies. Under President Biden, the US had accelerated offshore wind development as a cornerstone of climate change mitigation. President Trump has taken the opposite approach, repeatedly criticizing wind farms on aesthetic grounds and for producing expensive electricity. In December 2025, his administration halted five wind power projects citing \"national security\" risks, though federal courts subsequently nullified that order.\n\nIn a related development, TotalEnergies also signed a letter of intent with Glenfarne, the lead developer of the Alaska LNG project, for the long-term purchase of two million tons per year of liquefied natural gas over 20 years. This deal symbolizes a dramatic pivot from renewable to fossil fuel investment and highlights the significant impact of US political shifts on global energy transition strategies. The story garnered 255 points on Hacker News, reflecting strong interest in the intersection of energy policy and politics."
+    },
+    {
+      "id": "hacker_news-6a2f3735",
+      "title": "Autoresearch on an old research idea",
+      "title_ko": "오래된 연구 아이디어에 대한 자동 연구",
+      "summary_ko": "AI를 활용해 과거 연구 아이디어를 자동으로 재검토하고 발전시키는 실험적 접근법을 소개한다.",
+      "url": "https://ykumar.me/blog/eclip-autoresearch/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "research"
+      ],
+      "score": 187,
+      "published_at": "2026-03-23T18:40:58.000Z",
+      "quality_score": 67.2,
+      "detail_ko": "이 블로그 포스트는 저자가 과거에 품었던 연구 아이디어를 AI 도구를 활용해 자동으로 재검토하고 발전시킨 실험적 경험을 공유한다. 'Autoresearch'라는 개념은 연구자가 오래전에 떠올렸지만 시간이나 자원 부족으로 추진하지 못했던 아이디어를 대규모 언어 모델(LLM)과 자동화된 연구 파이프라인을 통해 다시 탐색하는 것을 의미한다.\n\n저자는 자신의 오래된 연구 아이디어인 'eCLIP'을 사례로 들어, AI 에이전트가 관련 논문을 검색하고, 문헌 리뷰를 수행하며, 실험 설계를 제안하고, 코드를 생성하는 전 과정을 자동화한 방법을 설명한다. 이 과정에서 AI는 단순히 검색 도구를 넘어 연구의 방향을 제시하고 가설을 검증하는 역할까지 수행했다.\n\n특히 흥미로운 점은 AI가 해당 분야의 최신 발전 상황을 빠르게 파악하여, 저자의 원래 아이디어가 이미 부분적으로 구현되었거나 관련 연구가 진행된 부분을 식별해냈다는 것이다. 이를 통해 연구자는 불필요한 중복 작업을 피하고, 아직 탐색되지 않은 새로운 방향에 집중할 수 있었다.\n\n이 실험은 AI가 연구 과정 전반을 어떻게 가속화할 수 있는지를 보여주는 실질적인 사례로, 특히 개인 연구자나 소규모 팀이 제한된 자원으로 아이디어를 빠르게 검증하는 데 유용한 접근법을 제시한다. 동시에 AI 기반 자동 연구의 한계와 인간 연구자의 직관이 여전히 필요한 부분도 솔직하게 다루고 있다.",
+      "detail_en": "This blog post shares the author's experimental experience of using AI tools to automatically revisit and develop an old research idea. The concept of 'autoresearch' refers to leveraging large language models (LLMs) and automated research pipelines to re-explore ideas that researchers conceived long ago but couldn't pursue due to time or resource constraints.\n\nThe author uses their old research idea called 'eCLIP' as a case study, describing how an AI agent automated the entire process of searching related papers, conducting literature reviews, proposing experimental designs, and generating code. In this process, AI went beyond being a simple search tool to play a role in suggesting research directions and validating hypotheses.\n\nA particularly interesting finding was that the AI quickly identified the current state of the field, discovering that parts of the author's original idea had already been partially implemented or that related research had progressed in certain directions. This allowed the researcher to avoid unnecessary duplicate work and focus on new, unexplored directions.\n\nThis experiment serves as a practical demonstration of how AI can accelerate the entire research process, presenting a particularly useful approach for individual researchers or small teams to quickly validate ideas with limited resources. The post also honestly addresses the limitations of AI-based automatic research and the areas where human researcher intuition remains essential.\n\nThe piece resonated with the Hacker News community, garnering significant engagement as it touches on the growing trend of AI-augmented scientific research and the democratization of research capabilities through accessible AI tools."
+    },
+    {
+      "id": "hacker_news-4486a1e1",
+      "title": "I built an AI receptionist for a mechanic shop",
+      "title_ko": "정비소를 위한 AI 접수원을 만들었습니다",
+      "summary_ko": "형제가 운영하는 자동차 정비소를 위해 AI 기반 전화 접수 시스템을 개발한 경험을 공유한다.",
+      "url": "https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai"
+      ],
+      "score": 168,
+      "published_at": "2026-03-23T10:32:33.000Z",
+      "quality_score": 66.3,
+      "detail_ko": "이 블로그 포스트는 형제가 운영하는 고급 자동차 정비소를 위해 AI 전화 접수 시스템 'Axle'을 구축한 과정을 상세히 기술한다. 정비사인 형제는 하루 종일 차량 아래에서 일하느라 매주 수백 통의 전화를 놓치고, 그로 인해 월 수천 달러의 수익을 잃고 있었다. $450 브레이크 서비스부터 $2,000 엔진 수리까지, 전화를 받지 못하면 고객이 다른 정비소로 떠나기 때문이다.\n\n시스템 구축은 3단계로 진행됐다. 1단계는 RAG(검색 증강 생성) 파이프라인 구축이다. 정비소 웹사이트를 스크래핑하여 서비스 종류, 가격, 소요 시간, 영업시간, 결제 방법 등 21개 이상의 문서로 구성된 지식 베이스를 만들었다. Voyage AI의 voyage-3-large 모델로 1024차원 벡터로 임베딩하여 MongoDB Atlas에 저장하고, Atlas Vector Search로 시맨틱 검색을 구현했다. 응답 생성에는 Anthropic Claude를 사용하며, 지식 베이스에 없는 내용은 답변하지 않도록 엄격한 시스템 프롬프트를 적용했다.\n\n2단계는 실제 전화 연결이다. Vapi를 음성 플랫폼으로 선택하여 전화번호 구매, STT(Deepgram), TTS(ElevenLabs), 실시간 함수 호출을 처리했다. FastAPI 웹훅 서버를 구축하고, 개발 중에는 Ngrok으로 로컬 서버를 공개 URL로 노출했다. 모든 통화 내역은 MongoDB에 로깅하여 데이터 자산으로 활용한다.\n\n3단계는 음성 최적화다. 텍스트와 음성은 완전히 다르기 때문에, 20개 이상의 AI 음성 중 정비소에 어울리는 'Christopher' 음성을 선택했다. 시스템 프롬프트도 짧은 문장, 마크다운 제거, 자연스러운 가격 표현 등 음성에 맞게 재작성했다. 지식 베이스에 없는 질문에는 콜백 번호를 수집하여 놓치는 고객이 없도록 했다.",
+      "detail_en": "This blog post details the process of building an AI phone receptionist called 'Axle' for the author's brother's luxury mechanic shop. The brother loses thousands of dollars monthly because he's under the hood all day and misses hundreds of calls per week — each missed call potentially representing $450 brake services or $2,000 engine repairs lost to competitors.\n\nThe build was divided into three phases. Phase 1 focused on building the RAG (Retrieval-Augmented Generation) pipeline. The author scraped the shop's website and created a structured knowledge base of 21+ documents covering services, pricing, turnaround times, hours, payment methods, and policies. Documents were embedded into 1024-dimensional vectors using Voyage AI's voyage-3-large model and stored in MongoDB Atlas with Vector Search indexing. Anthropic Claude generates responses with a strict system prompt ensuring it only answers from the knowledge base — no hallucinations allowed.\n\nPhase 2 connected the system to a real phone line using Vapi as the voice platform, which handles telephony, speech-to-text (Deepgram), text-to-speech (ElevenLabs), and real-time function calling. A FastAPI webhook server processes incoming queries through the RAG pipeline, with Ngrok providing tunnel access during development. Every call interaction is logged to MongoDB — queries, responses, escalations, and timestamps — turning the phone system into a valuable data asset for understanding customer patterns.\n\nPhase 3 was voice tuning, which required the most iteration. Text responses that read well on screen sound terrible when spoken aloud. After testing 20+ ElevenLabs voices, the author chose 'Christopher' — calm and natural, fitting for a mechanic shop. The system prompt was rewritten for voice: short sentences, no markdown, prices spoken naturally (\"forty-five dollars\" instead of \"$45\"), and responses capped at 2-4 sentences. When the AI encounters questions outside its knowledge base, it collects the caller's name and callback number, ensuring no leads are lost. The project demonstrates a practical, real-world application of RAG and voice AI that solves a genuine business problem."
+    },
+    {
+      "id": "gh-trend-supermemoryai-supermemory",
+      "title": "supermemoryai/supermemory",
+      "title_ko": "SuperMemory - AI 시대의 메모리 엔진",
+      "summary_ko": "극도로 빠르고 확장 가능한 메모리 엔진 및 앱. AI 시대를 위한 Memory API.",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "memory",
+        "ai",
+        "api",
+        "scalable"
+      ],
+      "score": 621,
+      "published_at": "2026-03-24",
+      "language": "TypeScript",
+      "total_stars": 17987,
+      "stars_today": 621,
+      "quality_score": 65.9,
+      "detail_ko": "Supermemory는 AI 시대를 위한 최첨단 메모리 및 컨텍스트 엔진으로, AI 에이전트와 앱에 지속적인 기억 능력을 부여하는 오픈소스 프로젝트이다. TypeScript로 구축되었으며, LongMemEval, LoCoMo, ConvoMem 등 주요 AI 메모리 벤치마크에서 모두 1위를 차지하고 있다. 총 17,987개의 스타를 보유하고 있으며, 오늘 하루에만 621개의 스타를 추가로 받았다.\n\nSupermemory의 핵심 기능은 대화에서 자동으로 사실을 추출하고, 시간적 변화와 모순을 처리하며, 만료된 정보를 자동으로 잊는 메모리 시스템이다. 사용자 프로필을 자동으로 유지하여 안정적인 사실과 최근 활동을 약 50ms 만에 조회할 수 있다. RAG과 메모리를 단일 쿼리로 결합하는 하이브리드 검색, Google Drive·Gmail·Notion·OneDrive·GitHub 등과 실시간 웹훅으로 자동 동기화하는 커넥터, PDF·이미지(OCR)·비디오(전사)·코드(AST 인식 청킹) 등 멀티모달 추출기를 제공한다.\n\n개발자는 단일 API를 통해 메모리, RAG, 사용자 프로필, 커넥터를 에이전트와 앱에 통합할 수 있다. 벡터 DB 설정, 임베딩 파이프라인, 청킹 전략 등을 직접 구성할 필요가 없다. npm과 PyPI 패키지로 제공되며, MCP(Model Context Protocol) 서버도 지원한다.\n\n일반 사용자를 위한 앱도 제공되어 코드 없이도 사용 가능하다. 브라우저 확장과 플러그인을 통해 Claude Code, OpenCode, OpenClaw 등 다양한 AI 도구에 영속적 메모리를 추가할 수 있다. 내장 에이전트 'Nova'도 포함되어 있다.\n\nSupermemory는 AI 어시스턴트의 가장 큰 한계인 '대화 간 망각' 문제를 해결하는 인프라 프로젝트로, AI 개발 생태계에서 메모리 계층의 표준이 될 가능성을 보여주고 있다.",
+      "detail_en": "Supermemory is a state-of-the-art memory and context engine for the AI era, an open-source project built in TypeScript that gives AI agents and applications persistent memory capabilities. It ranks #1 on all three major AI memory benchmarks: LongMemEval, LoCoMo, and ConvoMem. The repository has accumulated 17,987 total stars with 621 new stars today alone, indicating strong community interest.\n\nThe core value proposition addresses a fundamental AI limitation: models forget everything between conversations. Supermemory fixes this by automatically learning from conversations, extracting facts, building user profiles, handling knowledge updates and contradictions, forgetting expired information, and delivering the right context at the right time.\n\nKey features include: a memory system that extracts facts from conversations while handling temporal changes and contradictions; auto-maintained user profiles queryable in ~50ms; hybrid search combining RAG and memory in a single query; connectors for Google Drive, Gmail, Notion, OneDrive, and GitHub with real-time webhook sync; and multi-modal extractors supporting PDFs, images (OCR), videos (transcription), and code (AST-aware chunking).\n\nFor developers, Supermemory provides a single API to add memory, RAG, user profiles, and connectors to agents and apps — eliminating the need to configure vector databases, embedding pipelines, or chunking strategies. It ships as npm and PyPI packages with MCP (Model Context Protocol) server support, enabling integration with Claude Desktop, Cursor, Windsurf, VS Code, Claude Code, OpenCode, and OpenClaw.\n\nA consumer-facing app is also available for non-developers, along with browser extensions and plugins. The project includes an embedded agent called 'Nova' and supports memory scoping through project container tags to separate work, personal, and client contexts. Supermemory represents a significant step toward standardizing the memory layer in the AI development ecosystem."
+    },
+    {
+      "id": "reddit-ml-1s1h8fw",
+      "title": "[N] Understanding & Fine-tuning Vision Transformers",
+      "title_ko": "Vision Transformer 이해 및 파인튜닝 가이드",
+      "summary_ko": "ViT(Vision Transformer)를 기초부터 설명하는 블로그 포스트. 패치 임베딩, 위치 인코딩, 분류를 위한 인코더 전용 모델, 파인튜닝 방법까지 다룸. (r/MachineLearning)",
+      "url": "https://www.vizuaranewsletter.com/p/vision-transformers",
+      "source": "reddit/r/MachineLearning",
+      "category": "community",
+      "tags": [
+        "vision-transformer",
+        "tutorial",
+        "deep-learning",
+        "computer-vision"
+      ],
+      "score": 0,
+      "published_at": "2026-03-23T13:42:53Z",
+      "quality_score": 63.5,
+      "detail_ko": "이 글은 Vizuara AI 뉴스레터에서 발행한 Vision Transformer(ViT) 아키텍처에 대한 포괄적인 교육 자료로, 기초 개념부터 실제 파인튜닝까지를 체계적으로 다루고 있다. r/MachineLearning 커뮤니티에서 공유되었으며, 딥러닝 입문자와 중급자 모두에게 유용한 내용을 제공한다.\n\n글은 먼저 ViT와 기존 CNN(합성곱 신경망)의 근본적인 차이를 직관적으로 설명한다. CNN이 작은 슬라이딩 필터로 이미지의 국소 영역만 보는 반면, ViT는 이미지 패치를 토큰으로 취급하여 셀프 어텐션을 통해 모든 패치 간의 관계를 동시에 파악한다. 광학 착시 그림과 장님 코끼리 비유 등 효과적인 시각 자료를 활용하여 글로벌 어텐션과 로컬 컨볼루션의 차이를 명확히 전달한다.\n\n아키텍처 설명에서는 이미지가 패치로 분할되어 벡터로 변환되는 패치 임베딩 과정, 위치 인코딩이 추가되는 방법, 그리고 셀프 어텐션 레이어가 이러한 토큰을 처리하는 방식을 단계별로 설명한다. GPT와 BERT 등 텍스트 트랜스포머와의 비교를 통해 ViT가 BERT 스타일의 인코더 전용 설계를 이미지 도메인에 적용한 것임을 보여준다.\n\n또한 분류를 위한 [CLS] 토큰의 역할, 인코더 전용 구조의 장단점, 실제 응용 사례도 다루고 있다. 실습 섹션에서는 GitHub 저장소의 코드를 활용한 ViT 파인튜닝 가이드를 제공하여, 이론적 이해를 실제 구현으로 연결한다.\n\n이 자료는 ViT의 핵심 개념을 명확한 시각화와 직관적 비유로 설명하면서도, 실제 코드를 통한 실습까지 제공한다는 점에서 컴퓨터 비전 분야에서 트랜스포머를 배우려는 사람들에게 훌륭한 출발점이 된다.",
+      "detail_en": "This article from the Vizuara AI newsletter provides a comprehensive educational resource on the Vision Transformer (ViT) architecture, systematically covering everything from foundational concepts to practical fine-tuning. Shared on r/MachineLearning, it serves both beginners and intermediate practitioners in deep learning.\n\nThe article begins by intuitively explaining the fundamental difference between ViT and traditional CNNs (Convolutional Neural Networks). While CNNs see images through small sliding filters with a local receptive field that grows only gradually through stacked layers, ViT treats image patches as tokens and uses self-attention to capture relationships between all patches simultaneously from the very first layer. Effective visual aids including optical illusion paintings and the blind men and elephant analogy clearly convey the difference between global attention and local convolution.\n\nThe architectural walkthrough covers the patch embedding process where images are split into patches and converted into vectors, how positional encodings are added, and how self-attention layers process these tokens step by step. Comparisons with text transformers like GPT and BERT contextualize ViT as an adaptation of BERT-style encoder-only design to the image domain — using unmasked self-attention over the entire sequence with a special class token for classification.\n\nThe article also addresses the role of the [CLS] token for classification, the benefits and drawbacks of the encoder-only structure, and real-world applications of ViT. The hands-on section provides a fine-tuning guide using code from an accompanying GitHub repository, bridging theoretical understanding with practical implementation.\n\nThis resource stands out for combining clear visualizations and intuitive analogies with actual code-based practice, making it an excellent starting point for anyone looking to learn about transformers in computer vision. The structured progression from intuition to theory to code reflects strong pedagogical design."
+    },
+    {
+      "id": "reddit-ml-1s1j4tr",
+      "title": "[R] Detection Is Cheap, Routing Is Learned: Why Refusal-Based Alignment Evaluation Fails",
+      "title_ko": "탐지는 쉽고, 라우팅은 학습된다: 거부 기반 정렬 평가가 실패하는 이유",
+      "summary_ko": "중국 LLM의 정치적 검열을 자연 실험으로 활용해 정렬(alignment)이 탐지→라우팅→생성의 3단계로 작동함을 밝힌 논문. 9개 오픈웨이트 모델, 5개 랩 분석. 거부율만으로는 내러티브 조작을 놓친다는 것을 증명. (arXiv 2603.18280)",
+      "url": "https://arxiv.org/abs/2603.18280",
+      "source": "reddit/r/MachineLearning",
+      "category": "community",
+      "tags": [
+        "alignment",
+        "llm",
+        "safety",
+        "research-paper"
+      ],
+      "score": 0,
+      "published_at": "2026-03-23T14:55:48Z",
+      "quality_score": 63.5,
+      "detail_ko": "이 논문(arXiv:2603.18280)은 현재의 AI 정렬(alignment) 평가 방법이 근본적으로 불완전하다는 것을 중국산 언어 모델의 정치적 검열을 자연 실험으로 활용하여 증명한 연구이다. 5개 연구소에서 나온 9개 오픈웨이트 모델을 프로브(probe), 외과적 제거(surgical ablation), 행동 테스트를 통해 분석했다.\n\n연구의 핵심 주장은 정렬이 '탐지(detect) → 라우팅(route) → 생성(generate)'의 3단계로 작동한다는 것이다. 현재 평가 방법들은 모델이 위험한 개념을 인코딩하는지(탐지)와 유해한 요청을 거부하는지(거부)만 측정하는데, 실제로 정렬이 작동하는 핵심 계층인 '라우팅' — 즉 개념 탐지에서 행동 정책으로의 전환 — 을 놓치고 있다.\n\n세 가지 주요 발견이 있다. 첫째, 프로브 정확도만으로는 진단이 불가능하다. 정치적 프로브, 널 컨트롤, 순열 기준선 모두 100% 정확도에 도달할 수 있어, 유보된 카테고리에 대한 일반화가 유의미한 테스트이다. 둘째, 외과적 제거를 통해 연구소별 특정한 라우팅 구조가 드러났다. 정치적 민감도 방향을 제거하면 대부분의 모델에서 검열이 사라지고 정확한 사실적 출력이 복원되었지만, 한 모델은 사실적 지식과 검열 메커니즘이 얽혀 있어 허구를 생성했다. 모델 간 전이는 실패하여 라우팅 기하학이 모델·연구소별로 고유함을 보여준다.\n\n셋째, 가장 충격적인 발견으로, 거부(refusal)가 더 이상 지배적인 검열 메커니즘이 아니다. 한 모델 패밀리 내에서 명시적 거부는 0으로 떨어진 반면, 내러티브 조작(narrative steering)이 최대치로 올라갔다. 이는 거부율만 측정하는 벤치마크에서는 검열이 완전히 보이지 않게 된다는 것을 의미한다.\n\n이 연구는 AI 안전성 평가의 패러다임 전환을 촉구하며, 탐지나 거부만 감사하는 평가로는 행동을 가장 직접적으로 결정하는 라우팅 메커니즘을 놓친다는 중요한 경고를 제시한다.",
+      "detail_en": "This paper (arXiv:2603.18280) demonstrates that current AI alignment evaluation methods are fundamentally incomplete, using political censorship in Chinese-origin language models as a natural experiment. The researchers analyzed nine open-weight models from five labs using probes, surgical ablations, and behavioral tests.\n\nThe central thesis proposes a three-stage descriptive framework for how alignment operates: detect, route, generate. Current evaluation methods primarily measure whether models encode dangerous concepts (detection) and whether they refuse harmful requests (refusal), but they miss the critical layer where alignment actually operates: routing — the transition from concept detection to behavioral policy.\n\nThree key findings emerge. First, probe accuracy alone is non-diagnostic. Political probes, null controls, and permutation baselines can all reach 100% accuracy, making held-out category generalization the only informative test. Second, surgical ablation reveals lab-specific routing architectures. Removing the political-sensitivity direction eliminates censorship and restores accurate factual output in most models tested, but one model confabulates because its architecture entangles factual knowledge with the censorship mechanism. Cross-model transfer fails, indicating that routing geometry is model- and lab-specific.\n\nThird, and most strikingly, refusal is no longer the dominant censorship mechanism. Within one model family, hard refusal drops to zero while narrative steering rises to the maximum. This means censorship becomes completely invisible to refusal-only benchmarks — the model still appears cooperative and helpful while systematically distorting its outputs.\n\nThese findings carry profound implications for AI safety evaluation. The paper argues that models often retain relevant knowledge; alignment changes how that knowledge is expressed rather than whether it exists. Evaluations that audit only detection or refusal therefore miss the routing mechanism that most directly determines behavior. This calls for a paradigm shift in alignment evaluation, moving beyond simple refusal rate metrics toward methods that can detect subtle narrative manipulation and knowledge-expression routing."
+    },
+    {
+      "id": "reddit-ml-1s1ta4m",
+      "title": "[D] Does self-hosted ML actually give you more control, or just more work?",
+      "title_ko": "셀프호스팅 ML이 실제로 더 많은 제어권을 주는가, 아니면 더 많은 일만 늘리는가?",
+      "summary_ko": "온프레미스/셀프호스팅 모델 운영이 실질적으로 제어력을 높이는지, 아니면 복잡성만 팀에 전가하는지에 대한 토론. (r/MachineLearning 토론)",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1ta4m/d_does_selfhosted_ml_actually_give_you_more/",
+      "source": "reddit/r/MachineLearning",
+      "category": "community",
+      "tags": [
+        "self-hosting",
+        "ml-ops",
+        "infrastructure",
+        "discussion"
+      ],
+      "score": 0,
+      "published_at": "2026-03-23T20:54:34Z",
+      "quality_score": 63.5,
+      "detail_ko": "이 r/MachineLearning 토론 스레드는 ML 모델의 셀프호스팅이 실제로 팀에게 더 많은 제어권을 제공하는지, 아니면 단순히 복잡성과 운영 부담만 증가시키는지에 대한 실질적인 논의를 다루고 있다. 클라우드 AI 서비스(OpenAI API, AWS SageMaker 등) 대비 온프레미스 또는 자체 인프라에서 모델을 운영하는 것의 장단점이 핵심 주제이다.\n\n셀프호스팅 옹호론의 주요 논점은 데이터 프라이버시와 규정 준수(특히 의료, 금융, 정부 분야), API 비용 절감(대규모 추론 시), 모델 커스터마이징 자유도, 외부 서비스 장애나 가격 변동에 대한 독립성 등이다. 특히 민감한 데이터를 외부 API로 전송할 수 없는 규제 환경에서는 셀프호스팅이 사실상 필수적이라는 의견이 제시된다.\n\n반면 셀프호스팅의 현실적 어려움을 지적하는 의견도 강력하다. GPU 인프라 관리(하드웨어 장애, 드라이버 호환성, CUDA 버전 관리), 모델 서빙 최적화(양자화, 배치 처리, 지연시간 튜닝), 모니터링 및 로깅 시스템 구축, 보안 패치 적용, 스케일링 등의 운영 부담이 상당하다. 소규모 팀에서는 이러한 인프라 관리가 핵심 ML 업무에서 시간과 인력을 빼앗는다는 비판이 있다.\n\n토론에서는 중간 지점으로 하이브리드 접근법도 논의된다. 핵심 모델은 셀프호스팅하되 실험적 워크로드는 클라우드 API를 사용하거나, vLLM·TGI 같은 최신 서빙 프레임워크를 활용해 운영 복잡성을 줄이는 전략이다. 또한 팀 규모와 전문성에 따라 최적의 선택이 달라진다는 현실적인 조언도 다수 등장한다.\n\n전반적으로 이 토론은 '셀프호스팅 vs 클라우드'라는 이분법보다는 팀의 역량, 규제 요건, 비용 구조, 사용 사례에 따른 맥락적 판단의 중요성을 강조하고 있다.",
+      "detail_en": "This r/MachineLearning discussion thread explores whether self-hosting ML models actually provides teams with more control, or simply shifts complexity and operational burden onto them. The core debate centers on the trade-offs between cloud AI services (OpenAI API, AWS SageMaker, etc.) versus running models on-premises or on self-managed infrastructure.\n\nProponents of self-hosting highlight several advantages: data privacy and regulatory compliance (especially critical in healthcare, finance, and government sectors), cost savings at scale for high-volume inference, freedom to customize and fine-tune models without restrictions, and independence from external service outages or pricing changes. In regulated environments where sensitive data cannot be sent to external APIs, self-hosting is presented as essentially mandatory.\n\nHowever, strong counterarguments emphasize the real-world challenges. GPU infrastructure management (hardware failures, driver compatibility, CUDA version management), model serving optimization (quantization, batching, latency tuning), building monitoring and logging systems, security patching, and scaling all represent significant operational overhead. For small teams, this infrastructure management can divert time and personnel away from core ML work.\n\nThe discussion also explores hybrid approaches as a middle ground: self-hosting core production models while using cloud APIs for experimental workloads, or leveraging modern serving frameworks like vLLM and TGI to reduce operational complexity. Practical advice appears throughout, noting that the optimal choice depends heavily on team size, expertise, regulatory requirements, cost structure, and specific use cases.\n\nOverall, the thread moves beyond a simple 'self-host vs cloud' binary toward emphasizing contextual decision-making. The consensus suggests that control and work are not mutually exclusive — self-hosting does provide genuine control advantages, but only when teams have the engineering capacity to manage the infrastructure without it becoming a distraction from their primary ML objectives."
+    }
+  ],
+  "meta": {
+    "total_collected": 159,
+    "after_dedup": 157,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "anthropic_news",
+      "arstechnica",
+      "arxiv_cs.AI",
+      "arxiv_cs.CL",
+      "arxiv_cs.LG",
+      "changelog",
+      "cloudflare",
+      "devto",
+      "github_releases",
+      "github_trending",
+      "github_trending_python",
+      "github_trending_typescript",
+      "hacker_news",
+      "huggingface_blog",
+      "lobsters",
+      "papers_trending",
+      "reddit/r/ExperiencedDevs",
+      "reddit/r/MachineLearning",
+      "reddit/r/programming",
+      "techcrunch",
+      "the_verge",
+      "tldr"
+    ],
+    "sources_failed": [
+      "arxiv_cs.AI",
+      "arxiv_cs.CL",
+      "arxiv_cs.LG",
+      "community",
+      "geeknews",
+      "github_oss",
+      "google_ai_blog",
+      "meta",
+      "netflix",
+      "openai_blog",
+      "paperswithcode",
+      "stripe",
+      "uber",
+      "vercel"
+    ],
+    "errors": [
+      {
+        "source": "geeknews",
+        "error": "HTTP 403 Forbidden"
+      },
+      {
+        "source": "openai_blog",
+        "error": "Page rendered as JavaScript-only SPA; no blog content extractable via web_fetch (redirected to /news/, returned minimal content)"
+      },
+      {
+        "source": "google_ai_blog",
+        "error": "Page rendered as JavaScript-only SPA; minimal content extractable. Saw reference to AI Impact Summit 2026 India but no detailed blog entries"
+      },
+      {
+        "source": "arxiv_cs.AI",
+        "error": "RSS truncated at ~50KB; some items may be missing from the full feed"
+      },
+      {
+        "source": "arxiv_cs.LG",
+        "error": "RSS truncated at ~50KB; some items may be missing from the full feed"
+      },
+      {
+        "source": "arxiv_cs.CL",
+        "error": "RSS truncated at ~50KB; some items may be missing from the full feed"
+      },
+      {
+        "source": "paperswithcode",
+        "error": "Redirected to huggingface.co/papers/trending; used trending papers data instead"
+      },
+      "web_search rate limited (429) for 'Next.js release 2026' - skipped",
+      "Rust language release search returned game results only - no recent lang release found",
+      "Changelog RSS truncated - only first item parsed",
+      "Some trending repos had incomplete data (no stars/language shown) - included where possible",
+      "Reddit JSON API blocked (403/HTML returned instead of JSON). Used RSS feeds (.rss) as fallback - score and num_comments not available from RSS.",
+      "Brave Search rate-limited (429) for some Reddit searches.",
+      {
+        "source": "netflix",
+        "url": "https://netflixtechblog.com/feed",
+        "error": "Fetch failed — connection error or blocked"
+      },
+      {
+        "source": "uber",
+        "url": "https://eng.uber.com/feed/",
+        "error": "Original URL returned 404. Used alternative URL (uber.com/blog/engineering/rss/). No posts in last 24 hours (latest: 2026-03-11)."
+      },
+      {
+        "source": "stripe",
+        "url": "https://stripe.com/blog/feed.rss",
+        "error": "No posts in last 24 hours (latest: 2026-03-20)"
+      },
+      {
+        "source": "vercel",
+        "url": "https://vercel.com/atom",
+        "error": "All entry dates are null in the Atom feed — cannot determine publication dates to filter by recency"
+      },
+      {
+        "source": "meta",
+        "url": "https://engineering.fb.com/feed/",
+        "error": "No posts in last 24 hours (latest: 2026-03-18)"
+      }
+    ]
+  }
+}
