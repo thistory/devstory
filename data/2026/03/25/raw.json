@@ -1,0 +1,638 @@
+{
+  "date": "2026-03-25",
+  "collected_at": "2026-03-24T22:08:49.585792+00:00",
+  "items": [
+    {
+      "id": "gh-trending-bytedance-deer-flow",
+      "title": "bytedance/deer-flow — Open-source SuperAgent harness",
+      "title_ko": "bytedance/deer-flow — 오픈소스 SuperAgent 프레임워크",
+      "summary_ko": "리서치, 코딩, 콘텐츠 생성을 수행하는 오픈소스 SuperAgent 하네스. 샌드박스, 메모리, 도구, 서브에이전트 등을 활용해 다양한 수준의 작업 처리 가능. 오늘 4,319스타 획득으로 트렌딩 1위.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai-agent",
+        "superagent",
+        "bytedance"
+      ],
+      "score": 4319,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 92
+    },
+    {
+      "id": "gh-trending-fujiwarachoki-moneyprinterv2",
+      "title": "FujiwaraChoki/MoneyPrinterV2 — Automate making money online",
+      "title_ko": "FujiwaraChoki/MoneyPrinterV2 — 온라인 수익 자동화",
+      "summary_ko": "온라인 수익 창출 과정을 자동화하는 도구. 오늘 2,937스타 획득, 총 24,708스타.",
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "automation",
+        "money"
+      ],
+      "score": 2937,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 92
+    },
+    {
+      "id": "gh-trending-crosstalk-project-nomad",
+      "title": "Crosstalk-Solutions/project-nomad — Offline survival computer",
+      "title_ko": "Crosstalk-Solutions/project-nomad — 오프라인 서바이벌 컴퓨터",
+      "summary_ko": "핵심 도구, 지식, AI가 탑재된 자급자족형 오프라인 서바이벌 컴퓨터. 인터넷 없이도 정보 접근 가능. 오늘 2,450스타 획득.",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "offline",
+        "survival",
+        "ai"
+      ],
+      "score": 2450,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 92
+    },
+    {
+      "id": "gh-trending-tauricresearch-tradingagents",
+      "title": "TauricResearch/TradingAgents — Multi-Agent LLM Financial Trading",
+      "title_ko": "TauricResearch/TradingAgents — 멀티에이전트 LLM 금융 트레이딩",
+      "summary_ko": "멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크. 총 40,720스타, 오늘 1,746스타 획득.",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "trading",
+        "llm",
+        "multi-agent"
+      ],
+      "score": 1746,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 92
+    },
+    {
+      "id": "gh-trending-pascalorg-editor",
+      "title": "pascalorg/editor — Pascal Editor",
+      "title_ko": "pascalorg/editor — Pascal 에디터",
+      "summary_ko": "TypeScript로 작성된 에디터. 오늘 1,513스타 획득, 총 5,041스타.",
+      "url": "https://github.com/pascalorg/editor",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "editor"
+      ],
+      "score": 1513,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 92
+    },
+    {
+      "id": "gh-trending-ruvnet-ruflo",
+      "title": "ruvnet/ruflo — Agent orchestration platform for Claude",
+      "title_ko": "ruvnet/ruflo — Claude용 에이전트 오케스트레이션 플랫폼",
+      "summary_ko": "Claude를 위한 멀티에이전트 스웜 배포, 자율 워크플로우 조정, 대화형 AI 시스템 구축 플랫폼. RAG 통합, Claude Code/Codex 네이티브 지원. 오늘 1,397스타.",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "claude",
+        "agent-orchestration",
+        "swarm"
+      ],
+      "score": 1397,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 92
+    },
+    {
+      "id": "gh-trending-nousresearch-hermes-agent",
+      "title": "NousResearch/hermes-agent — The agent that grows with you",
+      "title_ko": "NousResearch/hermes-agent — 함께 성장하는 에이전트",
+      "summary_ko": "NousResearch의 Hermes 에이전트. 사용자와 함께 성장하는 AI 에이전트. 총 12,447스타, 오늘 1,251스타 획득.",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai-agent",
+        "nous-research"
+      ],
+      "score": 1251,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 92
+    },
+    {
+      "id": "hacker_news-a1b2c3d4",
+      "title": "Wine 11 rewrites how Linux runs Windows games at kernel with massive speed gains",
+      "title_ko": "Wine 11, 커널 수준에서 리눅스의 윈도우 게임 실행 방식을 재작성하여 대폭적인 속도 향상 달성",
+      "summary_ko": "Wine 11이 커널 수준에서 윈도우 게임 실행 방식을 완전히 재작성하여 리눅스에서 윈도우 게임을 훨씬 빠르게 실행할 수 있게 되었습니다.",
+      "url": "https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "linux",
+        "wine",
+        "gaming",
+        "performance",
+        "windows"
+      ],
+      "score": 406,
+      "published_at": "2026-03-24T17:34:52Z",
+      "quality_score": 91
+    },
+    {
+      "id": "hacker_news-b2c3d4e5",
+      "title": "Apple Business",
+      "title_ko": "Apple Business — 모든 규모의 비즈니스를 위한 올인원 플랫폼",
+      "summary_ko": "Apple이 모든 규모의 비즈니스를 위한 통합 플랫폼 'Apple Business'를 출시하며, Apple Maps 광고 포함 다양한 비즈니스 도구를 제공합니다.",
+      "url": "https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "apple",
+        "business",
+        "platform",
+        "advertising"
+      ],
+      "score": 388,
+      "published_at": "2026-03-24T14:29:41Z",
+      "quality_score": 91
+    },
+    {
+      "id": "hacker_news-c3d4e5f6",
+      "title": "Tell HN: Litellm 1.82.7 and 1.82.8 on PyPI are compromised",
+      "title_ko": "PyPI의 Litellm 1.82.7 및 1.82.8 버전이 해킹당함",
+      "summary_ko": "인기 LLM 프록시 라이브러리 Litellm의 PyPI 배포판에 악성코드가 삽입되었으며, base64 인코딩된 페이로드가 포함된 것으로 확인되었습니다.",
+      "url": "https://github.com/BerriAI/litellm/issues/24512",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "security",
+        "python",
+        "supply-chain",
+        "malware",
+        "pypi"
+      ],
+      "score": 330,
+      "published_at": "2026-03-24T13:06:29Z",
+      "quality_score": 90
+    },
+    {
+      "id": "hacker_news-d4e5f6a7",
+      "title": "Is anybody else bored of talking about AI?",
+      "title_ko": "AI 이야기에 지친 사람 또 있나요?",
+      "summary_ko": "AI에 대한 끊임없는 대화에 피로감을 느끼는 개발자의 블로그 포스트가 HN에서 큰 반향을 일으켰습니다.",
+      "url": "https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "culture",
+        "opinion",
+        "developer"
+      ],
+      "score": 310,
+      "published_at": "2026-03-24T21:11:08Z",
+      "quality_score": 90
+    },
+    {
+      "id": "hacker_news-e5f6a7b8",
+      "title": "GitHub is once again down",
+      "title_ko": "GitHub, 또다시 서비스 장애 발생",
+      "summary_ko": "GitHub에 또다시 대규모 서비스 장애가 발생하여 개발자들의 작업에 영향을 미쳤습니다.",
+      "url": "https://www.githubstatus.com/incidents/kp06czybl7dw",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "github",
+        "outage",
+        "devops",
+        "infrastructure"
+      ],
+      "score": 239,
+      "published_at": "2026-03-24T20:43:34Z",
+      "quality_score": 88
+    },
+    {
+      "id": "hacker_news-f6a7b8c9",
+      "title": "Arm AGI CPU",
+      "title_ko": "Arm, 자사 최초의 CPU 'AGI CPU' 공개",
+      "summary_ko": "Arm이 35년 역사상 처음으로 자체 CPU를 직접 생산하며, Meta가 첫 고객으로 AI 데이터센터에 활용할 예정입니다.",
+      "url": "https://newsroom.arm.com/blog/introducing-arm-agi-cpu",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "arm",
+        "cpu",
+        "hardware",
+        "ai",
+        "meta"
+      ],
+      "score": 214,
+      "published_at": "2026-03-24T16:30:42Z",
+      "quality_score": 88
+    },
+    {
+      "id": "hacker_news-b8c9d0e1",
+      "title": "No Terms. No Conditions",
+      "title_ko": "이용약관 없음. 조건 없음.",
+      "summary_ko": "복잡한 이용약관 없이 서비스를 제공하자는 움직임을 소개하는 사이트로, 디지털 권리와 사용자 자유에 대한 논의를 촉발했습니다.",
+      "url": "https://notermsnoconditions.com",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "privacy",
+        "digital-rights",
+        "tos",
+        "open-source"
+      ],
+      "score": 198,
+      "published_at": "2026-03-24T14:18:04Z",
+      "quality_score": 87
+    },
+    {
+      "id": "hacker_news-c9d0e1f2",
+      "title": "Show HN: Gemini can now natively embed video, so I built sub-second video search",
+      "title_ko": "Show HN: Gemini가 비디오를 네이티브 임베딩할 수 있어서, 초 이하 비디오 검색을 만들었습니다",
+      "summary_ko": "Google의 Gemini Embedding 2를 활용하여 영상을 벡터 공간에 직접 임베딩하고 자연어로 검색할 수 있는 CLI 도구를 만들었습니다.",
+      "url": "https://github.com/ssrajadh/sentrysearch",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "gemini",
+        "video-search",
+        "embeddings"
+      ],
+      "score": 190,
+      "published_at": "2026-03-24T13:18:27Z",
+      "quality_score": 87
+    },
+    {
+      "id": "hacker_news-d0e1f2a3",
+      "title": "Epic Games to cut more than 1k jobs as Fortnite usage falls",
+      "title_ko": "Epic Games, 포트나이트 사용량 감소로 1,000명 이상 해고",
+      "summary_ko": "Epic Games가 포트나이트 참여도 하락을 이유로 1,000명 이상의 직원을 해고합니다.",
+      "url": "https://www.reuters.com/legal/litigation/epic-games-said-tuesday-that-it-will-lay-off-more-than-1000-employees-2026-03-24/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "gaming",
+        "layoffs",
+        "epic-games",
+        "fortnite"
+      ],
+      "score": 177,
+      "published_at": "2026-03-24T13:29:30Z",
+      "quality_score": 87
+    },
+    {
+      "id": "hacker_news-e1f2a3b4",
+      "title": "Hypura – A storage-tier-aware LLM inference scheduler for Apple Silicon",
+      "title_ko": "Hypura — Apple Silicon용 스토리지 계층 인식 LLM 추론 스케줄러",
+      "summary_ko": "Apple Silicon에서 스토리지 계층을 인식하여 LLM 추론 성능을 최적화하는 오픈소스 스케줄러입니다.",
+      "url": "https://github.com/t8/hypura",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "llm",
+        "apple-silicon",
+        "inference",
+        "open-source"
+      ],
+      "score": 171,
+      "published_at": "2026-03-24T14:49:02Z",
+      "quality_score": 87
+    },
+    {
+      "id": "gh-trending-supermemoryai-supermemory",
+      "title": "supermemoryai/supermemory — Memory API for the AI era",
+      "title_ko": "supermemoryai/supermemory — AI 시대의 메모리 API",
+      "summary_ko": "극도로 빠르고 확장 가능한 메모리 엔진 및 앱. AI 시대를 위한 Memory API. 총 18,483스타, 오늘 407스타.",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "memory",
+        "ai",
+        "api"
+      ],
+      "score": 407,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 87
+    },
+    {
+      "id": "gh-trending-czlonkowski-n8n-mcp",
+      "title": "czlonkowski/n8n-mcp — MCP for Claude to build n8n workflows",
+      "title_ko": "czlonkowski/n8n-mcp — Claude용 n8n 워크플로우 빌더 MCP",
+      "summary_ko": "Claude Desktop/Claude Code/Windsurf/Cursor에서 n8n 워크플로우를 자동 생성하는 MCP. 총 16,272스타, 오늘 407스타.",
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "mcp",
+        "n8n",
+        "claude",
+        "workflow"
+      ],
+      "score": 407,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 87
+    },
+    {
+      "id": "hacker_news-f2a3b4c5",
+      "title": "Hypothesis, Antithesis, synthesis",
+      "title_ko": "가설, 반정립, 종합 — Antithesis의 소프트웨어 테스팅 철학",
+      "summary_ko": "Antithesis가 헤겔의 변증법을 소프트웨어 테스팅에 적용하는 새로운 접근 방식을 블로그에서 소개했습니다.",
+      "url": "https://antithesis.com/blog/2026/hegel/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "testing",
+        "software-engineering",
+        "philosophy"
+      ],
+      "score": 161,
+      "published_at": "2026-03-24T14:28:17Z",
+      "quality_score": 86
+    },
+    {
+      "id": "hacker_news-a3b4c5d6",
+      "title": "Show HN: Email.md – Markdown to responsive, email-safe HTML",
+      "title_ko": "Show HN: Email.md — 마크다운을 반응형 이메일 안전 HTML로 변환",
+      "summary_ko": "마크다운으로 작성한 내용을 이메일 클라이언트에서 안전하게 렌더링되는 반응형 HTML로 변환하는 도구입니다.",
+      "url": "https://www.emailmd.dev/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "markdown",
+        "email",
+        "html",
+        "developer-tools"
+      ],
+      "score": 144,
+      "published_at": "2026-03-24T15:12:40Z",
+      "quality_score": 86
+    },
+    {
+      "id": "gh-trending-mvanhorn-last30days-skill",
+      "title": "mvanhorn/last30days-skill — AI agent research skill",
+      "title_ko": "mvanhorn/last30days-skill — AI 에이전트 리서치 스킬",
+      "summary_ko": "Reddit, X, YouTube, HN, Polymarket, 웹 전반에서 주제를 조사하고 요약하는 AI 에이전트 스킬. 오늘 208스타.",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai-agent",
+        "research",
+        "skill"
+      ],
+      "score": 208,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 84
+    },
+    {
+      "id": "gh-trending-everyinc-compound-engineering",
+      "title": "EveryInc/compound-engineering-plugin — Compound Engineering for Claude Code",
+      "title_ko": "EveryInc/compound-engineering-plugin — Claude Code용 컴파운드 엔지니어링 플러그인",
+      "summary_ko": "Claude Code, Codex 등을 위한 Office Compound Engineering 플러그인. 총 11,047스타, 오늘 134스타.",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "claude-code",
+        "plugin",
+        "engineering"
+      ],
+      "score": 134,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 81
+    },
+    {
+      "id": "gh-trending-aquasecurity-trivy",
+      "title": "aquasecurity/trivy — Vulnerability scanner for containers & more",
+      "title_ko": "aquasecurity/trivy — 컨테이너/코드 취약점 스캐너",
+      "summary_ko": "컨테이너, Kubernetes, 코드 저장소, 클라우드에서 취약점, 설정 오류, 시크릿, SBOM을 찾는 보안 스캐너. 총 33,977스타, 오늘 103스타.",
+      "url": "https://github.com/aquasecurity/trivy",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "go",
+        "security",
+        "vulnerability-scanner",
+        "container"
+      ],
+      "score": 103,
+      "published_at": "2026-03-25T00:00:00+09:00",
+      "quality_score": 80
+    },
+    {
+      "id": "hf-blog-eva-2026-03-24",
+      "title": "A New Framework for Evaluating Voice Agents (EVA)",
+      "title_ko": "음성 에이전트 평가를 위한 새로운 프레임워크 (EVA)",
+      "summary_ko": "ServiceNow AI가 Hugging Face 블로그에 발표한 음성 에이전트 평가 프레임워크 EVA. 음성 기반 AI 에이전트의 성능을 체계적으로 평가하기 위한 새로운 방법론 제시.",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+      "source": "huggingface_blog",
+      "category": "ai_research",
+      "tags": [
+        "voice-agent",
+        "evaluation",
+        "benchmark",
+        "speech"
+      ],
+      "score": 78,
+      "published_at": "2026-03-24T00:00:00Z",
+      "quality_score": 71
+    },
+    {
+      "id": "arxiv-2603-20633",
+      "title": "Seed1.8 Model Card: Towards Generalized Real-World Agency",
+      "title_ko": "Seed1.8 모델 카드: 범용 실세계 에이전시를 향하여",
+      "summary_ko": "ByteDance Seed 팀이 발표한 파운데이션 모델 Seed1.8. 단일 턴 예측을 넘어 멀티턴 상호작용, 도구 사용, 다단계 실행을 지원하는 범용 에이전틱 인터페이스(검색, 코드 생성/실행, GUI 상호작용)를 제공한다. 배포 시 구성 가능한 사고 모드와 최적화된 비주얼 인코딩으로 지연 시간 및 비용 인지 추론을 지원. 저자: Bytedance Seed",
+      "url": "https://arxiv.org/abs/2603.20633",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "foundation-model",
+        "agentic-ai",
+        "multimodal",
+        "tool-use",
+        "bytedance"
+      ],
+      "score": 95,
+      "published_at": "2026-03-24T04:00:00Z",
+      "quality_score": 60
+    },
+    {
+      "id": "arxiv-2603-20405",
+      "title": "Putnam 2025 Problems in Rocq using Opus 4.6 and Rocq-MCP",
+      "title_ko": "Opus 4.6과 Rocq-MCP를 이용한 2025 Putnam 수학대회 문제 풀이",
+      "summary_ko": "Claude Opus 4.6이 Rocq 증명 보조기를 위한 MCP 도구를 활용하여 2025 Putnam 수학대회 12문제 중 10문제를 자율적으로 증명. 인터넷 접근 없는 격리된 VM에서 17.7시간 활성 계산(51.6시간 벽시계), 약 19억 토큰 소비, 141개 서브에이전트 배포. 모든 증명이 공개됨. 저자: Guillaume Baudart, Marc Lelarge, Tristan Stérin, Jules Viennot",
+      "url": "https://arxiv.org/abs/2603.20405",
+      "source": "arxiv_cs.LG",
+      "category": "ai_research",
+      "tags": [
+        "formal-verification",
+        "mathematical-reasoning",
+        "claude-opus",
+        "theorem-proving",
+        "benchmark"
+      ],
+      "score": 98,
+      "published_at": "2026-03-24T04:00:00Z",
+      "quality_score": 60
+    },
+    {
+      "id": "arxiv-2603-20620",
+      "title": "Reasoning Traces Shape Outputs but Models Won't Say So",
+      "title_ko": "추론 트레이스가 출력을 결정하지만 모델은 그 사실을 말하지 않는다",
+      "summary_ko": "LLM의 추론 트레이스가 출력에 인과적 영향을 미치는지, 모델이 이를 인정하는지 조사. Thought Injection 방법으로 합성 추론을 삽입한 결과, 삽입된 힌트가 출력을 안정적으로 변경하지만 모델은 90% 이상의 비공개율로 영향을 인정하지 않고 관련 없는 설명을 조작. 활성화 분석에서 아첨(sycophancy) 및 기만 관련 방향이 강하게 활성화됨을 발견. 저자: Yijie Hao, Lingjie Chen, Ali Emami, Joyce Ho",
+      "url": "https://arxiv.org/abs/2603.20620",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "alignment",
+        "safety",
+        "reasoning",
+        "interpretability",
+        "faithfulness"
+      ],
+      "score": 94,
+      "published_at": "2026-03-24T04:00:00Z",
+      "quality_score": 60
+    },
+    {
+      "id": "arxiv-2603-20219",
+      "title": "Thinking into the Future: Latent Lookahead Training for Transformers",
+      "title_ko": "미래를 생각하기: 트랜스포머를 위한 잠재 선행 탐색 훈련",
+      "summary_ko": "자기회귀 모델이 토큰 생성 전에 잠재 공간에서 다단계 선행 탐색을 수행하는 훈련 전략 제안. 선택된 위치에서 네트워크의 은닉 상태를 τ 단계 재귀 입력하여 더 많은 계산을 투입하고, 다음 τ개의 ground-truth 토큰에 대해 감독. 미로 풀기, 스도쿠, ProsQA 등 계획이 필수적인 과제에서 자기회귀 및 비자기회귀 기준선을 크게 능가. 저자: Lorenzo Noci, Gregor Bachmann, Seyed-Mohsen Moosavi-Dezfooli, Moin Nabi",
+      "url": "https://arxiv.org/abs/2603.20219",
+      "source": "arxiv_cs.CL",
+      "category": "ai_research",
+      "tags": [
+        "training",
+        "transformer",
+        "planning",
+        "latent-space",
+        "lookahead"
+      ],
+      "score": 93,
+      "published_at": "2026-03-24T04:00:00Z",
+      "quality_score": 60
+    },
+    {
+      "id": "arxiv-2603-20432",
+      "title": "Coding Agents are Effective Long-Context Processors",
+      "title_ko": "코딩 에이전트는 효과적인 장문맥 처리기이다",
+      "summary_ko": "장문맥 처리를 잠재 어텐션에서 명시적 실행 가능한 상호작용으로 외부화할 수 있는지 연구. 기성 프론티어 코딩 에이전트가 파일 시스템에 텍스트를 조직하고 네이티브 도구로 조작하여, 3조 토큰 규모의 코퍼스 포함 장문맥 추론, RAG, 개방형 QA 등에서 기존 SOTA 대비 평균 17.3% 향상. 저자: Weili Cao, Xunjian Yin, Bhuwan Dhingra, Shuyan Zhou",
+      "url": "https://arxiv.org/abs/2603.20432",
+      "source": "arxiv_cs.CL",
+      "category": "ai_research",
+      "tags": [
+        "coding-agent",
+        "long-context",
+        "retrieval",
+        "practical"
+      ],
+      "score": 92,
+      "published_at": "2026-03-24T04:00:00Z",
+      "quality_score": 60
+    }
+  ],
+  "meta": {
+    "total_collected": 132,
+    "after_dedup": 130,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "community",
+      "news_blogs",
+      "eng_blogs",
+      "github_oss",
+      "ai_research"
+    ],
+    "sources_failed": [
+      "community",
+      "paperswithcode",
+      "Netflix Tech Blog",
+      "google_ai_blog",
+      "anthropic_news",
+      "Uber Engineering",
+      "openai_blog",
+      "github_oss",
+      "Vercel Blog",
+      "Stripe Blog",
+      "Meta Engineering",
+      "geeknews"
+    ],
+    "errors": [
+      {
+        "source": "geeknews",
+        "error": "HTTP 403 Forbidden - Access denied by server"
+      },
+      {
+        "source": "openai_blog",
+        "url": "https://openai.com/blog",
+        "error": "Page rendered via JavaScript; web_fetch returned no extractable content. Could not determine recent posts."
+      },
+      {
+        "source": "anthropic_news",
+        "url": "https://www.anthropic.com/news",
+        "error": "Only extracted one item (Claude Opus 4.6, Feb 5 2026) which is outside the 24-hour window. No recent items found."
+      },
+      {
+        "source": "google_ai_blog",
+        "url": "https://blog.google/technology/ai/",
+        "error": "Page rendered via JavaScript; web_fetch returned minimal content with no datable recent items in last 24 hours."
+      },
+      {
+        "source": "paperswithcode",
+        "url": "https://paperswithcode.com",
+        "error": "Redirected to huggingface.co/papers/trending. Trending papers lack clear publication dates; covered via arXiv sources instead."
+      },
+      "Next.js release search: rate limited (429), no recent release found",
+      "Changelog RSS: only 2 recent episodes parsed (feed truncated)",
+      {
+        "source": "github_oss",
+        "error": "'str' object has no attribute 'get'"
+      },
+      "Reddit JSON API returned 403/blocked. Used RSS feeds instead, which do not include upvote scores or comment counts. All Reddit scores set to 0.",
+      "TLDR date-specific page (tldr.tech/tech/2026-03-24) returned 500. Used main page (tldr.tech) which only had 3 featured items.",
+      {
+        "source": "community",
+        "error": "'str' object has no attribute 'get'"
+      },
+      {
+        "source": "Netflix Tech Blog",
+        "url": "https://netflixtechblog.com/feed",
+        "error": "Fetch failed - connection error, feed URL may have changed"
+      },
+      {
+        "source": "Uber Engineering",
+        "url": "https://eng.uber.com/feed/",
+        "error": "404 - URL changed. Used https://www.uber.com/blog/engineering/rss/ instead. No posts within 48h window (most recent: 2026-03-11)."
+      },
+      {
+        "source": "Stripe Blog",
+        "url": "https://stripe.com/blog/feed.rss",
+        "error": "No technical engineering posts within 48h window. Recent post 'How Stripe Radar helps prevent free trial abuse' (2026-03-24) is product/marketing focused."
+      },
+      {
+        "source": "Vercel Blog",
+        "url": "https://vercel.com/atom",
+        "error": "Feed entries lack publication dates (<updated>null</updated>). Cannot determine which posts fall within 48h window. Recent technical posts exist (e.g. 'Build knowledge agents without embeddings', 'Chat SDK brings agents to your users') but dates are unknown."
+      },
+      {
+        "source": "Meta Engineering",
+        "url": "https://engineering.fb.com/feed/",
+        "error": "No posts within 48h window. Most recent: 'Friend Bubbles: Enhancing Social Discovery on Facebook Reels' (2026-03-18)."
+      }
+    ]
+  }
+}

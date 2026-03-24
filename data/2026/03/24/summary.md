@@ -1,64 +1,53 @@
 # DevStory Daily — 2026-03-24
-
-> 수집 시각: 07:12 KST | 총 수집: 159개 | 최종 선별: 30개
+> 수집 시각: 07:15 KST | 총 수집: 132개 | 최종 선별: 30개
 
 ## 🔥 Top 10
-
-1. **[EU로 이주하기](https://rz01.org/eu-migration/)** — 미국에서 EU로 이주를 고려하는 사람들을 위한 실용적인 가이드. 비자, 의료, 세금 등 주요 고려사항을 다룬다. `[hacker_news]` ⭐ 93.4
-2. **[Project N.O.M.A.D - 오프라인 생존 컴퓨터](https://github.com/Crosstalk-Solutions/project-nomad)** — 자급자족형 오프라인 생존 컴퓨터. 핵심 도구, 지식, AI를 탑재하여 언제 어디서나 정보와 역량을 제공한다. `[github_trending]` ⭐ 90.0
-3. **[Deer Flow - ByteDance의 오픈소스 SuperAgent](https://github.com/bytedance/deer-flow)** — 리서치, 코딩, 생성을 수행하는 오픈소스 SuperAgent 하네스. 샌드박스, 메모리, 도구, 서브에이전트 등을 활용해 다양한 수준의 작업을 처리한다. `[github_trending]` ⭐ 90.0
-4. **[MoneyPrinterV2 - 온라인 수익 자동화](https://github.com/FujiwaraChoki/MoneyPrinterV2)** — 온라인으로 돈 버는 과정을 자동화하는 도구. `[github_trending]` ⭐ 90.0
-5. **[TradingAgents - 멀티 에이전트 LLM 금융 트레이딩](https://github.com/TauricResearch/TradingAgents)** — 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크. `[github_trending]` ⭐ 90.0
-6. **[Pascal Editor - TypeScript 에디터](https://github.com/pascalorg/editor)** — TypeScript로 만든 에디터 프로젝트. 오늘 2,250스타 급상승. `[github_trending_typescript]` ⭐ 90.0
-7. **[하이퍼에이전트: 자기 참조적 자기 개선 AI 시스템](https://arxiv.org/abs/2603.19461)** — 자기 개선 AI 시스템의 새로운 패러다임을 제시하는 논문. 태스크 에이전트와 메타 에이전트를 하나의 편집 가능한 프로그램으로 통합하여, 메타 수준의 수정 절차 자체도 편집 가능하게... `[arxiv_cs.AI]` ⭐ 87.0
-8. **[MiRA: 서브골 기반 장기 LLM 에이전트 개선 프레임워크](https://arxiv.org/abs/2603.19685)** — 웹 네비게이션에서 장기 계획 문제를 해결하기 위한 프레임워크. 서브골 분해를 통한 온라인 계획과 마일스톤 기반 밀집 보상 신호를 사용하는 RL 훈련 프레임워크 MiRA를 제안. G... `[arxiv_cs.AI]` ⭐ 87.0
-9. **[포스트 트레이닝 알고리즘은 실제로 다른가? 스케일에 따른 랭킹 역전 발견](https://arxiv.org/abs/2603.19335)** — 51개 포스트 트레이닝 알고리즘을 동일 인프라로 비교하는 OXRL 프레임워크 발표. 약 240회 훈련 실행 결과 핵심 발견: (1) 알고리즘 랭킹이 모델 스케일에 따라 역전됨 (2... `[arxiv_cs.LG]` ⭐ 87.0
-10. **[LeWorldModel: 픽셀에서 안정적인 End-to-End JEPA 월드 모델](https://arxiv.org/abs/2603.19312)** — 두 가지 손실항만으로 원시 픽셀에서 안정적으로 End-to-End 훈련 가능한 최초의 JEPA. 약 1,500만 파라미터로 단일 GPU에서 수시간 내 훈련 가능하며, 파운데이션 모... `[arxiv_cs.LG]` ⭐ 87.0
+1. **[Wine 11, 커널 수준에서 리눅스의 윈도우 게임 실행 방식을 재작성하여 대폭적인 속도 향상 달성](https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/)** — Wine 11이 커널 수준에서 윈도우 게임 실행 방식을 완전히 재작성하여 리눅스에서 윈도우 게임을 훨씬 빠르게 실행할 수 있게 되었습니다. `[hacker_news]` ⭐ 81
+2. **[AI 이야기에 지친 사람 또 있나요?](https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/)** — AI에 대한 끊임없는 대화에 피로감을 느끼는 개발자의 블로그 포스트가 HN에서 큰 반향을 일으켰습니다. `[hacker_news]` ⭐ 81
+3. **[GitHub, 또다시 서비스 장애 발생](https://www.githubstatus.com/incidents/kp06czybl7dw)** — GitHub에 또다시 대규모 서비스 장애가 발생하여 개발자들의 작업에 영향을 미쳤습니다. `[hacker_news]` ⭐ 81
+4. **[Arm, 자사 최초의 CPU 'AGI CPU' 공개](https://newsroom.arm.com/blog/introducing-arm-agi-cpu)** — Arm이 35년 역사상 처음으로 자체 CPU를 직접 생산하며, Meta가 첫 고객으로 AI 데이터센터에 활용할 예정입니다. `[hacker_news]` ⭐ 81
+5. **[bytedance/deer-flow — 오픈소스 SuperAgent 프레임워크](https://github.com/bytedance/deer-flow)** — 리서치, 코딩, 콘텐츠 생성을 수행하는 오픈소스 SuperAgent 하네스. 샌드박스, 메모리, 도구, 서브에이전트 등을 활용해 다양한 수준의 작업 처리 가능. 오늘 4,319스타 획득으로 트렌딩 1위. `[github_trending]` ⭐ 81
+6. **[FujiwaraChoki/MoneyPrinterV2 — 온라인 수익 자동화](https://github.com/FujiwaraChoki/MoneyPrinterV2)** — 온라인 수익 창출 과정을 자동화하는 도구. 오늘 2,937스타 획득, 총 24,708스타. `[github_trending]` ⭐ 81
+7. **[Crosstalk-Solutions/project-nomad — 오프라인 서바이벌 컴퓨터](https://github.com/Crosstalk-Solutions/project-nomad)** — 핵심 도구, 지식, AI가 탑재된 자급자족형 오프라인 서바이벌 컴퓨터. 인터넷 없이도 정보 접근 가능. 오늘 2,450스타 획득. `[github_trending]` ⭐ 81
+8. **[TauricResearch/TradingAgents — 멀티에이전트 LLM 금융 트레이딩](https://github.com/TauricResearch/TradingAgents)** — 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크. 총 40,720스타, 오늘 1,746스타 획득. `[github_trending]` ⭐ 81
+9. **[pascalorg/editor — Pascal 에디터](https://github.com/pascalorg/editor)** — TypeScript로 작성된 에디터. 오늘 1,513스타 획득, 총 5,041스타. `[github_trending]` ⭐ 81
+10. **[ruvnet/ruflo — Claude용 에이전트 오케스트레이션 플랫폼](https://github.com/ruvnet/ruflo)** — Claude를 위한 멀티에이전트 스웜 배포, 자율 워크플로우 조정, 대화형 AI 시스템 구축 플랫폼. RAG 통합, Claude Code/Codex 네이티브 지원. 오늘 1,397스타. `[github_trending]` ⭐ 81
 
 ## 📰 뉴스 & 블로그
-
-- **[EU로 이주하기](https://rz01.org/eu-migration/)** — 미국에서 EU로 이주를 고려하는 사람들을 위한 실용적인 가이드. 비자, 의료, 세금 등 주요 고려사항을 다룬다. `[hacker_news]` ⭐ 93.4
-- **[iPhone 17 Pro에서 4000억 파라미터 LLM 구동 시연](https://twitter.com/anemll/status/2035901335984611412)** — iPhone 17 Pro에서 4000억 파라미터 대규모 언어 모델을 로컬에서 실행하는 데모가 공개되어 모바일 AI 성능의 새로운 가능성을 보여줬다. `[hacker_news]` ⭐ 76.4
-- **[미국과 토탈에너지, 해상 풍력 프로젝트 종료 위해 약 10억 달러 합의](https://www.lemonde.fr/en/international/article/2026/03/23/us-and-totalenergies-reach-nearly-1-billion-deal-to-end-offshore-wind-projects_6751739_4.html)** — 트럼프 행정부가 토탈에너지에 약 10억 달러를 지불하고 미국 내 해상 풍력 개발을 중단시키는 거래를 체결했다. `[hacker_news]` ⭐ 70.2
-- **[오래된 연구 아이디어에 대한 자동 연구](https://ykumar.me/blog/eclip-autoresearch/)** — AI를 활용해 과거 연구 아이디어를 자동으로 재검토하고 발전시키는 실험적 접근법을 소개한다. `[hacker_news]` ⭐ 67.2
-- **[정비소를 위한 AI 접수원을 만들었습니다](https://www.itsthatlady.dev/blog/building-an-ai-receptionist-for-my-brother/)** — 형제가 운영하는 자동차 정비소를 위해 AI 기반 전화 접수 시스템을 개발한 경험을 공유한다. `[hacker_news]` ⭐ 66.3
-
-## 🤖 AI & ML 리서치
-
-- **[하이퍼에이전트: 자기 참조적 자기 개선 AI 시스템](https://arxiv.org/abs/2603.19461)** — 자기 개선 AI 시스템의 새로운 패러다임을 제시하는 논문. 태스크 에이전트와 메타 에이전트를 하나의 편집 가능한 프로그램으로 통합하여, 메타 수준의 수정 절차 자체도 편집 가능하게... `[arxiv_cs.AI]` ⭐ 87.0
-- **[MiRA: 서브골 기반 장기 LLM 에이전트 개선 프레임워크](https://arxiv.org/abs/2603.19685)** — 웹 네비게이션에서 장기 계획 문제를 해결하기 위한 프레임워크. 서브골 분해를 통한 온라인 계획과 마일스톤 기반 밀집 보상 신호를 사용하는 RL 훈련 프레임워크 MiRA를 제안. G... `[arxiv_cs.AI]` ⭐ 87.0
-- **[포스트 트레이닝 알고리즘은 실제로 다른가? 스케일에 따른 랭킹 역전 발견](https://arxiv.org/abs/2603.19335)** — 51개 포스트 트레이닝 알고리즘을 동일 인프라로 비교하는 OXRL 프레임워크 발표. 약 240회 훈련 실행 결과 핵심 발견: (1) 알고리즘 랭킹이 모델 스케일에 따라 역전됨 (2... `[arxiv_cs.LG]` ⭐ 87.0
-- **[LeWorldModel: 픽셀에서 안정적인 End-to-End JEPA 월드 모델](https://arxiv.org/abs/2603.19312)** — 두 가지 손실항만으로 원시 픽셀에서 안정적으로 End-to-End 훈련 가능한 최초의 JEPA. 약 1,500만 파라미터로 단일 GPU에서 수시간 내 훈련 가능하며, 파운데이션 모... `[arxiv_cs.LG]` ⭐ 87.0
-- **[HyEvo: 효율적 추론을 위한 자기 진화 하이브리드 에이전트 워크플로우](https://arxiv.org/abs/2603.19639)** — LLM 노드와 결정론적 코드 노드를 통합하는 이종 원자 합성 기반 자동 워크플로우 생성 프레임워크. LLM 추론에서 예측 가능한 연산을 코드로 오프로드하여 비용과 지연을 최대 19... `[arxiv_cs.AI]` ⭐ 83.5
-- **[반례 생성 학습: LLM을 활용한 형식적 반례 생성](https://arxiv.org/abs/2603.19514)** — LLM이 반례를 생성하고 Lean 4에서 자동 검증 가능한 형식적 증명을 생산하도록 파인튜닝하는 연구. 기호 변이 전략으로 다양한 훈련 데이터를 합성하고, 다중 보상 전문가 반복 ... `[arxiv_cs.AI]` ⭐ 83.5
-- **[Stepwise: 자동 시스템 검증을 위한 신경-기호적 증명 탐색](https://arxiv.org/abs/2603.19715)** — 시스템 수준 검증 프로젝트의 증명 탐색을 자동화하는 신경-기호적 프레임워크. seL4 벤치마크에서 정리의 77.6%를 증명하며 이전 LLM 기반 접근법과 Sledgehammer를 ... `[arxiv_cs.AI]` ⭐ 83.5
-- **[HeRL: 사후 경험 기반 LLM 강화학습](https://arxiv.org/abs/2603.20046)** — LLM의 비효율적 탐색 문제를 해결하기 위해 실패한 궤적과 미충족 루브릭을 사후 경험으로 활용하여 효과적 탐색을 유도하는 프레임워크. 다양한 벤치마크에서 기준선 대비 우수한 성능 ... `[arxiv_cs.AI]` ⭐ 83.5
-- **[해석 가능성 에이전트 평가의 함정](https://arxiv.org/abs/2603.20101)** — 자동화된 해석 가능성 시스템의 평가 문제를 조사. LLM 기반 연구 에이전트가 회로 분석 작업에서 인간 전문가와 경쟁력 있어 보이지만, 복제 기반 평가의 여러 함정(주관성, 과정 ... `[arxiv_cs.AI]` ⭐ 83.5
-- **[전문가 투기 실행으로 MoE 추론 가속화](https://arxiv.org/abs/2603.19289)** — MoE 모델의 CPU-GPU 전송 병목을 해결하기 위한 전문가 프리페칭 기법. 현재 계산 중인 내부 표현으로 미래 전문가를 예측하여 메모리 전송과 계산을 겹침. 최적화된 추론 엔진... `[arxiv_cs.LG]` ⭐ 83.5
-- **[MIPO: 사용자 맥락-응답 간 상호정보 최대화로 LLM 개인화 향상](https://arxiv.org/abs/2603.19294)** — 외부 감독 없이 LLM을 자기 개선시키는 MIPO(Mutual Information Preference Optimization) 제안. 올바른 프롬프트와 무관한 프롬프트로 생성한 ... `[arxiv_cs.LG]` ⭐ 83.5
-- **[MemReward: 제한된 레이블로 LLM 보상 예측을 위한 그래프 기반 경험 메모리](https://arxiv.org/abs/2603.19310)** — 제한된 보상 레이블로 RL 기반 LLM 훈련 효과를 극대화하는 그래프 기반 프레임워크. 이종 그래프에서 GNN으로 레이블된 노드의 보상을 전파. 20% 레이블만으로 Oracle 성... `[arxiv_cs.LG]` ⭐ 83.5
+- **[Wine 11, 커널 수준에서 리눅스의 윈도우 게임 실행 방식을 재작성하여 대폭적인 속도 향상 달성](https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/)** — Wine 11이 커널 수준에서 윈도우 게임 실행 방식을 완전히 재작성하여 리눅스에서 윈도우 게임을 훨씬 빠르게 실행할 수 있게 되었습니다.
+- **[AI 이야기에 지친 사람 또 있나요?](https://blog.jakesaunders.dev/is-anybody-else-bored-of-talking-about-ai/)** — AI에 대한 끊임없는 대화에 피로감을 느끼는 개발자의 블로그 포스트가 HN에서 큰 반향을 일으켰습니다.
+- **[GitHub, 또다시 서비스 장애 발생](https://www.githubstatus.com/incidents/kp06czybl7dw)** — GitHub에 또다시 대규모 서비스 장애가 발생하여 개발자들의 작업에 영향을 미쳤습니다.
+- **[Arm, 자사 최초의 CPU 'AGI CPU' 공개](https://newsroom.arm.com/blog/introducing-arm-agi-cpu)** — Arm이 35년 역사상 처음으로 자체 CPU를 직접 생산하며, Meta가 첫 고객으로 AI 데이터센터에 활용할 예정입니다.
+- **[Apple Business — 모든 규모의 비즈니스를 위한 올인원 플랫폼](https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/)** — Apple이 모든 규모의 비즈니스를 위한 통합 플랫폼 'Apple Business'를 출시하며, Apple Maps 광고 포함 다양한 비즈니스 도구를 제공합니다.
+- **[PyPI의 Litellm 1.82.7 및 1.82.8 버전이 해킹당함](https://github.com/BerriAI/litellm/issues/24512)** — 인기 LLM 프록시 라이브러리 Litellm의 PyPI 배포판에 악성코드가 삽입되었으며, base64 인코딩된 페이로드가 포함된 것으로 확인되었습니다.
+- **[이용약관 없음. 조건 없음.](https://notermsnoconditions.com)** — 복잡한 이용약관 없이 서비스를 제공하자는 움직임을 소개하는 사이트로, 디지털 권리와 사용자 자유에 대한 논의를 촉발했습니다.
+- **[Show HN: Gemini가 비디오를 네이티브 임베딩할 수 있어서, 초 이하 비디오 검색을 만들었습니다](https://github.com/ssrajadh/sentrysearch)** — Google의 Gemini Embedding 2를 활용하여 영상을 벡터 공간에 직접 임베딩하고 자연어로 검색할 수 있는 CLI 도구를 만들었습니다.
+- **[Epic Games, 포트나이트 사용량 감소로 1,000명 이상 해고](https://www.reuters.com/legal/litigation/epic-games-said-tuesday-that-it-will-lay-off-more-than-1000-employees-2026-03-24/)** — Epic Games가 포트나이트 참여도 하락을 이유로 1,000명 이상의 직원을 해고합니다.
+- **[Hypura — Apple Silicon용 스토리지 계층 인식 LLM 추론 스케줄러](https://github.com/t8/hypura)** — Apple Silicon에서 스토리지 계층을 인식하여 LLM 추론 성능을 최적화하는 오픈소스 스케줄러입니다.
+- **[가설, 반정립, 종합 — Antithesis의 소프트웨어 테스팅 철학](https://antithesis.com/blog/2026/hegel/)** — Antithesis가 헤겔의 변증법을 소프트웨어 테스팅에 적용하는 새로운 접근 방식을 블로그에서 소개했습니다.
+- **[Show HN: Email.md — 마크다운을 반응형 이메일 안전 HTML로 변환](https://www.emailmd.dev/)** — 마크다운으로 작성한 내용을 이메일 클라이언트에서 안전하게 렌더링되는 반응형 HTML로 변환하는 도구입니다.
 
 ## 🐙 GitHub & 오픈소스
-
-- **[Project N.O.M.A.D - 오프라인 생존 컴퓨터](https://github.com/Crosstalk-Solutions/project-nomad)** — 자급자족형 오프라인 생존 컴퓨터. 핵심 도구, 지식, AI를 탑재하여 언제 어디서나 정보와 역량을 제공한다. `[github_trending]` ⭐ 90.0
-- **[Deer Flow - ByteDance의 오픈소스 SuperAgent](https://github.com/bytedance/deer-flow)** — 리서치, 코딩, 생성을 수행하는 오픈소스 SuperAgent 하네스. 샌드박스, 메모리, 도구, 서브에이전트 등을 활용해 다양한 수준의 작업을 처리한다. `[github_trending]` ⭐ 90.0
-- **[MoneyPrinterV2 - 온라인 수익 자동화](https://github.com/FujiwaraChoki/MoneyPrinterV2)** — 온라인으로 돈 버는 과정을 자동화하는 도구. `[github_trending]` ⭐ 90.0
-- **[TradingAgents - 멀티 에이전트 LLM 금융 트레이딩](https://github.com/TauricResearch/TradingAgents)** — 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크. `[github_trending]` ⭐ 90.0
-- **[Pascal Editor - TypeScript 에디터](https://github.com/pascalorg/editor)** — TypeScript로 만든 에디터 프로젝트. 오늘 2,250스타 급상승. `[github_trending_typescript]` ⭐ 90.0
-- **[GitHub Spec Kit - 스펙 기반 개발 도구](https://github.com/github/spec-kit)** — Spec-Driven Development를 시작할 수 있는 도구 모음. GitHub 공식 프로젝트. `[github_trending_python]` ⭐ 82.1
-- **[Browser Use - AI 에이전트용 웹 자동화](https://github.com/browser-use/browser-use)** — AI 에이전트가 웹사이트에 접근할 수 있게 해주는 도구. 온라인 작업을 쉽게 자동화한다. `[github_trending]` ⭐ 75.3
-- **[MoneyPrinterTurbo - AI 숏폼 영상 자동 생성](https://github.com/harry0703/MoneyPrinterTurbo)** — AI 대형 모델을 활용해 원클릭으로 고화질 숏폼 영상을 생성한다. `[github_trending_python]` ⭐ 73.0
-- **[SuperMemory - AI 시대의 메모리 엔진](https://github.com/supermemoryai/supermemory)** — 극도로 빠르고 확장 가능한 메모리 엔진 및 앱. AI 시대를 위한 Memory API. `[github_trending_typescript]` ⭐ 65.9
+- **[bytedance/deer-flow — 오픈소스 SuperAgent 프레임워크](https://github.com/bytedance/deer-flow)** — 리서치, 코딩, 콘텐츠 생성을 수행하는 오픈소스 SuperAgent 하네스. 샌드박스, 메모리, 도구, 서브에이전트 등을 활용해 다양한 수준의 작업 처리 가능. 오늘 4,319스타 획득으로 트렌딩 1위.
+- **[FujiwaraChoki/MoneyPrinterV2 — 온라인 수익 자동화](https://github.com/FujiwaraChoki/MoneyPrinterV2)** — 온라인 수익 창출 과정을 자동화하는 도구. 오늘 2,937스타 획득, 총 24,708스타.
+- **[Crosstalk-Solutions/project-nomad — 오프라인 서바이벌 컴퓨터](https://github.com/Crosstalk-Solutions/project-nomad)** — 핵심 도구, 지식, AI가 탑재된 자급자족형 오프라인 서바이벌 컴퓨터. 인터넷 없이도 정보 접근 가능. 오늘 2,450스타 획득.
+- **[TauricResearch/TradingAgents — 멀티에이전트 LLM 금융 트레이딩](https://github.com/TauricResearch/TradingAgents)** — 멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크. 총 40,720스타, 오늘 1,746스타 획득.
+- **[pascalorg/editor — Pascal 에디터](https://github.com/pascalorg/editor)** — TypeScript로 작성된 에디터. 오늘 1,513스타 획득, 총 5,041스타.
+- **[ruvnet/ruflo — Claude용 에이전트 오케스트레이션 플랫폼](https://github.com/ruvnet/ruflo)** — Claude를 위한 멀티에이전트 스웜 배포, 자율 워크플로우 조정, 대화형 AI 시스템 구축 플랫폼. RAG 통합, Claude Code/Codex 네이티브 지원. 오늘 1,397스타.
+- **[NousResearch/hermes-agent — 함께 성장하는 에이전트](https://github.com/NousResearch/hermes-agent)** — NousResearch의 Hermes 에이전트. 사용자와 함께 성장하는 AI 에이전트. 총 12,447스타, 오늘 1,251스타 획득.
+- **[supermemoryai/supermemory — AI 시대의 메모리 API](https://github.com/supermemoryai/supermemory)** — 극도로 빠르고 확장 가능한 메모리 엔진 및 앱. AI 시대를 위한 Memory API. 총 18,483스타, 오늘 407스타.
+- **[czlonkowski/n8n-mcp — Claude용 n8n 워크플로우 빌더 MCP](https://github.com/czlonkowski/n8n-mcp)** — Claude Desktop/Claude Code/Windsurf/Cursor에서 n8n 워크플로우를 자동 생성하는 MCP. 총 16,272스타, 오늘 407스타.
+- **[mvanhorn/last30days-skill — AI 에이전트 리서치 스킬](https://github.com/mvanhorn/last30days-skill)** — Reddit, X, YouTube, HN, Polymarket, 웹 전반에서 주제를 조사하고 요약하는 AI 에이전트 스킬. 오늘 208스타.
+- **[EveryInc/compound-engineering-plugin — Claude Code용 컴파운드 엔지니어링 플러그인](https://github.com/EveryInc/compound-engineering-plugin)** — Claude Code, Codex 등을 위한 Office Compound Engineering 플러그인. 총 11,047스타, 오늘 134스타.
+- **[aquasecurity/trivy — 컨테이너/코드 취약점 스캐너](https://github.com/aquasecurity/trivy)** — 컨테이너, Kubernetes, 코드 저장소, 클라우드에서 취약점, 설정 오류, 시크릿, SBOM을 찾는 보안 스캐너. 총 33,977스타, 오늘 103스타.
 
 ## 💬 커뮤니티 토론
-
-- **[Vision Transformer 이해 및 파인튜닝 가이드](https://www.vizuaranewsletter.com/p/vision-transformers)** — ViT(Vision Transformer)를 기초부터 설명하는 블로그 포스트. 패치 임베딩, 위치 인코딩, 분류를 위한 인코더 전용 모델, 파인튜닝 방법까지 다룸. (r/Machi... `[reddit/r/MachineLearning]` ⭐ 63.5
-- **[탐지는 쉽고, 라우팅은 학습된다: 거부 기반 정렬 평가가 실패하는 이유](https://arxiv.org/abs/2603.18280)** — 중국 LLM의 정치적 검열을 자연 실험으로 활용해 정렬(alignment)이 탐지→라우팅→생성의 3단계로 작동함을 밝힌 논문. 9개 오픈웨이트 모델, 5개 랩 분석. 거부율만으로는... `[reddit/r/MachineLearning]` ⭐ 63.5
-- **[셀프호스팅 ML이 실제로 더 많은 제어권을 주는가, 아니면 더 많은 일만 늘리는가?](https://www.reddit.com/r/MachineLearning/comments/1s1ta4m/d_does_selfhosted_ml_actually_give_you_more/)** — 온프레미스/셀프호스팅 모델 운영이 실질적으로 제어력을 높이는지, 아니면 복잡성만 팀에 전가하는지에 대한 토론. (r/MachineLearning 토론) `[reddit/r/MachineLearning]` ⭐ 63.5
-
-## 🏗️ 엔지니어링 블로그
-
-- **[Gen 13 서버 내부: Cloudflare가 역대 최강 서버를 설계한 방법](https://blog.cloudflare.com/gen13-config/)** — Cloudflare의 Gen 13 서버는 AMD EPYC Turin 9965 192코어 프로세서, 768GB DDR5-6400 메모리, 24TB PCIe 5.0 NVMe 스토리지,... `[cloudflare]` ⭐ 71.5
+- **[Go 네이밍 규칙: 실용 가이드](https://www.alexedwards.net/blog/go-naming-conventions)** — Go 프로그래밍 언어의 네이밍 규칙에 대한 실용적인 가이드입니다. (Lobsters)
+- **[JavaScript에 구조적 동시성 추가하기](https://github.com/bakkot/structured-concurrency-for-js)** — JavaScript에 구조적 동시성(structured concurrency)을 도입하기 위한 TC39 제안입니다. (Lobsters)
+- **[지루한 기술과 혁신적 관행을 선택하라](https://buttondown.com/hillelwayne/archive/choose-boring-technology-and-innovative-practices/)** — Hillel Wayne이 '지루한 기술 선택하기'와 혁신적 엔지니어링 관행을 결합하는 전략을 제안합니다. (Lobsters)
+- **[Go 프로젝트 구조화하기](https://www.alexedwards.net/blog/11-tips-for-structuring-your-go-projects)** — Go 프로젝트를 구조화하는 11가지 팁을 소개합니다. (Lobsters)
+- **[zswap과 zram에 대한 미신 깨기](https://chrisdown.name/2026/03/24/zswap-vs-zram-when-to-use-what.html)** — Linux의 zswap과 zram에 대한 흔한 오해를 해소하고 각각 언제 사용해야 하는지 설명합니다. (Lobsters)
+- **[curl > /dev/sda](https://astrid.tech/2026/03/24/0/curl-to-dev-sda/)** — curl 출력을 직접 /dev/sda에 쓰는 것에 대한 기술적 탐구입니다. (Lobsters)
 
 ---
 
