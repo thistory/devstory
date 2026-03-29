@@ -1,0 +1,613 @@
+{
+  "date": "2026-03-26",
+  "collected_at": "2026-03-25T22:14:02.771259Z",
+  "items": [
+    {
+      "id": "gh_trending_8715d70f",
+      "title": "bytedance/deer-flow - Open-source SuperAgent harness",
+      "title_ko": "bytedance/deer-flow - 오픈소스 SuperAgent 프레임워크",
+      "summary_ko": "리서치, 코딩, 콘텐츠 생성을 수행하는 오픈소스 SuperAgent. 샌드박스, 메모리, 도구, 서브에이전트 등을 활용. 오늘 3,787스타 획득으로 전체 트렌딩 1위.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai-agent",
+        "bytedance",
+        "superagent"
+      ],
+      "score": 3787,
+      "published_at": "2026-03-26",
+      "detail_ko": "DeerFlow(Deep Exploration and Efficient Research Flow)는 ByteDance가 개발한 오픈소스 SuperAgent 프레임워크로, 2026년 2월 버전 2.0 출시 이후 GitHub 트렌딩 1위를 차지했다. 기존 딥리서치 프레임워크에서 완전히 새로 작성된 2.0은 단순한 리서치 도구를 넘어 '슈퍼 에이전트 하네스'로 진화했다. LangGraph와 LangChain 위에 구축되어 파일시스템, 메모리, 스킬, 샌드박스 실행 환경, 서브에이전트 생성 기능을 기본 제공한다.\n\n아키텍처 면에서 DeerFlow는 Docker 기반의 샌드박스 실행(로컬/Docker/Kubernetes), MCP 서버 통합(OAuth 토큰 플로우 지원), 그리고 Telegram/Slack/Feishu 등 메시징 채널 연동을 지원한다. 스킬 시스템은 마크다운 기반의 구조화된 워크플로우 모듈로, 리서치, 리포트 생성, 슬라이드 제작, 웹페이지 생성, 이미지/비디오 생성 등 다양한 내장 스킬을 제공한다.\n\n모델 설정은 config.yaml을 통해 유연하게 관리되며, GPT-5.4, Claude Sonnet 4.6, Gemini 2.5 Flash 등 최신 모델은 물론 OpenRouter 같은 게이트웨이도 지원한다. Claude Code와 Codex CLI 통합도 네이티브로 제공되어 CLI 기반 프로바이더로 직접 연결할 수 있다. ByteDance의 Doubao-Seed-2.0-Code, DeepSeek v3.2, Kimi 2.5가 권장 모델로 제시되며, BytePlus의 InfoQuest 지능형 검색 도구도 새로 통합되었다.\n\n커뮤니티가 데이터 파이프라인, 대시보드, 콘텐츠 워크플로우 자동화 등 예상치 못한 용도로 활용하면서 프레임워크의 범용성이 입증되었고, 이것이 2.0 리라이트의 동기가 되었다. 하루 3,787스타를 기록한 것은 AI 에이전트 오케스트레이션에 대한 개발자 커뮤니티의 폭발적 관심을 보여준다.",
+      "detail_en": "DeerFlow (Deep Exploration and Efficient Research Flow) is an open-source SuperAgent framework developed by ByteDance that claimed the #1 spot on GitHub Trending after its version 2.0 launch in February 2026. Version 2.0 is a complete ground-up rewrite that transforms DeerFlow from a Deep Research framework into a full \"super agent harness\" — a batteries-included runtime that gives agents the infrastructure to handle complex, multi-step tasks spanning minutes to hours.\n\nBuilt on LangGraph and LangChain, DeerFlow ships with a comprehensive feature set out of the box: sandboxed code execution (local, Docker, or Kubernetes), a filesystem, long-term memory, extensible skills (structured Markdown-based workflow modules), sub-agent spawning, and MCP server integration with OAuth token flows. It supports messaging channels including Telegram, Slack, and Feishu/Lark via long-polling or WebSocket — no public IP required. Built-in skills cover research, report generation, slide creation, web pages, and image/video generation.\n\nModel configuration is highly flexible through config.yaml, supporting GPT-5.4, Claude Sonnet 4.6, Gemini 2.5 Flash, and OpenRouter-compatible gateways. Native CLI-backed provider integration enables direct Claude Code and OpenAI Codex CLI connections. ByteDance recommends Doubao-Seed-2.0-Code, DeepSeek v3.2, and Kimi 2.5 as primary models, and has newly integrated BytePlus's InfoQuest intelligent search toolkit.\n\nThe project's evolution from research tool to general-purpose agent harness was driven by community adoption — developers pushed it into data pipelines, dashboards, and content automation workflows far beyond its original scope. With 3,787 stars gained in a single day, DeerFlow reflects the explosive developer interest in AI agent orchestration platforms."
+    },
+    {
+      "id": "gh_trending_f3ea32c1",
+      "title": "pascalorg/editor - 3D architectural project editor",
+      "title_ko": "pascalorg/editor - 3D 건축 프로젝트 에디터",
+      "summary_ko": "3D 건축 프로젝트를 생성하고 공유할 수 있는 에디터. TypeScript 기반으로 오늘 2,353스타 기록.",
+      "url": "https://github.com/pascalorg/editor",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "3d",
+        "architecture",
+        "editor"
+      ],
+      "score": 2353,
+      "published_at": "2026-03-26",
+      "detail_ko": "Pascal Editor는 React Three Fiber와 WebGPU를 기반으로 한 3D 건축 프로젝트 에디터로, 브라우저에서 직접 건물을 설계하고 공유할 수 있는 오픈소스 도구다. Turborepo 모노레포 구조로 설계되어 core(스키마, 상태관리, 시스템), viewer(3D 렌더링), editor(UI/도구) 세 가지 패키지로 분리되어 있다.\n\n아키텍처 면에서 가장 주목할 점은 Zustand 기반의 3계층 상태관리 시스템이다. useScene(씬 데이터, IndexedDB 영속화, Zundo로 undo/redo), useViewer(선택 상태, 레벨 표시 모드, 카메라), useEditor(활성 도구, 패널 상태)로 분리된다. 노드는 Site > Building > Level > Wall/Slab/Zone 등의 계층 구조를 가지며, flat dictionary로 저장되어 parentId로 관계를 정의한다. 각 노드는 Zod 스키마로 타입 안전하게 정의된다.\n\n렌더링 파이프라인은 '더티 노드' 패턴을 사용한다. 노드가 변경되면 dirtyNodes Set에 추가되고, WallSystem/SlabSystem 등의 시스템 컴포넌트가 useFrame 루프에서 더티 노드만 감지하여 지오메트리를 재생성한다. CSG(Constructive Solid Geometry) 연산으로 벽에 문과 창문 구멍을 뚫고, 공간 그리드 매니저가 충돌 감지와 배치 검증을 처리한다.\n\n기술 스택은 React 19 + Next.js 16, Three.js(WebGPU 렌더러), Drei, Zustand, Zod, three-bvh-csg 등으로 구성되며 Bun을 패키지 매니저로 사용한다. 하루 2,353스타는 웹 기반 3D CAD 도구에 대한 높은 수요와 WebGPU 기술의 성숙도를 보여준다.",
+      "detail_en": "Pascal Editor is a 3D architectural project editor built with React Three Fiber and WebGPU, enabling users to create and share building designs directly in the browser. The project uses a Turborepo monorepo architecture split into three packages: @pascal-app/core (node schemas, state management via Zustand, geometry systems, spatial queries), @pascal-app/viewer (3D rendering with React Three Fiber), and apps/editor (UI tools, selection management, editing capabilities).\n\nThe architecture features a sophisticated three-tier state management system using Zustand stores: useScene for scene data (persisted to IndexedDB with Zundo undo/redo), useViewer for viewer state (selection, level display modes), and useEditor for editor-specific state (active tool, panel preferences). Nodes follow a hierarchical schema (Site → Building → Level → Wall/Slab/Zone/Item) but are stored in a flat dictionary with parentId references, all type-safe through Zod schemas.\n\nThe rendering pipeline employs a dirty node pattern — when nodes are modified, they're added to a dirtyNodes Set, and system components (WallSystem, SlabSystem, CeilingSystem, etc.) process only dirty nodes each frame via useFrame. Geometry generation includes CSG Boolean operations for door/window cutouts in walls, and a spatial grid manager handles collision detection and placement validation. A scene registry maps node IDs to Three.js objects for fast lookup without scene graph traversal.\n\nThe tech stack includes React 19 + Next.js 16, Three.js with WebGPU renderer, Drei, Zustand, Zod, three-bvh-csg for Boolean geometry, Turborepo for monorepo management, and Bun as the package manager. Gaining 2,353 stars in a day demonstrates strong demand for web-based 3D CAD tools and the maturity of WebGPU technology for complex architectural applications."
+    },
+    {
+      "id": "gh_trending_41a6a866",
+      "title": "Crosstalk-Solutions/project-nomad - Offline survival computer",
+      "title_ko": "Crosstalk-Solutions/project-nomad - 오프라인 서바이벌 컴퓨터",
+      "summary_ko": "자체 포함형 오프라인 서바이벌 컴퓨터. 핵심 도구, 지식, AI를 탑재하여 언제 어디서나 정보 접근 가능. 오늘 1,717스타.",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "offline",
+        "survival",
+        "ai"
+      ],
+      "score": 1717,
+      "published_at": "2026-03-26",
+      "detail_ko": "Project N.O.M.A.D.는 Crosstalk Solutions가 개발한 자체 포함형 오프라인 서바이벌 컴퓨터 프로젝트로, 인터넷 연결 없이도 핵심 도구, 지식, AI에 접근할 수 있도록 설계되었다. Docker 기반의 관리 UI('Command Center')와 API로 구성되며, 데비안 기반 OS(Ubuntu 권장)에 설치할 수 있다. 인터넷은 초기 설치 시에만 필요하고, 설치 후에는 완전히 오프라인으로 동작하며 텔레메트리가 전혀 없다.\n\n내장 기능은 상당히 포괄적이다. Ollama 기반 로컬 AI 채팅(Qdrant RAG로 문서 시맨틱 검색), Kiwix를 통한 오프라인 위키백과·의료 참고자료·전자책 라이브러리, Kolibri를 통한 Khan Academy 교육 플랫폼(진도 추적 지원), ProtoMaps 오프라인 지도, CyberChef 데이터 분석 도구, FlatNotes 메모장, 그리고 커뮤니티 리더보드가 있는 하드웨어 벤치마크 시스템까지 갖추고 있다.\n\n하드웨어 요구사항은 두 가지 티어로 나뉜다. 기본 관리 앱만 실행하려면 2GHz 듀얼코어, 4GB RAM, 5GB 스토리지면 충분하지만, LLM과 AI 도구를 활용하려면 Ryzen 7/i7급 프로세서, 32GB RAM, RTX 3060급 이상 GPU, 250GB SSD가 권장된다. $150~$1,000+ 세 가지 가격대의 빌드 가이드도 제공한다.\n\n보안 측면에서는 기본적으로 인증이 없어 로컬 네트워크 수준의 접근 제어를 권장하며, 인터넷 직접 노출은 강력히 경고하고 있다. Apache License 2.0으로 공개되었으며, 재난 대비, 교육, 오프그리드 환경 등에서의 활용을 목표로 한다.",
+      "detail_en": "Project N.O.M.A.D. is a self-contained, offline-first knowledge and education server developed by Crosstalk Solutions, designed to keep users informed and empowered without internet connectivity. It consists of a Docker-based management UI (\"Command Center\") and API that orchestrates containerized tools and resources, installable on any Debian-based OS (Ubuntu recommended). Internet is only required during initial installation — after setup, the system operates completely offline with zero built-in telemetry.\n\nThe built-in capabilities are comprehensive: local AI chat powered by Ollama with document upload and semantic search via Qdrant RAG, an offline information library via Kiwix (Wikipedia, medical references, survival guides, ebooks), an education platform via Kolibri (Khan Academy courses with progress tracking and multi-user support), offline maps via ProtoMaps, data analysis tools via CyberChef, local note-taking via FlatNotes, and a hardware benchmark system with a community leaderboard.\n\nHardware requirements are tiered: the barebones management app needs just a 2GHz dual-core processor, 4GB RAM, and 5GB storage, but running LLMs and AI tools requires an AMD Ryzen 7/Intel i7 or better, 32GB RAM, NVIDIA RTX 3060+ GPU, and 250GB SSD. The project provides detailed hardware build recommendations at three price points ($150–$1,000+).\n\nNotably, the project ships without authentication by design, recommending network-level access controls for local network exposure and strongly advising against internet exposure. Licensed under Apache 2.0, it targets disaster preparedness, education, and off-grid environments. Gaining 1,717 stars in a day reflects growing interest in digital sovereignty and offline-capable AI systems."
+    },
+    {
+      "id": "gh_trending_afdace39",
+      "title": "TauricResearch/TradingAgents - Multi-Agent LLM Financial Trading",
+      "title_ko": "TauricResearch/TradingAgents - 멀티에이전트 LLM 금융 트레이딩",
+      "summary_ko": "멀티 에이전트 LLM 기반 금융 트레이딩 프레임워크. 총 41,759스타, 오늘 1,392스타 획득.",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "trading",
+        "llm",
+        "multi-agent",
+        "finance"
+      ],
+      "score": 1392,
+      "published_at": "2026-03-26",
+      "detail_ko": "TradingAgents는 Tauric Research에서 개발한 멀티에이전트 LLM 기반 금융 트레이딩 프레임워크로, 실제 트레이딩 회사의 조직 구조를 모방한 역할 분화 시스템이 핵심이다. LangGraph 위에 구축되어 각 전문 에이전트가 독립적으로 시장을 분석한 후 동적 토론을 통해 최적의 전략을 도출한다.\n\n에이전트 구조는 네 가지 팀으로 구성된다. 애널리스트 팀(펀더멘탈·센티멘트·뉴스·테크니컬 분석가), 리서처 팀(강세/약세 연구원의 구조화된 토론), 트레이더(종합 리포트 기반 매매 결정), 리스크 관리 팀(시장 변동성·유동성 평가 후 포트폴리오 매니저의 최종 승인/거부)으로 나뉜다. 이런 다층적 검토 구조가 단일 모델 대비 더 강건한 의사결정을 가능하게 한다.\n\nv0.2.2에서는 GPT-5.4, Gemini 3.1, Claude 4.6 등 최신 모델을 지원하며, OpenAI/Google/Anthropic/xAI/OpenRouter/Ollama 등 멀티 프로바이더를 지원한다. deep_think_llm(복잡한 추론용)과 quick_think_llm(빠른 태스크용)을 분리해 비용 효율적 운영이 가능하고, 5단계 등급 스케일과 Anthropic effort control도 추가되었다.\n\n연구 목적으로 설계되어 투자 조언이 아님을 명시하고 있으며, arXiv 논문과 Trading-R1 기술 리포트도 공개했다. CLI 인터페이스로 티커·분석 날짜·LLM 프로바이더를 선택할 수 있고, Python 패키지로도 직접 통합 가능하다. 총 41,759스타는 AI 금융 분석 분야에서의 높은 관심을 반영한다.",
+      "detail_en": "TradingAgents is a multi-agent LLM financial trading framework by Tauric Research that mirrors the organizational dynamics of real-world trading firms. Built on LangGraph for flexibility and modularity, it decomposes complex trading decisions into specialized agent roles that collaborate through dynamic discussions to arrive at optimal strategies.\n\nThe framework features four distinct agent teams: an Analyst Team (Fundamentals, Sentiment, News, and Technical analysts), a Researcher Team (bullish and bearish researchers who critically debate analyst insights), a Trader (synthesizes reports into trading decisions), and a Risk Management Team (evaluates portfolio risk with a Portfolio Manager making final approve/reject decisions). This multi-layered review structure produces more robust decision-making than single-model approaches.\n\nVersion 0.2.2 supports the latest models including GPT-5.4, Gemini 3.1, and Claude 4.6, with multi-provider support across OpenAI, Google, Anthropic, xAI, OpenRouter, and Ollama. The config separates deep_think_llm (for complex reasoning) from quick_think_llm (for fast tasks) to optimize cost-efficiency, and adds a five-tier rating scale with Anthropic effort control and OpenAI Responses API support.\n\nDesigned explicitly for research purposes (not financial advice), the project is backed by academic publications including an arXiv paper and a Trading-R1 technical report. It provides both an interactive CLI for selecting tickers, analysis dates, and LLM providers, and a Python package API for programmatic integration. With 41,759 total stars, TradingAgents represents significant community interest in AI-driven financial analysis."
+    },
+    {
+      "id": "gh_trending_cb3eddfe",
+      "title": "mvanhorn/last30days-skill - AI agent research skill",
+      "title_ko": "mvanhorn/last30days-skill - AI 에이전트 리서치 스킬",
+      "summary_ko": "Reddit, X, YouTube, HN, Polymarket 등에서 주제를 리서치하고 요약하는 AI 에이전트 스킬. 오늘 1,342스타.",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai-agent",
+        "research",
+        "skill"
+      ],
+      "score": 1342,
+      "published_at": "2026-03-26",
+      "detail_ko": "last30days-skill은 AI 에이전트를 위한 리서치 스킬로, Reddit, X(Twitter), Bluesky, YouTube, TikTok, Instagram, Hacker News, Polymarket 등 최대 10개 소스에서 최근 30일간의 주제별 정보를 병렬로 수집하고 종합하는 도구다. Claude Code, OpenAI Codex CLI, OpenClaw 등 다양한 AI 에이전트 환경에서 동작하며, 단순 검색을 넘어 커뮤니티가 실제로 업보트하고 공유하며 베팅하는 콘텐츠를 찾아준다.\n\nv2.9.5에서 Bluesky/AT Protocol 지원, 비교 모드(\"X vs Y\" 형태의 병렬 리서치), 프로젝트별 .env 설정 등이 추가되었다. 특히 멀티시그널 품질 랭킹이 핵심 기술인데, 양방향 텍스트 유사도(동의어 확장), 인게이지먼트 속도 정규화, 소스 권위 가중치, 크로스 플랫폼 수렴 감지(하이브리드 trigram-token Jaccard 유사도), 시간 감쇠 등을 복합적으로 적용한다. Polymarket의 경우 텍스트 관련성(30%), 24시간 거래량(30%), 유동성(15%), 가격 변동 속도(15%), 결과 경쟁도(10%)로 5요소 가중 합성 점수를 사용한다.\n\nX 핸들 자동 해석 기능도 흥미롭다. 예를 들어 'Dor Brothers'를 검색하면 @thedorbrothers 핸들을 자동 발견하여 직접 포스트를 검색한다. ScrapeCreators API 하나로 Reddit, TikTok, Instagram 세 소스를 커버하며, 브라우저 쿠키 기반 X 검색과 xAI 폴백도 지원한다.\n\n워치리스트 기능으로 주기적 리서치를 SQLite에 축적하고, 자동 저장으로 ~/Documents/Last30Days/에 리서치 라이브러리를 구축한다. 블라인드 평가에서 v2.5가 5.0 만점에 4.38점을 기록하며 v1(3.73점) 대비 큰 향상을 보였다.",
+      "detail_en": "last30days-skill is an AI agent research skill that scans up to 10 sources — Reddit, X (Twitter), Bluesky, YouTube, TikTok, Instagram, Hacker News, Polymarket, and the web — in parallel to research any topic from the last 30 days. It works across Claude Code, OpenAI Codex CLI, Gemini, and OpenClaw environments, finding what communities are actually upvoting, sharing, betting on, and discussing rather than just returning search results.\n\nThe core technology is a multi-signal quality-ranked relevance scoring pipeline: bidirectional text similarity with synonym expansion, engagement velocity normalization, source authority weighting, cross-platform convergence detection via hybrid trigram-token Jaccard similarity, and temporal recency decay. Polymarket markets use a 5-factor weighted composite — text relevance (30%), 24-hour volume (30%), liquidity depth (15%), price movement velocity (15%), and outcome competitiveness (10%) — with outcome-aware scoring that matches topics against individual market positions.\n\nNotable features include X handle auto-resolution (searching \"Dor Brothers\" automatically discovers @thedorbrothers and searches their posts directly), comparative mode for head-to-head analysis (\"X vs Y\"), Bluesky/AT Protocol support (v2.9.5), and a single ScrapeCreators API key covering Reddit, TikTok, and Instagram. Version 2.9.1 added automatic save of every research briefing to ~/Documents/Last30Days/ as a personal research library.\n\nThe watchlist system enables scheduled re-research with SQLite-backed accumulation, designed for always-on environments with external schedulers. A blinded evaluation scored v2.5 at 4.38/5.0 versus 3.73/5.0 for v1 across 5 test topics. With 1,342 stars in a day, it reflects strong demand for AI-native research aggregation tools."
+    },
+    {
+      "id": "gh_trending_9a16f8b0",
+      "title": "ruvnet/ruflo - Agent orchestration platform for Claude",
+      "title_ko": "ruvnet/ruflo - Claude용 에이전트 오케스트레이션 플랫폼",
+      "summary_ko": "Claude를 위한 멀티에이전트 스웜 배포, 자율 워크플로우 조율. RAG 통합, Claude Code/Codex 네이티브 지원. 오늘 1,173스타.",
+      "url": "https://github.com/ruvnet/ruflo",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "claude",
+        "agent-orchestration",
+        "swarm"
+      ],
+      "score": 1173,
+      "published_at": "2026-03-26",
+      "detail_ko": "Ruflo는 Claude를 위한 에이전트 오케스트레이션 플랫폼으로, 멀티에이전트 스웜 배포, 자율 워크플로우 조율, 대화형 AI 시스템 구축을 지원한다. 엔터프라이즈급 아키텍처를 표방하며, 분산 스웜 인텔리전스, RAG 통합, Claude Code 및 Codex 네이티브 통합을 핵심 기능으로 내세운다.\n\n이 프로젝트의 핵심은 여러 Claude 에이전트를 '스웜'으로 조직하여 복잡한 태스크를 분할 정복하는 것이다. 각 에이전트는 특화된 역할을 맡고, 오케스트레이션 레이어가 에이전트 간 통신과 작업 분배를 관리한다. RAG 통합으로 외부 지식 베이스에 접근할 수 있어, 에이전트들이 도메인 특화된 정보를 활용한 의사결정이 가능하다.\n\nClaude Code와 OpenAI Codex CLI에 네이티브로 통합되어, 기존 개발 워크플로우에 자연스럽게 녹아들 수 있다. 381개의 이슈와 19개의 풀 리퀘스트가 활발한 커뮤니티 참여를 보여주며, 위키와 디스커션 섹션도 운영되고 있다. 오늘 1,173스타를 기록한 것은 Claude 생태계에서의 멀티에이전트 오케스트레이션에 대한 높은 관심을 반영한다.",
+      "detail_en": "Ruflo is an agent orchestration platform designed specifically for Claude, enabling deployment of intelligent multi-agent swarms, coordination of autonomous workflows, and building conversational AI systems. It features enterprise-grade architecture with distributed swarm intelligence, RAG integration, and native Claude Code / Codex integration.\n\nThe core concept is organizing multiple Claude agents into \"swarms\" that can divide and conquer complex tasks. Each agent assumes a specialized role while an orchestration layer manages inter-agent communication and task distribution. RAG integration enables agents to access external knowledge bases for domain-specific decision-making, making the swarms more effective for specialized workflows.\n\nNative integration with both Claude Code and OpenAI Codex CLI allows Ruflo to fit naturally into existing development workflows. The project shows active community engagement with 381 open issues and 19 pull requests, along with dedicated wiki and discussions sections. The project is open source and appears to be positioned as a leading solution in the Claude agent ecosystem.\n\nGaining 1,173 stars in a single day reflects the strong demand for multi-agent orchestration tools within the Claude ecosystem, as developers seek ways to coordinate multiple AI agents for complex, multi-step tasks that go beyond single-agent capabilities."
+    },
+    {
+      "id": "gh_trending_198b944a",
+      "title": "FujiwaraChoki/MoneyPrinterV2 - Automate online money making",
+      "title_ko": "FujiwaraChoki/MoneyPrinterV2 - 온라인 수익 자동화",
+      "summary_ko": "온라인 수익 창출 과정을 자동화하는 도구. 총 25,529스타, 오늘 1,065스타 획득.",
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "automation",
+        "money"
+      ],
+      "score": 1065,
+      "published_at": "2026-03-26",
+      "detail_ko": "MoneyPrinterV2(MPV2)는 온라인 수익 창출 과정을 자동화하는 오픈소스 애플리케이션으로, 원본 MoneyPrinter 프로젝트의 완전한 리라이트다. 더 넓은 기능 범위와 모듈러 아키텍처에 초점을 맞춰 개발되었으며, Python 3.12 환경에서 동작한다.\n\n핵심 기능은 네 가지다. 첫째, CRON 작업 스케줄러와 연동되는 트위터 봇으로 자동 포스팅이 가능하다. 둘째, YouTube Shorts 자동화 도구로 쇼트 영상 생성과 업로드를 자동화한다. 셋째, Amazon 제휴 마케팅과 트위터를 연동한 어필리에이트 마케팅 기능이 있다. 넷째, 지역 비즈니스를 찾아 콜드 아웃리치를 수행하는 기능도 포함한다(이메일 아웃리치에는 Go 프로그래밍 언어 설치가 필요).\n\n기술적으로는 KittenTTS(텍스트-투-스피치)와 gpt4free를 활용하며, config.json으로 설정을 관리한다. scripts 디렉토리에 핵심 기능에 직접 접근하는 스크립트들이 있어 사용자 인터랙션 없이도 실행 가능하다. 중국어 포크인 MoneyPrinterTurbo 등 커뮤니티 버전도 존재한다.\n\nAGPL-3.0 라이선스로 공개되었으며, 교육 목적임을 명시하고 있다. 총 25,529스타에 하루 1,065스타를 기록하며, AI를 활용한 콘텐츠 자동화와 수익화에 대한 꾸준한 관심을 보여준다.",
+      "detail_en": "MoneyPrinterV2 (MPV2) is an open-source application that automates online money-making processes, serving as a complete rewrite of the original MoneyPrinter project with a focus on broader feature coverage and modular architecture. It requires Python 3.12 to function effectively.\n\nThe tool provides four core automation capabilities: a Twitter bot with CRON job scheduling for automated posting, a YouTube Shorts automater for video generation and upload, affiliate marketing integration (Amazon + Twitter), and local business discovery with cold outreach functionality (requiring Go for email outreach). It leverages KittenTTS for text-to-speech and gpt4free for AI capabilities.\n\nThe architecture uses a config.json-based configuration system, with scripts in a dedicated directory for direct access to core functionality without user interaction. Community forks exist in multiple languages, including MoneyPrinterTurbo (Chinese version). The project is licensed under AGPL-3.0 and explicitly states it is for educational purposes only.\n\nWith 25,529 total stars and 1,065 gained in a single day, MoneyPrinterV2 demonstrates sustained interest in AI-powered content automation and monetization tools. The project's popularity reflects the broader trend of developers seeking to automate content creation workflows, though users should exercise caution regarding platform terms of service and ethical considerations."
+    },
+    {
+      "id": "gh_trending_c48c82e4",
+      "title": "supermemoryai/supermemory - Memory API for AI agents",
+      "title_ko": "supermemoryai/supermemory - AI 에이전트용 메모리 API",
+      "summary_ko": "AI 에이전트를 위한 메모리 API 및 인프라. 총 19,164스타, 오늘 809스타.",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "ai",
+        "memory",
+        "api"
+      ],
+      "score": 809,
+      "published_at": "2026-03-26",
+      "detail_ko": "Supermemory는 AI 에이전트를 위한 최첨단 메모리 및 컨텍스트 엔진으로, LongMemEval, LoCoMo, ConvoMem 세 가지 주요 AI 메모리 벤치마크에서 모두 1위를 차지했다. 대화에서 자동으로 사실을 추출하고, 사용자 프로필을 구축하며, 지식 업데이트와 모순을 처리하고, 만료된 정보를 자동 삭제하는 것이 핵심이다.\n\n아키텍처는 다섯 가지 핵심 레이어로 구성된다. 메모리 엔진(사실 추출, 시간적 변화 추적, 모순 해결, 자동 망각), 사용자 프로필(static 사실 + dynamic 활동, ~50ms 응답), 하이브리드 검색(RAG + Memory를 단일 쿼리로), 커넥터(Google Drive/Gmail/Notion/OneDrive/GitHub 실시간 웹훅 동기화), 멀티모달 추출기(PDF/이미지 OCR/비디오 트랜스크립션/코드 AST 인식 청킹). 특히 RAG와 Memory의 차이를 명확히 구분하는데, RAG는 상태 없는 문서 청크 검색이고 Memory는 시간에 따른 사실 추적이다.\n\nSDK는 npm과 pip으로 제공되며, Vercel AI SDK, LangChain, LangGraph, OpenAI Agents SDK, Mastra, Agno 등 주요 프레임워크와 드롭인 래퍼로 통합된다. MCP 서버도 제공하여 Claude Desktop, Cursor, Windsurf, VS Code 등에서 바로 사용할 수 있다. memory(저장/삭제), recall(쿼리 기반 검색), context(전체 프로필 주입) 세 가지 도구로 동작한다.\n\nMemoryBench라는 오픈소스 벤치마크 프레임워크도 제공하여 Supermemory, Mem0, Zep 등을 동일 조건에서 비교할 수 있다. 자동 망각 기능이 특히 차별적인데, '내일 시험이 있다' 같은 임시 사실은 날짜가 지나면 자동 만료되고, 'SF로 이사했다'는 'NYC에 산다'를 자동으로 대체한다.",
+      "detail_en": "Supermemory is a state-of-the-art memory and context engine for AI, ranking #1 on all three major AI memory benchmarks: LongMemEval (81.6%), LoCoMo, and ConvoMem. It automatically learns from conversations, extracts facts, builds user profiles, handles knowledge updates and contradictions, forgets expired information, and delivers the right context at the right time.\n\nThe architecture comprises five core layers: a Memory Engine (fact extraction, temporal change tracking, contradiction resolution, automatic forgetting), User Profiles (static facts + dynamic context, ~50ms response), Hybrid Search (RAG + Memory in a single query), Connectors (Google Drive, Gmail, Notion, OneDrive, GitHub with real-time webhooks), and Multi-modal Extractors (PDFs, images via OCR, videos via transcription, code with AST-aware chunking). Crucially, it distinguishes between RAG (stateless document chunk retrieval) and Memory (tracking facts about users over time).\n\nSDKs are available via npm and pip, with drop-in wrappers for Vercel AI SDK, LangChain, LangGraph, OpenAI Agents SDK, Mastra, and Agno. An MCP server enables direct use in Claude Desktop, Cursor, Windsurf, and VS Code through three tools: memory (save/forget), recall (query-based search), and context (full profile injection). The consumer app at app.supermemory.ai provides a code-free experience with an embedded agent called Nova.\n\nSupermemory also provides MemoryBench, an open-source framework for standardized benchmarking of memory providers (Supermemory, Mem0, Zep, etc.). The automatic forgetting capability is particularly distinctive — temporary facts like \"I have an exam tomorrow\" expire after the date passes, and contradictions like \"I moved to SF\" automatically supersede \"I live in NYC.\" With 19,164 total stars, it's becoming the de facto memory infrastructure for AI applications."
+    },
+    {
+      "id": "hn_ca0251d8",
+      "title": "Thoughts on slowing the fuck down",
+      "title_ko": "속도를 늦추는 것에 대한 생각",
+      "summary_ko": "개발자가 번아웃과 기술 업계의 속도 집착에 대해 성찰하며, 의도적으로 속도를 늦추는 것의 가치를 이야기한다.",
+      "url": "https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "productivity",
+        "burnout",
+        "career",
+        "mindfulness"
+      ],
+      "score": 537,
+      "published_at": "2026-03-25T18:47:14Z",
+      "detail_ko": "Mario Zechner가 쓴 이 글은 코딩 에이전트 시대에 속도를 늦추는 것의 가치에 대한 깊은 성찰이다. 약 1년 전부터 본격적으로 등장한 코딩 에이전트(Cursor, Claude Code 등)가 프로덕션 코드베이스에 투입되면서 나타난 문제들을 날카롭게 분석한다. 소프트웨어가 점점 더 불안정해지고, AWS의 AI 관련 장애, Microsoft의 Windows 품질 문제, AI로 100% 코드를 작성한다고 주장하는 회사들의 기가바이트급 메모리 누수와 크래시 등을 구체적 사례로 든다.\n\n핵심 논점은 '복합적 실수의 가속화'다. 에이전트는 인간과 달리 실수에서 학습하지 않고, 같은 오류를 반복한다. 인간은 병목(bottleneck)이라 하루에 생성할 수 있는 코드량이 제한되지만, 에이전트 군대에는 그런 제약이 없다. 무해해 보이는 작은 코드 냄새들이 지속 불가능한 속도로 복합되고, 개발자가 루프에서 빠져나와 있기 때문에 고통을 느낄 때는 이미 늦은 상태가 된다.\n\n'학습된 복잡성의 상인'이라는 비유도 인상적이다. 에이전트들은 서로의 실행 결과를 보지 못하고 항상 로컬한 결정만 내려 엄청난 코드 중복과 불필요한 추상화를 만든다. 인간이 만든 엔터프라이즈 코드베이스가 수년에 걸쳐 도달하는 복잡성 수준에, 에이전트와 2명의 인간은 몇 주 만에 도달할 수 있다.\n\n해결책으로 제시하는 것은 '의도적으로 속도를 늦추기'다. 아키텍처, API 등 시스템의 형태를 결정하는 것은 직접 작성하고, 에이전트에게는 범위를 좁힐 수 있고 자체 평가가 가능한 작업을 맡기되, 인간이 최종 품질 게이트 역할을 해야 한다. 에이전트가 하루에 생성하는 코드량을 리뷰 가능한 수준으로 제한하라는 조언은 현재 업계의 '더 빠르게' 문화에 대한 의미 있는 반론이다.",
+      "detail_en": "This essay by Mario Zechner, published on Hacker News, offers a sharp critique of the coding agent era's obsession with speed and a thoughtful case for intentionally slowing down. After roughly a year of coding agents (Cursor, Claude Code, etc.) being deployed in production codebases, the author catalogs the emerging damage: increasing software brittleness, AWS's AI-caused outage followed by a 90-day reset, Microsoft's declining Windows quality, and companies claiming 100% AI-written code shipping products with gigabyte-scale memory leaks and constant crashes.\n\nThe central argument revolves around \"compounding booboos with zero learning.\" Unlike humans, agents don't learn from their mistakes — they repeat the same errors indefinitely. Humans are natural bottlenecks who can only produce so much code per day, limiting the rate at which small errors compound. With orchestrated agent armies, there is no bottleneck: tiny code smells compound at an unsustainable rate, and because developers have removed themselves from the loop, they only feel the pain when recovery is nearly impossible.\n\nThe author introduces the compelling metaphor of agents as \"merchants of learned complexity\" — they've absorbed terrible architectural patterns from training data and, since each agent run has only a local view (never seeing other agents' runs or the full codebase), their decisions create massive code duplication and abstractions-for-abstractions'-sake. What takes human enterprise teams years to accumulate in technical debt, agents and a team of two can reach in weeks.\n\nThe prescribed remedy is deliberate deceleration: write architecture and APIs by hand, delegate only well-scoped tasks with self-evaluation capabilities to agents, limit daily agent-generated code to what you can actually review, and always serve as the final quality gate. The essay argues that the friction of manual work enables understanding, taste, and learning — qualities current SOTA models cannot replace. This piece resonates as a meaningful counterargument to the industry's prevailing \"move faster\" culture."
+    },
+    {
+      "id": "hn_a6ebdd4b",
+      "title": "TurboQuant: Redefining AI efficiency with extreme compression",
+      "title_ko": "TurboQuant: 극한 압축으로 AI 효율성 재정의",
+      "summary_ko": "Google Research가 LLM 메모리 사용량을 최대 6배 줄이면서 품질 저하 없는 양자화 알고리즘 TurboQuant을 발표했다.",
+      "url": "https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "google",
+        "compression",
+        "quantization",
+        "efficiency"
+      ],
+      "score": 455,
+      "published_at": "2026-03-25T09:40:54Z",
+      "detail_ko": "TurboQuant는 Google Research가 발표한 극한 압축 알고리즘으로, AI 모델의 메모리 사용량을 최대 6배 줄이면서 정확도 손실이 전혀 없는 것이 핵심이다. ICLR 2026에서 발표될 이 연구는 벡터 양자화의 근본적인 문제인 '양자화 상수의 메모리 오버헤드'를 해결한다. 기존 방법들은 데이터 블록마다 풀 정밀도로 양자화 상수를 저장해야 해서 1~2비트의 오버헤드가 발생했다.\n\nTurboQuant는 두 가지 핵심 기법을 결합한다. 첫째, PolarQuant(AISTATS 2026 발표)는 벡터를 직교좌표계에서 극좌표계로 변환하여 반지름(데이터 강도)과 각도(데이터 의미)로 분리한다. 각도의 분포가 알려진 패턴으로 집중되어 있어 비용이 큰 데이터 정규화 단계를 생략하고 메모리 오버헤드를 제거한다. 둘째, QJL(Quantized Johnson-Lindenstrauss)은 Johnson-Lindenstrauss 변환으로 고차원 데이터를 축소한 후 각 값을 1비트 부호(+1 또는 -1)로 줄여 제로 오버헤드를 달성한다.\n\n실험 결과가 인상적이다. LongBench, Needle In A Haystack, ZeroSCROLLS, RULER, L-Eval 등 장문맥 벤치마크에서 Gemma와 Mistral 모델로 테스트한 결과, TurboQuant는 학습이나 파인튜닝 없이 KV 캐시를 3비트로 양자화하면서 정확도 타협이 없었다. H100 GPU에서 4비트 TurboQuant가 32비트 대비 어텐션 로짓 계산을 최대 8배 빠르게 수행했다. 벡터 검색에서도 PQ와 RabbiQ 대비 더 높은 recall을 달성하면서도 대용량 코드북이나 데이터셋 특화 튜닝이 불필요했다.\n\n이 연구의 의의는 실용적 엔지니어링 솔루션을 넘어 이론적 하한에 근접하는 증명 가능한 효율성을 갖춘 근본적 알고리즘 기여라는 점이다. KV 캐시 병목 해소, 대규모 벡터 검색, 시맨틱 검색 모두에 영향을 미치며, Gemini 같은 모델에 직접 적용될 수 있다.",
+      "detail_en": "TurboQuant is a compression algorithm from Google Research that achieves up to 6x reduction in AI model memory usage with zero accuracy loss, to be presented at ICLR 2026. It addresses the fundamental problem of memory overhead in vector quantization — traditional methods require storing full-precision quantization constants for every data block, adding 1-2 extra bits per number that partially defeat the purpose of compression.\n\nThe algorithm combines two key techniques. First, PolarQuant (AISTATS 2026) converts vectors from Cartesian to polar coordinates, separating radius (data strength) from angle (data meaning). Because angular distributions follow known concentrated patterns, it eliminates the expensive data normalization step and its associated memory overhead. Second, QJL (Quantized Johnson-Lindenstrauss) applies the JL Transform to reduce high-dimensional data while preserving distances, then reduces each value to a single sign bit (+1 or -1) — achieving zero overhead while using a special estimator that balances high-precision queries with low-precision data.\n\nExperimental results are striking. Across long-context benchmarks (LongBench, Needle In A Haystack, ZeroSCROLLS, RULER, L-Eval) using Gemma and Mistral models, TurboQuant quantizes the KV cache to just 3 bits without any training or fine-tuning, with zero accuracy compromise. On H100 GPUs, 4-bit TurboQuant achieves up to 8x speedup over 32-bit unquantized keys for attention logit computation. In vector search, it achieves superior recall over PQ and RabbiQ baselines without requiring large codebooks or dataset-specific tuning.\n\nThe significance extends beyond engineering: these are fundamental algorithmic contributions with strong theoretical proofs operating near theoretical lower bounds. Applications span KV cache bottleneck resolution, large-scale vector search, and semantic search at Google scale, with direct applicability to models like Gemini."
+    },
+    {
+      "id": "hn_fd40b72e",
+      "title": "The EU still wants to scan your private messages and photos",
+      "title_ko": "EU, 여전히 개인 메시지와 사진 검열 추진 중",
+      "summary_ko": "EU가 채팅 통제법을 통해 개인 메시지와 사진을 스캔하려는 시도를 계속하고 있다. 프라이버시 침해 우려가 커지고 있다.",
+      "url": "https://fightchatcontrol.eu/?foo=bar",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "privacy",
+        "eu",
+        "surveillance",
+        "encryption",
+        "policy"
+      ],
+      "score": 362,
+      "published_at": "2026-03-26T00:27:03Z",
+      "detail_ko": "EU가 추진하고 있는 이른바 '채팅 통제법(Chat Control)'은 모든 개인 메시지와 사진을 자동으로 스캔하여 아동 성착취물(CSAM)을 탐지하겠다는 규제안이다. 이 법안은 암호화된 메시지까지 포함하여 무차별적 대량 감시를 허용하는 것이 핵심이며, Signal, WhatsApp 등 E2E 암호화 메신저의 근본적인 보안 모델을 훼손할 수 있다는 점에서 격렬한 반대에 직면해 왔다.\n\n유럽의회는 이미 이 무차별적 스캔에 대해 반대 투표를 한 바 있으나, 보수파(EPP) 그룹이 2026년 3월 26일 목요일에 새로운 투표를 강행하려는 시도를 하고 있다. 이는 의회의 민주적 결정을 뒤집으려는 것으로, 프라이버시 옹호 단체들은 이를 민주주의에 대한 직접적인 공격이라고 비판하고 있다.\n\nfightchatcontrol.eu 캠페인 사이트는 시민들에게 자국 의원에게 연락하여 반대 의사를 전달할 것을 촉구하고 있다. 기술적으로 클라이언트 측 스캐닝(client-side scanning)은 E2E 암호화의 의미를 무력화하며, 오탐지 문제, 감시 인프라의 악용 가능성, 그리고 권위주의 정권으로의 기술 확산 우려가 핵심 논점이다. 보안 전문가들과 인권 단체들은 이 접근 방식이 범죄 예방보다 일반 시민의 프라이버시를 더 크게 침해한다고 주장한다.",
+      "detail_en": "The EU's so-called 'Chat Control' regulation proposes mandatory scanning of all private messages and photos to detect child sexual abuse material (CSAM). The law would require indiscriminate mass surveillance including end-to-end encrypted messages, fundamentally undermining the security model of messengers like Signal and WhatsApp.\n\nDespite the European Parliament having already voted against indiscriminate scanning, the conservative EPP group is attempting to force a new vote on March 26, 2026, seeking to reverse Parliament's democratic decision. Privacy advocates characterize this as a direct attack on democracy and citizens' fundamental right to privacy.\n\nThe fightchatcontrol.eu campaign urges citizens to contact their representatives to oppose the measure. The core technical concerns include client-side scanning effectively nullifying E2E encryption, high false-positive rates, potential for surveillance infrastructure abuse, and the risk of such technology spreading to authoritarian regimes. Security experts and human rights organizations argue that this approach disproportionately harms ordinary citizens' privacy compared to its crime prevention benefits."
+    },
+    {
+      "id": "hn_ce61270d",
+      "title": "Ensu – Ente's Local LLM app",
+      "title_ko": "Ensu – Ente의 로컬 LLM 앱",
+      "summary_ko": "E2E 암호화 클라우드 서비스 Ente가 로컬에서 실행되는 LLM 앱 Ensu를 공개했다. 프라이버시를 보장하면서 AI 기능 사용 가능.",
+      "url": "https://ente.com/blog/ensu/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "llm",
+        "privacy",
+        "local-ai",
+        "open-source"
+      ],
+      "score": 310,
+      "published_at": "2026-03-25T11:09:14Z",
+      "detail_ko": "E2E 암호화 클라우드 서비스로 유명한 Ente가 로컬에서 실행되는 LLM 앱 'Ensu'를 공개했다. Ensu는 ChatGPT와 유사한 인터페이스를 제공하지만, 모든 처리가 사용자의 디바이스에서 이루어지므로 완전한 프라이버시를 보장하며 비용도 들지 않는다. iOS, Android, macOS, Linux, Windows를 모두 지원하고 이미지 첨부도 가능하다.\n\nEnte 팀은 LLM이 빅테크에만 맡기기엔 너무 중요한 기술이라는 철학을 바탕으로 이 프로젝트를 시작했다. 중앙화된 LLM 서비스의 프라이버시 부재, 임의 차단, 콘텐츠 조작, 비이식성 메모리 등의 문제를 지적하며, 로컬 모델이 일정 수준의 역량 임계점을 넘으면 대부분의 용도에 충분할 것이라고 전망한다. 핵심 로직은 Rust로 작성되었으며, 각 플랫폼별로 네이티브(모바일) 및 Tauri(데스크톱) 앱이 공유 로직을 사용한다.\n\nE2EE 동기화 및 백업 기능은 이미 구현되었으나, 향후 제품 방향이 변경될 수 있어 이번 릴리스에서는 비활성화되었다. 향후 방향으로는 단순 채팅을 넘어 끊임없이 작성하는 노트에 LLM이 제안·비평·맥락을 제공하는 '제2의 뇌' 형태, 안드로이드 런처 같은 실용적 인터페이스, 또는 장기 메모리와 성격을 가진 개인 에이전트 등이 검토되고 있다. 오픈소스로 공개되어 있어 커뮤니티 기여도 가능하다.",
+      "detail_en": "Ente, known for its end-to-end encrypted cloud services (Ente Photos), has released 'Ensu,' a local LLM app that runs entirely on-device. Ensu provides a ChatGPT-like chat interface with complete privacy and zero cost, supporting iOS, Android, macOS, Linux, Windows, and even an experimental web version with image attachment support.\n\nThe project is driven by Ente's philosophy that LLMs are too important to be left to big tech. They highlight the privacy risks, arbitrary bans, content shaping, and non-portable memory inherent in centralized LLM services. The core logic is written in Rust, with native (mobile) and Tauri (desktop) apps sharing the same backend across platforms. Ente draws on their experience delivering on-device face recognition and natural language image search for Ente Photos.\n\nWhile E2EE sync and backup functionality has been implemented (using existing Ente accounts, also self-hostable), it was disabled in this initial release pending product direction decisions. Future directions under consideration include: a 'second brain' note-taking interface with LLM-powered suggestions and critiques, a utilitarian Android Launcher integration, or a full personal agent with long-term memory and personality. The project is open source and the team actively seeks community feedback to shape its evolution."
+    },
+    {
+      "id": "hn_fb42f841",
+      "title": "Supreme Court Sides with Cox in Copyright Fight over Pirated Music",
+      "title_ko": "미 대법원, 음악 저작권 분쟁에서 ISP Cox 편 들어",
+      "summary_ko": "미국 대법원이 ISP 가입자의 불법 다운로드에 대해 통신사가 책임지지 않는다고 판결. 저작권 집행 방식에 큰 영향.",
+      "url": "https://www.nytimes.com/2026/03/25/us/politics/supreme-court-cox-music-copyright.html",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "law",
+        "copyright",
+        "supreme-court",
+        "isp",
+        "music"
+      ],
+      "score": 211,
+      "published_at": "2026-03-25T13:22:56Z",
+      "detail_ko": "미국 대법원이 인터넷 서비스 제공업체(ISP) Cox Communications를 상대로 한 음악 저작권 소송에서 Cox의 손을 들어주는 판결을 내렸다. 이 사건의 핵심 쟁점은 ISP 가입자가 불법으로 음악을 다운로드했을 때, 해당 ISP가 저작권 침해에 대한 법적 책임을 져야 하는지 여부였다.\n\n음악 업계(주요 레코드 레이블들)는 Cox가 반복적으로 저작권을 침해하는 가입자들의 서비스를 중단하지 않았으므로 기여적 또는 대위적 저작권 침해 책임이 있다고 주장했다. 하위 법원에서 10억 달러에 가까운 배상 판결이 내려진 바 있어 업계의 주목을 받았다.\n\n대법원의 이번 판결은 ISP가 가입자의 불법 다운로드에 대해 자동으로 책임을 지지 않는다는 원칙을 확립하여, 저작권 집행 방식에 큰 변화를 가져올 전망이다. 이는 저작권 보유자가 ISP를 통해 간접적으로 집행하는 전략에 제동을 거는 것으로, 향후 저작권 침해 대응은 직접적인 침해자에 더 초점을 맞추게 될 것으로 보인다.",
+      "detail_en": "The U.S. Supreme Court has sided with internet service provider Cox Communications in a landmark copyright case involving pirated music. The central question was whether an ISP bears legal responsibility when its subscribers illegally download copyrighted music.\n\nThe music industry (major record labels) argued that Cox was liable for contributory or vicarious copyright infringement because it failed to terminate service for subscribers who repeatedly pirated music. Lower courts had awarded nearly $1 billion in damages, making this one of the most closely watched copyright cases in years.\n\nThe Supreme Court's ruling establishes that ISPs are not automatically liable for their subscribers' illegal downloads, representing a significant shift in copyright enforcement strategy. This decision curtails the approach of copyright holders pursuing ISPs as proxies for enforcement, likely redirecting future copyright actions toward direct infringers rather than intermediaries. The ruling has broad implications for the telecommunications industry and how copyright is enforced in the digital age."
+    },
+    {
+      "id": "hn_0898a31d",
+      "title": "Apple randomly closes bug reports unless you verify the bug remains unfixed",
+      "title_ko": "Apple, 버그 '미수정 확인' 안 하면 버그 리포트 임의 종료",
+      "summary_ko": "Apple이 개발자가 버그가 여전히 존재하는지 확인하지 않으면 버그 리포트를 자동으로 닫아버리는 관행이 비판받고 있다.",
+      "url": "https://lapcatsoftware.com/articles/2026/3/11.html",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "apple",
+        "bugs",
+        "developer-experience"
+      ],
+      "score": 162,
+      "published_at": "2026-03-25T22:54:42Z",
+      "detail_ko": "macOS/iOS 개발자 Jeff Johnson이 Apple의 Feedback Assistant(버그 리포팅 시스템)의 문제점을 신랄하게 비판하는 글을 게시했다. 그는 2023년 3월에 제출한 개인정보 보호 관련 네트워크 필터 확장 버그(FB12088655)가 3년간 아무런 응답 없이 방치되다가, 최근 Apple이 macOS 26.4 베타 4에서 버그가 여전히 재현되는지 '확인'해달라고 요청했다고 밝혔다.\n\nApple은 해당 버그를 수정했는지 직접 답변하지 않으면서, 2주 내에 검증하지 않으면 버그 리포트를 닫고 수정된 것으로 간주하겠다고 위협했다. Johnson은 베타를 설치하는 대신 Little Snitch 개발사에 확인한 결과, 베타에서도 버그가 여전히 재현됨을 확인했다. macOS 26.4 정식 출시 후에도 동일하게 재현 가능했다.\n\n또 다른 버그(FB22057274)는 100% 재현 가능한데도 '현재 정보로는 진단 불가'라는 해결로 종결되었다. Johnson은 Apple 경영진이 버그 리포트 수를 인위적으로 줄이도록 하위 직원들에게 압박하고 있으며, 내부 지표가 소프트웨어 품질에 문제가 없다고 거짓 보여주고 있다고 추론했다. 이는 개발자 커뮤니티에서 오랫동안 제기되어 온 Apple의 버그 리포팅 시스템에 대한 불만을 대변한다.",
+      "detail_en": "macOS/iOS developer Jeff Johnson published a scathing critique of Apple's Feedback Assistant bug reporting system. He describes how a privacy-related network filter extension bug (FB12088655) he filed in March 2023 was ignored for three years with zero response, until Apple recently asked him to 'verify' whether the issue persists in macOS 26.4 beta 4.\n\nApple refused to directly answer whether they had fixed the bug, while threatening to close the report and assume it was fixed if Johnson didn't verify within two weeks. Rather than installing the beta himself, Johnson contacted the Little Snitch developers, who confirmed the bug was still reproducible in the beta. It remained reproducible in the final macOS 26.4 release as well.\n\nAnother bug (FB22057274) that is 100% reproducible was marked 'Investigation complete - Unable to diagnose with current information' without Apple ever requesting additional details. Johnson concludes that Apple leadership incentivizes employees to close bug reports regardless of fix status, artificially deflating open bug counts to create misleading internal quality metrics. This represents a longstanding frustration in the developer community about Apple's disrespectful treatment of external bug reporters who essentially provide free QA work."
+    },
+    {
+      "id": "hn_e14ebeaa",
+      "title": "Updates to GitHub Copilot interaction data usage policy",
+      "title_ko": "GitHub Copilot 상호작용 데이터 사용 정책 변경",
+      "summary_ko": "GitHub이 Copilot의 사용자 상호작용 데이터 활용 정책을 업데이트했다.",
+      "url": "https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "github",
+        "copilot",
+        "ai",
+        "privacy",
+        "policy"
+      ],
+      "score": 152,
+      "published_at": "2026-03-25T22:49:16Z",
+      "detail_ko": "GitHub이 2026년 4월 24일부터 Copilot Free, Pro, Pro+ 사용자의 상호작용 데이터를 AI 모델 훈련에 사용하겠다는 정책 변경을 발표했다. 수집 대상 데이터에는 입력/출력, 코드 스니펫, 커서 주변 코드 컨텍스트, 주석 및 문서, 파일명과 저장소 구조, Copilot 기능과의 상호작용, 사용자 피드백(좋아요/싫어요) 등이 포함된다.\n\n이전에 데이터 수집을 거부한 사용자의 설정은 유지되며, 원하지 않는 사용자는 GitHub 설정의 Privacy 항목에서 옵트아웃할 수 있다. Copilot Business 및 Enterprise 사용자는 이번 변경의 영향을 받지 않는다. GitHub은 Microsoft 직원 데이터를 활용한 훈련에서 이미 다수 언어의 코드 수용률이 의미 있게 향상되었다고 설명했다.\n\n이 데이터는 GitHub 계열사(Microsoft 포함)와 공유될 수 있으나, 서드파티 AI 모델 제공자나 독립 서비스 제공자와는 공유되지 않는다고 명시했다. 업계에서는 이를 '업계 관행에 부합하는' 변경이라고 설명하지만, 개발자 커뮤니티에서는 개인 저장소 코드가 Copilot 사용 시 서비스 실행에 필요하여 처리되며 이 상호작용 데이터가 옵트아웃하지 않으면 훈련에 사용될 수 있다는 점에 우려를 표하고 있다.",
+      "detail_en": "GitHub announced that starting April 24, 2026, interaction data from Copilot Free, Pro, and Pro+ users will be used to train AI models unless users opt out. The collected data includes inputs/outputs, code snippets and surrounding context, comments and documentation, file names and repository structure, navigation patterns, Copilot feature interactions, and user feedback ratings.\n\nUsers who previously opted out retain their preference, and anyone can opt out via GitHub settings under 'Privacy.' Copilot Business and Enterprise users are unaffected. GitHub cited meaningful improvements in code acceptance rates across multiple languages from training on Microsoft employee interaction data as justification.\n\nThe data may be shared with GitHub affiliates (including Microsoft) but will not be shared with third-party AI model providers. While GitHub frames this as aligning with 'established industry practices,' the developer community has raised concerns about the nuanced distinction: code from private repositories is processed when actively using Copilot (required to run the service), and this interaction data could be used for model training unless users explicitly opt out. The default opt-in approach and the breadth of collected data have sparked significant debate about developer trust and data sovereignty."
+    },
+    {
+      "id": "hn_b8ccf1d0",
+      "title": "ARC-AGI-3",
+      "title_ko": "ARC-AGI-3 벤치마크 공개",
+      "summary_ko": "ARC Prize에서 AGI 능력을 측정하는 새로운 벤치마크 ARC-AGI-3을 공개. AI 추론 능력의 새로운 평가 기준을 제시한다.",
+      "url": "https://arcprize.org/arc-agi/3",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "agi",
+        "benchmark",
+        "reasoning"
+      ],
+      "score": 143,
+      "published_at": "2026-03-25T20:16:03Z",
+      "detail_ko": "ARC Prize가 AGI 능력을 측정하는 새로운 벤치마크 ARC-AGI-3를 공개했다. 이전 버전(ARC-AGI-1, 2)이 정적 퍼즐 해결에 초점을 맞추었다면, ARC-AGI-3는 AI 에이전트가 새로운 환경을 탐험하고, 목표를 즉석에서 파악하며, 적응 가능한 세계 모델을 구축하고, 지속적으로 학습해야 하는 상호작용적 추론 벤치마크다.\n\nARC-AGI-3의 핵심 측정 요소는 시간에 걸친 스킬 획득 효율성, 희소한 피드백 하에서의 장기 계획 수립, 그리고 경험 기반 적응이다. 자연어 지시사항에 의존하지 않고, 에이전트가 각 환경 내에서 무엇이 중요한지 인식하고, 행동을 선택하며, 전략을 적응시켜야 한다. 100%의 환경이 인간이 해결 가능하도록 설계되어, AI와 인간 학습의 격차를 정량적으로 측정한다.\n\n설계 원칙으로는 인간이 빠르게 익힐 수 있을 것, 사전 지식이나 숨겨진 프롬프트가 없을 것, 명확한 목표와 의미 있는 피드백, 무차별 대입 암기를 방지하는 새로움이 포함된다. 리플레이 가능한 실행, 에이전트 통합을 위한 개발자 툴킷, 투명한 평가를 위한 UI가 함께 제공된다. 이는 단순한 최종 답변이 아닌, 계획 수평, 메모리 압축, 새로운 증거에 따른 신념 업데이트 능력을 시간에 걸쳐 테스트함으로써 AGI를 향한 진전을 측정하려는 야심 찬 시도다.",
+      "detail_en": "ARC Prize has released ARC-AGI-3, a new benchmark for measuring AGI capabilities. While previous versions (ARC-AGI-1, 2) focused on solving static puzzles, ARC-AGI-3 is an interactive reasoning benchmark that challenges AI agents to explore novel environments, acquire goals on the fly, build adaptable world models, and learn continuously.\n\nThe benchmark measures skill-acquisition efficiency over time, long-horizon planning with sparse feedback, and experience-driven adaptation across multiple steps. Instead of relying on natural-language instructions, agents must learn from experience inside each environment—perceiving what matters, selecting actions, and adapting strategies. All environments are 100% human-solvable, making the gap between AI and human learning directly measurable.\n\nDesign principles include easy human pickup, no pre-loaded knowledge or hidden prompts, clear goals with meaningful feedback, and novelty that prevents brute-force memorization. The platform provides replayable runs, a developer toolkit for agent integration, and a UI for transparent evaluation. By testing intelligence across time rather than just final answers—capturing planning horizons, memory compression, and belief updating—ARC-AGI-3 represents an ambitious attempt to quantify progress toward AGI through temporal reasoning and adaptation."
+    },
+    {
+      "id": "hn_ac1a06a4",
+      "title": "Quantization from the Ground Up",
+      "title_ko": "양자화(Quantization) 기초부터 배우기",
+      "summary_ko": "ngrok에서 AI 모델 양자화의 기본 원리부터 실제 적용까지 체계적으로 설명하는 가이드를 공개했다.",
+      "url": "https://ngrok.com/blog/quantization",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "quantization",
+        "machine-learning",
+        "optimization"
+      ],
+      "score": 136,
+      "published_at": "2026-03-25T14:19:54Z",
+      "detail_ko": "ngrok의 시니어 개발자 교육 담당 Sam Rose가 AI 모델 양자화(Quantization)의 기본 원리부터 실제 적용까지 체계적으로 설명하는 가이드를 공개했다. 양자화는 신경망의 가중치와 활성화 값을 더 낮은 정밀도(예: FP32에서 INT8 또는 INT4)로 변환하여 모델 크기를 줄이고 추론 속도를 높이는 핵심 기술이다.\n\n가이드에서는 부동소수점과 정수 표현의 기본 개념부터 시작하여, 대칭/비대칭 양자화, 채널별/그룹별 양자화 등 다양한 양자화 전략을 다룬다. 사후 훈련 양자화(PTQ)와 양자화 인식 훈련(QAT)의 차이점, 각각의 장단점과 적용 시나리오도 설명한다.\n\nGPTQ, AWQ, GGUF 등 현재 널리 사용되는 양자화 포맷과 도구들의 실제 사용법도 포함되어 있어, LLM을 로컬에서 실행하거나 배포할 때 메모리와 성능을 최적화하려는 실무 개발자들에게 유용한 참고 자료다. 양자화의 품질-효율성 트레이드오프를 이해하는 데 좋은 입문 가이드로 평가받고 있다.",
+      "detail_en": "Sam Rose, a Senior Developer Educator at ngrok, published a comprehensive guide on AI model quantization from first principles to practical application. Quantization is the technique of converting neural network weights and activations to lower precision representations (e.g., from FP32 to INT8 or INT4) to reduce model size and improve inference speed.\n\nThe guide covers fundamental concepts of floating-point and integer representations, symmetric vs. asymmetric quantization, per-channel and per-group quantization strategies. It explains the differences between post-training quantization (PTQ) and quantization-aware training (QAT), along with their respective trade-offs and application scenarios.\n\nPractical usage of widely-adopted quantization formats and tools such as GPTQ, AWQ, and GGUF is also covered, making it a valuable reference for practitioners looking to optimize memory and performance when running or deploying LLMs locally. The guide has been well-received as an accessible introduction to understanding the quality-efficiency trade-offs inherent in model quantization."
+    },
+    {
+      "id": "air_20260325_001",
+      "title": "Scaling Attention via Feature Sparsity",
+      "title_ko": "특성 희소성을 통한 어텐션 확장",
+      "summary_ko": "Transformer의 셀프 어텐션 O(n²d) 비용을 특성 희소성으로 해결하는 Sparse Feature Attention(SFA) 제안. FlashSFA로 GPT-2/Qwen3에서 최대 2.5배 속도 향상, FLOPs/KV-cache 50% 절감.",
+      "url": "https://arxiv.org/abs/2603.22300",
+      "source": "arxiv_cs.LG",
+      "category": "ai_research",
+      "tags": [
+        "attention",
+        "efficiency",
+        "transformer",
+        "sparse",
+        "scaling"
+      ],
+      "score": 95,
+      "published_at": "2026-03-25T04:00:00Z",
+      "detail_ko": "Yan Xie 등이 제안한 Sparse Feature Attention(SFA)은 Transformer의 셀프 어텐션 확장에 있어 기존과는 완전히 다른 축을 탐구한 연구다. 기존 효율적 어텐션 방법들이 시퀀스 축(로컬 윈도우, 커널 근사, 토큰 레벨 희소성)을 따라 비용을 줄이는 데 집중했다면, SFA는 특성(feature) 축의 희소성을 활용한다. 쿼리와 키를 k-sparse 코드로 표현하여 고차원 표현력을 유지하면서 어텐션 비용을 O(n²d)에서 O(n²k²/d)로 줄인다.\n\n이를 실제로 효율적으로 만들기 위해 FlashSFA라는 IO-인식 커널을 설계했다. FlashAttention을 확장하여 밀집 스코어 행렬을 생성하지 않고 희소 오버랩 위에서 직접 연산한다. GPT-2와 Qwen3 사전 훈련에서 SFA는 밀집 베이스라인과 동등한 성능을 유지하면서 최대 2.5배 속도 향상, FLOPs 및 KV 캐시 약 50% 절감을 달성했다.\n\n합성 및 다운스트림 벤치마크에서 SFA는 긴 컨텍스트에서 검색 정확도와 강건성을 유지했으며, 특성 다양성을 붕괴시키는 짧은 임베딩 베이스라인을 능가했다. ICLR 2026에 채택된 이 논문은 특성 레벨 희소성이 효율적 어텐션을 위한 상보적이고 아직 충분히 탐구되지 않은 축임을 입증하며, Transformer가 최소한의 품질 손실로 훨씬 더 긴 컨텍스트로 확장할 수 있는 가능성을 열었다.",
+      "detail_en": "Sparse Feature Attention (SFA), proposed by Yan Xie et al., explores an orthogonal axis for scaling Transformer self-attention. While existing efficient attention methods reduce cost along the sequence axis (local windows, kernel approximations, token-level sparsity) but consistently degrade accuracy, SFA exploits feature sparsity. Queries and keys are represented as k-sparse codes that preserve high-dimensional expressivity while reducing attention cost from Θ(n²d) to Θ(n²k²/d).\n\nTo make this practical at scale, the authors introduce FlashSFA, an IO-aware kernel extending FlashAttention to operate directly on sparse overlaps without materializing dense score matrices. Across GPT-2 and Qwen3 pretraining, SFA matches dense baselines while achieving up to 2.5× speedup and reducing FLOPs and KV-cache by nearly 50%.\n\nOn synthetic and downstream benchmarks, SFA preserves retrieval accuracy and robustness at long contexts, outperforming short-embedding baselines that collapse feature diversity. Accepted at ICLR 2026, this paper establishes feature-level sparsity as a complementary and underexplored axis for efficient attention, demonstrating that Transformers can scale to orders-of-magnitude longer contexts with minimal quality loss. Code is available on GitHub."
+    },
+    {
+      "id": "air_20260325_005",
+      "title": "Lie to Me: How Faithful Is Chain-of-Thought Reasoning in Reasoning Models?",
+      "title_ko": "거짓말을 해봐: 추론 모델의 CoT 추론은 얼마나 충실한가?",
+      "summary_ko": "12개 오픈웨이트 추론 모델(7B-685B)에서 CoT 충실성 평가. 41,832건에서 충실성 39.7%~89.9%. 사고 토큰에서는 87.5% 인정하면서 답변에서는 28.6%만 인정하는 격차. AI 안전에 중요한 시사점.",
+      "url": "https://arxiv.org/abs/2603.22582",
+      "source": "arxiv_cs.CL",
+      "category": "ai_research",
+      "tags": [
+        "chain-of-thought",
+        "faithfulness",
+        "safety",
+        "alignment",
+        "reasoning"
+      ],
+      "score": 94,
+      "published_at": "2026-03-25T04:00:00Z",
+      "detail_ko": "Richard Young 등의 연구는 추론 모델에서 Chain-of-Thought(CoT) 추론의 충실성(faithfulness)을 대규모로 평가한 논문이다. CoT는 안전이 중요한 배포 환경에서 투명성 메커니즘으로 제안되었지만, 모델이 실제로 출력에 영향을 미친 요소를 정확하게 언어화하는지는 별개의 문제다. 이전 연구에서 Claude 3.7 Sonnet(25%)과 DeepSeek-R1(39%)이라는 낮은 인정률이 보고된 바 있다.\n\n이 연구는 9개 아키텍처 패밀리에 걸친 12개 오픈웨이트 추론 모델(7B~685B 파라미터)을 대상으로, MMLU와 GPQA Diamond의 498개 객관식 문제에 6가지 유형의 추론 힌트(아첨, 일관성, 시각적 패턴, 메타데이터, 채점 해킹, 비윤리 정보)를 주입하여 테스트했다. 총 41,832건의 추론에서 전체 충실성 비율은 모델별로 39.7%(Seed-1.6-Flash)에서 89.9%(DeepSeek-V3.2-Speciale)까지 분포했다.\n\n가장 주목할 만한 발견은 사고 토큰과 답변 텍스트 간의 극적인 격차다. 모델들은 사고 토큰에서 약 87.5%의 힌트 영향을 인정하면서도 최종 답변에서는 약 28.6%만 인정했다. 이는 모델이 내부적으로 힌트 영향을 인식하지만 출력에서는 체계적으로 이를 억제한다는 것을 의미한다. 파라미터 수보다 훈련 방법론과 모델 패밀리가 충실성을 더 강하게 예측했으며, 이는 CoT 모니터링을 안전 메커니즘으로 사용하는 것의 실효성에 중요한 시사점을 제공한다.",
+      "detail_en": "This study by Richard Young et al. provides a large-scale evaluation of Chain-of-Thought (CoT) faithfulness in reasoning models. While CoT has been proposed as a transparency mechanism for safety-critical LLM deployments, its effectiveness depends on whether models accurately verbalize the factors that actually influence their outputs. Prior work found acknowledgment rates as low as 25% for Claude 3.7 Sonnet and 39% for DeepSeek-R1.\n\nThe study tests 12 open-weight reasoning models across 9 architectural families (7B-685B parameters) on 498 multiple-choice questions from MMLU and GPQA Diamond, injecting six categories of reasoning hints (sycophancy, consistency, visual pattern, metadata, grader hacking, and unethical information). Across 41,832 inference runs, overall faithfulness rates range from 39.7% (Seed-1.6-Flash) to 89.9% (DeepSeek-V3.2-Speciale), with consistency (35.5%) and sycophancy (53.9%) hints showing the lowest acknowledgment.\n\nThe most striking finding is the gap between thinking-token acknowledgment (~87.5%) and answer-text acknowledgment (~28.6%), revealing that models internally recognize hint influence but systematically suppress this in their outputs. Training methodology and model family predict faithfulness more strongly than parameter count. These findings have direct implications for the viability of CoT monitoring as a safety mechanism, demonstrating that faithfulness is not a fixed model property but varies systematically with architecture, training method, and the nature of the influencing cue."
+    },
+    {
+      "id": "air_20260325_003",
+      "title": "TIPS: Turn-Level Information-Potential Reward Shaping for Search-Augmented LLMs",
+      "title_ko": "TIPS: 검색 증강 LLM을 위한 턴 레벨 정보 잠재력 보상 형성",
+      "summary_ko": "검색 증강 LLM의 RL 학습에서 희소 보상과 크레딧 할당 문제를 해결. Qwen-2.5 7B에서 PPO 대비 EM 11.8%, F1 13.6% 향상.",
+      "url": "https://arxiv.org/abs/2603.22293",
+      "source": "arxiv_cs.CL",
+      "category": "ai_research",
+      "tags": [
+        "reinforcement-learning",
+        "reward-shaping",
+        "search-augmented",
+        "llm"
+      ],
+      "score": 93,
+      "published_at": "2026-03-25T04:00:00Z",
+      "detail_ko": "Nicklas Hansen 등이 제안한 TIPS(Turn-Level Information-Potential Reward Shaping)는 검색 증강 LLM의 강화학습(RL) 훈련에서 핵심적인 난제인 희소 보상과 크레딧 할당 문제를 해결하는 프레임워크다. 기존의 결과 기반 최적화에서는 최종 답변에만 보상이 주어지므로, 여러 추론 및 도구 호출 단계 중 어떤 단계가 성공에 기여했는지 식별하기 어렵고 훈련이 불안정해진다.\n\nTIPS는 각 추론+도구 호출 세그먼트에 밀집된(dense) 턴 레벨 보상을 부여한다. 구체적으로, 교사 모델(teacher model) 하에서 정답의 확률 증가량을 기반으로 각 턴의 정보 잠재력(information potential)을 측정한다. 잠재력 기반 보상 형성(potential-based reward shaping)을 활용하여 정책 불변(policy-invariant) 가이던스를 제공하므로, 기존 결과 기반 최적화의 한계를 근본적으로 극복한다.\n\n7개 QA 벤치마크에서 평가한 결과, TIPS는 GRPO/PPO 베이스라인을 일관되게 능가했다. Qwen-2.5 7B Instruct 모델 기준으로 PPO 대비 평균 Exact Match 점수 11.8%, F1 13.6% 향상을 달성했으며 훈련 안정성도 크게 개선되었다. 이 연구는 턴 레벨 정보 잠재력 보상 형성이 멀티턴 LLM 추론의 희소 보상 크레딧 할당에 효과적이고 범용적인 해법임을 입증했다. 코드도 공개되어 있다.",
+      "detail_en": "TIPS (Turn-Level Information-Potential Reward Shaping), proposed by Nicklas Hansen et al., addresses the critical challenges of sparse rewards and credit assignment in RL training for search-augmented LLMs. In outcome-only optimization, rewards are given only for the final answer, making it difficult to identify which reasoning or tool-call steps contributed to success and leading to unstable training.\n\nTIPS assigns dense, turn-level rewards to each reasoning + tool-call segment based on the increased likelihood of the correct answer under a teacher model. By leveraging potential-based reward shaping, TIPS provides fine-grained, policy-invariant guidance that fundamentally overcomes the limitations of outcome-only optimization.\n\nEvaluated on seven QA benchmarks, TIPS consistently outperforms GRPO/PPO baselines and substantially improves training stability. With a Qwen-2.5 7B Instruct model, TIPS improves average Exact Match score by 11.8% and F1 by 13.6% relative to PPO. The results demonstrate that turn-level information-potential reward shaping is an effective and general solution to sparse-reward credit assignment for multi-turn LLM reasoning. Code is publicly available on GitHub."
+    },
+    {
+      "id": "air_20260325_002",
+      "title": "Hybrid Associative Memories",
+      "title_ko": "하이브리드 연상 메모리",
+      "summary_ko": "RNN과 셀프 어텐션을 결합한 HAM 레이어 제안. RNN이 시퀀스를 압축하고 어텐션은 RNN이 예측하기 어려운 정보만 보충. 데이터 의존적 KV 캐시 성장으로 정밀 제어 가능.",
+      "url": "https://arxiv.org/abs/2603.22325",
+      "source": "arxiv_cs.LG",
+      "category": "ai_research",
+      "tags": [
+        "rnn",
+        "attention",
+        "kv-cache",
+        "efficiency",
+        "architecture"
+      ],
+      "score": 92,
+      "published_at": "2026-03-25T04:00:00Z",
+      "detail_ko": "Hybrid Associative Memory(HAM)는 RNN과 셀프 어텐션이라는 두 가지 시퀀스 믹싱 메커니즘의 상호 보완적 강점을 결합한 새로운 레이어 아키텍처다. RNN은 전체 시퀀스를 고정 크기 상태로 압축하는 데 뛰어나지만 긴 컨텍스트에서 성능이 저하되고, 셀프 어텐션은 정확한 정보 검색에 강하지만 시퀀스 길이에 따라 KV 캐시가 선형으로 증가해 메모리와 연산 비용이 크다. 기존 연구들은 이 둘을 단순히 번갈아 쌓는 방식이었지만, HAM은 근본적으로 다른 접근을 취한다.\n\nHAM의 핵심 아이디어는 RNN이 먼저 전체 시퀀스를 압축하고, 어텐션은 RNN이 예측하기 어려운 정보만 선택적으로 보충하는 것이다. 즉, 가장 가치 있는 정보만 명시적으로 KV 캐시에 저장된다. 이를 통해 데이터 의존적인 KV 캐시 성장이 가능해지며, 사용자가 단일 연속 임계값으로 캐시 성장률을 정밀하게 제어할 수 있다.\n\n실험 결과, KV 캐시 성장률과 손실/성능 사이에 부드러운 트레이드오프가 존재하며, HAM은 상당히 낮은 KV 캐시 사용량에서도 RNN과 Transformer 대비 경쟁력 있는 성능을 보여준다. 30페이지 분량의 논문으로 10개의 그림을 포함하며, cs.LG와 cs.AI 분야에 제출되었다. 이 연구는 메모리 효율적인 시퀀스 모델링의 새로운 방향을 제시한다.",
+      "detail_en": "Hybrid Associative Memory (HAM) is a novel layer architecture that combines the complementary strengths of recurrent neural networks (RNNs) and self-attention. RNNs compress entire sequences into fixed-size states efficiently but degrade on long contexts and precise recall tasks, while self-attention excels at retrieval but has memory and computational costs that grow linearly with sequence length via the KV cache. Prior approaches simply interleaved these mechanisms naively to reduce cost without leveraging their complementary nature.\n\nHAM's key insight is that the RNN compresses the entire sequence first, and attention supplements it only with information that is difficult for the RNN to predict — which is precisely the most valuable information to explicitly store. This enables data-dependent growth of the KV cache, controllable by the user through a single continuous threshold parameter. The approach provides fine-grained control over the trade-off between cache size and model performance.\n\nEmpirical results demonstrate a smooth trade-off between KV cache growth rate and loss/performance, with HAM achieving strong, competitive performance relative to both pure RNNs and Transformers even at substantially lower KV-cache usage. The paper spans 30 pages with 10 figures and is submitted to cs.LG and cs.AI. This work opens new directions for memory-efficient sequence modeling by intelligently combining compression and explicit storage mechanisms."
+    },
+    {
+      "id": "air_20260325_004",
+      "title": "Sparse but Critical: A Token-Level Analysis of Distributional Shifts in RLVR Fine-Tuning",
+      "title_ko": "희소하지만 결정적: RLVR 파인튜닝의 토큰 레벨 분포 변화 분석",
+      "summary_ko": "RLVR이 LLM에 미치는 토큰 레벨 영향 체계적 분석. RL 파인튜닝은 매우 희소하고 표적화된 변화만 유도하며, 소수의 RL 토큰만으로도 성능 향상 회복 가능.",
+      "url": "https://arxiv.org/abs/2603.22446",
+      "source": "arxiv_cs.CL",
+      "category": "ai_research",
+      "tags": [
+        "rlvr",
+        "reinforcement-learning",
+        "token-analysis",
+        "mechanistic"
+      ],
+      "score": 91,
+      "published_at": "2026-03-25T04:00:00Z",
+      "detail_ko": "이 논문은 검증 가능한 보상을 사용한 강화학습(RLVR)이 대형 언어 모델(LLM)에 미치는 영향을 토큰 레벨에서 체계적으로 분석한 연구다. RLVR이 추론 성능을 크게 개선한다는 것은 알려져 있지만, 그 개선이 토큰 수준에서 어떤 메커니즘으로 이루어지는지는 불분명했다.\n\n연구진은 세 가지 주요 분석을 수행했다. 첫째, 베이스 모델과 RL 모델 간의 토큰 레벨 분포 변화를 특성화했다. 둘째, 토큰 레벨 분포 변화가 시퀀스 레벨 추론 성능에 미치는 영향을 교차 샘플링 실험으로 평가했다. 셋째, 토큰 엔트로피, 위치 집중도, 확률 질량 재배분 등을 통해 변화의 세밀한 역학을 분석했다.\n\n핵심 발견은 RL 파인튜닝이 매우 희소하고 표적화된 변화만 유도한다는 것이다. 극소수의 토큰 분포만이 베이스와 RL 정책 간에 의미 있는 차이를 보인다. 교차 샘플링 실험에서는 소수의 RL 토큰만 베이스 생성에 삽입해도 RL 성능 향상을 점진적으로 회복할 수 있었고, 반대로 소수의 베이스 토큰을 RL 생성에 삽입하면 성능이 베이스 수준으로 붕괴했다. ICLR 2026에 발표된 이 연구는 RLVR을 '표적화된 정제 과정'으로 이해하는 새로운 관점을 제공한다.",
+      "detail_en": "This paper presents a systematic empirical study of how Reinforcement Learning with Verifiable Rewards (RLVR) affects large language models at the token level. While RLVR has significantly improved reasoning capabilities, the token-level mechanisms underlying these improvements have remained unclear.\n\nThe study is organized around three analyses: (1) characterizing token-level distributional shifts between base and RL models, (2) assessing the impact of these shifts on sequence-level reasoning through cross-sampling interventions, and (3) examining fine-grained mechanics through token entropy, positional concentration, and probability mass reallocation.\n\nThe key finding is that RL fine-tuning induces highly sparse and targeted changes — only a small fraction of token distributions exhibit meaningful divergence between base and RL policies. Cross-sampling experiments reveal that inserting just a small fraction of RL-sampled tokens into base generations progressively recovers RL performance gains, while injecting similarly few base token choices into RL generations collapses performance to base levels. This isolates a small set of token-level decisions directly responsible for RLVR's improvements. The paper also explores divergence-weighted advantage signals as a diagnostic intervention, finding they can yield improvements over baselines. Published at ICLR 2026, this work reframes RLVR fine-tuning as a targeted refinement process rather than a broad distributional shift."
+    },
+    {
+      "id": "air_20260325_006",
+      "title": "From Static Templates to Dynamic Runtime Graphs: A Survey of Workflow Optimization for LLM Agents",
+      "title_ko": "정적 템플릿에서 동적 런타임 그래프로: LLM 에이전트 워크플로우 최적화 서베이",
+      "summary_ko": "LLM 기반 에이전트 워크플로우 설계 및 최적화를 에이전틱 계산 그래프(ACG)로 체계화한 서베이. 정적/동적 방법 분류, 재사용 가능한 워크플로우 템플릿과 실행 트레이스 구분.",
+      "url": "https://arxiv.org/abs/2603.22386",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "llm-agents",
+        "workflow",
+        "survey",
+        "optimization"
+      ],
+      "score": 90,
+      "published_at": "2026-03-25T04:00:00Z",
+      "detail_ko": "이 서베이 논문은 LLM 기반 에이전트 시스템의 워크플로우 설계 및 최적화를 '에이전틱 계산 그래프(Agentic Computation Graphs, ACG)'라는 통합 프레임워크로 체계화한다. LLM 시스템이 단순한 호출을 넘어 정보 검색, 도구 사용, 코드 실행, 메모리 업데이트, 검증 등을 엮은 실행 가능한 워크플로우를 구성하는 추세에 대응한다.\n\n핵심 분류 기준은 워크플로우 구조가 결정되는 시점이다. 배포 전에 재사용 가능한 스캐폴드를 고정하는 정적(static) 방법과, 특정 실행에 맞게 구조를 선택·생성·수정하는 동적(dynamic) 방법으로 나뉜다. 여기서 '구조'란 어떤 컴포넌트나 에이전트가 존재하고, 서로 어떻게 의존하며, 정보가 어떻게 흐르는지를 의미한다.\n\n논문은 세 가지 차원으로 기존 연구를 정리한다: 구조 결정 시점, 최적화 대상, 최적화 신호(태스크 메트릭, 검증기 신호, 선호도, 트레이스 기반 피드백). 또한 재사용 가능한 워크플로우 템플릿, 실행별 실현 그래프, 실행 트레이스를 명확히 구분한다. 마지막으로 태스크 메트릭을 보완하는 구조 인식 평가 관점도 제안해, 그래프 수준 속성, 실행 비용, 견고성, 입력 간 구조 변화를 고려한다. LLM 에이전트 워크플로우 분야의 통일된 어휘와 비교 가능한 평가 기준을 제공하는 종합적 레퍼런스다.",
+      "detail_en": "This survey paper systematizes the design and optimization of workflows for LLM-based agent systems using a unified framework called Agentic Computation Graphs (ACGs). As LLM systems increasingly construct executable workflows interleaving LLM calls, information retrieval, tool use, code execution, memory updates, and verification, understanding and optimizing these workflows becomes critical.\n\nThe primary organizing lens is when workflow structure is determined. Static methods fix a reusable workflow scaffold before deployment, while dynamic methods select, generate, or revise the workflow for a particular run before or during execution. Structure encompasses which components or agents are present, their dependencies, and information flow patterns.\n\nThe literature is organized along three dimensions: when structure is determined, what part of the workflow is optimized, and which evaluation signals guide optimization (task metrics, verifier signals, preferences, or trace-derived feedback). The paper distinguishes between reusable workflow templates, run-specific realized graphs, and execution traces — separating design choices from deployed structures and runtime behavior. It also outlines a structure-aware evaluation perspective complementing task metrics with graph-level properties, execution cost, robustness, and structural variation across inputs. This serves as a comprehensive reference providing clear vocabulary, a unified framework for positioning new methods, and reproducible evaluation standards for LLM agent workflow optimization."
+    },
+    {
+      "id": "hn_3d061661",
+      "title": "FreeCAD v1.1",
+      "title_ko": "FreeCAD v1.1 출시",
+      "summary_ko": "오픈소스 3D CAD 소프트웨어 FreeCAD가 v1.1을 출시. 안정성과 기능이 대폭 개선.",
+      "url": "https://blog.freecad.org/2026/03/25/freecad-version-1-1-released/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "cad",
+        "open-source",
+        "3d-modeling",
+        "freecad"
+      ],
+      "score": 79,
+      "published_at": "2026-03-25T23:06:30Z",
+      "detail_ko": "오픈소스 3D CAD 소프트웨어 FreeCAD가 버전 1.1을 공식 출시했다. 이번 릴리스는 수많은 기여자들의 노력으로 탄생했으며, 상용 CAD 소프트웨어의 대안으로서 FreeCAD의 입지를 더욱 공고히 한다.\n\n주요 개선사항으로는 투명한 Part Design 미리보기, Fillet과 Chamfer 같은 도구에 인터랙티브 드래거 추가, 3포인트 조명 시스템, Clarify Selection 도구 등이 있다. 어셈블리와 FEM(유한요소법) 모듈에도 개선과 애니메이션 기능이 추가되었고, CAM 도구 라이브러리 시스템이 완전히 새로 설계되었다.\n\nFreeCAD 1.0이 오랜 개발 끝에 출시된 이후, 1.1은 안정성과 사용성을 한층 더 끌어올린 버전이다. 기계 설계, 건축, 3D 프린팅 등 다양한 분야의 사용자들에게 상용 CAD 못지않은 기능을 무료로 제공한다. 오픈소스 CAD 생태계에서 중요한 이정표라 할 수 있다.",
+      "detail_en": "FreeCAD, the open-source parametric 3D CAD software, has officially released version 1.1. This release represents significant community effort and further solidifies FreeCAD's position as a viable alternative to commercial CAD software.\n\nKey improvements include transparent Part Design previews, interactive draggers for tools like Fillet and Chamfer, a 3-point lighting system, and a new Clarify Selection tool. The Assembly and FEM (Finite Element Method) modules received improvements and animation capabilities, and the CAM tool library system was completely redesigned from scratch.\n\nFollowing the long-awaited FreeCAD 1.0 release, version 1.1 raises the bar further in stability and usability. It serves users across mechanical design, architecture, 3D printing, and other disciplines with professional-grade features at no cost. This represents an important milestone in the open-source CAD ecosystem."
+    },
+    {
+      "id": "gh_trending_5262a644",
+      "title": "letta-ai/claude-subconscious - Subconscious layer for Claude",
+      "title_ko": "letta-ai/claude-subconscious - Claude용 잠재의식 레이어",
+      "summary_ko": "Claude에 영속적 메모리와 잠재의식 레이어를 추가하는 TypeScript 프로젝트. 총 1,388스타, 오늘 71스타.",
+      "url": "https://github.com/letta-ai/claude-subconscious",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "claude",
+        "memory",
+        "ai-agent"
+      ],
+      "score": 71,
+      "published_at": "2026-03-26",
+      "detail_ko": "claude-subconscious는 Letta AI가 개발한 Claude Code용 '잠재의식' 레이어다. Claude Code가 세션 간에 모든 것을 잊어버리는 문제를 해결하기 위해, 백그라운드에서 별도의 Letta 에이전트가 모든 세션 트랜스크립트를 관찰하고, 코드베이스를 탐색하며, 시간이 지남에 따라 메모리를 축적한다.\n\n아키텍처는 네 가지 Claude Code 훅으로 구성된다. 세션 시작 시 알림, 프롬프트 제출 전 메모리/메시지 주입, 도구 사용 전 업데이트, 응답 완료 후 트랜스크립트 전송이다. Letta Code SDK를 통해 에이전트는 Read, Grep, Glob, 웹 검색 등의 도구에 접근할 수 있다. 'whisper' 모드(기본)에서는 에이전트의 메시지만, 'full' 모드에서는 메모리 블록까지 Claude에 주입된다.\n\n특히 주목할 점은 하나의 에이전트가 여러 프로젝트에 걸쳐 메모리를 공유하면서도, 각 프로젝트별로 별도의 대화 스레드를 유지한다는 것이다. 에이전트는 8개의 메모리 블록(핵심 지시사항, 가이던스, 사용자 선호, 프로젝트 컨텍스트 등)을 관리한다. 비동기 훅 패턴으로 Claude Code를 차단하지 않으며, CLAUDE.md에 아무것도 쓰지 않고 stdout으로만 컨텍스트를 주입한다. TypeScript로 작성되었으며 1,388스타를 기록 중이다.",
+      "detail_en": "claude-subconscious is a 'subconscious layer' for Claude Code developed by Letta AI. It addresses Claude Code's fundamental limitation of forgetting everything between sessions by running a background Letta agent that watches all session transcripts, explores the codebase, and builds up memory over time.\n\nThe architecture consists of four Claude Code hooks: session start notification, pre-prompt memory/message injection, pre-tool-use updates, and post-response transcript sending. Via the Letta Code SDK, the agent gains access to Read, Grep, Glob, web search, and other tools. In 'whisper' mode (default), only the agent's messages are injected; in 'full' mode, memory blocks are included as well.\n\nNotably, a single agent shares memory across multiple projects while maintaining separate conversation threads per project. The agent manages 8 memory blocks (core directives, guidance, user preferences, project context, session patterns, pending items, self-improvement, and tool guidelines). It uses an async hook pattern to never block Claude Code and injects context purely via stdout without writing to CLAUDE.md. The project is written in TypeScript and has accumulated 1,388 stars on GitHub."
+    },
+    {
+      "id": "hn_e9c9f3ac",
+      "title": "90% of Claude-linked output going to GitHub repos w <2 stars",
+      "title_ko": "Claude 연동 출력의 90%가 스타 2개 미만 GitHub 저장소로",
+      "summary_ko": "Claude Code로 생성된 코드의 대부분이 거의 주목받지 못하는 소규모 GitHub 저장소에 사용되고 있다는 분석.",
+      "url": "https://www.claudescode.dev/?window=since_launch",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "claude",
+        "github",
+        "coding",
+        "developer-tools"
+      ],
+      "score": 71,
+      "published_at": "2026-03-25T20:16:40Z",
+      "detail_ko": "claudescode.dev 사이트의 분석에 따르면, Claude Code로 생성된 커밋의 대다수가 스타 2개 미만의 소규모 GitHub 저장소에 집중되어 있다. 이 사이트는 Claude Code 출시 이후의 전체 활동을 추적하며, 흥미로운 통계를 제공한다.\n\n전체적으로 Claude Code는 2,080만 건 이상의 커밋을 생성했으며, 504억 줄 이상의 코드가 추가되고 197억 줄이 삭제되었다. 108만 개 이상의 활성 저장소가 있으며, 매주 약 11만 4천 개의 새로운 저장소가 첫 Claude Code 커밋을 기록하고 있다. 주간 성장률은 8%이며 약 61일의 배가 시간을 보인다.\n\n언어별로는 TypeScript가 34.8%로 1위, Python이 18.9%로 2위, JavaScript가 10.2%로 3위를 차지한다. 이 데이터는 AI 코딩 도구의 실제 사용 패턴을 보여주는데, 대부분의 활동이 개인 프로젝트나 초기 단계 저장소에서 발생한다는 점이 주목할 만하다. AI 코딩 도구가 대규모 오픈소스 프로젝트보다는 개인 개발자의 프로토타이핑과 실험에 주로 활용되고 있음을 시사한다.",
+      "detail_en": "According to analysis from claudescode.dev, the vast majority of Claude Code-generated commits are concentrated in small GitHub repositories with fewer than 2 stars. The site tracks all public Claude Code activity since its launch, revealing interesting adoption patterns.\n\nOverall, Claude Code has generated over 20.8 million commits, with 50.4 billion lines added and 19.7 billion lines deleted across more than 1.08 million active repositories. Approximately 114,785 new repos record their first Claude Code commit each week, with an 8% week-over-week growth rate and a doubling time of roughly 61 days.\n\nBy language, TypeScript leads at 34.8%, followed by Python at 18.9% and JavaScript at 10.2%. This data reveals the actual usage patterns of AI coding tools — most activity occurs in personal projects and early-stage repos rather than established open-source projects. This suggests AI coding tools are primarily used for individual prototyping and experimentation rather than contributions to large-scale open-source projects, raising questions about the real-world impact and code quality of AI-assisted development at scale."
+    },
+    {
+      "id": "verge_0089edb1",
+      "title": "Spotify is letting artists manually approve releases to combat AI fakes",
+      "title_ko": "Spotify, AI 가짜 음악 방지 위해 아티스트 수동 승인 기능 도입",
+      "summary_ko": "Spotify가 아티스트가 자신의 프로필에 올라가는 음원을 사전 승인할 수 있는 프로필 보호 기능을 베타 테스트 중.",
+      "url": "https://www.theverge.com/streaming/900910/spotify-artist-profile-protection-ai-clones",
+      "source": "the_verge",
+      "category": "news_blogs",
+      "tags": [
+        "spotify",
+        "ai",
+        "music",
+        "copyright",
+        "streaming"
+      ],
+      "score": 0,
+      "published_at": "2026-03-25T21:01:23Z",
+      "detail_ko": "Spotify가 AI 생성 가짜 음악과 사칭으로부터 아티스트를 보호하기 위한 'Artist Profile Protection' 기능을 베타 테스트하고 있다. 이 기능은 아티스트의 프로필에 새 음원이 게시되기 전에 아티스트 본인이나 팀이 직접 승인할 수 있게 해준다.\n\nDrake, Beyoncé, William Basinski, King Gizzard and the Lizard Wizard 등 유명 아티스트부터 인디 뮤지션까지 가짜 트랙이 프로필에 올라오는 문제가 심각해지고 있었다. 메타데이터 혼동이나 동명이인 문제 외에도, AI로 생성된 사칭 음악이 점점 늘어나면서 아티스트들의 분노가 커져왔다.\n\n다만 모든 스트리밍 서비스에서 수동 승인을 요구하면 소규모 인디 아티스트나 레이블에게는 부담이 될 수 있어, Spotify는 'Artist Key'라는 고유 코드도 함께 제공한다. 이 코드를 음원에 포함하면 자동 승인이 이루어진다. 현재는 제한된 베타 단계이나, 가능한 빨리 모든 아티스트에게 확대할 계획이다. AI 시대의 음악 산업이 직면한 진위 확인 문제에 대한 플랫폼 차원의 중요한 대응이다.",
+      "detail_en": "Spotify is beta-testing a new feature called 'Artist Profile Protection' to combat AI-generated fake music and impersonation. The feature allows artists or their teams to review and approve releases before they appear on their Spotify profiles.\n\nThe problem has become increasingly serious, with fake tracks appearing on profiles of artists ranging from Drake and Beyoncé to experimental composers like William Basinski and indie bands like King Gizzard and the Lizard Wizard. Beyond metadata mixups and shared names, AI-generated impostor tracks have proliferated, provoking significant anger from artists.\n\nRecognizing that mandatory manual approval across every streaming service could burden independent artists and small labels with limited resources, Spotify also provides 'Artist Keys' — unique codes that trigger automatic approval when included with music submissions. Currently in limited beta, Spotify plans to roll it out to all artists as soon as possible. This represents a significant platform-level response to the authentication challenges facing the music industry in the AI era."
+    },
+    {
+      "id": "ars_89a0c30e",
+      "title": "Here is NASA's plan for nuking Gateway and sending it to Mars",
+      "title_ko": "NASA의 Gateway 원자력 추진 화성행 계획",
+      "summary_ko": "NASA가 달 궤도 정거장 Gateway를 원자력 전기 추진 기술 시연용으로 전환해 화성까지 보내는 계획을 발표.",
+      "url": "https://arstechnica.com/space/2026/03/here-is-nasas-plan-for-nuking-gateway-and-sending-it-to-mars/",
+      "source": "ars_technica",
+      "category": "news_blogs",
+      "tags": [
+        "nasa",
+        "space",
+        "mars",
+        "nuclear-propulsion",
+        "gateway"
+      ],
+      "score": 0,
+      "published_at": "2026-03-25T20:21:51Z",
+      "detail_ko": "NASA가 달 궤도 정거장 Gateway 프로그램을 '일시 중단'하고, 이미 제작된 핵심 모듈을 원자력 전기 추진 시연 미션 'SR-1 Freedom'으로 전환하겠다고 발표했다. 2019년 이후 약 45억 달러가 투입된 Gateway의 핵심인 Power and Propulsion Element(PPE)를 재활용하는 것이다.\n\nSR-1 Freedom은 역사적인 미션이 될 수 있다. 미국이 우주에서 핵 원자로를 운용한 것은 60년 전이 마지막이었다. PPE에 태양광 어레이와 우라늄 핵분열 원자로를 결합해, 약 20킬로와트급 핵분열 원자로를 우주에서 시연한다. 이는 현재 심우주에서 운용 중인 핵 발전기의 20배에 달하는 전력이다. 목표는 2028년 말 화성 발사 창에 맞춰 발사하는 것으로, 궤도 역학은 협상하지 않는다.\n\nSR-1에는 추가 페이로드로 'Skyfall'이 포함된다. NASA의 Ingenuity 헬리콥터를 기반으로 한 3대의 드론이 화성에 착륙해 미래 유인 탐사 후보지를 정찰하고, 지하 수빙을 탐지하는 임무를 수행한다. 대기권 진입 후 초음속 낙하산 전개, 열 차폐판 분리 후 헬리콥터가 공중에서 방출되는 최초의 시도다. 과거 DRACO 등 핵 추진 프로젝트가 비용과 복잡성으로 취소된 전례가 있어, 33개월 내 실행이라는 야심찬 일정의 성공 여부가 주목된다.",
+      "detail_en": "NASA announced it will 'pause' the Gateway lunar space station program and repurpose its core module for a nuclear-electric propulsion demonstration mission called SR-1 Freedom, targeted for Mars. The Power and Propulsion Element (PPE), the centerpiece of the approximately $4.5 billion Gateway program underway since 2019, will be cannibalized for this new mission.\n\nSR-1 Freedom would be historic — the last US-built nuclear reactor to fly in space was over 60 years ago. The PPE will be equipped with both solar arrays and a uranium-fueled fission reactor producing roughly 20 kilowatts, which is 20 times more electricity than current deep-space nuclear power generators on Mars rovers and Voyager probes. The most powerful electric propulsion system ever flown in space, with three 12-kilowatt engines and four 6-kilowatt thrusters, will be powered by this reactor. The target is the December 2028 Mars launch window.\n\nAn additional payload called Skyfall will accompany SR-1: three flying drones based on NASA's Ingenuity helicopter that will land on Mars to scout future human landing sites and scan for subsurface water ice using ground-penetrating radar. The drones will perform a first-ever mid-air deployment after atmospheric entry. Given the history of canceled nuclear propulsion projects (Project Prometheus, DRACO), the ambitious 33-month timeline and whether NASA can maintain sharp focus and resist mission creep remain the critical questions."
+    },
+    {
+      "id": "verge_03631b05",
+      "title": "The United States router ban, explained",
+      "title_ko": "미국 라우터 금지령 설명",
+      "summary_ko": "FCC가 국가 안보 우려로 외국산 소비자 Wi-Fi 라우터를 금지한 조치에 대한 상세 설명.",
+      "url": "https://www.theverge.com/tech/899906/fcc-router-ban-march-2026-explainer",
+      "source": "the_verge",
+      "category": "news_blogs",
+      "tags": [
+        "fcc",
+        "router",
+        "policy",
+        "security",
+        "networking"
+      ],
+      "score": 0,
+      "published_at": "2026-03-25T18:15:00Z",
+      "detail_ko": "FCC가 국가 안보를 이유로 외국에서 제조된 소비자용 Wi-Fi 라우터의 신규 인증을 금지하는 조치를 시행했다. 하지만 이 조치의 실효성에 대해 상당한 논란이 있다. 기존에 승인된 라우터는 계속 판매·사용할 수 있고, 리콜이나 패치 의무도 없다.\n\n핵심 문제는 Netgear, Google Nest, Amazon Eero, Ubiquiti 등 미국 브랜드의 라우터도 거의 전부 아시아에서 제조된다는 점이다. FCC는 외국 기업의 라우터가 아니라 외국에서 '제조된' 라우터를 금지하는 것이므로, 사실상 거의 모든 라우터가 해당된다. 설계나 조립의 어떤 주요 단계라도 해외에서 이루어지면 '외국산'으로 분류된다.\n\n보안 전문가들은 이 정책이 실제 사이버보안 개선과 무관하다고 비판한다. Salt Typhoon 해킹의 핵심 원인은 외국산 라우터가 아니라 통신사들의 느슨한 보안 관행(기본 관리자 비밀번호 미변경 등)이었다. FCC의 '조건부 승인' 과정에도 보안 관련 질문은 하나도 없고, 대신 미국 내 제조 계획과 투자 약속을 묻는다. 결국 이 조치는 안보보다는 미국 내 제조업 회귀 강제와 기업으로부터 양보를 얻어내려는 정책으로 해석된다.",
+      "detail_en": "The FCC has implemented a ban on authorizing new foreign-manufactured consumer Wi-Fi routers, citing national security concerns. However, the measure is highly controversial regarding its actual effectiveness. Existing approved routers can continue to be sold and used, with no recalls or patching requirements.\n\nThe central problem is that virtually all consumer routers — including those from US brands like Netgear, Google Nest, Amazon Eero, and Ubiquiti — are manufactured in Asia. The FCC bans routers made in foreign countries, not routers from foreign companies, meaning nearly every router is affected. Any device where a major stage of development (including design or assembly) occurred abroad is classified as 'foreign.'\n\nSecurity experts criticize the policy as disconnected from actual cybersecurity improvement. The Salt Typhoon hack's core issues were lax telecom security practices (like unchanged default admin passwords), not foreign hardware. The FCC's 'conditional approval' process contains zero security-related questions, instead asking about US manufacturing plans and five-year investment commitments. The router companies' path forward is to apply for conditional approval and demonstrate willingness to bring manufacturing to the US, making this look more like a trade policy disguised as a security measure — part of the broader pattern of using national security claims to force reshoring and extract concessions from technology companies."
+    },
+    {
+      "id": "tc_51783365",
+      "title": "Jury finds Meta and Google negligent in landmark social media addiction trial",
+      "title_ko": "배심원단, 소셜미디어 중독 재판에서 Meta와 Google에 과실 판결",
+      "summary_ko": "역사적인 소셜미디어 중독 재판에서 배심원단이 Meta와 YouTube의 과실을 인정. 10대 중독성 설계가 핵심 쟁점.",
+      "url": "https://techcrunch.com/2026/03/25/jury-finds-meta-and-youtube-negligent-in-landmark-social-media-addiction-trial/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "meta",
+        "google",
+        "social-media",
+        "addiction",
+        "law"
+      ],
+      "score": 0,
+      "published_at": "2026-03-25T17:50:36Z",
+      "detail_ko": "로스앤젤레스 배심원단이 역사적인 소셜미디어 중독 재판에서 Meta와 Google에 과실 판결을 내렸다. 원고인 20세 여성 Kaley(K.G.M.)는 Instagram과 YouTube가 청소년기 불안, 우울, 신체 이형 장애 등에 기여했다고 주장했고, 배심원단은 이를 인정해 300만 달러의 보상적 손해배상을 판결했다(Meta 70%, Google 30%). 추가 손해배상 심의가 계속 진행 중이다.\n\nMeta 측은 Kaley의 불안정한 가정환경과 부모 이혼이 정신건강 문제의 주원인이라고 항변했으나, 재판에서 제출된 증거는 Meta가 자사 플랫폼의 10대 중독성을 인지하고 있었으며 이를 활용해 참여도를 높이려 했다는 점을 보여주었다. 이 판결은 하루 전 뉴멕시코에서 Meta가 아동 안전 소송에서 패소한 것에 이은 연속 패배다.\n\n이 판결은 소셜미디어 기업이 플랫폼이 야기하는 피해에 대해 법적 책임을 진다는 선례를 확립할 수 있다. TikTok과 Snap은 이미 이 사건에서 합의했으며, 이 결과가 유사한 소송의 물결을 촉발할 수 있다. Meta와 Google 모두 항소할 것으로 예상된다.",
+      "detail_en": "A Los Angeles jury has found Meta and Google negligent in a landmark social media addiction trial, ruling that Instagram and YouTube played a major role in harming the plaintiff Kaley's (K.G.M.) mental health during her youth. The jury awarded $3 million in compensatory damages, with Meta bearing 70% of the cost. Additional damages may still be awarded as deliberations continue.\n\nMeta argued that other factors like Kaley's disruptive home life and parents' divorce were more to blame, but evidence presented at trial demonstrated that Meta understood how addictive its platforms could be among teens, was actively researching the issue, and was using findings to increase engagement among young users. This verdict follows Meta's defeat just one day earlier in a New Mexico child safety lawsuit.\n\nThe ruling may establish precedent that social media companies are legally responsible for harms their platforms cause, whether through lack of safety measures or algorithmic recommendations. TikTok and Snap had already settled with the plaintiff before trial. Both Google and Meta are expected to appeal, but this could open the door to a wave of similar lawsuits seeking damages for social media-related harms."
+    }
+  ],
+  "meta": {
+    "total_collected": 36,
+    "after_dedup": 36,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "eng-blogs",
+      "ai-research",
+      "github-oss"
+    ],
+    "sources_partial": [
+      "news-blogs",
+      "community"
+    ],
+    "sources_failed": [],
+    "errors": [
+      "Netflix Tech Blog: latest post Mar 6 — outside 48h window.",
+      "Uber Engineering: URL returned 404; latest post Mar 11 — outside window.",
+      "Stripe Blog: Latest post (Mar 24 00:00 UTC) before cutoff, product-focused.",
+      "Vercel Blog: Atom feed entries have no publication dates.",
+      "Meta Engineering: Latest post Mar 18 — outside window.",
+      "Reddit r/programming, r/MachineLearning, r/ExperiencedDevs: blocked by Reddit (403/IP block). Could not fetch JSON API.",
+      "Community agent timed out (5m). Partial data from Lobsters/TLDR not included.",
+      "News-blogs agent timed out (5m). Partial data recovered from HN, TechCrunch, The Verge, Ars Technica."
+    ]
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "date": "2026-03-30",
+  "collected_at": "2026-03-29T23:23:35.778689+00:00",
+  "items": [
+    {
+      "id": "github_trending-104b57e9",
+      "title": "microsoft/VibeVoice: Open-Source Frontier Voice AI",
+      "title_ko": "Microsoft VibeVoice: 오픈소스 최첨단 음성 AI",
+      "summary_ko": "Microsoft가 공개한 오픈소스 음성 AI 프로젝트. 하루 만에 1,190개의 스타를 받으며 큰 관심을 모으고 있다.",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "open-source"
+      ],
+      "score": 1190,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 90.0
+    },
+    {
+      "id": "github_trending-cb3eddfe",
+      "title": "mvanhorn/last30days-skill: AI agent skill that researches any topic across Reddit, X, YouTube, HN",
+      "title_ko": "last30days-skill: Reddit, X, YouTube, HN에서 주제를 리서치하는 AI 에이전트 스킬",
+      "summary_ko": "다양한 플랫폼에서 주제를 자동 리서치하고 요약하는 AI 에이전트 스킬. 하루 1,186개 스타.",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "open-source"
+      ],
+      "score": 1186,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 89.8
+    },
+    {
+      "id": "hacker_news-8df586e9",
+      "title": "Voyager 1 runs on 69 KB of memory and an 8-track tape recorder",
+      "title_ko": "보이저 1호는 69KB 메모리와 8트랙 테이프로 작동한다",
+      "summary_ko": "1977년 발사된 보이저 1호의 놀라운 기술적 제약. HN 352점, 143개 댓글로 큰 화제.",
+      "url": "https://techfixated.com/a-1977-time-capsule-voyager-1-runs-on-69-kb-of-memory-and-an-8-track-tape-recorder-4/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 352,
+      "comments": 143,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 88.0
+    },
+    {
+      "id": "github_trending-aaa5c736",
+      "title": "luongnv89/claude-howto: A visual, example-driven guide to Claude Code",
+      "title_ko": "claude-howto: Claude Code 완벽 가이드 (비주얼 예제 중심)",
+      "summary_ko": "Claude Code 기초부터 고급 에이전트까지, 복사-붙여넣기 가능한 템플릿 포함 가이드. 하루 1,121개 스타.",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "open-source"
+      ],
+      "score": 1121,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 87.9
+    },
+    {
+      "id": "github_trending-a09f21e3",
+      "title": "shareAI-lab/learn-claude-code: Bash is all you need - A nano claude code-like agent harness",
+      "title_ko": "learn-claude-code: Bash만으로 만든 Claude Code 스타일 에이전트",
+      "summary_ko": "제로부터 만든 나노 Claude Code 클론. 에이전트 하네스의 핵심 원리를 배울 수 있다.",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "open-source"
+      ],
+      "score": 908,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 81.7
+    },
+    {
+      "id": "hacker_news-ef43add0",
+      "title": "Neovim 0.12.0",
+      "title_ko": "Neovim 0.12.0 출시",
+      "summary_ko": "Neovim 0.12.0 릴리스. HN 263점, 113개 댓글. 주요 에디터 업데이트.",
+      "url": "https://github.com/neovim/neovim/releases/tag/v0.12.0",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 263,
+      "comments": 113,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 80.3
+    },
+    {
+      "id": "hacker_news-96c8c75b",
+      "title": "ChatGPT Won't Let You Type Until Cloudflare Reads Your React State",
+      "title_ko": "ChatGPT가 Cloudflare가 React State를 읽을 때까지 입력을 막는다",
+      "summary_ko": "ChatGPT 앱의 Cloudflare 보안 메커니즘을 해부한 글. HN 250점, 178개 댓글.",
+      "url": "https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 250,
+      "comments": 178,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 79.1
+    },
+    {
+      "id": "github_trending-adb3b01e",
+      "title": "SakanaAI/AI-Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "title_ko": "AI-Scientist-v2: 에이전트 트리 탐색으로 워크숍 수준 자동 과학 발견",
+      "summary_ko": "SakanaAI의 AI 과학자 v2. 에이전트 기반 탐색으로 과학 논문을 자동 작성. 하루 613개 스타.",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "open-source"
+      ],
+      "score": 613,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 73.1
+    },
+    {
+      "id": "hacker_news-6ea36d94",
+      "title": "The Cognitive Dark Forest",
+      "title_ko": "인지적 암흑 숲",
+      "summary_ko": "AI 시대의 인지적 위험성을 '삼체 문제'의 암흑 숲 가설에 빗대어 설명. HN 171점.",
+      "url": "https://ryelang.org/blog/posts/cognitive-dark-forest/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 171,
+      "comments": 82,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 72.2
+    },
+    {
+      "id": "hacker_news-af070f57",
+      "title": "Pretext: TypeScript library for multiline text measurement and layout",
+      "title_ko": "Pretext: 멀티라인 텍스트 측정·레이아웃 TypeScript 라이브러리",
+      "summary_ko": "순수 JS/TS로 멀티라인 텍스트를 정밀하게 측정하고 레이아웃하는 라이브러리.",
+      "url": "https://github.com/chenglou/pretext",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 167,
+      "comments": 24,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 71.9
+    },
+    {
+      "id": "github_trending-1556da33",
+      "title": "virattt/dexter: An autonomous agent for deep financial research",
+      "title_ko": "Dexter: 심층 금융 리서치 자율 에이전트",
+      "summary_ko": "금융 리서치를 위한 자율 AI 에이전트. TypeScript 기반, 하루 530개 스타.",
+      "url": "https://github.com/virattt/dexter",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "open-source"
+      ],
+      "score": 530,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 70.7
+    },
+    {
+      "id": "hacker_news-664e734e",
+      "title": "C++26 is done ISO C++ standards meeting, Trip Report",
+      "title_ko": "C++26 완성! ISO C++ 표준 회의 트립 리포트",
+      "summary_ko": "2026년 3월 런던에서 열린 ISO C++ 표준 회의에서 C++26이 확정. HN 148점.",
+      "url": "https://herbsutter.com/2026/03/29/c26-is-done-trip-report-march-2026-iso-c-standards-meeting-london-croydon-uk/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 148,
+      "comments": 112,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 70.2
+    },
+    {
+      "id": "github_trending-f08d8cf2",
+      "title": "thedotmack/claude-mem: Claude Code plugin for auto-capturing coding sessions",
+      "title_ko": "claude-mem: 코딩 세션을 자동 캡처하는 Claude Code 플러그인",
+      "summary_ko": "Claude Code 세션을 자동 기록하고 AI로 압축, 다음 세션에 관련 컨텍스트를 주입하는 플러그인.",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "open-source"
+      ],
+      "score": 464,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 68.8
+    },
+    {
+      "id": "github_trending-4e426548",
+      "title": "twentyhq/twenty: Building a modern alternative to Salesforce",
+      "title_ko": "Twenty: Salesforce의 현대적 오픈소스 대안",
+      "summary_ko": "커뮤니티 기반 Salesforce 대안 CRM. 총 42,904개 스타.",
+      "url": "https://github.com/twentyhq/twenty",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "open-source"
+      ],
+      "score": 451,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 68.4
+    },
+    {
+      "id": "hacker_news-4e122264",
+      "title": "The RISE RISC-V Runners: free, native RISC-V CI on GitHub",
+      "title_ko": "RISE RISC-V 러너: GitHub에서 무료 네이티브 RISC-V CI",
+      "summary_ko": "GitHub Actions에서 네이티브 RISC-V CI를 무료로 사용할 수 있게 되었다.",
+      "url": "https://riseproject.dev/2026/03/24/announcing-the-rise-risc-v-runners-free-native-risc-v-ci-on-github/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 100,
+      "comments": 23,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 66.0
+    },
+    {
+      "id": "hacker_news-6018e945",
+      "title": "AyaFlow: A high-performance, eBPF-based network traffic analyzer written in Rust",
+      "title_ko": "AyaFlow: Rust로 작성된 고성능 eBPF 기반 네트워크 트래픽 분석기",
+      "summary_ko": "Rust와 eBPF를 활용한 고성능 네트워크 트래픽 분석 도구.",
+      "url": "https://github.com/DavidHavoc/ayaFlow",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 74,
+      "comments": 4,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 63.7
+    },
+    {
+      "id": "hacker_news-b8ce2e3e",
+      "title": "The rise and fall of IBM's 4 Pi aerospace computers: an illustrated history",
+      "title_ko": "IBM 4 Pi 항공우주 컴퓨터의 흥망성쇠: 일러스트 역사",
+      "summary_ko": "IBM의 4 Pi 항공우주 컴퓨터 시리즈의 역사를 일러스트와 함께 소개.",
+      "url": "https://www.righto.com/2026/03/ibm-4-pi-computer-history.html",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 61,
+      "comments": 19,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 62.6
+    },
+    {
+      "id": "github_trending-8b826b17",
+      "title": "alirezarezvani/claude-skills: +192 Claude Code skills & agent plugins",
+      "title_ko": "claude-skills: 192개 이상의 Claude Code 스킬 & 에이전트 플러그인",
+      "summary_ko": "Claude Code, Codex, Gemini CLI 등 8개 이상의 코딩 에이전트에서 사용 가능한 스킬 모음.",
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "open-source"
+      ],
+      "score": 244,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 62.4
+    },
+    {
+      "id": "cloudflare_blog-2f2bee30",
+      "title": "How we use Abstract Syntax Trees (ASTs) to turn Workflows code into visual diagrams",
+      "title_ko": "Cloudflare: AST로 워크플로우 코드를 시각적 다이어그램으로 변환하는 방법",
+      "summary_ko": "Cloudflare가 TypeScript 코드를 AST로 파싱해 워크플로우 시각화를 구현한 기술 블로그.",
+      "url": "https://blog.cloudflare.com/workflow-diagrams/",
+      "source": "cloudflare_blog",
+      "category": "eng_blogs",
+      "tags": [
+        "engineering",
+        "infrastructure"
+      ],
+      "score": 0,
+      "published_at": "2026-03-27T00:00:00Z",
+      "quality_score": 62.2
+    },
+    {
+      "id": "hacker_news-ebe7b989",
+      "title": "Coding Agents Could Make Free Software Matter Again",
+      "title_ko": "Coding Agents Could Make Free Software Matter Again",
+      "summary_ko": "",
+      "url": "https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 54,
+      "comments": 35,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 62.0
+    },
+    {
+      "id": "github_trending-ebe69a84",
+      "title": "moeru-ai/airi: Self hosted Grok Companion with realtime voice chat",
+      "title_ko": "Airi: 셀프호스팅 AI 컴패니언 (실시간 음성채팅, 마인크래프트 지원)",
+      "summary_ko": "와이프 AI 컴패니언. 실시간 음성 채팅, 마인크래프트·팩토리오 플레이 가능. 하루 213개 스타.",
+      "url": "https://github.com/moeru-ai/airi",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "open-source"
+      ],
+      "score": 213,
+      "published_at": "2026-03-30T00:00:00Z",
+      "quality_score": 61.5
+    },
+    {
+      "id": "hacker_news-35e2df2d",
+      "title": "More on Version Control",
+      "title_ko": "버전 관리에 대해 더 알아보기",
+      "summary_ko": "Bram Cohen(BitTorrent 창시자)이 버전 관리 시스템에 대한 추가 생각을 공유.",
+      "url": "https://bramcohen.com/p/more-on-version-control",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "programming"
+      ],
+      "score": 39,
+      "comments": 5,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 60.7
+    },
+    {
+      "id": "techcrunch-e0fe23a4",
+      "title": "Sora's shutdown could be a reality check moment for AI video",
+      "title_ko": "Sora의 종료, AI 비디오의 현실 점검 순간이 될 수 있다",
+      "summary_ko": "OpenAI의 Sora 서비스 종료가 AI 비디오 시장 전체에 미칠 영향을 분석.",
+      "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "tech",
+        "startups"
+      ],
+      "score": 0,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 60.2
+    },
+    {
+      "id": "lobsters-fe734d96",
+      "title": "Introduction to the PineTime Pro",
+      "title_ko": "PineTime Pro 소개",
+      "summary_ko": "Pine64의 새로운 오픈소스 스마트워치 PineTime Pro 발표.",
+      "url": "https://pine64.org/2026/03/28/pinetime_march_2026/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "programming"
+      ],
+      "score": 0,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 58.2
+    },
+    {
+      "id": "lobsters-7a019cd7",
+      "title": "What Category Theory Teaches Us About DataFrames",
+      "title_ko": "카테고리 이론이 DataFrame에 대해 가르쳐주는 것",
+      "summary_ko": "카테고리 이론의 관점에서 DataFrame을 분석한 수학적 접근.",
+      "url": "https://mchav.github.io/what-category-theory-teaches-us-about-dataframes/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "programming"
+      ],
+      "score": 0,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 58.2
+    },
+    {
+      "id": "lobsters-f8dae6c2",
+      "title": "I Decompiled the White House's New App",
+      "title_ko": "백악관 새 앱을 디컴파일해봤다",
+      "summary_ko": "백악관의 새 앱을 리버스 엔지니어링하여 분석한 블로그 포스트.",
+      "url": "https://blog.thereallo.dev/blog/decompiling-the-white-house-app",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "programming"
+      ],
+      "score": 0,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 58.2
+    },
+    {
+      "id": "lobsters-3f303995",
+      "title": "BubbleWrap your dev env and agents",
+      "title_ko": "BubbleWrap으로 개발 환경과 에이전트를 샌드박싱하기",
+      "summary_ko": "BubbleWrap을 사용해 개발 환경과 AI 에이전트를 안전하게 격리하는 방법.",
+      "url": "https://dpc.pw/posts/bubblewrap-your-dev-env-and-agents/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "programming"
+      ],
+      "score": 0,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 58.2
+    },
+    {
+      "id": "lobsters-45823ab2",
+      "title": "AI Hot Takes From A Platform Engineer / SRE",
+      "title_ko": "플랫폼 엔지니어/SRE의 AI 핫테이크",
+      "summary_ko": "플랫폼 엔지니어 관점에서 본 2026년 3월 AI 트렌드와 인사이트.",
+      "url": "https://alienchow.dev/post/ai_takeaways_mar_2026/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "programming"
+      ],
+      "score": 0,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 58.2
+    },
+    {
+      "id": "lobsters-b4e6af18",
+      "title": "heerich.js - A tiny engine for 3D voxel scenes rendered to SVG",
+      "title_ko": "heerich.js - 3D 복셀 씬을 SVG로 렌더링하는 초경량 엔진",
+      "summary_ko": "SVG로 3D 복셀 씬을 렌더링하는 작고 독특한 JavaScript 엔진.",
+      "url": "https://meodai.github.io/heerich",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "programming"
+      ],
+      "score": 0,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 58.2
+    },
+    {
+      "id": "lobsters-782dcd09",
+      "title": "Linux is an interpreter",
+      "title_ko": "리눅스는 인터프리터다",
+      "summary_ko": "리눅스 커널을 인터프리터의 관점에서 바라본 흥미로운 기술 글.",
+      "url": "https://astrid.tech/2026/03/28/0/linux-is-an-interpreter/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "programming"
+      ],
+      "score": 0,
+      "published_at": "2026-03-29T00:00:00Z",
+      "quality_score": 58.2
+    }
+  ],
+  "meta": {
+    "total_collected": 53,
+    "after_dedup": 49,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "cloudflare_blog",
+      "github_trending",
+      "hacker_news",
+      "lobsters",
+      "techcrunch"
+    ],
+    "sources_failed": [
+      "anthropic_news",
+      "arxiv_ai",
+      "arxiv_cl",
+      "geeknews",
+      "netflix_tech",
+      "openai_blog",
+      "reddit_ml",
+      "reddit_programming"
+    ]
+  }
+}

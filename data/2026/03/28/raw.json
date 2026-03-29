@@ -1,0 +1,554 @@
+{
+  "date": "2026-03-28",
+  "collected_at": "2026-03-28T07:05:00+09:00",
+  "items": [
+    {
+      "id": "hacker_news-4f6e01",
+      "title": "If you don't opt out by Apr 24 GitHub will train on your private repos",
+      "title_ko": "4월 24일까지 옵트아웃하지 않으면 GitHub가 비공개 저장소로 학습합니다",
+      "summary_ko": "GitHub가 사용자의 비공개 저장소를 AI 학습에 자동 포함시키는 정책을 발표. 4월 24일까지 옵트아웃하지 않으면 자동으로 동의 처리됩니다.",
+      "url": "https://github.com/settings/copilot/features",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "github",
+        "copilot",
+        "privacy",
+        "ai"
+      ],
+      "score": 92,
+      "published_at": "2026-03-27T21:04:51Z",
+      "detail_ko": "GitHub가 4월 24일부터 Copilot Free/Pro/Pro+ 사용자의 상호작용 데이터를 AI 모델 학습에 사용한다고 발표. 옵트아웃하지 않으면 자동 동의로 간주된다. 수집 대상은 입출력, 코드 스니펫, 컨텍스트, 파일명, 피드백까지 광범위하며, 옵트인이 아닌 옵트아웃 방식에 대한 비판이 거세다."
+    },
+    {
+      "id": "hacker_news-5f3191",
+      "title": "Anatomy of the .claude/ folder",
+      "title_ko": ".claude/ 폴더의 구조 분석",
+      "summary_ko": "Claude AI 에이전트의 프로젝트 설정 폴더인 .claude/ 디렉토리의 구조와 활용법을 분석한 글.",
+      "url": "https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "claude",
+        "ai",
+        "developer-tools",
+        "anthropic"
+      ],
+      "score": 90,
+      "published_at": "2026-03-27T14:35:45Z",
+      "detail_ko": "Claude Code의 핵심 설정 디렉토리인 .claude/ 폴더 구조를 상세 분석한 글. 프로젝트 루트의 .claude/(팀 공유)와 ~/.claude/(개인 설정) 두 곳이 존재하며, CLAUDE.md가 가장 중요한 파일로 빌드/테스트/린트 명령, 아키텍처 결정사항, 네이밍 패턴 등을 기록한다. 200줄 이내 유지 권장."
+    },
+    {
+      "id": "arxiv-2603-24621",
+      "title": "ARC-AGI-3: A New Challenge for Frontier Agentic Intelligence",
+      "title_ko": "ARC-AGI-3: 프론티어 에이전트 지능을 위한 새로운 도전",
+      "summary_ko": "ARC Prize Foundation이 발표한 ARC-AGI-3는 에이전트가 탐색, 목표 추론, 환경 모델링, 계획을 수행해야 하는 인터랙티브 벤치마크입니다. 인간은 100% 해결 가능하지만 최신 AI 시스템은 1% 미만의 점수를 기록.",
+      "url": "https://arxiv.org/abs/2603.24621",
+      "source": "arxiv_ai",
+      "category": "ai_research",
+      "tags": [
+        "benchmark",
+        "AGI",
+        "agentic-ai",
+        "evaluation"
+      ],
+      "score": 95,
+      "published_at": "2026-03-27T04:00:00Z",
+      "detail_ko": "ARC-AGI-3는 에이전트 지능을 평가하는 인터랙티브 벤치마크다. 턴 기반 환경에서 탐색, 목표 추론, 환경 모델링, 계획 수립을 요구한다. 인간은 100% 해결 가능하지만 2026년 3월 기준 최신 AI는 1% 미만. 유동적 적응 효율성을 평가하며, AGI 달성의 핵심 과제를 측정하는 이정표."
+    },
+    {
+      "id": "gh-mvanhorn-last30days-skill",
+      "title": "mvanhorn/last30days-skill — AI agent skill for multi-platform topic research",
+      "title_ko": "mvanhorn/last30days-skill — Reddit, X, YouTube, HN 등에서 주제를 조사하는 AI 에이전트 스킬",
+      "summary_ko": "Reddit, X, YouTube, Hacker News, Polymarket, 웹 전체에서 주제를 조사하고 요약을 합성하는 AI 에이전트 스킬. 오늘 2,824스타 획득.",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai-agent",
+        "research",
+        "trending"
+      ],
+      "score": 88,
+      "published_at": "2026-03-28T00:00:00Z",
+      "detail_ko": "AI 에이전트용 멀티 플랫폼 토픽 리서치 스킬. Reddit, X, Bluesky, YouTube, TikTok, Instagram, HN, Polymarket, 웹에서 최근 30일 데이터를 종합 수집·분석한다. 비교 모드, 다중 신호 관련성 점수, X 핸들 자동 해석, ScrapeCreators 통합 등이 특징. v2.9.5."
+    },
+    {
+      "id": "gh-bytedance-deer-flow",
+      "title": "bytedance/deer-flow — Open-source long-horizon SuperAgent harness",
+      "title_ko": "bytedance/deer-flow — 오픈소스 장기 작업용 SuperAgent 프레임워크",
+      "summary_ko": "ByteDance의 오픈소스 SuperAgent 프레임워크. 샌드박스, 메모리, 도구, 서브에이전트를 활용해 장기 작업을 자동 처리. 총 50,063스타, 오늘 2,126스타.",
+      "url": "https://github.com/bytedance/deer-flow",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai-agent",
+        "bytedance",
+        "trending"
+      ],
+      "score": 87,
+      "published_at": "2026-03-28T00:00:00Z",
+      "detail_ko": "ByteDance가 오픈소스로 공개한 장기 호라이즌 SuperAgent 프레임워크. 서브 에이전트, 메모리, 샌드박스를 오케스트레이션하여 리서치/코딩/콘텐츠 생성을 처리한다. v2.0은 완전 재작성된 범용 SuperAgent 하네스로, Claude Code 통합, 스킬 시스템, IM 채널 지원 등을 제공한다."
+    },
+    {
+      "id": "arxiv-2603-24747",
+      "title": "Formal Semantics for Agentic Tool Protocols: A Process Calculus Approach",
+      "title_ko": "에이전트 도구 프로토콜의 형식 의미론: 프로세스 대수 접근법",
+      "summary_ko": "MCP(Model Context Protocol)의 최초 프로세스 대수 형식화. SGD와 MCP가 구조적으로 양시뮬레이션임을 증명하고 MCP의 표현력 한계를 밝힘.",
+      "url": "https://arxiv.org/abs/2603.24747",
+      "source": "arxiv_ai",
+      "category": "ai_research",
+      "tags": [
+        "MCP",
+        "tool-use",
+        "formal-verification",
+        "agentic-ai"
+      ],
+      "score": 90,
+      "published_at": "2026-03-27T04:00:00Z"
+    },
+    {
+      "id": "reddit-ml-3",
+      "title": "[D] Has industry effectively killed off academic machine learning research in 2026?",
+      "title_ko": "2026년, 산업계가 학술 머신러닝 연구를 사실상 죽였는가?",
+      "summary_ko": "ML 연구에서 산업계의 압도적 리소스가 학계를 밀어냈는지에 대한 심도 깊은 논의. (👍 143 | 💬 54)",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s0hcit/d_has_industry_effectively_killed_off_academic/",
+      "source": "reddit_machinelearning",
+      "category": "community",
+      "tags": [
+        "academia",
+        "industry",
+        "machine-learning"
+      ],
+      "score": 78,
+      "published_at": "2026-03-27T00:00:00Z",
+      "detail_ko": "학계의 ML 연구가 산업계에 의해 사실상 사망했는가에 대한 논쟁. 연구 인프라 격차, 인재 유출, 연구 방향 왜곡이 핵심 논점. 일부는 이론, 해석가능성, 안전성 영역에서 학계의 기여를 강조하지만 전반적 분위기는 비관적. AI 연구의 민주화와 접근성에 대한 근본적 질문을 던진다."
+    },
+    {
+      "id": "arxiv-2603-24639",
+      "title": "Experiential Reflective Learning for Self-Improving LLM Agents",
+      "title_ko": "경험적 성찰 학습: 자기 개선하는 LLM 에이전트",
+      "summary_ko": "과거 작업 경험에서 휴리스틱을 추출하여 새로운 작업에 활용하는 자기 개선 프레임워크 ERL. Gaia2 벤치마크에서 ReAct 기준 대비 7.8% 성공률 향상.",
+      "url": "https://arxiv.org/abs/2603.24639",
+      "source": "arxiv_lg",
+      "category": "ai_research",
+      "tags": [
+        "LLM-agents",
+        "self-improvement",
+        "experiential-learning",
+        "reasoning"
+      ],
+      "score": 88,
+      "published_at": "2026-03-27T04:00:00Z",
+      "detail_ko": "ERL은 LLM 에이전트가 과거 작업 궤적에서 전이 가능한 휴리스틱을 추출하여 새 작업에 활용하는 자기 개선 프레임워크. Gaia2에서 ReAct 대비 7.8% 성공률 향상. 선별적 검색이 핵심이며, 휴리스틱이 few-shot 프롬프팅보다 더 전이 가능한 추상화를 제공."
+    },
+    {
+      "id": "hacker_news-7e6970",
+      "title": "Make macOS consistently bad (unironically)",
+      "title_ko": "macOS를 일관되게 나쁘게 만들기 (비꼬는 것 아님)",
+      "summary_ko": "macOS의 불일치한 UX를 일관되게 통일하자는 제안. 시스템 전반의 디자인 일관성 부재를 지적하는 글.",
+      "url": "https://lr0.org/blog/p/macos/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "macos",
+        "ux",
+        "design",
+        "apple"
+      ],
+      "score": 80,
+      "published_at": "2026-03-27T19:15:19Z",
+      "detail_ko": "macOS 26의 윈도우 코너 둥글기 불일치 문제를 역발상적으로 해결: SIP 비활성화 대신 서드파티 앱만 일관되게 둥글게 만듦. NSThemeFrame 메서드 스위즐링으로 23pt 고정값 적용, com.apple.* 앱은 제외. LaunchAgent로 자동 로드. UI 디자인 일관성에 대한 비판도 포함."
+    },
+    {
+      "id": "gh-yeachan-heo-oh-my-claudecode",
+      "title": "Yeachan-Heo/oh-my-claudecode — Teams-first multi-agent orchestration for Claude Code",
+      "title_ko": "Yeachan-Heo/oh-my-claudecode — Claude Code용 팀 중심 멀티에이전트 오케스트레이션",
+      "summary_ko": "Claude Code를 위한 팀 우선 멀티에이전트 오케스트레이션 도구. 총 13,855스타, 오늘 1,402스타 획득으로 급상승 중.",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "claude-code",
+        "multi-agent",
+        "trending"
+      ],
+      "score": 82,
+      "published_at": "2026-03-28T00:00:00Z",
+      "detail_ko": "Claude Code를 위한 팀 우선 멀티에이전트 오케스트레이션 프레임워크. Team 파이프라인(plan→prd→exec→verify→fix), Autopilot, Ultrawork, Ralph 등 다양한 실행 모드와 32개 전문 에이전트를 제공. 스마트 모델 라우팅으로 토큰 비용 30-50% 절감. 스킬 학습 시스템도 내장."
+    },
+    {
+      "id": "arxiv-2603-24866",
+      "title": "DreamHouse: A Benchmark for Physical Generative Reasoning in VLMs",
+      "title_ko": "DreamHouse: 비전-언어 모델의 물리적 생성 추론 벤치마크",
+      "summary_ko": "시각적 사실감이 아닌 물리적 타당성(구조, 건축 가능성)을 평가하는 새로운 VLM 벤치마크. 26,000개 이상의 목조 건축 구조물 포함.",
+      "url": "https://arxiv.org/abs/2603.24866",
+      "source": "arxiv_ai",
+      "category": "ai_research",
+      "tags": [
+        "VLM",
+        "benchmark",
+        "physical-reasoning",
+        "3D"
+      ],
+      "score": 85,
+      "published_at": "2026-03-27T04:00:00Z"
+    },
+    {
+      "id": "gh-vaibhavs10-insanely-fast-whisper",
+      "title": "Vaibhavs10/insanely-fast-whisper — Ultra-fast Whisper inference",
+      "title_ko": "Vaibhavs10/insanely-fast-whisper — 초고속 Whisper 추론",
+      "summary_ko": "Whisper 모델의 초고속 추론을 위한 도구. 총 11,826스타, 오늘 1,075스타 급등.",
+      "url": "https://github.com/Vaibhavs10/insanely-fast-whisper",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "jupyter-notebook",
+        "whisper",
+        "speech-recognition",
+        "trending"
+      ],
+      "score": 80,
+      "published_at": "2026-03-28T00:00:00Z"
+    },
+    {
+      "id": "arxiv-2603-24929",
+      "title": "LogitScope: A Framework for Analyzing LLM Uncertainty Through Information Metrics",
+      "title_ko": "LogitScope: 정보 지표를 통한 LLM 불확실성 분석 프레임워크",
+      "summary_ko": "토큰 수준의 엔트로피와 분산엔트로피를 측정하여 LLM의 불확실성을 분석하는 경량 프레임워크. 환각 탐지, 모델 행동 분석에 활용 가능.",
+      "url": "https://arxiv.org/abs/2603.24929",
+      "source": "arxiv_ai",
+      "category": "ai_research",
+      "tags": [
+        "LLM",
+        "uncertainty",
+        "hallucination-detection",
+        "monitoring"
+      ],
+      "score": 82,
+      "published_at": "2026-03-27T04:00:00Z",
+      "detail_ko": "LogitScope는 대규모 언어 모델(LLM)의 출력에서 불확실성을 분석하기 위한 경량 프레임워크다. 기존의 LLM 평가 방식은 모델의 전체적인 성능만을 측정하는 데 그쳤으나, LogitScope는 개별 토큰 생성 단계에서의 확률 분포를 기반으로 정보 이론적 메트릭(엔트로피, 바렌트로피 등)을 계산하여 모델의 신뢰도를 세밀하게 파악할 수 있다. HuggingFace 호환 모든 모델에서 사용 가능하고, 지연 평가 방식을 통해 계산 효율성을 확보했다."
+    },
+    {
+      "id": "gh-datalab-to-chandra",
+      "title": "datalab-to/chandra — OCR model for complex tables, forms, and handwriting",
+      "title_ko": "datalab-to/chandra — 복잡한 표, 양식, 필기체 처리 OCR 모델",
+      "summary_ko": "복잡한 표, 양식, 필기체를 전체 레이아웃과 함께 처리하는 OCR 모델. 총 6,957스타, 오늘 913스타.",
+      "url": "https://github.com/datalab-to/chandra",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ocr",
+        "computer-vision",
+        "trending"
+      ],
+      "score": 76,
+      "published_at": "2026-03-28T00:00:00Z",
+      "detail_ko": "Chandra OCR 2는 이미지와 PDF를 구조화된 HTML, Markdown, JSON 형식으로 변환하면서 레이아웃 정보를 보존하는 최첨단 OCR 모델이다. 복잡한 표 구조, 수학 수식(손글씨 포함), 체크박스 양식을 정확히 처리하며 90개 이상의 언어를 지원한다. olmocr 벤치마크에서 최고 성적을 기록했으며 Apache 2.0 라이선스로 오픈소스 공개."
+    },
+    {
+      "id": "reddit-ml-1",
+      "title": "[D] ICML 2026 Review Discussion",
+      "title_ko": "ICML 2026 리뷰 토론",
+      "summary_ko": "ICML 2026 리뷰가 공개되었습니다. 리뷰 결과와 학회 트렌드에 대한 활발한 토론이 진행 중. (👍 61 | 💬 31)",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s1yz2t/d_icml_2026_review_discussion/",
+      "source": "reddit_machinelearning",
+      "category": "community",
+      "tags": [
+        "icml",
+        "conference",
+        "peer-review"
+      ],
+      "score": 72,
+      "published_at": "2026-03-27T00:00:00Z",
+      "detail_ko": "ICML 2026 리뷰가 3월 24일 공개되면서 활발한 토론이 진행되었다. AI가 완전히 생성한 논문이 리뷰 대상에 포함된 사례가 보고되어 윤리적 논쟁이 벌어졌고, 데스크 리젝트된 연구자가 리뷰어로는 유지되는 모순적 상황도 지적되었다. 학술 피어 리뷰 시스템 전반에 대한 개선 요구가 커지고 있다."
+    },
+    {
+      "id": "reddit-prog-1",
+      "title": "Announcing TypeScript 6.0",
+      "title_ko": "TypeScript 6.0 발표",
+      "summary_ko": "TypeScript 6.0이 공식 발표되었습니다. r/programming에서 활발한 논의가 진행 중. (👍 59 | 💬 6)",
+      "url": "https://www.reddit.com/r/programming/comments/1s1luym/announcing_typescript_60/",
+      "source": "reddit_programming",
+      "category": "community",
+      "tags": [
+        "typescript",
+        "programming-languages",
+        "release"
+      ],
+      "score": 71,
+      "published_at": "2026-03-27T00:00:00Z",
+      "detail_ko": "TypeScript 6.0이 공식 출시되었다. JavaScript 기반 코드베이스의 마지막 버전으로, Go 언어 기반의 TypeScript 7.0 전환을 준비하는 정렬 작업이 핵심이다. 제네릭 호출 타입 검사 개선, import assertion deprecation 확장, DOM 타입 업데이트, this를 사용하지 않는 함수의 컨텍스트 민감도 감소 등이 포함되었다."
+    },
+    {
+      "id": "gh-virattt-dexter",
+      "title": "virattt/dexter — Autonomous agent for deep financial research",
+      "title_ko": "virattt/dexter — 심층 금융 리서치 자율 에이전트",
+      "summary_ko": "금융 분야 심층 리서치를 수행하는 자율 에이전트. 총 19,636스타, 오늘 673스타.",
+      "url": "https://github.com/virattt/dexter",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "finance",
+        "ai-agent",
+        "trending"
+      ],
+      "score": 74,
+      "published_at": "2026-03-28T00:00:00Z",
+      "detail_ko": "Dexter는 금융 리서치를 자율적으로 수행하는 AI 에이전트다. 복잡한 금융 질문을 단계적 리서치 계획으로 분해하고, 실시간 시장 데이터로 분석을 실행하며, 자기 검증 후 결과를 정제한다. Bun 런타임 기반 TypeScript, OpenAI/Anthropic/Google 등 다양한 LLM 지원. WhatsApp 연동도 포함."
+    },
+    {
+      "id": "gh-twentyhq-twenty",
+      "title": "twentyhq/twenty — Modern open-source alternative to Salesforce",
+      "title_ko": "twentyhq/twenty — Salesforce 대체 오픈소스 CRM",
+      "summary_ko": "커뮤니티 기반의 현대적 Salesforce 대안 CRM. 총 41,943스타, 오늘 661스타.",
+      "url": "https://github.com/twentyhq/twenty",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "crm",
+        "salesforce-alternative",
+        "trending"
+      ],
+      "score": 73,
+      "published_at": "2026-03-28T00:00:00Z"
+    },
+    {
+      "id": "arxiv-2603-24787",
+      "title": "ReLope: KL-Regularized LoRA Probes for Multimodal LLM Routing",
+      "title_ko": "ReLope: 멀티모달 LLM 라우팅을 위한 KL 정규화 LoRA 프로브",
+      "summary_ko": "멀티모달 LLM에서 비용-성능 균형을 위한 프로브 라우팅 기법. 시각 입력이 정확도 신호를 약화시키는 문제를 해결.",
+      "url": "https://arxiv.org/abs/2603.24787",
+      "source": "arxiv_ai",
+      "category": "ai_research",
+      "tags": [
+        "multimodal",
+        "LLM-routing",
+        "LoRA",
+        "efficiency"
+      ],
+      "score": 80,
+      "published_at": "2026-03-27T04:00:00Z",
+      "detail_ko": "멀티모달 LLM 시스템에서 경량 모델과 대형 모델 간 라우팅을 최적화하는 방법론. 시각적 입력이 히든 스테이트의 정확성 신호를 약화시키는 문제를 발견하고, Attention Probe와 KL 정규화 LoRA Probe(ReLope)로 해결. 멀티모달 환경에서 기존 베이스라인을 일관되게 능가."
+    },
+    {
+      "id": "eng_blogs_cloudflare_workflow_diagrams",
+      "title": "How we use Abstract Syntax Trees (ASTs) to turn Workflows code into visual diagrams",
+      "title_ko": "AST(추상 구문 트리)를 활용해 Workflows 코드를 시각적 다이어그램으로 변환하는 방법",
+      "summary_ko": "Cloudflare Workflows의 TypeScript 코드를 시각적 다이어그램으로 변환하는 기술. OXC 파서로 AST를 생성하고 Rust Worker(WASM)로 그래프를 만듦.",
+      "url": "https://blog.cloudflare.com/workflow-diagrams/",
+      "source": "cloudflare_blog",
+      "category": "eng_blogs",
+      "tags": [
+        "ast",
+        "typescript",
+        "rust",
+        "webassembly",
+        "cloudflare"
+      ],
+      "score": 70,
+      "published_at": "2026-03-27T13:00:00Z",
+      "detail_ko": "Cloudflare Workflows의 TypeScript 코드를 시각적 다이어그램으로 자동 변환하는 기능 구현. 선언적 설정이 아닌 동적 코드에서 AST 기반 정적 분석으로 워크플로우 구조를 추출한다. OXC 파서, Promise/await 관계 추적, Rust Worker(WASM)로 그래프를 생성하며, 축소된 JS도 처리 가능."
+    },
+    {
+      "id": "reddit-prog-2",
+      "title": "Software dev job postings are up 15% since mid 2025",
+      "title_ko": "2025년 중반 이후 소프트웨어 개발자 채용 공고 15% 증가",
+      "summary_ko": "소프트웨어 개발자 채용 공고가 2025년 중반 이후 15% 증가. AI의 생산성 향상과 실제 대체 가능성에 대한 논쟁.",
+      "url": "https://www.reddit.com/r/programming/comments/1s1e4il/software_dev_job_postings_are_up_15_since_mid_2025/",
+      "source": "reddit_programming",
+      "category": "community",
+      "tags": [
+        "jobs",
+        "software-development",
+        "career"
+      ],
+      "score": 65,
+      "published_at": "2026-03-27T00:00:00Z",
+      "detail_ko": "Indeed 데이터에 따르면 소프트웨어 개발 채용 공고가 2025년 5월 최저점 대비 15% 상승. 2026년 1월 이후 가속화 추세. AI 코딩 도구 발전에도 개발자 수요가 증가하고 있어 AI가 대체보다 생산성 향상에 기여한다는 관점을 뒷받침. 다만 2022년 최고점 대비 여전히 상당한 격차."
+    },
+    {
+      "id": "hacker_news-4e8bac",
+      "title": "ISBN Visualization – Anna's Archive",
+      "title_ko": "ISBN 시각화 – Anna's Archive",
+      "summary_ko": "Anna's Archive에서 ISBN 번호를 시각적으로 탐색할 수 있는 도구. 전 세계 도서 데이터를 시각화.",
+      "url": "https://annas-archive.gd/isbn-visualization?",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "isbn",
+        "books",
+        "data-visualization"
+      ],
+      "score": 62,
+      "published_at": "2026-03-27T20:02:05Z",
+      "detail_ko": "Anna's Archive의 ISBN 시각화 프로젝트. 수억 개의 ISBN을 힐베르트 곡선으로 배치하여 인터랙티브하게 탐색 가능. 국가별·출판사별 분포 패턴을 시각적으로 파악할 수 있으며, 데이터 시각화의 아름다움과 도서관학적 가치를 동시에 보여주는 사례."
+    },
+    {
+      "id": "reddit-ml-2",
+      "title": "[R] ARC Round 3 - released + technical report",
+      "title_ko": "ARC 라운드 3 공개 및 기술 보고서",
+      "summary_ko": "ARC(Abstraction and Reasoning Corpus) 라운드 3가 공개되었으며 기술 보고서가 함께 발표됨.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s40a34/r_arc_round_3_released_technical_report/",
+      "source": "reddit_machinelearning",
+      "category": "community",
+      "tags": [
+        "arc",
+        "reasoning",
+        "benchmark"
+      ],
+      "score": 68,
+      "published_at": "2026-03-27T00:00:00Z",
+      "detail_ko": "ARC-AGI-3가 인터랙티브 추론 벤치마크로 진화하여 공개되었다. 시간에 걸친 지능, 계획 수립의 시간적 범위, 기억 압축 능력, 신념 업데이트 능력을 종합 평가한다."
+    },
+    {
+      "id": "lobsters-1",
+      "title": "immich vs ente photos - the photo backup showdown",
+      "title_ko": "immich vs ente photos — 사진 백업 대결",
+      "summary_ko": "셀프 호스팅 사진 백업 솔루션인 immich와 ente photos를 비교 분석한 글.",
+      "url": "https://alexandmanu.com/blog/immich-vs-ente-photos/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "devops",
+        "self-hosting",
+        "photos"
+      ],
+      "score": 55,
+      "published_at": "2026-03-27T00:00:00Z"
+    },
+    {
+      "id": "lobsters-2",
+      "title": "Tailscale'd Into Homelabbing",
+      "title_ko": "Tailscale로 홈랩 시작하기",
+      "summary_ko": "Tailscale을 활용해 홈랩 환경을 구축한 경험을 공유하는 글.",
+      "url": "https://tailscale.dev/blog/tailscaled-into-homelabbing",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "tailscale",
+        "homelab",
+        "networking"
+      ],
+      "score": 52,
+      "published_at": "2026-03-27T00:00:00Z",
+      "detail_ko": "Tailscale 메시 VPN으로 홈랩 환경을 구축한 경험기. WireGuard 기반 제로 설정 VPN으로 복잡한 네트워크 설정 없이 NAS, 미디어 서버, 개발 환경 등을 하나의 가상 네트워크로 연결. MagicDNS로 호스트명 접근 가능. 무료 티어로 충분."
+    },
+    {
+      "id": "gh-letta-ai-claude-subconscious",
+      "title": "letta-ai/claude-subconscious — Persistent memory layer for Claude",
+      "title_ko": "letta-ai/claude-subconscious — Claude를 위한 영속 메모리 레이어",
+      "summary_ko": "Claude에 영속 메모리를 추가하는 레이어. 총 1,897스타, 오늘 135스타.",
+      "url": "https://github.com/letta-ai/claude-subconscious",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "claude",
+        "memory",
+        "ai"
+      ],
+      "score": 60,
+      "published_at": "2026-03-28T00:00:00Z",
+      "detail_ko": "Claude Code에 영속적 메모리 레이어를 추가하는 배경 에이전트. 세션 관찰→코드베이스 탐색→메모리 축적→다음 프롬프트 전 가이던스 주입 방식. Letta Conversations로 여러 세션 간 메모리 공유. CLAUDE.md에는 쓰지 않고 stdout으로 주입하는 것이 특징."
+    },
+    {
+      "id": "reddit-expdev-1",
+      "title": "New senior dev at a new company. Bad signs or just how it is?",
+      "title_ko": "새 회사에서 시니어 개발자로 시작 — 나쁜 신호인가, 원래 이런 건가?",
+      "summary_ko": "새 회사에서 시니어 개발자로 합류한 후 매니저 기대치와 현실의 괴리에 대한 고민. 역할 전환에 대한 다양한 경험담 공유.",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1s3hile/new_senior_dev_at_a_new_company_bad_signs_or_just/",
+      "source": "reddit_experienceddevs",
+      "category": "community",
+      "tags": [
+        "career",
+        "senior-developer",
+        "onboarding"
+      ],
+      "score": 50,
+      "published_at": "2026-03-27T00:00:00Z",
+      "detail_ko": "새 회사에서 시니어 개발자로 입사 후 느끼는 불안감을 공유. 지식 이전 부재, 문서화 부족, 권한 집중 등의 우려에 대해 커뮤니티가 조언. 주니어가 좋은 정보 소스가 될 수 있다는 팁, 권한 집중에 대한 경계 등 실질적 논의."
+    },
+    {
+      "id": "reddit-expdev-2",
+      "title": "After many years in the industry, I still struggle with textbook definitions in interviews",
+      "title_ko": "업계 경력 수년, 아직도 면접에서 교과서적 정의에 약합니다",
+      "summary_ko": "시니어 개발자가 될수록 실무 코딩보다 고수준 설계에 집중하면서, 기술 면접에서 교과서적 정의에 약해지는 현상에 대한 공감과 토론.",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1rz8py5/after_many_years_in_the_industry_i_still_struggle/",
+      "source": "reddit_experienceddevs",
+      "category": "community",
+      "tags": [
+        "interviews",
+        "career",
+        "senior-developer"
+      ],
+      "score": 48,
+      "published_at": "2026-03-27T00:00:00Z",
+      "detail_ko": "경력 개발자가 면접에서 교과서적 정의에 약한 문제. 실무의 암묵적 지식과 명시적 지식 사이의 간극이 핵심 원인. 실무 능력과 면접 능력이 별개 스킬셋이라는 인식과 함께 기술 면접 문화 개선 논의."
+    },
+    {
+      "id": "gh-langfuse-langfuse",
+      "title": "langfuse/langfuse — Open source LLM engineering platform",
+      "title_ko": "langfuse/langfuse — 오픈소스 LLM 엔지니어링 플랫폼",
+      "summary_ko": "LLM 앱의 트레이싱, 평가, 프롬프트 관리를 위한 오픈소스 플랫폼. 총 23,905스타, 오늘 78스타.",
+      "url": "https://github.com/langfuse/langfuse",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "llm",
+        "observability",
+        "trending"
+      ],
+      "score": 58,
+      "published_at": "2026-03-28T00:00:00Z",
+      "detail_ko": "오픈소스 LLM 엔지니어링 플랫폼. 옵저버빌리티, 프롬프트 관리, 평가, 데이터셋 관리, 실험, 보안 기능을 제공. ClickHouse 기반으로 셀프 호스팅 가능. Y Combinator W23 출신."
+    }
+  ],
+  "meta": {
+    "total_collected": 78,
+    "after_dedup": 65,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "hacker_news",
+      "techcrunch",
+      "ars_technica",
+      "the_verge",
+      "devto",
+      "arxiv_ai",
+      "arxiv_lg",
+      "arxiv_cl",
+      "openai_blog",
+      "anthropic_news",
+      "huggingface_blog",
+      "github_trending",
+      "github_trending_python",
+      "github_trending_typescript",
+      "reddit_programming",
+      "reddit_machinelearning",
+      "reddit_experienceddevs",
+      "lobsters",
+      "cloudflare_blog"
+    ],
+    "sources_failed": [
+      "geeknews",
+      "netflix_tech",
+      "uber_eng",
+      "stripe_blog",
+      "vercel_blog",
+      "meta_eng",
+      "google_ai",
+      "papers_with_code",
+      "tldr",
+      "changelog"
+    ],
+    "enriched": 24,
+    "total_items": 29
+  }
+}
