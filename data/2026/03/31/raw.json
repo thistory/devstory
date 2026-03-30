@@ -1,0 +1,548 @@
+{
+  "date": "2026-03-31",
+  "collected_at": "2026-03-30T22:24:38.447249Z",
+  "items": [
+    {
+      "id": "github_trending-2d4dd75a",
+      "title": "luongnv89/claude-howto: A visual, example-driven guide to Claude Code — from basic concepts to advanced agents",
+      "title_ko": "Claude Code 비주얼 가이드",
+      "summary_ko": "Claude Code의 기본 개념부터 고급 에이전트까지 예제 중심 가이드. 복사-붙여넣기 템플릿 포함",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "trending",
+        "github"
+      ],
+      "score": 4150,
+      "published_at": "2026-03-31",
+      "final_score": 88.5
+    },
+    {
+      "id": "github_trending-cd26432a",
+      "title": "microsoft/VibeVoice: Open-Source Frontier Voice AI",
+      "title_ko": "Microsoft VibeVoice - 오픈소스 음성 AI",
+      "summary_ko": "Microsoft의 오픈소스 최첨단 음성 AI 프로젝트",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "trending",
+        "github"
+      ],
+      "score": 2509,
+      "published_at": "2026-03-31",
+      "final_score": 88.5
+    },
+    {
+      "id": "github_trending-3c19e4a8",
+      "title": "NousResearch/hermes-agent: The agent that grows with you",
+      "title_ko": "Hermes Agent - 함께 성장하는 에이전트",
+      "summary_ko": "NousResearch의 성장형 AI 에이전트 프레임워크",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "trending",
+        "github"
+      ],
+      "score": 1859,
+      "published_at": "2026-03-31",
+      "final_score": 88.5
+    },
+    {
+      "id": "github_trending-86685127",
+      "title": "Yeachan-Heo/oh-my-claudecode: Teams-first Multi-agent orchestration for Claude Code",
+      "title_ko": "oh-my-claudecode - Claude Code 멀티에이전트",
+      "summary_ko": "팀 우선 Claude Code 멀티에이전트 오케스트레이션 도구",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 1785,
+      "published_at": "2026-03-31",
+      "final_score": 88.5
+    },
+    {
+      "id": "github_trending-87ecdc02",
+      "title": "vas3k/TaxHacker: Self-hosted AI accounting app. LLM analyzer for receipts, invoices, transactions",
+      "title_ko": "TaxHacker - AI 셀프호스팅 회계 앱",
+      "summary_ko": "LLM 기반 영수증/송장/거래 분석 셀프호스팅 회계 앱",
+      "url": "https://github.com/vas3k/TaxHacker",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 696,
+      "published_at": "2026-03-31",
+      "final_score": 83.2
+    },
+    {
+      "id": "github_trending-64109ad7",
+      "title": "twentyhq/twenty: Building a modern alternative to Salesforce, powered by the community",
+      "title_ko": "Twenty - 오픈소스 Salesforce 대안",
+      "summary_ko": "커뮤니티 기반 현대적 Salesforce 대안 CRM",
+      "url": "https://github.com/twentyhq/twenty",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 570,
+      "published_at": "2026-03-31",
+      "final_score": 83.2
+    },
+    {
+      "id": "hacker_news-31592de3",
+      "title": "How to turn anything into a router",
+      "title_ko": "무엇이든 라우터로 만드는 방법",
+      "summary_ko": "일반 컴퓨터나 기기를 네트워크 라우터로 변환하는 방법에 대한 상세 가이드.",
+      "url": "https://nbailey.ca/post/router/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "networking",
+        "router",
+        "linux",
+        "DIY"
+      ],
+      "score": 524,
+      "published_at": "2026-03-30T13:28:54.000Z",
+      "final_score": 83.2
+    },
+    {
+      "id": "github_trending-27770971",
+      "title": "moeru-ai/airi: Self hosted AI Grok Companion with realtime voice chat, Minecraft, Factorio playing",
+      "title_ko": "Airi - AI 컴패니언",
+      "summary_ko": "실시간 음성채팅, 마인크래프트/팩토리오 플레이 가능한 셀프호스팅 AI 컴패니언",
+      "url": "https://github.com/moeru-ai/airi",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 427,
+      "published_at": "2026-03-31",
+      "final_score": 78.0
+    },
+    {
+      "id": "github_trending-54fda99c",
+      "title": "fastfetch-cli/fastfetch: A maintained, feature-rich and performance oriented neofetch like system information tool",
+      "title_ko": "Fastfetch - 시스템 정보 도구",
+      "summary_ko": "neofetch 대안 고성능 시스템 정보 표시 도구",
+      "url": "https://github.com/fastfetch-cli/fastfetch",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "c",
+        "trending",
+        "github"
+      ],
+      "score": 271,
+      "published_at": "2026-03-31",
+      "final_score": 78.0
+    },
+    {
+      "id": "github_trending-2f061da2",
+      "title": "SakanaAI/AI-Scientist-v2: The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+      "title_ko": "AI Scientist v2 - 자동 과학 발견",
+      "summary_ko": "에이전트 트리 탐색 기반 워크숍 수준 자동 과학 발견 시스템",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "trending",
+        "github"
+      ],
+      "score": 240,
+      "published_at": "2026-03-31",
+      "final_score": 78.0
+    },
+    {
+      "id": "hacker_news-f1129ed2",
+      "title": "Fedware: Government apps that spy harder than the apps they ban",
+      "title_ko": "Fedware: 금지한 앱보다 더 심하게 감시하는 정부 앱",
+      "summary_ko": "미국 백악관 공식 앱에서 화웨이 스파이웨어와 ICE 신고 기능이 발견되었다. 정부가 금지한 앱들보다 정부 자체 앱이 더 심한 감시를 수행하고 있다는 분석이다.",
+      "url": "https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "privacy",
+        "government",
+        "surveillance",
+        "security"
+      ],
+      "score": 282,
+      "published_at": "2026-03-30T18:16:00.000Z",
+      "final_score": 78.0
+    },
+    {
+      "id": "hacker_news-a187d5aa",
+      "title": "Do your own writing",
+      "title_ko": "직접 글을 써라",
+      "summary_ko": "AI에게 글쓰기를 맡기지 말라는 주장. 직접 글을 쓰는 과정이 사고력과 커뮤니케이션 능력 발전에 필수적이라고 강조한다.",
+      "url": "https://alexhwoods.com/dont-let-ai-write-for-you/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "writing",
+        "AI",
+        "productivity"
+      ],
+      "score": 248,
+      "published_at": "2026-03-30T12:39:56.000Z",
+      "final_score": 78.0
+    },
+    {
+      "id": "hacker_news-1fa6ad49",
+      "title": "Bird brains (2023)",
+      "title_ko": "새의 뇌 (2023)",
+      "summary_ko": "새의 놀라운 인지 능력과 뇌 구조에 대한 심층 에세이. 작은 뇌에도 불구하고 높은 지능을 보여주는 메커니즘을 탐구한다.",
+      "url": "https://www.dhanishsemar.com/writing/bird-brains",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "science",
+        "neuroscience",
+        "birds",
+        "cognition"
+      ],
+      "score": 272,
+      "published_at": "2026-03-30T13:14:27.000Z",
+      "final_score": 78.0
+    },
+    {
+      "id": "github_trending-1b37d21c",
+      "title": "fluxerapp/fluxer: A free and open source instant messaging and VoIP platform",
+      "title_ko": "Fluxer - 오픈소스 메신저/VoIP",
+      "summary_ko": "무료 오픈소스 인스턴트 메시징 및 VoIP 플랫폼",
+      "url": "https://github.com/fluxerapp/fluxer",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 195,
+      "published_at": "2026-03-31",
+      "final_score": 74.5
+    },
+    {
+      "id": "github_trending-2039c674",
+      "title": "steipete/mcporter: Call MCPs via TypeScript, masquerading as simple TypeScript API. Or package them as CLI",
+      "title_ko": "MCPorter - TypeScript MCP 호출 도구",
+      "summary_ko": "MCP를 TypeScript API처럼 호출하거나 CLI로 패키징하는 도구",
+      "url": "https://github.com/steipete/mcporter",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 129,
+      "published_at": "2026-03-31",
+      "final_score": 74.5
+    },
+    {
+      "id": "github_trending-19f1705e",
+      "title": "Dokploy/dokploy: Open Source Alternative to Vercel, Netlify and Heroku",
+      "title_ko": "Dokploy - 오픈소스 Vercel 대안",
+      "summary_ko": "Vercel, Netlify, Heroku의 오픈소스 대안",
+      "url": "https://github.com/Dokploy/dokploy",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 102,
+      "published_at": "2026-03-31",
+      "final_score": 74.5
+    },
+    {
+      "id": "hacker_news-c314922c",
+      "title": "Turning a MacBook into a touchscreen with $1 of hardware (2018)",
+      "title_ko": "1달러 하드웨어로 맥북을 터치스크린으로 만들기 (2018)",
+      "summary_ko": "저가 하드웨어를 사용해 맥북 화면을 터치스크린으로 변환하는 해킹 프로젝트.",
+      "url": "https://anishathalye.com/macbook-touchscreen/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "hardware",
+        "macbook",
+        "touchscreen",
+        "hack"
+      ],
+      "score": 112,
+      "published_at": "2026-03-30T19:22:33.000Z",
+      "final_score": 74.5
+    },
+    {
+      "id": "hacker_news-b641254f",
+      "title": "OCR for construction drawings (Show HN)",
+      "title_ko": "건설 도면용 OCR (Show HN)",
+      "summary_ko": "건설 도면에서 설비, 일정 등의 데이터를 자동 추출하는 AI 기반 OCR API.",
+      "url": "https://www.getanchorgrid.com/developer",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "OCR",
+        "construction",
+        "AI",
+        "API"
+      ],
+      "score": 101,
+      "published_at": "2026-03-30T16:05:46.000Z",
+      "final_score": 74.5
+    },
+    {
+      "id": "hacker_news-9675d983",
+      "title": "Learn Claude Code by doing, not reading",
+      "title_ko": "Claude Code를 읽지 말고 직접 해보며 배워라",
+      "summary_ko": "Claude Code를 문서 읽기가 아닌 실습을 통해 배울 수 있는 인터랙티브 튜토리얼 사이트.",
+      "url": "https://claude.nagdy.me/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "claude-code",
+        "AI",
+        "tutorial",
+        "developer-tools"
+      ],
+      "score": 46,
+      "published_at": "2026-03-30T20:19:43.000Z",
+      "final_score": 64.0
+    },
+    {
+      "id": "hacker_news-7d2a8209",
+      "title": "William Blake, Remote by the Sea",
+      "title_ko": "윌리엄 블레이크, 바다 옆의 은둔",
+      "summary_ko": "시인이자 화가 윌리엄 블레이크의 해변 은둔 시기에 대한 문학적 탐구.",
+      "url": "https://www.laphamsquarterly.org/roundtable/william-blake-remote-sea",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "literature",
+        "art",
+        "history",
+        "poetry"
+      ],
+      "score": 32,
+      "published_at": "2026-03-30T19:13:05.000Z",
+      "final_score": 64.0
+    },
+    {
+      "id": "hacker_news-2de558a1",
+      "title": "A sea of sparks: Seeing radioactivity",
+      "title_ko": "불꽃의 바다: 방사능을 눈으로 보기",
+      "summary_ko": "스핀타리스코프를 이용해 방사능 붕괴를 육안으로 관찰하는 프로젝트.",
+      "url": "https://maurycyz.com/projects/spinthariscope/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "physics",
+        "radioactivity",
+        "science",
+        "DIY"
+      ],
+      "score": 38,
+      "published_at": "2026-03-30T18:34:47.000Z",
+      "final_score": 64.0
+    },
+    {
+      "id": "hacker_news-b5bb7231",
+      "title": "Coasts: Containerized hosts for multiple localhost instances (Show HN)",
+      "title_ko": "Coasts: 여러 localhost 인스턴스를 위한 컨테이너화된 호스트 (Show HN)",
+      "summary_ko": "git 워크트리별로 독립된 localhost와 docker-compose 런타임을 실행할 수 있게 해주는 개발 도구.",
+      "url": "https://coasts.dev/docs/learn-coasts-videos",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "docker",
+        "developer-tools",
+        "containers",
+        "devops"
+      ],
+      "score": 45,
+      "published_at": "2026-03-30T16:05:46.000Z",
+      "final_score": 64.0
+    },
+    {
+      "id": "cloudflare_blog-d7226a0f",
+      "title": "Cloudflare Client-Side Security: smarter detection, now open to everyone",
+      "title_ko": "Cloudflare 클라이언트 사이드 보안: 더 스마트한 탐지, 모든 사용자에게 개방",
+      "summary_ko": "Cloudflare가 고급 클라이언트 사이드 보안 도구를 모든 사용자에게 개방합니다. 그래프 신경망(GNN)과 LLM을 결합한 새로운 캐스케이딩 AI 탐지 시스템으로 오탐율을 최대 200배 줄이면서도 정교한 제로데이 익스플로잇을 탐지합니다. GNN이 1차 분석 후 의심 스크립트를 Workers AI의 LLM에 전달하는 2단계 아키텍처를 설명합니다.",
+      "url": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
+      "source": "cloudflare_blog",
+      "category": "eng_blogs",
+      "tags": [
+        "security",
+        "machine-learning",
+        "javascript",
+        "ai",
+        "gnn",
+        "llm",
+        "client-side-security"
+      ],
+      "score": 0,
+      "published_at": "2026-03-30T06:00:00Z",
+      "final_score": 60.5
+    },
+    {
+      "id": "meta_eng-a0384893",
+      "title": "AI for American-Produced Cement and Concrete",
+      "title_ko": "미국산 시멘트와 콘크리트를 위한 AI",
+      "summary_ko": "Meta가 건설 산업에서 AI를 활용한 콘크리트 배합 최적화를 위한 새로운 오픈소스 모델 BOxCrete(Bayesian Optimization for Concrete)를 공개했습니다. 베이지안 최적화를 사용해 콘크리트 배합 설계 공간을 지능적으로 탐색하며, 데이터센터 건설에서 기존 대비 43% 빠른 강도 발현과 10% 균열 위험 감소를 달성했습니다.",
+      "url": "https://engineering.fb.com/2026/03/30/data-center-engineering/ai-for-american-produced-cement-and-concrete/",
+      "source": "meta_eng",
+      "category": "eng_blogs",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "bayesian-optimization",
+        "open-source",
+        "data-center",
+        "concrete"
+      ],
+      "score": 0,
+      "published_at": "2026-03-30T16:00:34Z",
+      "final_score": 60.5
+    },
+    {
+      "id": "techcrunch-cb91c043",
+      "title": "Former Coatue partner raises huge $65M seed for enterprise AI agent startup",
+      "title_ko": "전 Coatue 파트너, 기업용 AI 에이전트 스타트업에 6500만 달러 시드 투자 유치",
+      "summary_ko": "전 Coatue 파트너가 설립한 기업용 AI 에이전트 스타트업이 초기 단계에서 6500만 달러의 대규모 시드 라운드를 유치했다.",
+      "url": "https://techcrunch.com/2026/03/30/former-coatue-partner-raises-huge-65m-seed-for-enterprise-ai-agent-startup/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "AI",
+        "startup",
+        "venture-capital",
+        "enterprise"
+      ],
+      "score": 0,
+      "published_at": "2026-03-30T21:53:09.000Z",
+      "final_score": 52.5
+    },
+    {
+      "id": "techcrunch-e2524836",
+      "title": "15% of Americans say they'd be willing to work for an AI boss",
+      "title_ko": "미국인 15%가 AI 상사 밑에서 일할 의향이 있다고 답해",
+      "summary_ko": "퀴니피악 대학 설문조사에서 미국인 15%가 AI 관리자 밑에서 일할 의향이 있다고 답했다. 조직에서 AI가 중간 관리직을 대체하는 'Great Flattening' 추세가 확산되고 있다.",
+      "url": "https://techcrunch.com/2026/03/30/ai-boss-supervisor-us-quinnipiac-poll/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "AI",
+        "future-of-work",
+        "survey"
+      ],
+      "score": 0,
+      "published_at": "2026-03-30T21:39:51.000Z",
+      "final_score": 52.5
+    },
+    {
+      "id": "github_trending-b6ebd64e",
+      "title": "appwrite/appwrite: Complete cloud infrastructure for web, mobile and AI apps",
+      "title_ko": "Appwrite - 클라우드 인프라 플랫폼",
+      "summary_ko": "웹/모바일/AI 앱을 위한 완전한 클라우드 인프라",
+      "url": "https://github.com/appwrite/appwrite",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 93,
+      "published_at": "2026-03-31",
+      "final_score": 71.0
+    },
+    {
+      "id": "github_trending-48d851ca",
+      "title": "humanlayer/humanlayer: The best way to get AI coding agents to solve hard problems in complex codebases",
+      "title_ko": "HumanLayer - AI 코딩 에이전트",
+      "summary_ko": "복잡한 코드베이스에서 어려운 문제를 해결하는 AI 코딩 에이전트",
+      "url": "https://github.com/humanlayer/humanlayer",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 42,
+      "published_at": "2026-03-31",
+      "final_score": 64.0
+    },
+    {
+      "id": "github_trending-e4b819f5",
+      "title": "logto-io/logto: Authentication and authorization infrastructure for SaaS and AI apps",
+      "title_ko": "Logto - SaaS/AI 인증 인프라",
+      "summary_ko": "OIDC/OAuth 2.1 기반 SaaS 및 AI 앱 인증·인가 인프라",
+      "url": "https://github.com/logto-io/logto",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "trending",
+        "github"
+      ],
+      "score": 19,
+      "published_at": "2026-03-31",
+      "final_score": 64.0
+    },
+    {
+      "id": "github_releases-583d0a08",
+      "title": "PyCharm 2026.1 Released - New debugpy engine, uv support",
+      "title_ko": "PyCharm 2026.1 출시",
+      "summary_ko": "debugpy 기반 새 디버깅 엔진, 원격 타겟 uv 지원 등 Python 개발 경험 대폭 개선",
+      "url": "https://blog.jetbrains.com/pycharm/2026/03/what-s-new-in-pycharm-2026-1/",
+      "source": "github_releases",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "jetbrains",
+        "ide",
+        "release"
+      ],
+      "score": 50,
+      "published_at": "2026-03-31",
+      "final_score": 59.0
+    }
+  ],
+  "meta": {
+    "total_collected": 58,
+    "after_dedup": 58,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "github_oss",
+      "news_blogs",
+      "eng_blogs"
+    ],
+    "sources_failed": [
+      "ai_research",
+      "community"
+    ]
+  }
+}
