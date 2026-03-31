@@ -1,0 +1,679 @@
+{
+  "date": "2026-04-01",
+  "collected_at": "2026-04-01T07:13:20.690330+09:00",
+  "items": [
+    {
+      "id": "github-trending-1",
+      "title": "microsoft/VibeVoice - Open-Source Frontier Voice AI",
+      "title_ko": "microsoft/VibeVoice - 오픈소스 최신 음성 AI",
+      "summary_ko": "Microsoft가 공개한 오픈소스 음성 AI 프로젝트. Python 기반으로 총 32,984 스타, 오늘만 3,862 스타 획득. 최신 음성 인식 및 합성 기술을 제공.",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "voice-ai",
+        "microsoft",
+        "python",
+        "open-source",
+        "tts"
+      ],
+      "score": 3862,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 83,
+      "detail_ko": "## microsoft/VibeVoice - 오픈소스 최신 음성 AI\n\nMicrosoft가 공개한 오픈소스 음성 AI 프로젝트. Python 기반으로 총 32,984 스타, 오늘만 3,862 스타 획득. 최신 음성 인식 및 합성 기술을 제공.",
+      "detail_en": "## microsoft/VibeVoice - Open-Source Frontier Voice AI\n\nMicrosoft가 공개한 오픈소스 음성 AI 프로젝트. Python 기반으로 총 32,984 스타, 오늘만 3,862 스타 획득. 최신 음성 인식 및 합성 기술을 제공."
+    },
+    {
+      "id": "github-trending-2",
+      "title": "luongnv89/claude-howto - Visual guide to Claude Code",
+      "title_ko": "luongnv89/claude-howto - Claude Code 실전 가이드",
+      "summary_ko": "Claude Code의 기본 개념부터 고급 에이전트까지 시각적 예시와 복사-붙여넣기 템플릿을 제공하는 가이드. 12,731 스타, 오늘 2,390 스타.",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "claude-code",
+        "guide",
+        "ai-agents",
+        "python"
+      ],
+      "score": 2390,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 83,
+      "detail_ko": "## luongnv89/claude-howto - Claude Code 실전 가이드\n\nClaude Code의 기본 개념부터 고급 에이전트까지 시각적 예시와 복사-붙여넣기 템플릿을 제공하는 가이드. 12,731 스타, 오늘 2,390 스타.",
+      "detail_en": "## luongnv89/claude-howto - Visual guide to Claude Code\n\nClaude Code의 기본 개념부터 고급 에이전트까지 시각적 예시와 복사-붙여넣기 템플릿을 제공하는 가이드. 12,731 스타, 오늘 2,390 스타."
+    },
+    {
+      "id": "github-trending-3",
+      "title": "NousResearch/hermes-agent - The agent that grows with you",
+      "title_ko": "NousResearch/hermes-agent - 함께 성장하는 AI 에이전트",
+      "summary_ko": "NousResearch의 자기 성장형 AI 에이전트 프레임워크. Python 기반, 20,206 스타, 오늘 1,909 스타. 사용자와 함께 학습하고 진화하는 에이전트.",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "ai-agent",
+        "python",
+        "nous-research",
+        "autonomous"
+      ],
+      "score": 1909,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 83,
+      "detail_ko": "## NousResearch/hermes-agent - 함께 성장하는 AI 에이전트\n\nNousResearch의 자기 성장형 AI 에이전트 프레임워크. Python 기반, 20,206 스타, 오늘 1,909 스타. 사용자와 함께 학습하고 진화하는 에이전트.",
+      "detail_en": "## NousResearch/hermes-agent - The agent that grows with you\n\nNousResearch의 자기 성장형 AI 에이전트 프레임워크. Python 기반, 20,206 스타, 오늘 1,909 스타. 사용자와 함께 학습하고 진화하는 에이전트."
+    },
+    {
+      "id": "github-trending-4",
+      "title": "Yeachan-Heo/oh-my-claudecode - Teams-first Multi-agent orchestration",
+      "title_ko": "Yeachan-Heo/oh-my-claudecode - 팀 중심 멀티에이전트 오케스트레이션",
+      "summary_ko": "Claude Code를 위한 팀 기반 멀티에이전트 오케스트레이션 도구. TypeScript 기반, 18,841 스타, 오늘 1,127 스타.",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "claude-code",
+        "multi-agent",
+        "typescript",
+        "orchestration"
+      ],
+      "score": 1127,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 83,
+      "detail_ko": "## Yeachan-Heo/oh-my-claudecode - 팀 중심 멀티에이전트 오케스트레이션\n\nClaude Code를 위한 팀 기반 멀티에이전트 오케스트레이션 도구. TypeScript 기반, 18,841 스타, 오늘 1,127 스타.",
+      "detail_en": "## Yeachan-Heo/oh-my-claudecode - Teams-first Multi-agent orchestration\n\nClaude Code를 위한 팀 기반 멀티에이전트 오케스트레이션 도구. TypeScript 기반, 18,841 스타, 오늘 1,127 스타."
+    },
+    {
+      "id": "hacker_news-10",
+      "title": "Claude Code's source code has been leaked via a map file in their NPM registry",
+      "title_ko": "Claude Code 소스코드, NPM 레지스트리 맵 파일 통해 유출",
+      "summary_ko": "Anthropic의 Claude Code CLI 전체 소스코드가 NPM 패키지의 소스맵 파일을 통해 유출되어 GitHub에서 수만 번 포크됨.",
+      "url": "https://twitter.com/Fried_rice/status/2038894956459290963",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "claude-code",
+        "anthropic",
+        "source-leak",
+        "npm",
+        "security"
+      ],
+      "score": 1795,
+      "published_at": "2026-03-31T09:00:40+00:00",
+      "quality_score": 79,
+      "detail_ko": "## Claude Code 소스코드, NPM 레지스트리 맵 파일 통해 유출\n\nAnthropic의 Claude Code CLI 전체 소스코드가 NPM 패키지의 소스맵 파일을 통해 유출되어 GitHub에서 수만 번 포크됨.",
+      "detail_en": "## Claude Code's source code has been leaked via a map file in their NPM registry\n\nAnthropic의 Claude Code CLI 전체 소스코드가 NPM 패키지의 소스맵 파일을 통해 유출되어 GitHub에서 수만 번 포크됨."
+    },
+    {
+      "id": "hacker_news-1",
+      "title": "The Claude Code Source Leak: fake tools, frustration regexes, undercover mode",
+      "title_ko": "Claude Code 소스 유출: 가짜 도구, 좌절 정규식, 언더커버 모드",
+      "summary_ko": "Claude Code의 소스코드가 NPM 레지스트리의 맵 파일을 통해 유출되었으며, 가짜 도구 패턴과 내부 작동 방식이 공개됨.",
+      "url": "https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "claude-code",
+        "anthropic",
+        "source-leak",
+        "ai"
+      ],
+      "score": 449,
+      "published_at": "2026-03-31T13:04:30+00:00",
+      "quality_score": 74,
+      "detail_ko": "## Claude Code 소스 유출: 가짜 도구, 좌절 정규식, 언더커버 모드\n\nClaude Code의 소스코드가 NPM 레지스트리의 맵 파일을 통해 유출되었으며, 가짜 도구 패턴과 내부 작동 방식이 공개됨.",
+      "detail_en": "## The Claude Code Source Leak: fake tools, frustration regexes, undercover mode\n\nClaude Code의 소스코드가 NPM 레지스트리의 맵 파일을 통해 유출되었으며, 가짜 도구 패턴과 내부 작동 방식이 공개됨."
+    },
+    {
+      "id": "hacker_news-2",
+      "title": "OpenAI closes funding round at an $852B valuation",
+      "title_ko": "OpenAI, 8,520억 달러 기업가치로 펀딩 라운드 마감",
+      "summary_ko": "OpenAI가 Amazon, Nvidia, SoftBank 주도로 8,520억 달러 기업가치의 펀딩 라운드를 마감하며 IPO에 한 걸음 다가감.",
+      "url": "https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "openai",
+        "funding",
+        "valuation",
+        "ipo"
+      ],
+      "score": 167,
+      "published_at": "2026-03-31T20:07:30+00:00",
+      "quality_score": 74,
+      "detail_ko": "## OpenAI, 8,520억 달러 기업가치로 펀딩 라운드 마감\n\nOpenAI가 Amazon, Nvidia, SoftBank 주도로 8,520억 달러 기업가치의 펀딩 라운드를 마감하며 IPO에 한 걸음 다가감.",
+      "detail_en": "## OpenAI closes funding round at an $852B valuation\n\nOpenAI가 Amazon, Nvidia, SoftBank 주도로 8,520억 달러 기업가치의 펀딩 라운드를 마감하며 IPO에 한 걸음 다가감."
+    },
+    {
+      "id": "hacker_news-4",
+      "title": "Cohere Transcribe: Speech Recognition",
+      "title_ko": "Cohere Transcribe: 음성 인식",
+      "summary_ko": "Cohere가 새로운 음성 인식 서비스 Transcribe를 출시함.",
+      "url": "https://cohere.com/blog/transcribe",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "cohere",
+        "speech-recognition",
+        "ai",
+        "transcription"
+      ],
+      "score": 135,
+      "published_at": "2026-03-31T16:27:02+00:00",
+      "quality_score": 74,
+      "detail_ko": "## Cohere Transcribe: 음성 인식\n\nCohere가 새로운 음성 인식 서비스 Transcribe를 출시함.",
+      "detail_en": "## Cohere Transcribe: Speech Recognition\n\nCohere가 새로운 음성 인식 서비스 Transcribe를 출시함."
+    },
+    {
+      "id": "hacker_news-5",
+      "title": "Slop is not necessarily the future",
+      "title_ko": "AI 슬롭이 반드시 미래는 아니다",
+      "summary_ko": "AI 생성 저품질 코드(슬롭웨어)가 소프트웨어 개발의 미래가 아닐 수 있다는 Greptile의 분석.",
+      "url": "https://www.greptile.com/blog/ai-slopware-future",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "software-quality",
+        "slopware",
+        "development"
+      ],
+      "score": 127,
+      "published_at": "2026-03-31T14:32:26+00:00",
+      "quality_score": 74,
+      "detail_ko": "## AI 슬롭이 반드시 미래는 아니다\n\nAI 생성 저품질 코드(슬롭웨어)가 소프트웨어 개발의 미래가 아닐 수 있다는 Greptile의 분석.",
+      "detail_en": "## Slop is not necessarily the future\n\nAI 생성 저품질 코드(슬롭웨어)가 소프트웨어 개발의 미래가 아닐 수 있다는 Greptile의 분석."
+    },
+    {
+      "id": "hacker_news-7",
+      "title": "GitHub's Historic Uptime",
+      "title_ko": "GitHub의 역사적 업타임 기록",
+      "summary_ko": "GitHub의 역대 가동시간 및 장애 기록을 시각화한 프로젝트.",
+      "url": "https://damrnelson.github.io/github-historical-uptime/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "github",
+        "uptime",
+        "reliability",
+        "devops"
+      ],
+      "score": 318,
+      "published_at": "2026-03-31T19:01:29+00:00",
+      "quality_score": 74,
+      "detail_ko": "## GitHub의 역사적 업타임 기록\n\nGitHub의 역대 가동시간 및 장애 기록을 시각화한 프로젝트.",
+      "detail_en": "## GitHub's Historic Uptime\n\nGitHub의 역대 가동시간 및 장애 기록을 시각화한 프로젝트."
+    },
+    {
+      "id": "hacker_news-8",
+      "title": "Open source CAD in the browser (Solvespace)",
+      "title_ko": "브라우저에서 동작하는 오픈소스 CAD (Solvespace)",
+      "summary_ko": "오픈소스 3D CAD 도구 Solvespace의 브라우저 버전이 공개됨.",
+      "url": "https://solvespace.com/webver.pl",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "cad",
+        "open-source",
+        "browser",
+        "3d-modeling"
+      ],
+      "score": 258,
+      "published_at": "2026-03-31T12:50:23+00:00",
+      "quality_score": 74,
+      "detail_ko": "## 브라우저에서 동작하는 오픈소스 CAD (Solvespace)\n\n오픈소스 3D CAD 도구 Solvespace의 브라우저 버전이 공개됨.",
+      "detail_en": "## Open source CAD in the browser (Solvespace)\n\n오픈소스 3D CAD 도구 Solvespace의 브라우저 버전이 공개됨."
+    },
+    {
+      "id": "hacker_news-9",
+      "title": "OkCupid gave 3M dating-app photos to facial recognition firm, FTC says",
+      "title_ko": "OkCupid, 300만 데이팅앱 사진을 얼굴인식 업체에 제공했다고 FTC 발표",
+      "summary_ko": "FTC가 OkCupid와 Match Group이 사용자 동의 없이 300만 장의 사진을 얼굴인식 업체에 제공한 사실을 밝힘.",
+      "url": "https://arstechnica.com/tech-policy/2026/03/okcupid-match-pay-no-fine-for-sharing-user-photos-with-facial-recognition-firm/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "privacy",
+        "facial-recognition",
+        "ftc",
+        "dating-apps"
+      ],
+      "score": 225,
+      "published_at": "2026-03-31T17:55:04+00:00",
+      "quality_score": 74,
+      "detail_ko": "## OkCupid, 300만 데이팅앱 사진을 얼굴인식 업체에 제공했다고 FTC 발표\n\nFTC가 OkCupid와 Match Group이 사용자 동의 없이 300만 장의 사진을 얼굴인식 업체에 제공한 사실을 밝힘.",
+      "detail_en": "## OkCupid gave 3M dating-app photos to facial recognition firm, FTC says\n\nFTC가 OkCupid와 Match Group이 사용자 동의 없이 300만 장의 사진을 얼굴인식 업체에 제공한 사실을 밝힘."
+    },
+    {
+      "id": "github-trending-5",
+      "title": "vas3k/TaxHacker - Self-hosted AI accounting app",
+      "title_ko": "vas3k/TaxHacker - 셀프 호스팅 AI 회계 앱",
+      "summary_ko": "영수증, 인보이스, 거래 내역을 LLM으로 분석하는 셀프 호스팅 회계 앱. TypeScript 기반, 3,690 스타, 오늘 325 스타.",
+      "url": "https://github.com/vas3k/TaxHacker",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "accounting",
+        "ai",
+        "self-hosted",
+        "typescript",
+        "llm"
+      ],
+      "score": 325,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 73,
+      "detail_ko": "## vas3k/TaxHacker - 셀프 호스팅 AI 회계 앱\n\n영수증, 인보이스, 거래 내역을 LLM으로 분석하는 셀프 호스팅 회계 앱. TypeScript 기반, 3,690 스타, 오늘 325 스타.",
+      "detail_en": "## vas3k/TaxHacker - Self-hosted AI accounting app\n\n영수증, 인보이스, 거래 내역을 LLM으로 분석하는 셀프 호스팅 회계 앱. TypeScript 기반, 3,690 스타, 오늘 325 스타."
+    },
+    {
+      "id": "github-trending-6",
+      "title": "Dimillian/Skills - Codex Skills collection",
+      "title_ko": "Dimillian/Skills - Codex 스킬 컬렉션",
+      "summary_ko": "AI 코딩 에이전트를 위한 스킬 컬렉션. Shell 기반, 2,813 스타, 오늘 173 스타.",
+      "url": "https://github.com/Dimillian/Skills",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "codex",
+        "skills",
+        "ai-agent",
+        "shell"
+      ],
+      "score": 173,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 73,
+      "detail_ko": "## Dimillian/Skills - Codex 스킬 컬렉션\n\nAI 코딩 에이전트를 위한 스킬 컬렉션. Shell 기반, 2,813 스타, 오늘 173 스타.",
+      "detail_en": "## Dimillian/Skills - Codex Skills collection\n\nAI 코딩 에이전트를 위한 스킬 컬렉션. Shell 기반, 2,813 스타, 오늘 173 스타."
+    },
+    {
+      "id": "openai-122b-funding",
+      "title": "OpenAI raises $122 billion to accelerate the next phase of AI",
+      "title_ko": "OpenAI, AI 다음 단계 가속을 위해 1220억 달러 조달",
+      "summary_ko": "OpenAI가 AI 개발의 다음 단계를 가속화하기 위해 사상 최대 규모인 1220억 달러의 자금을 조달했다고 발표.",
+      "url": "https://openai.com/index/accelerating-the-next-phase-ai/",
+      "source": "openai_blog",
+      "category": "ai_research",
+      "tags": [
+        "openai",
+        "funding",
+        "industry-news"
+      ],
+      "score": 90,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 72,
+      "detail_ko": "## OpenAI, AI 다음 단계 가속을 위해 1220억 달러 조달\n\nOpenAI가 AI 개발의 다음 단계를 가속화하기 위해 사상 최대 규모인 1220억 달러의 자금을 조달했다고 발표.",
+      "detail_en": "## OpenAI raises $122 billion to accelerate the next phase of AI\n\nOpenAI가 AI 개발의 다음 단계를 가속화하기 위해 사상 최대 규모인 1220억 달러의 자금을 조달했다고 발표."
+    },
+    {
+      "id": "hf-blog-granite-4-vision",
+      "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+      "title_ko": "Granite 4.0 3B Vision: 기업 문서를 위한 컴팩트 멀티모달 인텔리전스",
+      "summary_ko": "IBM이 공개한 Granite 4.0 3B Vision 모델. 기업 문서 이해에 특화된 소형(3B) 멀티모달 모델로, 문서 처리 및 분석 작업에서 효율적인 성능 제공.",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "source": "huggingface_blog",
+      "category": "ai_research",
+      "tags": [
+        "multimodal",
+        "vision-language",
+        "enterprise",
+        "ibm",
+        "document-ai"
+      ],
+      "score": 85,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 70,
+      "detail_ko": "## Granite 4.0 3B Vision: 기업 문서를 위한 컴팩트 멀티모달 인텔리전스\n\nIBM이 공개한 Granite 4.0 3B Vision 모델. 기업 문서 이해에 특화된 소형(3B) 멀티모달 모델로, 문서 처리 및 분석 작업에서 효율적인 성능 제공.",
+      "detail_en": "## Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents\n\nIBM이 공개한 Granite 4.0 3B Vision 모델. 기업 문서 이해에 특화된 소형(3B) 멀티모달 모델로, 문서 처리 및 분석 작업에서 효율적인 성능 제공."
+    },
+    {
+      "id": "hf-blog-trl-v1",
+      "title": "TRL v1.0: Post-Training Library Built to Move with the Field",
+      "title_ko": "TRL v1.0: 분야 발전에 맞춰 진화하는 후처리 학습 라이브러리",
+      "summary_ko": "Hugging Face의 TRL(Transformer Reinforcement Learning) 라이브러리가 v1.0 정식 출시. RLHF, DPO 등 다양한 후처리 학습 방법을 지원하는 핵심 라이브러리의 메이저 버전 릴리스.",
+      "url": "https://huggingface.co/blog/trl-v1",
+      "source": "huggingface_blog",
+      "category": "ai_research",
+      "tags": [
+        "rlhf",
+        "post-training",
+        "library",
+        "huggingface",
+        "open-source"
+      ],
+      "score": 87,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 70,
+      "detail_ko": "## TRL v1.0: 분야 발전에 맞춰 진화하는 후처리 학습 라이브러리\n\nHugging Face의 TRL(Transformer Reinforcement Learning) 라이브러리가 v1.0 정식 출시. RLHF, DPO 등 다양한 후처리 학습 방법을 지원하는 핵심 라이브러리의 메이저 버전 릴리스.",
+      "detail_en": "## TRL v1.0: Post-Training Library Built to Move with the Field\n\nHugging Face의 TRL(Transformer Reinforcement Learning) 라이브러리가 v1.0 정식 출시. RLHF, DPO 등 다양한 후처리 학습 방법을 지원하는 핵심 라이브러리의 메이저 버전 릴리스."
+    },
+    {
+      "id": "hacker_news-6",
+      "title": "Show HN: Postgres extension for BM25 relevance-ranked full-text search",
+      "title_ko": "Show HN: BM25 관련성 기반 전문 검색을 위한 Postgres 확장",
+      "summary_ko": "Timescale이 PostgreSQL에서 BM25 알고리즘 기반 전문 검색을 지원하는 확장 모듈을 공개함.",
+      "url": "https://github.com/timescale/pg_textsearch",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "postgres",
+        "full-text-search",
+        "bm25",
+        "database"
+      ],
+      "score": 64,
+      "published_at": "2026-03-31T16:29:52+00:00",
+      "quality_score": 69,
+      "detail_ko": "## Show HN: BM25 관련성 기반 전문 검색을 위한 Postgres 확장\n\nTimescale이 PostgreSQL에서 BM25 알고리즘 기반 전문 검색을 지원하는 확장 모듈을 공개함.",
+      "detail_en": "## Show HN: Postgres extension for BM25 relevance-ranked full-text search\n\nTimescale이 PostgreSQL에서 BM25 알고리즘 기반 전문 검색을 지원하는 확장 모듈을 공개함."
+    },
+    {
+      "id": "github-trending-7",
+      "title": "obra/superpowers - Agentic skills framework",
+      "title_ko": "obra/superpowers - 에이전트 스킬 프레임워크",
+      "summary_ko": "AI 에이전트를 위한 스킬 프레임워크 및 소프트웨어 개발 방법론. 실제 동작하는 에이전트 기반 개발을 지원.",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "ai-agent",
+        "framework",
+        "methodology",
+        "development"
+      ],
+      "score": 100,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 68,
+      "detail_ko": "## obra/superpowers - 에이전트 스킬 프레임워크\n\nAI 에이전트를 위한 스킬 프레임워크 및 소프트웨어 개발 방법론. 실제 동작하는 에이전트 기반 개발을 지원.",
+      "detail_en": "## obra/superpowers - Agentic skills framework\n\nAI 에이전트를 위한 스킬 프레임워크 및 소프트웨어 개발 방법론. 실제 동작하는 에이전트 기반 개발을 지원."
+    },
+    {
+      "id": "github-trending-8",
+      "title": "microsoft/agent-lightning - AI agent trainer",
+      "title_ko": "microsoft/agent-lightning - AI 에이전트 트레이너",
+      "summary_ko": "Microsoft의 AI 에이전트 훈련 프레임워크. 에이전트 능력을 강화하는 'absolute trainer'.",
+      "url": "https://github.com/microsoft/agent-lightning",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "ai-agent",
+        "training",
+        "microsoft",
+        "framework"
+      ],
+      "score": 100,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 68,
+      "detail_ko": "## microsoft/agent-lightning - AI 에이전트 트레이너\n\nMicrosoft의 AI 에이전트 훈련 프레임워크. 에이전트 능력을 강화하는 'absolute trainer'.",
+      "detail_en": "## microsoft/agent-lightning - AI agent trainer\n\nMicrosoft의 AI 에이전트 훈련 프레임워크. 에이전트 능력을 강화하는 'absolute trainer'."
+    },
+    {
+      "id": "github-trending-9",
+      "title": "PaddlePaddle/PaddleOCR - Powerful lightweight OCR toolkit",
+      "title_ko": "PaddlePaddle/PaddleOCR - 강력한 경량 OCR 툴킷",
+      "summary_ko": "PDF와 이미지를 AI용 구조화된 데이터로 변환하는 OCR 툴킷. 100개 이상 언어 지원. 이미지/PDF와 LLM 사이의 다리 역할.",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "ocr",
+        "document-processing",
+        "multilingual",
+        "ai"
+      ],
+      "score": 80,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 68,
+      "detail_ko": "## PaddlePaddle/PaddleOCR - 강력한 경량 OCR 툴킷\n\nPDF와 이미지를 AI용 구조화된 데이터로 변환하는 OCR 툴킷. 100개 이상 언어 지원. 이미지/PDF와 LLM 사이의 다리 역할.",
+      "detail_en": "## PaddlePaddle/PaddleOCR - Powerful lightweight OCR toolkit\n\nPDF와 이미지를 AI용 구조화된 데이터로 변환하는 OCR 툴킷. 100개 이상 언어 지원. 이미지/PDF와 LLM 사이의 다리 역할."
+    },
+    {
+      "id": "github-trending-10",
+      "title": "shanraisshan/claude-code-best-practice",
+      "title_ko": "shanraisshan/claude-code-best-practice - Claude Code 모범 사례",
+      "summary_ko": "Claude Code 활용 모범 사례 모음. 'practice made claude perfect' 모토로 실전 팁과 패턴 제공.",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "claude-code",
+        "best-practices",
+        "guide"
+      ],
+      "score": 70,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 68,
+      "detail_ko": "## shanraisshan/claude-code-best-practice - Claude Code 모범 사례\n\nClaude Code 활용 모범 사례 모음. 'practice made claude perfect' 모토로 실전 팁과 패턴 제공.",
+      "detail_en": "## shanraisshan/claude-code-best-practice\n\nClaude Code 활용 모범 사례 모음. 'practice made claude perfect' 모토로 실전 팁과 패턴 제공."
+    },
+    {
+      "id": "github-trending-11",
+      "title": "OpenBMB/ChatDev 2.0 - LLM-powered Multi-Agent Collaboration",
+      "title_ko": "OpenBMB/ChatDev 2.0 - LLM 기반 멀티에이전트 협업",
+      "summary_ko": "LLM 기반 멀티에이전트 협업으로 소프트웨어를 개발하는 ChatDev 2.0 버전.",
+      "url": "https://github.com/OpenBMB/ChatDev",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "multi-agent",
+        "llm",
+        "software-development",
+        "collaboration"
+      ],
+      "score": 60,
+      "published_at": "2026-03-31T00:00:00Z",
+      "quality_score": 68,
+      "detail_ko": "## OpenBMB/ChatDev 2.0 - LLM 기반 멀티에이전트 협업\n\nLLM 기반 멀티에이전트 협업으로 소프트웨어를 개발하는 ChatDev 2.0 버전.",
+      "detail_en": "## OpenBMB/ChatDev 2.0 - LLM-powered Multi-Agent Collaboration\n\nLLM 기반 멀티에이전트 협업으로 소프트웨어를 개발하는 ChatDev 2.0 버전."
+    },
+    {
+      "id": "lobsters-pidgin",
+      "title": "Pidgin 3.0 Alpha 1 (2.95.0) Released",
+      "title_ko": "Pidgin 3.0 Alpha 1 (2.95.0) 출시",
+      "summary_ko": "멀티 프로토콜 인스턴트 메시징 클라이언트 Pidgin의 3.0 알파 1 버전이 출시됨.",
+      "url": "https://discourse.imfreedom.org/t/pidgin-3-0-alpha-1-2-95-0-has-been-released/378",
+      "source": "lobsters",
+      "category": "github_oss",
+      "tags": [
+        "pidgin",
+        "messaging",
+        "release",
+        "open-source"
+      ],
+      "score": 50,
+      "published_at": "2026-03-31T20:31:41Z",
+      "quality_score": 68,
+      "detail_ko": "## Pidgin 3.0 Alpha 1 (2.95.0) 출시\n\n멀티 프로토콜 인스턴트 메시징 클라이언트 Pidgin의 3.0 알파 1 버전이 출시됨.",
+      "detail_en": "## Pidgin 3.0 Alpha 1 (2.95.0) Released\n\n멀티 프로토콜 인스턴트 메시징 클라이언트 Pidgin의 3.0 알파 1 버전이 출시됨."
+    },
+    {
+      "id": "techcrunch-1",
+      "title": "Robotaxi companies refuse to say how often their AVs need remote help",
+      "title_ko": "로보택시 업체들, 자율주행차 원격 지원 빈도 공개 거부",
+      "summary_ko": "Aurora, Waymo, Zoox 등 주요 로보택시 업체들이 에드 마키 상원의원의 조사에서 자율주행차 원격 지원 빈도 공개를 거부함.",
+      "url": "https://techcrunch.com/2026/03/31/robotaxi-companies-refuse-to-say-how-often-their-avs-need-remote-help/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "robotaxi",
+        "autonomous-vehicles",
+        "waymo",
+        "regulation"
+      ],
+      "score": 0,
+      "published_at": "2026-03-31T21:35:51Z",
+      "quality_score": 65,
+      "detail_ko": "## 로보택시 업체들, 자율주행차 원격 지원 빈도 공개 거부\n\nAurora, Waymo, Zoox 등 주요 로보택시 업체들이 에드 마키 상원의원의 조사에서 자율주행차 원격 지원 빈도 공개를 거부함.",
+      "detail_en": "## Robotaxi companies refuse to say how often their AVs need remote help\n\nAurora, Waymo, Zoox 등 주요 로보택시 업체들이 에드 마키 상원의원의 조사에서 자율주행차 원격 지원 빈도 공개를 거부함."
+    },
+    {
+      "id": "techcrunch-2",
+      "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
+      "title_ko": "OpenAI, 비상장 상태에서 개인투자자로부터 30억 달러 추가 조달",
+      "summary_ko": "OpenAI가 1,220억 달러 규모 펀딩에서 개인투자자로부터 30억 달러를 조달하며 8,520억 달러 기업가치 달성.",
+      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "openai",
+        "funding",
+        "ai",
+        "ipo"
+      ],
+      "score": 0,
+      "published_at": "2026-03-31T21:25:04Z",
+      "quality_score": 65,
+      "detail_ko": "## OpenAI, 비상장 상태에서 개인투자자로부터 30억 달러 추가 조달\n\nOpenAI가 1,220억 달러 규모 펀딩에서 개인투자자로부터 30억 달러를 조달하며 8,520억 달러 기업가치 달성.",
+      "detail_en": "## OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise\n\nOpenAI가 1,220억 달러 규모 펀딩에서 개인투자자로부터 30억 달러를 조달하며 8,520억 달러 기업가치 달성."
+    },
+    {
+      "id": "techcrunch-3",
+      "title": "It's not your imagination: AI seed startups are commanding higher valuations",
+      "title_ko": "AI 시드 스타트업의 밸류에이션이 실제로 높아지고 있다",
+      "summary_ko": "최근 YC 코호트에서 많은 AI 스타트업이 4,000만 달러 밸류에이션을 기록하며, 시드 단계 투자 기대치가 높아지고 있음.",
+      "url": "https://techcrunch.com/2026/03/31/its-not-your-imagination-ai-seed-startups-are-commanding-higher-valuations/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "startups",
+        "venture-capital",
+        "valuation"
+      ],
+      "score": 0,
+      "published_at": "2026-03-31T21:00:00Z",
+      "quality_score": 65,
+      "detail_ko": "## AI 시드 스타트업의 밸류에이션이 실제로 높아지고 있다\n\n최근 YC 코호트에서 많은 AI 스타트업이 4,000만 달러 밸류에이션을 기록하며, 시드 단계 투자 기대치가 높아지고 있음.",
+      "detail_en": "## It's not your imagination: AI seed startups are commanding higher valuations\n\n최근 YC 코호트에서 많은 AI 스타트업이 4,000만 달러 밸류에이션을 기록하며, 시드 단계 투자 기대치가 높아지고 있음."
+    },
+    {
+      "id": "arxiv-2603.26771",
+      "title": "LogicDiff: Logic-Guided Denoising Improves Reasoning in Masked Diffusion Language Models",
+      "title_ko": "LogicDiff: 마스크 확산 언어 모델의 논리 기반 디노이징으로 추론 성능 대폭 향상",
+      "summary_ko": "마스크 확산 언어 모델(MDLM)의 토큰 언마스킹 순서를 논리적 역할(전제→접속사→유도→결론)에 따라 재배치하는 LogicDiff를 제안. 경량 분류 헤드(4.2M 파라미터)로 논리적 역할을 98.4% 정확도로 예측하고, LLaDA-8B-Instruct의 GSM8K 정확도를 22.0%→60.7%(+38.7pp)로 향상. 모델 파라미터 수정 없이 추론 시간에만 적용. 저자: Shaik Aman",
+      "url": "https://arxiv.org/abs/2603.26771",
+      "source": "arxiv_cs.CL",
+      "category": "ai_research",
+      "tags": [
+        "diffusion-lm",
+        "reasoning",
+        "inference-time",
+        "gsm8k",
+        "breakthrough"
+      ],
+      "score": 95,
+      "published_at": "2026-03-31T00:00:00-04:00",
+      "quality_score": 64,
+      "detail_ko": "## LogicDiff: 마스크 확산 언어 모델의 논리 기반 디노이징으로 추론 성능 대폭 향상\n\n마스크 확산 언어 모델(MDLM)의 토큰 언마스킹 순서를 논리적 역할(전제→접속사→유도→결론)에 따라 재배치하는 LogicDiff를 제안. 경량 분류 헤드(4.2M 파라미터)로 논리적 역할을 98.4% 정확도로 예측하고, LLaDA-8B-Instruct의 GSM8K 정확도를 22.0%→60.7%(+38.7pp)로 향상. 모델 파라미터 수정 없이 추론 시간에만 적용. 저자: Shaik Aman",
+      "detail_en": "## LogicDiff: Logic-Guided Denoising Improves Reasoning in Masked Diffusion Language Models\n\n마스크 확산 언어 모델(MDLM)의 토큰 언마스킹 순서를 논리적 역할(전제→접속사→유도→결론)에 따라 재배치하는 LogicDiff를 제안. 경량 분류 헤드(4.2M 파라미터)로 논리적 역할을 98.4% 정확도로 예측하고, LLaDA-8B-Instruct의 GSM8K 정확도를 22.0%→60.7%(+38.7pp)로 향상. 모델 파라미터 수정 없이 추론 시간에만 적용. 저자: Shaik Aman"
+    },
+    {
+      "id": "arxiv-2603.27116",
+      "title": "The Price of Meaning: Why Every Semantic Memory System Forgets",
+      "title_ko": "의미의 대가: 모든 시맨틱 메모리 시스템이 왜 망각하는가",
+      "summary_ko": "시맨틱 일반화를 가능하게 하는 기하학적 구조가 동시에 간섭, 망각, 허위 회상을 불가피하게 만든다는 것을 수학적으로 증명. 벡터 검색, 그래프 메모리, 어텐션 기반 컨텍스트, BM25, 파라메트릭 메모리 등 5개 아키텍처에서 검증. 추론 보강 시스템은 점진적 열화 대신 치명적 실패로 전환됨. 저자: Sambartha Ray Barman, Andrey Starenky, Sofia Bodnar 외",
+      "url": "https://arxiv.org/abs/2603.27116",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "memory",
+        "rag",
+        "theoretical",
+        "forgetting",
+        "semantic-search"
+      ],
+      "score": 93,
+      "published_at": "2026-03-31T00:00:00-04:00",
+      "quality_score": 64,
+      "detail_ko": "## 의미의 대가: 모든 시맨틱 메모리 시스템이 왜 망각하는가\n\n시맨틱 일반화를 가능하게 하는 기하학적 구조가 동시에 간섭, 망각, 허위 회상을 불가피하게 만든다는 것을 수학적으로 증명. 벡터 검색, 그래프 메모리, 어텐션 기반 컨텍스트, BM25, 파라메트릭 메모리 등 5개 아키텍처에서 검증. 추론 보강 시스템은 점진적 열화 대신 치명적 실패로 전환됨. 저자: Sambartha Ray Barman, Andrey Starenky, Sofia Bodnar 외",
+      "detail_en": "## The Price of Meaning: Why Every Semantic Memory System Forgets\n\n시맨틱 일반화를 가능하게 하는 기하학적 구조가 동시에 간섭, 망각, 허위 회상을 불가피하게 만든다는 것을 수학적으로 증명. 벡터 검색, 그래프 메모리, 어텐션 기반 컨텍스트, BM25, 파라메트릭 메모리 등 5개 아키텍처에서 검증. 추론 보강 시스템은 점진적 열화 대신 치명적 실패로 전환됨. 저자: Sambartha Ray Barman, Andrey Starenky, Sofia Bodnar 외"
+    },
+    {
+      "id": "arxiv-2603.27164",
+      "title": "daVinci-LLM: Towards the Science of Pretraining",
+      "title_ko": "daVinci-LLM: 사전학습의 과학을 향하여",
+      "summary_ko": "산업 규모 자원과 완전한 연구 자유를 결합하여 사전학습 과학을 탐구. 3B 모델을 8T 토큰으로 학습, 200개 이상의 제어 실험 수행. Data Darwinism 프레임워크(L0-L9 분류체계), 2단계 적응 커리큘럼 제안. 처리 깊이가 볼륨 스케일링과 함께 핵심 차원임을 확인. 완전 오픈 패러다임으로 모든 실험 과정 공개. 저자: Yiwei Qin, Yixiu Liu, Tiantian Mi, Pengfei Liu 외",
+      "url": "https://arxiv.org/abs/2603.27164",
+      "source": "arxiv_cs.AI",
+      "category": "ai_research",
+      "tags": [
+        "pretraining",
+        "llm",
+        "open-science",
+        "data-curation",
+        "scaling"
+      ],
+      "score": 92,
+      "published_at": "2026-03-31T00:00:00-04:00",
+      "quality_score": 64,
+      "detail_ko": "## daVinci-LLM: 사전학습의 과학을 향하여\n\n산업 규모 자원과 완전한 연구 자유를 결합하여 사전학습 과학을 탐구. 3B 모델을 8T 토큰으로 학습, 200개 이상의 제어 실험 수행. Data Darwinism 프레임워크(L0-L9 분류체계), 2단계 적응 커리큘럼 제안. 처리 깊이가 볼륨 스케일링과 함께 핵심 차원임을 확인. 완전 오픈 패러다임으로 모든 실험 과정 공개. 저자: Yiwei Qin, Yixiu Liu, Tiantian Mi, Pengfei Liu 외",
+      "detail_en": "## daVinci-LLM: Towards the Science of Pretraining\n\n산업 규모 자원과 완전한 연구 자유를 결합하여 사전학습 과학을 탐구. 3B 모델을 8T 토큰으로 학습, 200개 이상의 제어 실험 수행. Data Darwinism 프레임워크(L0-L9 분류체계), 2단계 적응 커리큘럼 제안. 처리 깊이가 볼륨 스케일링과 함께 핵심 차원임을 확인. 완전 오픈 패러다임으로 모든 실험 과정 공개. 저자: Yiwei Qin, Yixiu Liu, Tiantian Mi, Pengfei Liu 외"
+    }
+  ],
+  "meta": {
+    "total_collected": 93,
+    "after_dedup": 92,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "news_blogs",
+      "ai_research",
+      "github_oss",
+      "community",
+      "eng_blogs"
+    ],
+    "sources_failed": [],
+    "errors": [
+      {
+        "source": "geeknews",
+        "error": "403 Forbidden - RSS feed blocked"
+      },
+      {
+        "source": "anthropic_news",
+        "error": "No items from last 24h found. Latest post is from Feb 5, 2026 (Claude Opus 4.6 announcement)."
+      },
+      {
+        "source": "google_ai_blog",
+        "error": "Page rendered with minimal extractable content. No dated articles could be parsed from the fetched content."
+      },
+      {
+        "source": "changelog",
+        "error": "Timeout - agent did not complete in time"
+      },
+      {
+        "source": "github_releases",
+        "error": "Web search rate limited"
+      },
+      {
+        "source": "reddit_programming",
+        "error": "403 Forbidden - Reddit API blocked"
+      },
+      {
+        "source": "reddit_ml",
+        "error": "403 Forbidden - Reddit API blocked"
+      },
+      {
+        "source": "reddit_experienceddevs",
+        "error": "403 Forbidden - Reddit API blocked"
+      },
+      {
+        "source": "Netflix Tech Blog",
+        "url": "https://netflixtechblog.com/feed",
+        "error": "Feed fetch failed - connection error"
+      },
+      {
+        "source": "Uber Engineering",
+        "url": "https://www.uber.com/blog/engineering/rss/",
+        "error": "No items within last 24h (latest: 2026-03-11)"
+      },
+      {
+        "source": "Stripe Blog",
+        "url": "https://stripe.com/blog/feed.rss",
+        "error": "No items within last 24h (latest: 2026-03-24)"
+      },
+      {
+        "source": "Vercel Blog",
+        "url": "https://vercel.com/atom",
+        "error": "Feed entries have null dates - cannot confirm recency"
+      }
+    ]
+  }
+}
