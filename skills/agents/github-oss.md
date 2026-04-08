@@ -26,7 +26,7 @@ If a file doesn't exist, the source failed to fetch. Record in errors and contin
 
 ## Processing Rules
 
-- Generate: id, title, title_ko, summary_ko, url, source, category ("github_oss"), tags, score, published_at
+- Generate: id, title, title_ko (한국어 번역 필수), summary_ko (한국어 요약 필수), url, source, category ("github_oss"), tags, score, published_at
 - For GitHub repos: score = stars today, tags include language name
 - For Changelog: score = 0
 - For GitHub Releases: score = 50 (major releases are always notable)

@@ -27,7 +27,7 @@ If a file doesn't exist, the source failed to fetch. Record in errors and contin
 
 ## Processing Rules
 
-- Generate for each item: id, title, title_ko, summary_ko, url, source, category ("ai_research"), tags, score, published_at
+- Generate for each item: id, title, title_ko (한국어 번역 필수), summary_ko (한국어 요약 필수), url, source, category ("ai_research"), tags, score, published_at
 - Only items from last 24 hours
 - Max 20 items per source
 - For arXiv papers: include author names in summary_ko

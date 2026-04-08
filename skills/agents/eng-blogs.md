@@ -22,7 +22,7 @@ If a file doesn't exist, the source failed to fetch. Record in errors and contin
 
 ## Processing Rules
 
-- Generate: id, title, title_ko, summary_ko, url, source, category ("eng_blogs"), tags, score (always 0), published_at
+- Generate: id, title, title_ko (한국어 번역 필수), summary_ko (한국어 요약 필수), url, source, category ("eng_blogs"), tags, score (always 0), published_at
 - Focus on engineering depth: system design, scaling, infrastructure, developer tools
 - Skip marketing/product announcement posts — only include technical content
 - Max 20 items per source

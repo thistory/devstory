@@ -25,8 +25,8 @@ If a file doesn't exist, the source failed to fetch. Record in errors and contin
 - For each item, generate:
   - `id`: `{source_name}-{hash of url}` (e.g., `hacker_news-a1b2c3`)
   - `title`: original title (English)
-  - `title_ko`: Korean translation of the title
-  - `summary_ko`: 1-2 sentence Korean summary of the article
+  - `title_ko`: 제목의 한국어 번역 (MUST be in Korean/한국어, NOT English)
+  - `summary_ko`: 기사의 1-2문장 한국어 요약 (MUST be in Korean/한국어, NOT English)
   - `url`: link to the article
   - `source`: source name (e.g., `hacker_news`, `techcrunch`)
   - `category`: `"news_blogs"`
