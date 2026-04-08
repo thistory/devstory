@@ -8,6 +8,7 @@ TODAY_DIR="$DEVSTORY_DIR/data/$(date +%Y/%m/%d)"
 RAW_JSON="$TODAY_DIR/raw.json"
 PROCESSED="$DEVSTORY_DIR/processed_data.json"
 SSH_KEY="$HOME/.ssh/devstory_deploy"
+TODAY_DATE=$(date +%Y-%m-%d)
 
 # Check raw.json exists
 if [ ! -f "$RAW_JSON" ]; then
@@ -22,26 +23,31 @@ if [ ! -f "$PROCESSED" ]; then
   echo '{"date":"","items":[]}' > "$PROCESSED"
 fi
 
-# Merge using jq: append today's items, map score->final_score, drop detail fields, update date
-TODAY_DATE=$(date +%Y-%m-%d)
-jq --arg date "$TODAY_DATE" --slurpfile new "$RAW_JSON" '
-  .date = $date |
-  .items += [
-    $new[0].items[] |
-    {
-      id, title, title_ko, summary_ko, url, source, category, tags,
-      final_score: .score,
-      published_at
-    }
-  ]
-' "$PROCESSED" > "${PROCESSED}.tmp" && mv "${PROCESSED}.tmp" "$PROCESSED"
+# Check if today's data is already merged (idempotency)
+EXISTING_TODAY=$(jq --arg date "$TODAY_DATE" '[.items[] | select(.published_at | startswith($date))] | length' "$PROCESSED" 2>/dev/null || echo "0")
+if [ "$EXISTING_TODAY" -gt 0 ]; then
+  echo "[$(date)] Today's data already in processed_data.json ($EXISTING_TODAY items). Skipping merge."
+else
+  # Merge using jq: append today's items, map score->final_score, drop detail fields, update date
+  jq --arg date "$TODAY_DATE" --slurpfile new "$RAW_JSON" '
+    .date = $date |
+    .items += [
+      $new[0].items[] |
+      {
+        id, title, title_ko, summary_ko, url, source, category, tags,
+        final_score: .score,
+        published_at
+      }
+    ]
+  ' "$PROCESSED" > "${PROCESSED}.tmp" && mv "${PROCESSED}.tmp" "$PROCESSED"
 
-TOTAL=$(jq '.items | length' "$PROCESSED")
-echo "[$(date)] processed_data.json updated. Total items: $TOTAL"
+  TOTAL=$(jq '.items | length' "$PROCESSED")
+  echo "[$(date)] processed_data.json updated. Total items: $TOTAL"
+fi
 
 # Deploy via rsync
 echo "[$(date)] Deploying to devstory server..."
-rsync -avz --delete \
+rsync -avz \
   -e "ssh -i $SSH_KEY -o StrictHostKeyChecking=no" \
   "$DEVSTORY_DIR/index.html" \
   "$DEVSTORY_DIR/processed_data.json" \
