@@ -1,0 +1,555 @@
+{
+  "date": "2026-04-07",
+  "collected_at": "2026-04-07T18:49:45.267020+00:00",
+  "items": [
+    {
+      "id": "gh_trending_hermes_agent",
+      "title": "NousResearch/hermes-agent",
+      "title_ko": "Hermes Agent - 함께 성장하는 AI 에이전트",
+      "summary_ko": "NousResearch에서 개발한 사용자와 함께 성장하는 AI 에이전트입니다.",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python",
+        "ai-agent",
+        "nous-research"
+      ],
+      "score": 85,
+      "published_at": "2026-04-07",
+      "detail_ko": "Hermes Agent는 Nous Research에서 개발한 자기 개선형 AI 에이전트 프레임워크로, 사용자와의 상호작용을 통해 지속적으로 학습하고 성장하는 자율 어시스턴트입니다. 현재 GitHub에서 31,100개 이상의 스타를 기록하며, 3,437개의 커밋과 304명의 기여자가 참여한 활발한 오픈소스 프로젝트입니다.\n\n이 프로젝트의 핵심 특징은 '폐쇄 학습 루프(closed learning loop)' 아키텍처에 있습니다. 에이전트가 복잡한 작업을 수행하면서 재사용 가능한 스킬을 자동으로 생성하고, 과거 대화에 대한 전문 검색과 LLM 요약 기능을 통해 지속적인 기억을 유지합니다. 사용자 모델링은 변증법적 상호작용 패턴을 통해 이루어지며, 에이전트가 주기적으로 기억을 강화하는 큐레이션 시스템도 갖추고 있습니다.\n\n멀티플랫폼 연결성도 주목할 만합니다. CLI 터미널 UI는 물론, Telegram, Discord, Slack, WhatsApp, Signal 등 다양한 메시징 플랫폼을 지원하며, 플랫폼 간 대화 연속성이 보장됩니다. 40개 이상의 통합 도구, 크론 기반 자동화, 병렬 작업을 위한 서브에이전트 생성 기능도 제공합니다.\n\n기술 스택은 Python(93.4%)을 중심으로 Docker, Nix, 셸 스크립팅을 활용하며, OpenRouter, Nous Portal, OpenAI, Anthropic 등 다양한 LLM API를 지원합니다. 월 5달러 VPS부터 GPU 클러스터까지 유연한 배포가 가능하고, Daytona/Modal을 통한 서버리스 옵션과 하이버네이션도 지원합니다. agentskills.io 오픈 표준과의 호환성은 단일 플랫폼을 넘어선 생태계적 사고를 보여줍니다.",
+      "detail_en": "Hermes Agent is a self-improving AI agent framework developed by Nous Research that functions as an autonomous assistant capable of learning from experience and growing alongside its users. With over 31,100 GitHub stars, 3,437 commits, and 304 contributors, it represents one of the most actively developed open-source agent projects available.\n\nThe project's defining characteristic is its \"closed learning loop\" architecture. As the agent performs complex tasks, it autonomously creates reusable skills, maintains persistent knowledge through full-text search across past conversations with LLM summarization, and models user preferences through dialectic interaction patterns. The agent also features a self-curated memory system with periodic reinforcement, setting it apart from stateless chatbot architectures.\n\nMulti-platform connectivity is a major strength. Beyond the terminal UI with real-time editing and autocomplete, Hermes Agent supports messaging gateways for Telegram, Discord, Slack, WhatsApp, and Signal, with cross-platform conversation continuity. It ships with over 40 integrated tools, cron-based scheduled automations with platform delivery, and subagent spawning for parallel task execution across six terminal backends including local, Docker, SSH, Daytona, Singularity, and Modal.\n\nThe tech stack is primarily Python (93.4%), with Docker, Nix, and shell scripting for infrastructure. It is model-agnostic, supporting OpenRouter, Nous Portal, OpenAI, Anthropic, and custom endpoints. Deployment is remarkably flexible, running on infrastructure as modest as a $5 VPS or scaling to GPU clusters, with serverless options via Daytona and Modal that support hibernation. Installation is a single curl command supporting Linux, macOS, and WSL2.\n\nIts compatibility with the agentskills.io open standard signals ecosystem-level ambition beyond a single platform, making it notable for both individual developers and enterprise teams looking for a customizable, self-hosted AI agent solution."
+    },
+    {
+      "id": "hacker_news-0aeb1d",
+      "title": "Show HN: Brutalist Concrete Laptop Stand (2024)",
+      "title_ko": "Show HN: 브루탈리즘 콘크리트 노트북 스탠드",
+      "summary_ko": "직접 콘크리트로 제작한 브루탈리즘 스타일의 노트북 스탠드 프로젝트가 큰 인기를 얻고 있습니다.",
+      "url": "https://sam-burns.com/posts/concrete-laptop-stand/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "diy",
+        "design",
+        "hardware",
+        "brutalism"
+      ],
+      "score": 70.8,
+      "published_at": "2026-04-07T11:07:44Z",
+      "detail_ko": "Sam Burns라는 개발자가 브루탈리즘 건축 양식에서 영감을 받아 순수 콘크리트로 노트북 스탠드를 직접 제작한 과정을 상세히 공유한 블로그 포스트입니다. \"진정한 브루탈리스트 스타일로 해킹하기 위한 노트북 스탠드를 만들었다\"는 저자의 말처럼, 산업적 미학과 기능적 디자인을 결합한 독특한 DIY 프로젝트입니다.\n\n스탠드의 주요 특징으로는 의도적으로 풍화 처리된 생콘크리트(beton brut) 표면, 3핀 전기 콘센트와 듀얼 USB 충전 포트, 덩굴 식물을 위한 내장 화분, 의도적으로 손상시킨 모서리와 노출된 녹슨 철근, 그리고 인위적으로 부식시킨 구리 와이어 장식이 포함됩니다. 단순한 스탠드가 아니라 기능성과 예술성을 동시에 추구한 작품입니다.\n\n제작 과정에서는 두 번에 나누어 붓는 콘크리트 기법을 사용했으며, 의도적으로 불균일한 혼합을 통해 오래된 느낌의 표면 변화를 만들어냈습니다. 철근 보강 케이지, 화분 베이스로 활용한 기(ghee) 통, 샌딩을 통한 자갈 노출, 소금물과 과산화수소를 이용한 인공 녹 처리 등 창의적인 기법이 돋보입니다. 구리 와이어의 부식 효과는 암모니아와 물 스프레이로 만들어졌으며, 모래를 섞은 아크릴 페인트로 이끼 질감도 표현했습니다.\n\n저자는 상당한 무게에도 불구하고 완성품에 만족감을 표현하며, \"가치 있는 것은 쉽게 얻어지지 않는다\"는 소감을 남겼습니다. 이 프로젝트는 개발자 커뮤니티에서 창의적인 DIY 정신과 독특한 작업 환경 구축에 대한 관심을 보여주는 흥미로운 사례입니다.",
+      "detail_en": "This blog post by Sam Burns documents the creation of a brutalist-style laptop stand made entirely from solid concrete, blending industrial aesthetics with functional desk accessories. As the author puts it, he wanted to \"hack in true brutalist style,\" and the result is a remarkably detailed DIY project that drew significant attention on Hacker News.\n\nThe finished stand features several notable design elements: a raw concrete (beton brut) surface with intentional weathering effects, a built-in 3-pin electrical socket and dual USB charging ports for practical functionality, an integral plant pot with trailing foliage for visual softness, a deliberately damaged corner with exposed rusted rebar, and fake corroded copper wire for dramatic visual impact. It transcends simple utility to become a functional art piece.\n\nThe construction process employed a two-pour concrete technique with intentionally inconsistent mixing to create aged surface variations. Burns built a rebar reinforcement cage for structural integrity, embedded a ghee tin as the planter base, and used sanding to expose gravel in the concrete surface. The artificial aging effects are particularly creative: salt water and hydrogen peroxide were used for rust treatment on the rebar, while ammonia and water spray applied to kitchen-paper-wrapped copper wire created convincing copper hydroxide deposits. A moss-like texture was achieved using acrylic paint cut with sand on the pen holder.\n\nPractical challenges included managing air bubbles during the pour (solved with vibrating equipment) and dealing with the stand's considerable weight. Despite these difficulties, Burns expressed satisfaction with the final product, noting that \"nothing worthwhile comes easy.\" The project exemplifies the intersection of maker culture and developer workspace customization, demonstrating how architectural aesthetics can be applied to everyday desk accessories."
+    },
+    {
+      "id": "gh_trending_openclaw",
+      "title": "openclaw/openclaw",
+      "title_ko": "OpenClaw - 모든 OS와 플랫폼에서 사용 가능한 개인 AI 어시스턴트",
+      "summary_ko": "어떤 운영체제와 플랫폼에서든 사용할 수 있는 개인 AI 어시스턴트 오픈소스 프로젝트입니다.",
+      "url": "https://github.com/openclaw/openclaw",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "ai-assistant",
+        "cross-platform"
+      ],
+      "score": 68.7,
+      "published_at": "2026-04-07",
+      "detail_ko": "OpenClaw는 자체 호스팅 방식의 개인 AI 어시스턴트로, 다양한 운영체제와 메시징 플랫폼에서 사용할 수 있는 로컬 퍼스트(local-first) 시스템입니다. GitHub에서 351,000개 이상의 스타를 기록하고 있으며, 28,846개의 커밋과 70,600개 이상의 포크를 보유한 대규모 오픈소스 프로젝트입니다.\n\n가장 눈에 띄는 특징은 압도적인 멀티채널 지원입니다. WhatsApp, Telegram, Slack, Discord, Google Chat, Signal, iMessage, IRC, Microsoft Teams, Matrix, LINE, WeChat 등 22개 이상의 메시징 플랫폼을 지원합니다. 음성 기능도 내장되어 있어 macOS/iOS에서의 음성 웨이크 기능과 Android에서의 연속 음성 모드를 지원하며, ElevenLabs 또는 시스템 TTS를 통한 텍스트-투-스피치도 가능합니다.\n\nA2UI 통합 캔버스 기능, 전용 Chrome/Chromium 인스턴스를 통한 브라우저 제어, macOS 메뉴바/iOS/Android 컴패니언 앱 등 디바이스 통합 기능이 풍부합니다. 카메라 스냅샷, 화면 녹화, 위치 접근, 알림 등의 디바이스 기능도 활용할 수 있습니다. 크론 작업, 웹훅, Gmail Pub/Sub 통합 등 자동화 도구도 갖추고 있습니다.\n\n기술 스택은 Node.js 24(권장)를 기반으로 TypeScript로 작성되었으며, Baileys(WhatsApp), grammY(Telegram), Bolt(Slack), discord.js(Discord) 등의 라이브러리를 사용합니다. 보안 측면에서는 기본적으로 알 수 없는 발신자에 대해 페어링 코드를 요구하는 DM 정책을 적용하며, 공개 인바운드 메시징은 명시적 옵트인이 필요합니다.\n\nOpenAI, GitHub, NVIDIA, Vercel 등 주요 기업의 스폰서십을 받고 있어 프로젝트의 안정성과 지속성이 보장됩니다. 원격 게이트웨이를 통한 유연한 아키텍처와 멀티에이전트 라우팅 기능은 개인 사용자부터 기업까지 다양한 활용 시나리오를 지원합니다.",
+      "detail_en": "OpenClaw is a self-hosted personal AI assistant designed with a local-first architecture, running on users' own devices across virtually every messaging platform and operating system. With over 351,000 GitHub stars, 70,600 forks, and 28,846 commits, it stands as one of the most popular open-source AI assistant projects.\n\nThe standout feature is its extraordinary multi-channel support, connecting to over 22 messaging platforms including WhatsApp, Telegram, Slack, Discord, Google Chat, Signal, iMessage (via BlueBubbles), IRC, Microsoft Teams, Matrix, Feishu, LINE, Mattermost, WeChat, and more. Built-in voice capabilities include Voice Wake for macOS/iOS and continuous voice mode on Android, with text-to-speech via ElevenLabs or system TTS.\n\nThe platform offers rich device integration through companion apps for macOS (menu bar), iOS, and Android, with capabilities including camera snapshots, screen recording, location access, and notifications. A visual workspace called Canvas with A2UI integration provides an agent-driven interactive interface, and browser control is available through a dedicated Chrome/Chromium instance. Automation is supported via cron jobs, webhooks, Gmail Pub/Sub integration, and a skills platform with both bundled and custom skills.\n\nThe tech stack is built on Node.js 24 (recommended) with TypeScript, using platform-specific libraries like Baileys for WhatsApp, grammY for Telegram, Bolt for Slack, and discord.js for Discord. Installation is straightforward via npm with a guided onboarding process. Security is a first-class concern: the default DM policy requires pairing codes for unknown senders, and public inbound messaging requires explicit opt-in.\n\nBacked by sponsors including OpenAI, GitHub, NVIDIA, Vercel, Blacksmith, and Convex, the project demonstrates serious infrastructure support. Its flexible architecture supports remote gateways via Tailscale or SSH tunnels, multi-agent routing with isolated workspaces, and macOS TCC permission integration, making it suitable for both personal use and enterprise deployments."
+    },
+    {
+      "id": "hacker_news-ae591b",
+      "title": "Dropping Cloudflare for Bunny.net",
+      "title_ko": "Cloudflare에서 Bunny.net으로 전환하기",
+      "summary_ko": "한 개발자가 Cloudflare를 떠나 Bunny.net으로 CDN을 전환한 이유와 경험을 상세히 공유합니다.",
+      "url": "https://jola.dev/posts/dropping-cloudflare",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "cdn",
+        "cloudflare",
+        "infrastructure",
+        "devops"
+      ],
+      "score": 67.2,
+      "published_at": "2026-04-07T13:23:05Z",
+      "detail_ko": "이 블로그 포스트는 한 개발자가 CDN 서비스를 Cloudflare에서 Bunny.net으로 전환한 이유와 상세한 마이그레이션 과정을 다루고 있습니다. 저자는 미국 단일 기업에 대한 과도한 의존성에 대한 우려를 주요 동기로 꼽으며, Cloudflare가 인터넷의 \"단일 장애점(single point of failure)\"이 될 수 있다고 경고합니다.\n\nBunny.net은 슬로베니아에 본사를 둔 유럽 기업으로, Cloudflare에 비해 규모는 작지만 효율적인 PoP(Point of Presence) 네트워크를 통해 경쟁력 있는 CDN 성능을 제공합니다. 저자는 유럽 기술 인프라를 지원하고 인터넷 서비스의 중앙집중화를 피하려는 의도도 밝혔습니다.\n\n마이그레이션 과정은 크게 네 단계로 구성됩니다. 첫째, Pull Zone 생성을 통해 오리진 URL과 호스트 헤더, 가격 존을 설정합니다. 둘째, 커스텀 도메인을 추가하고 DNS에 CNAME 레코드를 업데이트합니다. 셋째, 캐시 헤더를 구현하거나 Smart Cache를 활성화하며, 저자는 \"public, s-maxage=86400\" 헤더를 사용했습니다. 넷째, SSL 강제 적용, Origin Shield, stale-while-offline 캐싱, 도메인 리다이렉트를 위한 엣지 룰 등 보안 설정을 구성합니다.\n\nBunny.net의 장점으로는 공격적인 캐싱을 통한 빠른 응답 시간, 종량제 가격 모델의 투명성, 상세한 요청 로깅과 메트릭을 제공하는 대시보드, 지리적 분산을 통한 오리진 서버 부하 감소 등이 언급되었습니다. 반면 월 최소 1달러의 지불 요건과 HTML 페이지 캐싱 시 콘텐츠 업데이트 후 수동 퍼지가 필요하다는 제한사항도 솔직하게 공유했습니다. 도메인 등록은 Porkbun으로 별도 이전했습니다.",
+      "detail_en": "This blog post details one developer's decision to migrate their CDN services from Cloudflare to Bunny.net, providing a thorough account of the motivations, migration process, and trade-offs involved. The primary concern driving the switch was over-dependence on a single US-based corporation, with the author viewing Cloudflare as a potential \"single point of failure for the internet\" and expressing a desire to support European tech infrastructure.\n\nBunny.net, a Slovenian company, emerged as the chosen alternative, offering comparable CDN performance through a smaller but efficient point-of-presence network. The author also migrated domain registration separately to Porkbun, fully decoupling from Cloudflare's ecosystem.\n\nThe migration process is broken down into four clear steps. First, creating a Pull Zone with origin URL, host headers, and pricing zone configuration. Second, adding custom domains and updating DNS with CNAME records. Third, implementing cache configuration using either cache headers or Bunny's Smart Cache feature, with the author opting for \"public, s-maxage=86400\" headers. Fourth, setting up security measures including SSL forcing, Origin Shield, stale-while-offline caching, and edge rules for domain redirects.\n\nThe advantages highlighted include faster response times through aggressive caching, better pricing transparency with a pay-per-use model, comprehensive dashboards with detailed request logging and metrics, and reduced origin server load through geographic distribution. On the limitations side, the author notes a $1 monthly minimum payment requirement and the need for manual cache purging after HTML content updates.\n\nThe post serves as both a practical migration guide and a broader commentary on internet infrastructure centralization, making a case for diversifying away from dominant providers in favor of smaller, regionally-based alternatives that offer competitive performance with greater transparency."
+    },
+    {
+      "id": "gh_trending_gitnexus",
+      "title": "abhigyanpatwari/GitNexus",
+      "title_ko": "GitNexus - 브라우저 기반 코드 탐색용 지식 그래프 생성기",
+      "summary_ko": "클라이언트 사이드에서 실행되는 지식 그래프 생성기로, Graph RAG 에이전트를 활용한 인터랙티브 코드 탐색 기능을 제공합니다.",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "knowledge-graph",
+        "code-exploration",
+        "rag"
+      ],
+      "score": 66.1,
+      "published_at": "2026-04-07",
+      "detail_ko": "GitNexus는 코드베이스를 분석하여 아키텍처적 관계를 지식 그래프로 구축하는 클라이언트 사이드 코드 인텔리전스 엔진입니다. GitHub에서 24,300개 이상의 스타를 기록하고 있으며, \"에이전트 컨텍스트를 위한 신경계\"라는 컨셉으로, AI 에이전트가 코드의 구조적 관계를 사전에 이해할 수 있도록 설계되었습니다.\n\n이 프로젝트의 핵심 가치는 기존 RAG 방식과의 차별화에 있습니다. 전통적인 RAG 접근법은 LLM에 원시 그래프 엣지를 제공하여 여러 번의 쿼리가 필요하지만, GitNexus는 인덱싱 시점에 클러스터링, 임팩트 체인, 신뢰도 점수를 사전 계산합니다. 이를 통해 단일 도구 호출로 완전한 아키텍처 컨텍스트를 제공하며, 소규모 모델도 대형 모델 수준의 아키텍처 이해력을 가질 수 있게 합니다.\n\n두 가지 사용 모드를 제공합니다. CLI + MCP 모드는 로컬 인덱싱과 Model Context Protocol 서버 통합을 통해 에디터 전체에서 접근 가능하며, Web UI 모드는 브라우저 기반 그래프 탐색기로 서버 없이 인브라우저 AI 채팅이 가능합니다. 16개의 MCP 도구를 제공하여 임팩트 분석, 컨텍스트 검색, 변경 감지, 그룹 레벨 쿼리 등을 수행합니다.\n\n기술 스택으로는 Tree-sitter(CLI용 네이티브 바인딩, 웹용 WASM)를 파싱에 사용하고, LadybugDB를 스토리지로, Cypher를 그래프 쿼리에 활용합니다. 하이브리드 검색(BM25 + 시맨틱 + 상호 랭크 퓨전), 블라스트 반경 분석, Git-diff 임팩트 매핑, 멀티레포 그룹 지원, 자동 의존성 리네임 조정 등 풍부한 기능을 갖추고 있습니다. Cursor, Claude Code, Codex, Windsurf 등 주요 AI 코딩 도구와의 통합을 지원합니다.",
+      "detail_en": "GitNexus is a client-side code intelligence engine that analyzes codebases and builds knowledge graphs exposing architectural relationships through intelligent tools. With over 24,300 GitHub stars and 2,700 forks, it positions itself as a \"nervous system for agent context,\" enabling AI agents to understand code structure reliably without needing to discover dependencies through trial and error.\n\nThe project's core innovation lies in its departure from traditional RAG approaches. Rather than giving LLMs raw graph edges that require multiple queries, GitNexus precomputes clustering, impact chains, and confidence scores at index time. This enables complete architectural context in single tool calls and effectively democratizes smaller models, giving them architectural clarity comparable to much larger models through smart tooling.\n\nGitNexus offers two usage modes. The CLI + MCP mode provides local indexing with Model Context Protocol server integration for editor-wide access, while the Web UI mode offers a browser-based graph explorer with in-browser AI chat requiring no server. The system ships with 16 MCP tools covering impact analysis, context retrieval, change detection, and group-level queries, making it compatible with major AI coding tools including Cursor, Claude Code, Codex, Windsurf, and OpenCode.\n\nThe tech stack uses Tree-sitter for parsing (native bindings for CLI, WASM for browser), LadybugDB for storage (native for CLI, WASM for browser), and Cypher for graph queries, all implemented in TypeScript/JavaScript. Core capabilities include hybrid search combining BM25 with semantic search and reciprocal rank fusion, blast radius analysis with confidence scoring, Git-diff impact mapping, multi-repo groups with cross-service contract extraction, automated dependency rename coordination, and auto-generated repository skills for functional areas.\n\nInstallation is simple via npx commands for analyzing repos, configuring MCP, and starting local servers. The Leiden algorithm powers community detection within the knowledge graph. An enterprise offering is also available through akonlabs.com, providing PR review integration, auto-reindexing, multi-repo support, and priority features."
+    },
+    {
+      "id": "hacker_news-7761d8",
+      "title": "GLM-5.1: Towards Long-Horizon Tasks",
+      "title_ko": "GLM-5.1: 장기 작업을 향하여",
+      "summary_ko": "중국 AI 연구팀이 장기 작업 수행에 초점을 맞춘 새로운 대규모 언어 모델 GLM-5.1을 공개했습니다.",
+      "url": "https://z.ai/blog/glm-5.1",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "llm",
+        "machine-learning",
+        "research"
+      ],
+      "score": 65.7,
+      "published_at": "2026-04-07T16:32:15Z",
+      "detail_ko": "GLM-5.1은 중국의 AI 연구팀에서 공개한 대규모 언어 모델로, 장기 작업(long-horizon tasks) 수행 능력에 특화된 것이 특징입니다. 기존 LLM들이 단일 턴 질의응답이나 짧은 작업에 강점을 보인 반면, GLM-5.1은 여러 단계에 걸친 복잡하고 장기적인 작업을 자율적으로 수행하는 데 초점을 맞추고 있습니다.\n\n이 모델의 핵심 혁신은 장기 계획 수립과 실행 능력입니다. 복잡한 목표를 하위 작업으로 분해하고, 각 단계의 결과를 평가하며, 필요에 따라 계획을 동적으로 수정할 수 있는 능력을 갖추고 있습니다. 이는 코딩 프로젝트, 연구 분석, 다단계 문제 해결 등 실제 업무 환경에서의 활용 가능성을 크게 높입니다.\n\nGLM 시리즈는 Zhipu AI(지푸 AI)에서 개발해온 모델 계열로, 이전 버전들에서 꾸준히 성능을 개선해왔습니다. GLM-5.1은 특히 에이전트 기반 워크플로우와의 통합을 염두에 두고 설계되어, 도구 사용, 코드 실행, 웹 브라우징 등의 기능을 장기 작업 맥락에서 효과적으로 활용할 수 있습니다.\n\n이 모델의 출시는 AI 분야에서 단순한 벤치마크 성능 경쟁을 넘어, 실제 업무 환경에서의 실용적 활용에 초점을 맞추는 트렌드를 반영합니다. 장기 작업 수행 능력은 AI 에이전트의 핵심 역량으로, OpenAI, Anthropic, Google 등 주요 AI 기업들도 이 분야에 주목하고 있어 향후 치열한 경쟁이 예상됩니다.",
+      "detail_en": "GLM-5.1 is a large language model released by a Chinese AI research team, specifically designed to excel at long-horizon tasks that require sustained reasoning and execution over extended periods. While most contemporary LLMs focus on single-turn question answering or short interactions, GLM-5.1 targets the ability to autonomously carry out complex, multi-step tasks over longer timeframes.\n\nThe model's key innovation centers on long-term planning and execution capabilities. It can decompose complex goals into subtasks, evaluate the results of each step, and dynamically revise its plans as needed. This approach significantly enhances its applicability in real-world scenarios such as coding projects, research analysis, and multi-stage problem solving where tasks cannot be completed in a single interaction.\n\nThe GLM series has been developed by Zhipu AI, which has steadily improved performance across successive versions. GLM-5.1 is particularly designed with agent-based workflow integration in mind, enabling effective use of tools, code execution, and web browsing within the context of long-running tasks. This positions it as not just a language model but a foundation for autonomous AI agents.\n\nThe release of GLM-5.1 reflects a broader industry trend moving beyond simple benchmark competition toward practical utility in real work environments. Long-horizon task capability is increasingly recognized as a critical competency for AI agents, with major players including OpenAI, Anthropic, and Google all investing heavily in this direction. GLM-5.1's focus on this specific capability positions Zhipu AI as a significant competitor in the emerging agent-capable model space, potentially offering differentiated value for applications requiring persistent, multi-step autonomous operation."
+    },
+    {
+      "id": "hacker_news-f7a72e",
+      "title": "Cloudflare targets 2029 for full post-quantum security",
+      "title_ko": "Cloudflare, 2029년까지 완전한 포스트 양자 보안 목표",
+      "summary_ko": "Cloudflare가 2029년까지 모든 서비스에 포스트 양자 암호화를 적용하겠다는 로드맵을 발표했습니다.",
+      "url": "https://blog.cloudflare.com/post-quantum-roadmap/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "security",
+        "cryptography",
+        "quantum",
+        "cloudflare"
+      ],
+      "score": 65.2,
+      "published_at": "2026-04-07T14:07:34Z"
+    },
+    {
+      "id": "hacker_news-ddcf49",
+      "title": "12k Tons of Dumped Orange Peel Grew into a Landscape Nobody Expected (2017)",
+      "title_ko": "투기된 1만 2천 톤의 오렌지 껍질이 아무도 예상 못한 풍경으로 변했다",
+      "summary_ko": "코스타리카에서 버려진 대량의 오렌지 껍질이 예상치 못하게 울창한 숲으로 변모한 이야기입니다.",
+      "url": "https://www.sciencealert.com/how-12-000-tonnes-of-dumped-orange-peel-produced-something-nobody-imagined",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "environment",
+        "ecology",
+        "nature",
+        "sustainability"
+      ],
+      "score": 65.2,
+      "published_at": "2026-04-07T15:47:16Z"
+    },
+    {
+      "id": "hacker_news-0a4f48",
+      "title": "Good Taste the Only Real Moat Left",
+      "title_ko": "좋은 취향이 남은 유일한 해자",
+      "summary_ko": "AI 시대에서 기술적 능력보다 좋은 취향과 심미안이 경쟁 우위를 만드는 유일한 해자라는 주장입니다.",
+      "url": "https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "design",
+        "taste",
+        "strategy"
+      ],
+      "score": 65.0,
+      "published_at": "2026-04-07T15:54:16Z"
+    },
+    {
+      "id": "gh_trending_shannon",
+      "title": "KeygraphHQ/shannon",
+      "title_ko": "Shannon - 자율형 화이트박스 AI 펜테스터",
+      "summary_ko": "소스 코드를 분석하여 프로덕션 배포 전 취약점을 식별하는 자율형 화이트박스 AI 침투 테스트 도구입니다.",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "security",
+        "pentesting",
+        "ai"
+      ],
+      "score": 64.8,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "hacker_news-67e744",
+      "title": "Show HN: A cartographer's attempt to realistically map Tolkien's world",
+      "title_ko": "Show HN: 지도 제작자의 톨킨 세계 사실적 지도 제작 시도",
+      "summary_ko": "전문 지도 제작자가 톨킨의 중간계를 지리학적으로 사실적으로 재현한 지도 프로젝트입니다.",
+      "url": "https://www.intofarlands.com/atlasofarda",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "maps",
+        "tolkien",
+        "cartography",
+        "fantasy"
+      ],
+      "score": 64.7,
+      "published_at": "2026-04-07T12:12:15Z"
+    },
+    {
+      "id": "hacker_news-f72585",
+      "title": "We found an undocumented bug in the Apollo 11 guidance computer code",
+      "title_ko": "아폴로 11호 유도 컴퓨터 코드에서 문서화되지 않은 버그 발견",
+      "summary_ko": "연구자들이 아폴로 11호 달 착륙 유도 컴퓨터 코드에서 이전에 문서화되지 않은 버그를 발견했습니다.",
+      "url": "https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "apollo",
+        "space",
+        "bugs",
+        "history",
+        "programming"
+      ],
+      "score": 64.4,
+      "published_at": "2026-04-07T10:25:12Z"
+    },
+    {
+      "id": "hacker_news-2ae279",
+      "title": "Google open-sources experimental agent orchestration testbed Scion",
+      "title_ko": "Google, 실험적 에이전트 오케스트레이션 테스트베드 Scion 오픈소스 공개",
+      "summary_ko": "Google이 AI 에이전트 간 오케스트레이션을 실험하기 위한 테스트베드 Scion을 오픈소스로 공개했습니다.",
+      "url": "https://www.infoq.com/news/2026/04/google-agent-testbed-scion/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "google",
+        "ai-agents",
+        "open-source",
+        "orchestration"
+      ],
+      "score": 64.0,
+      "published_at": "2026-04-07T13:39:15Z"
+    },
+    {
+      "id": "hacker_news-0316ba",
+      "title": "Moving fast in hardware: lessons from lab to $100M ARR",
+      "title_ko": "하드웨어에서 빠르게 움직이기: 연구실에서 1억 달러 ARR까지의 교훈",
+      "summary_ko": "하드웨어 스타트업이 연구실 단계에서 연간 반복 매출 1억 달러까지 빠르게 성장한 경험을 공유합니다.",
+      "url": "https://blog.zacka.io/p/simplify-then-add-lightness-bc4",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "hardware",
+        "startup",
+        "business",
+        "growth"
+      ],
+      "score": 64.0,
+      "published_at": "2026-04-07T15:07:38Z"
+    },
+    {
+      "id": "hacker_news-3eade8",
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "title_ko": "프로젝트 글래스윙: AI 시대를 위한 핵심 소프트웨어 보안",
+      "summary_ko": "Anthropic이 AI 시대의 핵심 소프트웨어 보안을 강화하기 위한 프로젝트 글래스윙을 발표했습니다.",
+      "url": "https://www.anthropic.com/glasswing",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "security",
+        "anthropic",
+        "software"
+      ],
+      "score": 63.9,
+      "published_at": "2026-04-07T18:09:34Z"
+    },
+    {
+      "id": "hacker_news-5be52e",
+      "title": "Cambodia unveils a statue of famous landmine-sniffing rat Magawa",
+      "title_ko": "캄보디아, 유명 지뢰 탐지 쥐 마가와의 동상 공개",
+      "summary_ko": "캄보디아가 수년간 지뢰 탐지에 기여한 영웅 쥐 마가와를 기리는 동상을 공개했습니다.",
+      "url": "https://www.bbc.com/news/articles/c0rx7xzd10xo",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "cambodia",
+        "landmines",
+        "animals",
+        "memorial"
+      ],
+      "score": 63.9,
+      "published_at": "2026-04-07T17:23:43Z"
+    },
+    {
+      "id": "gh_trending_gallery",
+      "title": "google-ai-edge/gallery",
+      "title_ko": "Google AI Edge Gallery - 온디바이스 ML/GenAI 사용 사례 갤러리",
+      "summary_ko": "로컬 모델 테스트가 가능한 온디바이스 ML/GenAI 사용 사례를 보여주는 갤러리 앱입니다.",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Kotlin",
+        "on-device-ml",
+        "genai",
+        "google"
+      ],
+      "score": 62.4,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "gh_trending_qmd",
+      "title": "tobi/qmd",
+      "title_ko": "qmd - 문서 및 지식 베이스용 로컬 검색 엔진 CLI",
+      "summary_ko": "문서, 지식 베이스, 노트를 위한 로컬 접근 방식의 미니 CLI 검색 엔진입니다.",
+      "url": "https://github.com/tobi/qmd",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "cli",
+        "search",
+        "documentation"
+      ],
+      "score": 61.8,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "gh_trending_personaplex",
+      "title": "NVIDIA/personaplex",
+      "title_ko": "NVIDIA PersonaPlex - 페르소나 생성 코드 저장소",
+      "summary_ko": "NVIDIA에서 공개한 PersonaPlex 코드 저장소로, 페르소나 기반 AI 기능을 제공합니다.",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python",
+        "nvidia",
+        "ai",
+        "persona"
+      ],
+      "score": 59.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "gh_trending_page_agent",
+      "title": "alibaba/page-agent",
+      "title_ko": "Page Agent - 자연어로 웹 인터페이스를 제어하는 GUI 에이전트",
+      "summary_ko": "자연어로 웹 인터페이스를 제어할 수 있는 JavaScript 인페이지 GUI 에이전트입니다.",
+      "url": "https://github.com/alibaba/page-agent",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "gui-agent",
+        "web-automation",
+        "alibaba"
+      ],
+      "score": 58.4,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-cl-2604-03253",
+      "title": "Self-Execution Simulation Improves Coding Models",
+      "title_ko": "자기 실행 시뮬레이션으로 코딩 모델 향상",
+      "summary_ko": "코드 LLM이 프로그램 실행을 단계별로 시뮬레이션하도록 훈련하여 실행 추적 기반 지도학습과 강화학습을 통해 경쟁 프로그래밍 성능을 향상시킨다.",
+      "url": "https://arxiv.org/abs/2604.03253",
+      "source": "arxiv_cs_cl",
+      "category": "ai_research",
+      "tags": [
+        "code-generation",
+        "execution-simulation",
+        "reinforcement-learning"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-cl-2604-03260",
+      "title": "Why Attend to Everything? Focus is the Key",
+      "title_ko": "모든 것에 주의를 기울일 필요가 있을까? 집중이 핵심이다",
+      "summary_ko": "학습 가능한 중심점을 통해 중요한 토큰 쌍을 학습하여 추론 시 2배 속도 향상을 달성하고 여러 스케일에서 전체 어텐션을 능가한다.",
+      "url": "https://arxiv.org/abs/2604.03260",
+      "source": "arxiv_cs_cl",
+      "category": "ai_research",
+      "tags": [
+        "attention",
+        "efficiency",
+        "inference"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-cl-2604-03270",
+      "title": "Knowledge Packs: Zero-Token Knowledge Delivery via KV Cache Injection",
+      "title_ko": "Knowledge Packs: KV 캐시 주입을 통한 제로 토큰 지식 전달",
+      "summary_ko": "사전 계산된 KV 캐시 방식으로, 제로 토큰 비용으로 지식을 전달하며 최대 95% 토큰 절감과 훈련 없는 행동 조정을 가능하게 한다.",
+      "url": "https://arxiv.org/abs/2604.03270",
+      "source": "arxiv_cs_cl",
+      "category": "ai_research",
+      "tags": [
+        "kv-cache",
+        "efficiency",
+        "knowledge-injection"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-cl-2604-03870",
+      "title": "Your Agent is More Brittle Than You Think: Uncovering Indirect Injection Vulnerabilities",
+      "title_ko": "당신의 에이전트는 생각보다 취약하다: 간접 주입 취약성 발견",
+      "summary_ko": "고급 간접 프롬프트 주입이 대부분의 기본 방어를 우회하며, 표현 공학 기반 탐지가 높은 정확도를 달성함을 밝힌다.",
+      "url": "https://arxiv.org/abs/2604.03870",
+      "source": "arxiv_cs_cl",
+      "category": "ai_research",
+      "tags": [
+        "security",
+        "prompt-injection",
+        "agents",
+        "safety"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-lg-2604-03444",
+      "title": "Olmo Hybrid: From Theory to Practice and Back",
+      "title_ko": "Olmo Hybrid: 이론에서 실천으로, 그리고 다시 이론으로",
+      "summary_ko": "하이브리드 어텐션-순환 모델로, 순수 트랜스포머를 넘어서는 과제를 표현할 수 있으며, 7B 모델이 더 나은 스케일링 효율성으로 기준선을 능가한다.",
+      "url": "https://arxiv.org/abs/2604.03444",
+      "source": "arxiv_cs_lg",
+      "category": "ai_research",
+      "tags": [
+        "hybrid-model",
+        "attention",
+        "recurrence",
+        "scaling"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-lg-2604-03789",
+      "title": "Automated Conjecture Resolution with Formal Verification",
+      "title_ko": "형식 검증을 통한 자동 추측 해결",
+      "summary_ko": "자연어 추론과 형식 검증을 통합하여 미해결 가환대수 문제를 자동으로 해결하고 Lean 4에서 증명을 검증한다.",
+      "url": "https://arxiv.org/abs/2604.03789",
+      "source": "arxiv_cs_lg",
+      "category": "ai_research",
+      "tags": [
+        "formal-verification",
+        "theorem-proving",
+        "lean4"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-ai-2604-04157",
+      "title": "Readable Minds: Emergent Theory-of-Mind-Like Behavior in LLM Poker Agents",
+      "title_ko": "Readable Minds: LLM 포커 에이전트에서 나타나는 마음 이론 유사 행동",
+      "summary_ko": "지속적 메모리를 갖춘 LLM 에이전트가 정교한 상대 모델링과 전략적 기만을 발전시켜 창발적 마음 이론을 보여준다.",
+      "url": "https://arxiv.org/abs/2604.04157",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "theory-of-mind",
+        "emergent-behavior",
+        "game-playing"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-cl-2604-03616",
+      "title": "The Format Tax",
+      "title_ko": "포맷 세금",
+      "summary_ko": "구조화된 출력 요구사항이 오픈 웨이트 모델의 성능을 크게 저하시키며, 추론과 포맷팅을 분리하면 손실된 정확도를 상당히 회복할 수 있다.",
+      "url": "https://arxiv.org/abs/2604.03616",
+      "source": "arxiv_cs_cl",
+      "category": "ai_research",
+      "tags": [
+        "structured-output",
+        "evaluation",
+        "performance"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-cl-2604-03465",
+      "title": "The Tool Illusion: Rethinking Tool Use in Web Agents",
+      "title_ko": "도구 환상: 웹 에이전트에서의 도구 사용 재고",
+      "summary_ko": "다양한 도구와 모델에서 도구가 일관되지 않은 이점을 제공하며, 설계 원칙과 부작용이 종종 간과됨을 밝힌다.",
+      "url": "https://arxiv.org/abs/2604.03465",
+      "source": "arxiv_cs_cl",
+      "category": "ai_research",
+      "tags": [
+        "agents",
+        "tool-use",
+        "web-agents",
+        "evaluation"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    },
+    {
+      "id": "arxiv-cs-cl-2604-03684",
+      "title": "Researchers waste 80% of LLM annotation costs by classifying one text at a time",
+      "title_ko": "연구자들은 한 번에 하나의 텍스트를 분류하여 LLM 주석 비용의 80%를 낭비한다",
+      "summary_ko": "텍스트 일괄 처리와 코딩 차원 적층이 6개 프로덕션 LLM 모델에서 품질 저하 없이 주석 비용을 80% 이상 절감한다.",
+      "url": "https://arxiv.org/abs/2604.03684",
+      "source": "arxiv_cs_cl",
+      "category": "ai_research",
+      "tags": [
+        "annotation",
+        "cost-efficiency",
+        "batching"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07"
+    }
+  ],
+  "meta": {
+    "total_collected": 96,
+    "after_dedup": 94,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "Cloudflare Blog",
+      "Meta Engineering",
+      "Stripe Blog",
+      "Vercel Blog",
+      "anthropic",
+      "arxiv_cs_ai",
+      "arxiv_cs_cl",
+      "arxiv_cs_lg",
+      "github_releases",
+      "github_trending",
+      "hacker_news",
+      "huggingface",
+      "lobsters",
+      "papers_with_code",
+      "techcrunch",
+      "tldr"
+    ],
+    "sources_failed": [
+      "Netflix Tech Blog: SSL certificate verification failed",
+      "Reddit r/ExperiencedDevs: blocked",
+      "Reddit r/MachineLearning: blocked",
+      "Reddit r/programming: blocked",
+      "Uber Engineering: Feed URL returned 404",
+      "arstechnica",
+      "geeknews",
+      "google_ai_blog",
+      "openai_blog",
+      "the_verge"
+    ]
+  }
+}

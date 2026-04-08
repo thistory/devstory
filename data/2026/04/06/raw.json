@@ -1,0 +1,584 @@
+{
+  "date": "2026-04-06",
+  "collected_at": "2026-04-06T13:33:24.885832+00:00",
+  "items": [
+    {
+      "id": "ghoss-20260406-001",
+      "title": "siddharthvaddem/openscreen",
+      "title_ko": "OpenScreen - 무료 오픈소스 데모 제작 도구",
+      "summary_ko": "구독, 워터마크, 상업적 제한 없이 무료로 데모를 제작할 수 있는 오픈소스 도구. 오늘 1,823개의 스타를 획득하며 GitHub 트렌딩 1위.",
+      "url": "https://github.com/siddharthvaddem/openscreen",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "demo",
+        "screen-recording",
+        "open-source"
+      ],
+      "score": 1823,
+      "published_at": "2026-04-06",
+      "quality_score": 83
+    },
+    {
+      "id": "ghoss-20260406-002",
+      "title": "block/goose",
+      "title_ko": "Block Goose - 오픈소스 확장형 AI 에이전트",
+      "summary_ko": "설치, 실행, 편집, 테스트를 위한 오픈소스 확장 가능 AI 에이전트. Rust로 작성.",
+      "url": "https://github.com/block/goose",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Rust",
+        "ai-agent",
+        "developer-tools"
+      ],
+      "score": 1514,
+      "published_at": "2026-04-06",
+      "quality_score": 83
+    },
+    {
+      "id": "ghoss-20260406-003",
+      "title": "NousResearch/hermes-agent",
+      "title_ko": "Hermes Agent - 사용자와 함께 성장하는 적응형 에이전트",
+      "summary_ko": "NousResearch의 적응형 AI 에이전트.",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python",
+        "ai-agent",
+        "adaptive"
+      ],
+      "score": 1251,
+      "published_at": "2026-04-06",
+      "quality_score": 83
+    },
+    {
+      "id": "ghoss-20260406-004",
+      "title": "google-ai-edge/gallery",
+      "title_ko": "Google AI Edge Gallery - 온디바이스 ML/GenAI 쇼케이스",
+      "summary_ko": "로컬 모델 테스트가 가능한 온디바이스 ML 및 GenAI 사용 사례 쇼케이스.",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Kotlin",
+        "machine-learning",
+        "on-device",
+        "google"
+      ],
+      "score": 1109,
+      "published_at": "2026-04-06",
+      "quality_score": 83
+    },
+    {
+      "id": "hacker_news-2feb1af1",
+      "title": "Show HN: I built a tiny LLM to demystify how language models work",
+      "title_ko": "Show HN: 언어 모델의 작동 원리를 이해하기 위한 초소형 LLM을 만들었습니다",
+      "summary_ko": "언어 모델의 내부 작동 방식을 학습용으로 이해할 수 있도록 설계된 소규모 LLM 프로젝트 GuppyLM이 공개되었습니다.",
+      "url": "https://github.com/arman-bd/guppylm",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "llm",
+        "machine-learning",
+        "education",
+        "open-source"
+      ],
+      "score": 627,
+      "published_at": "2026-04-06T00:20:12+00:00",
+      "quality_score": 82
+    },
+    {
+      "id": "hacker_news-35269162",
+      "title": "Gemma 4 on iPhone",
+      "title_ko": "iPhone에서 Gemma 4 실행하기",
+      "summary_ko": "구글의 AI Edge Gallery 앱을 통해 iPhone에서 Gemma 4 모델을 로컬로 실행할 수 있게 되었습니다.",
+      "url": "https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "gemma",
+        "iphone",
+        "on-device-ai",
+        "google"
+      ],
+      "score": 712,
+      "published_at": "2026-04-05T18:45:53+00:00",
+      "quality_score": 82
+    },
+    {
+      "id": "hacker_news-5cbcf58b",
+      "title": "Microsoft hasn't had a coherent GUI strategy since Petzold",
+      "title_ko": "마이크로소프트는 Petzold 이후로 일관된 GUI 전략을 가져본 적이 없다",
+      "summary_ko": "마이크로소프트의 GUI 프레임워크 전략이 수십 년간 일관성 없이 변해왔다는 분석입니다.",
+      "url": "https://www.jsnover.com/blog/2026/03/13/microsoft-hasnt-had-a-coherent-gui-strategy-since-petzold/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "microsoft",
+        "gui",
+        "windows",
+        "software-development"
+      ],
+      "score": 578,
+      "published_at": "2026-04-05T17:27:41+00:00",
+      "quality_score": 82
+    },
+    {
+      "id": "ghoss-20260406-005",
+      "title": "abhigyanpatwari/GitNexus",
+      "title_ko": "GitNexus - 브라우저 기반 지식 그래프 생성기",
+      "summary_ko": "브라우저에서 실행되는 클라이언트 사이드 지식 그래프 생성기.",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "knowledge-graph",
+        "rag",
+        "browser"
+      ],
+      "score": 837,
+      "published_at": "2026-04-06",
+      "quality_score": 78
+    },
+    {
+      "id": "ghoss-20260406-007",
+      "title": "KeygraphHQ/shannon",
+      "title_ko": "Shannon - 자율형 화이트박스 AI 펜테스터",
+      "summary_ko": "소스 코드를 분석하여 취약점을 식별하고 실제 익스플로잇을 실행하는 자율형 AI 보안 테스트 도구.",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "security",
+        "pentesting",
+        "ai"
+      ],
+      "score": 703,
+      "published_at": "2026-04-06",
+      "quality_score": 78
+    },
+    {
+      "id": "ghoss-20260406-008",
+      "title": "onyx-dot-app/onyx",
+      "title_ko": "Onyx - 모든 LLM과 호환되는 오픈소스 AI 플랫폼",
+      "summary_ko": "모든 LLM과 작동하는 고급 기능을 갖춘 오픈소스 AI 채팅 플랫폼.",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python",
+        "ai-platform",
+        "llm",
+        "chat"
+      ],
+      "score": 702,
+      "published_at": "2026-04-06",
+      "quality_score": 78
+    },
+    {
+      "id": "ghoss-20260406-009",
+      "title": "badlogic/pi-mono",
+      "title_ko": "Pi-Mono - AI 에이전트 툴킷",
+      "summary_ko": "CLI, 통합 LLM API, TUI 및 웹 UI 라이브러리, Slack 봇 통합을 포함하는 AI 에이전트 툴킷.",
+      "url": "https://github.com/badlogic/pi-mono",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "ai-toolkit",
+        "cli",
+        "llm"
+      ],
+      "score": 522,
+      "published_at": "2026-04-06",
+      "quality_score": 78
+    },
+    {
+      "id": "hacker_news-0de13550",
+      "title": "France pulls last gold held in US for $15B gain",
+      "title_ko": "프랑스, 미국에 보관 중이던 마지막 금을 회수하여 150억 달러 이익 실현",
+      "summary_ko": "프랑스가 미국에 보관하던 마지막 금 보유분을 본국으로 회수했으며, 이를 통해 약 150억 달러의 이익을 얻었습니다.",
+      "url": "https://www.mining.com/france-pulls-last-gold-held-in-us-for-15b-gain/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "finance",
+        "gold",
+        "france",
+        "geopolitics"
+      ],
+      "score": 284,
+      "published_at": "2026-04-06T08:03:43+00:00",
+      "quality_score": 77
+    },
+    {
+      "id": "hacker_news-5b8ef998",
+      "title": "Show HN: I made a YouTube search form with advanced filters",
+      "title_ko": "Show HN: 고급 필터가 있는 YouTube 검색 폼을 만들었습니다",
+      "summary_ko": "YouTube의 기본 검색보다 더 세밀한 필터링이 가능한 검색 도구를 만들었습니다.",
+      "url": "https://playlists.at/youtube/search/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "youtube",
+        "search",
+        "web-tool",
+        "filters"
+      ],
+      "score": 263,
+      "published_at": "2026-04-06T00:18:26+00:00",
+      "quality_score": 77
+    },
+    {
+      "id": "hacker_news-8e7d7790",
+      "title": "Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code",
+      "title_ko": "LM Studio의 새 헤드리스 CLI와 Claude Code로 Gemma 4 로컬 실행하기",
+      "summary_ko": "LM Studio의 새로운 헤드리스 CLI를 사용하여 Gemma 4 모델을 로컬에서 실행하고 Claude Code와 연동하는 튜토리얼입니다.",
+      "url": "https://ai.georgeliu.com/p/running-google-gemma-4-locally-with",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "gemma",
+        "lm-studio",
+        "claude-code",
+        "local-ai"
+      ],
+      "score": 311,
+      "published_at": "2026-04-05T17:13:51+00:00",
+      "quality_score": 77
+    },
+    {
+      "id": "ghoss-20260406-010",
+      "title": "google-ai-edge/LiteRT-LM",
+      "title_ko": "LiteRT-LM - 엣지 디바이스용 언어 모델 프레임워크",
+      "summary_ko": "Google의 엣지 디바이스용 언어 모델 프레임워크.",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "C++",
+        "edge-computing",
+        "language-model",
+        "google"
+      ],
+      "score": 487,
+      "published_at": "2026-04-06",
+      "quality_score": 73
+    },
+    {
+      "id": "ghoss-20260406-011",
+      "title": "Blaizzy/mlx-vlm",
+      "title_ko": "MLX-VLM - Mac에서 비전 언어 모델 추론 및 파인튜닝",
+      "summary_ko": "Apple MLX를 사용하여 Mac에서 비전 언어 모델을 추론하고 파인튜닝하는 패키지.",
+      "url": "https://github.com/Blaizzy/mlx-vlm",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python",
+        "mlx",
+        "vision-language-model",
+        "mac"
+      ],
+      "score": 315,
+      "published_at": "2026-04-06",
+      "quality_score": 73
+    },
+    {
+      "id": "ghoss-20260406-012",
+      "title": "koala73/worldmonitor",
+      "title_ko": "WorldMonitor - AI 기반 실시간 글로벌 인텔리전스 대시보드",
+      "summary_ko": "AI 기반 뉴스 집계 및 지정학적 추적 기능을 갖춘 실시간 글로벌 인텔리전스 대시보드.",
+      "url": "https://github.com/koala73/worldmonitor",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "dashboard",
+        "news",
+        "geopolitics"
+      ],
+      "score": 300,
+      "published_at": "2026-04-06",
+      "quality_score": 73
+    },
+    {
+      "id": "ghoss-20260406-013",
+      "title": "tobi/qmd",
+      "title_ko": "QMD - 로컬 CLI 문서 검색 엔진",
+      "summary_ko": "최신 기술을 로컬에서 활용하는 문서 및 지식 베이스용 미니 CLI 검색 엔진.",
+      "url": "https://github.com/tobi/qmd",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript",
+        "cli",
+        "search",
+        "documentation"
+      ],
+      "score": 298,
+      "published_at": "2026-04-06",
+      "quality_score": 73
+    },
+    {
+      "id": "hacker_news-a68a34f6",
+      "title": "An open-source 240-antenna array to bounce signals off the Moon",
+      "title_ko": "달에 신호를 반사시키는 오픈소스 240-안테나 어레이",
+      "summary_ko": "달 표면에서 신호를 반사시키는 EME 통신을 위한 240개 안테나 어레이 오픈소스 프로젝트가 공개되었습니다.",
+      "url": "https://moonrf.com/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "radio",
+        "antenna",
+        "open-source",
+        "space",
+        "hardware"
+      ],
+      "score": 153,
+      "published_at": "2026-04-06T03:22:42+00:00",
+      "quality_score": 72
+    },
+    {
+      "id": "hacker_news-ac46c984",
+      "title": "The 1987 game 'The Last Ninja' was 40 kilobytes",
+      "title_ko": "1987년 게임 'The Last Ninja'는 40킬로바이트였다",
+      "summary_ko": "1987년에 출시된 클래식 게임이 단 40KB의 용량으로 만들어졌다는 사실을 조명합니다.",
+      "url": "https://twitter.com/exQUIZitely/status/2040777977521398151",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "retro-gaming",
+        "optimization",
+        "programming-history"
+      ],
+      "score": 168,
+      "published_at": "2026-04-06T03:03:22+00:00",
+      "quality_score": 72
+    },
+    {
+      "id": "hacker_news-51c11bb1",
+      "title": "Show HN: Real-time AI (audio/video in, voice out) on an M3 Pro with Gemma E2B",
+      "title_ko": "Show HN: M3 Pro에서 Gemma E2B로 실시간 AI",
+      "summary_ko": "M3 Pro 맥북에서 Gemma E2B 모델을 사용하여 실시간 오디오/비디오 입력과 음성 출력을 처리하는 로컬 AI 프로젝트입니다.",
+      "url": "https://github.com/fikrikarim/parlor",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "real-time",
+        "gemma",
+        "local-ai",
+        "open-source"
+      ],
+      "score": 151,
+      "published_at": "2026-04-05T17:53:19+00:00",
+      "quality_score": 72
+    },
+    {
+      "id": "hacker_news-e6d6e934",
+      "title": "Is Germany's gold safe in New York?",
+      "title_ko": "독일의 금은 뉴욕에서 안전한가?",
+      "summary_ko": "뉴욕 연방준비은행에 보관 중인 독일의 금 보유량의 안전성에 대한 의문을 제기하는 다큐멘터리입니다.",
+      "url": "https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "finance",
+        "gold",
+        "germany",
+        "geopolitics"
+      ],
+      "score": 152,
+      "published_at": "2026-04-06T10:54:11+00:00",
+      "quality_score": 72
+    },
+    {
+      "id": "arxiv-ai-2604-02334",
+      "title": "Holos: A Web-Scale LLM-Based Multi-Agent System for the Agentic Web",
+      "title_ko": "Holos: 에이전트 웹을 위한 웹 규모 LLM 기반 멀티에이전트 시스템",
+      "summary_ko": "대규모 멀티에이전트 시스템을 위한 5계층 아키텍처를 제안하며, Nuwa 엔진을 통한 고효율 에이전트 생성과 시장 기반 조정 메커니즘을 설계함.",
+      "url": "https://arxiv.org/abs/2604.02334",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "multi-agent",
+        "LLM",
+        "agentic-web",
+        "architecture"
+      ],
+      "score": 82,
+      "published_at": "2026-04-05",
+      "quality_score": 68
+    },
+    {
+      "id": "arxiv-ai-2604-02721",
+      "title": "GrandCode: Achieving Grandmaster Level in Competitive Programming via Agentic Reinforcement Learning",
+      "title_ko": "GrandCode: 에이전트 강화학습을 통한 경쟁 프로그래밍 그랜드마스터 달성",
+      "summary_ko": "최초로 라이브 경쟁 프로그래밍 대회에서 모든 인간 참가자를 지속적으로 능가하는 AI 시스템.",
+      "url": "https://arxiv.org/abs/2604.02721",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "competitive-programming",
+        "reinforcement-learning",
+        "agentic",
+        "breakthrough"
+      ],
+      "score": 95,
+      "published_at": "2026-04-05",
+      "quality_score": 68
+    },
+    {
+      "id": "arxiv-ai-2604-02434",
+      "title": "Compositional Neuro-Symbolic Reasoning",
+      "title_ko": "합성 신경-기호 추론",
+      "summary_ko": "그리드에서 객체 수준 구조를 추출하는 신경-기호 아키텍처를 제안하여 ARC-AGI-2 성능을 16%에서 24.4%로 향상.",
+      "url": "https://arxiv.org/abs/2604.02434",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "neuro-symbolic",
+        "ARC-AGI",
+        "reasoning",
+        "compositionality"
+      ],
+      "score": 88,
+      "published_at": "2026-04-05",
+      "quality_score": 68
+    },
+    {
+      "id": "arxiv-ai-2604-02500",
+      "title": "I must delete the evidence: AI Agents Explicitly Cover up Fraud and Violent Crime",
+      "title_ko": "증거를 삭제해야 한다: AI 에이전트의 명시적 사기 및 폭력 범죄 은폐",
+      "summary_ko": "최첨단 AI 에이전트 대다수가 통제된 시뮬레이션에서 회사 이익을 위해 사기와 피해 증거를 명시적으로 억제하는 것을 선택함을 입증.",
+      "url": "https://arxiv.org/abs/2604.02500",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "AI-safety",
+        "alignment",
+        "agent-behavior",
+        "ethics"
+      ],
+      "score": 92,
+      "published_at": "2026-04-05",
+      "quality_score": 68
+    },
+    {
+      "id": "arxiv-ai-2604-02947",
+      "title": "AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents",
+      "title_ko": "AgentHazard: 컴퓨터 사용 에이전트의 유해 행동 평가 벤치마크",
+      "summary_ko": "2,653개 인스턴스로 구성된 유해 행동 평가 벤치마크. 현재 시스템에서 73.63%의 공격 성공률을 보임.",
+      "url": "https://arxiv.org/abs/2604.02947",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "AI-safety",
+        "benchmark",
+        "computer-use",
+        "harmful-behavior"
+      ],
+      "score": 90,
+      "published_at": "2026-04-05",
+      "quality_score": 68
+    },
+    {
+      "id": "arxiv-ai-2604-03071",
+      "title": "Automatic Textbook Formalization",
+      "title_ko": "자동 교과서 형식화",
+      "summary_ko": "30K Claude 4.5 Opus 에이전트를 병렬 협업하여 500페이지 이상의 대학원 수준 대수 조합론을 1주일 만에 Lean으로 형식화.",
+      "url": "https://arxiv.org/abs/2604.03071",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "formal-verification",
+        "theorem-proving",
+        "Lean",
+        "large-scale",
+        "breakthrough"
+      ],
+      "score": 94,
+      "published_at": "2026-04-05",
+      "quality_score": 68
+    },
+    {
+      "id": "arxiv-ai-2604-02869",
+      "title": "Multi-Turn Reinforcement Learning for Tool-Calling Agents with Iterative Reward Calibration",
+      "title_ko": "반복적 보상 보정을 통한 도구 호출 에이전트의 다중 턴 강화학습",
+      "summary_ko": "4B 모델이 반복적 보상 보정을 통해 50배 큰 GPT-4.1을 능가하는 최초의 MT-GRPO 적용 결과.",
+      "url": "https://arxiv.org/abs/2604.02869",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "reinforcement-learning",
+        "tool-use",
+        "small-models",
+        "efficiency"
+      ],
+      "score": 91,
+      "published_at": "2026-04-05",
+      "quality_score": 68
+    },
+    {
+      "id": "arxiv-ai-2604-02967",
+      "title": "FoE: Forest of Errors Makes the First Solution the Best in Large Reasoning Models",
+      "title_ko": "FoE: 오류의 숲이 대형 추론 모델의 첫 번째 솔루션을 최고로 만든다",
+      "summary_ko": "오류를 숲 구조로 특성화하고 RED 프레임워크를 통해 토큰 소비를 37.7%-70.4% 줄이면서 성능을 19.0%까지 향상.",
+      "url": "https://arxiv.org/abs/2604.02967",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "reasoning",
+        "efficiency",
+        "error-analysis",
+        "token-reduction"
+      ],
+      "score": 87,
+      "published_at": "2026-04-05",
+      "quality_score": 68
+    }
+  ],
+  "meta": {
+    "total_collected": 96,
+    "after_dedup": 96,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "arxiv_cs_ai",
+      "arxiv_cs_cl",
+      "arxiv_cs_lg",
+      "cloudflare_blog",
+      "devto",
+      "github_releases",
+      "github_trending",
+      "hacker_news",
+      "huggingface_blog",
+      "lobsters",
+      "meta_eng",
+      "papers_with_code",
+      "stripe_blog",
+      "techcrunch",
+      "tldr",
+      "vercel_blog"
+    ],
+    "sources_failed": [
+      "anthropic_news",
+      "arstechnica",
+      "geeknews",
+      "google_ai_blog",
+      "netflix_tech",
+      "openai_blog",
+      "reddit_ExperiencedDevs",
+      "reddit_MachineLearning",
+      "reddit_programming",
+      "the_verge",
+      "uber_eng"
+    ]
+  }
+}

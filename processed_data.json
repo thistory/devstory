@@ -1,0 +1,1088 @@
+{
+  "date": "2026-04-09",
+  "items": [
+    {
+      "id": "hacker_news_001",
+      "title": "OpenAI Announces GPT-5 with Revolutionary Reasoning Capabilities",
+      "title_ko": "OpenAI, 혁신적인 추론 기능을 가진 GPT-5 발표",
+      "summary_ko": "OpenAI가 향상된 추론과 문제 해결 능력을 보여주는 차세대 AI 모델을 공개했습니다.",
+      "url": "https://news.ycombinator.com/item?id=123456",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "openai",
+        "gpt",
+        "reasoning"
+      ],
+      "score": 887,
+      "published_at": "2026-04-03T16:30:00Z",
+      "final_score": 100
+    },
+    {
+      "id": "github-trending-oh-my-codex",
+      "title": "Yeachan-Heo/oh-my-codex",
+      "title_ko": "Oh My codeX: 코덱스 확장 플랫폼",
+      "summary_ko": "코덱스에 훅, 에이전트 팀, HUD 등을 추가할 수 있는 확장 플랫폼입니다.",
+      "url": "https://github.com/Yeachan-Heo/oh-my-codex",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "ai",
+        "codex"
+      ],
+      "score": 2984,
+      "published_at": "2026-04-03T00:00:00Z",
+      "final_score": 95
+    },
+    {
+      "id": "github-trending-onyx",
+      "title": "onyx-dot-app/onyx",
+      "title_ko": "Onyx: 오픈소스 AI 플랫폼",
+      "summary_ko": "모든 LLM과 호환되는 고급 기능을 갖춘 오픈소스 AI 채팅 플랫폼입니다.",
+      "url": "https://github.com/onyx-dot-app/onyx",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai",
+        "llm",
+        "chat"
+      ],
+      "score": 1872,
+      "published_at": "2026-04-03T00:00:00Z",
+      "final_score": 95
+    },
+    {
+      "id": "arxiv_001",
+      "title": "Attention Is All You Need 2: The Sequel",
+      "title_ko": "어텐션이 필요한 전부 2: 속편",
+      "summary_ko": "트랜스포머 아키텍처의 차세대 발전을 제시하는 새로운 연구 논문입니다.",
+      "url": "https://arxiv.org/abs/2604.00001",
+      "source": "arxiv_ai",
+      "category": "ai_research",
+      "tags": [
+        "attention",
+        "transformer",
+        "neural-networks"
+      ],
+      "score": 0,
+      "published_at": "2026-04-03T08:00:00Z",
+      "final_score": 65.0
+    },
+    {
+      "id": "netflix_001",
+      "title": "How Netflix Scales Video Encoding to Billions of Views",
+      "title_ko": "넷플릭스가 수십억 뷰로 비디오 인코딩을 확장하는 방법",
+      "summary_ko": "넷플릭스의 대규모 비디오 인코딩 인프라 확장 전략과 기술적 도전과제를 살펴봅니다.",
+      "url": "https://netflixtechblog.com/video-encoding-scale-2026",
+      "source": "netflix_tech",
+      "category": "eng_blogs",
+      "tags": [
+        "video",
+        "encoding",
+        "infrastructure",
+        "scale"
+      ],
+      "score": 0,
+      "published_at": "2026-04-03T10:00:00Z",
+      "final_score": 65.0
+    },
+    {
+      "id": "lobsters_3fprl8",
+      "title": "Slap: Functional Concatenative Language... with a Borrow Checker?",
+      "title_ko": "Slap: 차용 검사기가 있는 함수형 연쇄 언어?",
+      "summary_ko": "함수형 프로그래밍과 연쇄 언어를 결합한 새로운 언어 Slap 소개",
+      "url": "https://taylor.town/slap-000",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "plt",
+        "concatenative",
+        "programming-languages"
+      ],
+      "score": 0,
+      "published_at": "2026-04-03T14:30:48Z",
+      "final_score": 55.0
+    },
+    {
+      "id": "lobsters_lh9rmv",
+      "title": "Claude Code Found a Linux Vulnerability Hidden for 23 Years",
+      "title_ko": "Claude Code가 23년간 숨겨진 Linux 취약점 발견",
+      "summary_ko": "AI 코딩 어시스턴트가 수십 년간 발견되지 않은 보안 취약점을 찾아낸 사례",
+      "url": "https://mtlynch.io/claude-code-found-linux-vulnerability/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "security",
+        "vibecoding",
+        "linux",
+        "ai"
+      ],
+      "score": 0,
+      "published_at": "2026-04-03T14:50:47Z",
+      "final_score": 55.0
+    },
+    {
+      "id": "gh_oss_20260408_002",
+      "title": "NousResearch/hermes-agent",
+      "title_ko": "Hermes Agent - 사용자와 함께 성장하는 AI 에이전트",
+      "summary_ko": "사용자와 함께 성장하는 AI 에이전트. Python 기반으로 오늘 3,009개의 스타를 획득하며 Python 트렌딩 1위.",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai",
+        "agent"
+      ],
+      "score": 92.0,
+      "published_at": "2026-04-08",
+      "final_score": 92.0
+    },
+    {
+      "id": "gh_oss_20260408_001",
+      "title": "obra/superpowers",
+      "title_ko": "Superpowers - 에이전트 기반 스킬 프레임워크 및 소프트웨어 개발 방법론",
+      "summary_ko": "실제로 작동하는 에이전트 기반 스킬 프레임워크 및 소프트웨어 개발 방법론. 오늘 1,926개의 스타 획득.",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "shell",
+        "agentic",
+        "framework",
+        "developer-tools"
+      ],
+      "score": 79.4,
+      "published_at": "2026-04-08",
+      "final_score": 79.4
+    },
+    {
+      "id": "gh_oss_20260408_003",
+      "title": "abhigyanpatwari/GitNexus",
+      "title_ko": "GitNexus - 브라우저 기반 지식 그래프 생성기 및 코드 탐색 도구",
+      "summary_ko": "브라우저에서 실행되는 클라이언트 사이드 지식 그래프 생성기로, Graph RAG 기능을 통한 코드 탐색 지원. 오늘 1,195개 스타 획득.",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "knowledge-graph",
+        "rag",
+        "code-exploration"
+      ],
+      "score": 70.9,
+      "published_at": "2026-04-08",
+      "final_score": 70.9
+    },
+    {
+      "id": "hacker_news-3eade88d",
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "title_ko": "Project Glasswing: AI 시대의 핵심 소프트웨어 보안",
+      "summary_ko": "Anthropic이 AI 시대에 핵심 소프트웨어의 보안을 강화하기 위한 Project Glasswing을 발표했습니다.",
+      "url": "https://www.anthropic.com/glasswing",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "security",
+        "anthropic",
+        "software-security"
+      ],
+      "score": 68.7,
+      "published_at": "2026-04-07T18:09:34Z",
+      "final_score": 68.7
+    },
+    {
+      "id": "gh_oss_20260408_004",
+      "title": "KeygraphHQ/shannon",
+      "title_ko": "Shannon - AI 기반 자율 웹 앱 보안 테스터",
+      "summary_ko": "웹 앱과 API의 취약점을 식별하는 자율적 화이트박스 AI 보안 테스터. 오늘 988개 스타 획득.",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "security",
+        "ai",
+        "testing"
+      ],
+      "score": 68.5,
+      "published_at": "2026-04-08",
+      "final_score": 68.5
+    },
+    {
+      "id": "gh_oss_20260408_005",
+      "title": "google-ai-edge/gallery",
+      "title_ko": "Google AI Edge Gallery - 온디바이스 ML/GenAI 쇼케이스",
+      "summary_ko": "온디바이스 ML/GenAI 사용 사례를 보여주고 모델을 로컬에서 시험해볼 수 있는 갤러리. 오늘 897개 스타 획득.",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "kotlin",
+        "ml",
+        "genai",
+        "on-device"
+      ],
+      "score": 67.4,
+      "published_at": "2026-04-08",
+      "final_score": 67.4
+    },
+    {
+      "id": "gh_oss_20260408_006",
+      "title": "tobi/qmd",
+      "title_ko": "qmd - 문서, 지식베이스, 회의록을 위한 미니 CLI 검색 엔진",
+      "summary_ko": "로컬 우선 접근방식으로 문서, 지식베이스, 회의록을 검색하는 미니 CLI 검색 엔진. 오늘 859개 스타 획득.",
+      "url": "https://github.com/tobi/qmd",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "cli",
+        "search",
+        "local-first"
+      ],
+      "score": 67.0,
+      "published_at": "2026-04-08",
+      "final_score": 67.0
+    },
+    {
+      "id": "hacker_news-1b1ba5aa",
+      "title": "Veracrypt Project Update",
+      "title_ko": "VeraCrypt 프로젝트 업데이트",
+      "summary_ko": "VeraCrypt 프로젝트의 최신 개발 현황 및 향후 계획에 대한 업데이트가 공유되었습니다.",
+      "url": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "encryption",
+        "security",
+        "open-source",
+        "veracrypt"
+      ],
+      "score": 64.7,
+      "published_at": "2026-04-08T07:23:39Z",
+      "final_score": 64.7
+    },
+    {
+      "id": "gh_oss_20260408_007",
+      "title": "NVIDIA/personaplex",
+      "title_ko": "NVIDIA PersonaPlex - AI 페르소나 생성 코드",
+      "summary_ko": "NVIDIA의 PersonaPlex 코드. Python 기반으로 오늘 662개 스타 획득.",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "nvidia",
+        "ai",
+        "persona"
+      ],
+      "score": 64.7,
+      "published_at": "2026-04-08",
+      "final_score": 64.7
+    },
+    {
+      "id": "gh_oss_20260408_008",
+      "title": "elebumm/RedditVideoMakerBot",
+      "title_ko": "RedditVideoMakerBot - 명령어 하나로 Reddit 비디오 생성",
+      "summary_ko": "명령어 하나로 Reddit 비디오를 생성하는 봇. 오늘 636개 스타 획득.",
+      "url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "automation",
+        "video",
+        "reddit"
+      ],
+      "score": 64.4,
+      "published_at": "2026-04-08",
+      "final_score": 64.4
+    },
+    {
+      "id": "gh_oss_20260408_009",
+      "title": "immich-app/immich",
+      "title_ko": "Immich - 고성능 셀프호스팅 사진 및 비디오 관리 솔루션",
+      "summary_ko": "고성능 셀프호스팅 사진 및 비디오 관리 솔루션. 총 97,270개 스타. 오늘 565개 스타 획득.",
+      "url": "https://github.com/immich-app/immich",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "self-hosted",
+        "photo",
+        "video"
+      ],
+      "score": 63.6,
+      "published_at": "2026-04-08",
+      "final_score": 63.6
+    },
+    {
+      "id": "gh_oss_20260408_010",
+      "title": "alibaba/page-agent",
+      "title_ko": "Page Agent - 자연어로 웹 인터페이스를 제어하는 인페이지 GUI 에이전트",
+      "summary_ko": "자연어로 웹 인터페이스를 제어하는 JavaScript 인페이지 GUI 에이전트. 오늘 535개 스타 획득.",
+      "url": "https://github.com/alibaba/page-agent",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "ai",
+        "agent",
+        "gui",
+        "web"
+      ],
+      "score": 63.2,
+      "published_at": "2026-04-08",
+      "final_score": 63.2
+    },
+    {
+      "id": "hacker_news-aee02769",
+      "title": "Revision Demoparty 2026: Razor1911 [video]",
+      "title_ko": "Revision 데모파티 2026: Razor1911 [영상]",
+      "summary_ko": "Revision 2026 데모파티에서 Razor1911이 선보인 데모씬 작품 영상입니다.",
+      "url": "https://www.youtube.com/watch?v=Lw4W9V57SKs&t=5716s",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "demoscene",
+        "creative-coding",
+        "graphics",
+        "retro"
+      ],
+      "score": 63.1,
+      "published_at": "2026-04-08T05:34:08Z",
+      "final_score": 63.1
+    },
+    {
+      "id": "gh_oss_20260408_011",
+      "title": "google-ai-edge/LiteRT-LM",
+      "title_ko": "LiteRT-LM - Google AI Edge 경량 런타임 언어 모델",
+      "summary_ko": "Google AI Edge의 경량 런타임 언어 모델. C++ 기반으로 오늘 528개 스타 획득.",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "cpp",
+        "google",
+        "ai",
+        "on-device",
+        "llm"
+      ],
+      "score": 63.1,
+      "published_at": "2026-04-08",
+      "final_score": 63.1
+    },
+    {
+      "id": "hacker_news-9935920e",
+      "title": "Protect your shed",
+      "title_ko": "당신의 창고를 보호하세요",
+      "summary_ko": "소프트웨어 프로젝트를 보호하고 유지하는 방법에 대한 비유적 조언을 담은 글입니다.",
+      "url": "https://dylanbutler.dev/blog/protect-your-shed/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "software-engineering",
+        "best-practices",
+        "maintenance"
+      ],
+      "score": 63.0,
+      "published_at": "2026-04-08T03:03:33Z",
+      "final_score": 63.0
+    },
+    {
+      "id": "hacker_news-914fd727",
+      "title": "The Git Commands I Run Before Reading Any Code",
+      "title_ko": "코드를 읽기 전에 실행하는 Git 명령어들",
+      "summary_ko": "새로운 코드베이스를 이해하기 위해 코드를 읽기 전에 실행하면 유용한 Git 명령어들을 소개합니다.",
+      "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "git",
+        "developer-tools",
+        "productivity",
+        "code-review"
+      ],
+      "score": 62.2,
+      "published_at": "2026-04-08T08:53:42Z",
+      "final_score": 62.2
+    },
+    {
+      "id": "gh_oss_20260408_012",
+      "title": "atilaahmettaner/tradingview-mcp",
+      "title_ko": "TradingView MCP 서버 - AI 기반 실시간 시장 분석",
+      "summary_ko": "AI 기반 실시간 암호화폐 및 주식 스크리닝을 위한 고급 TradingView MCP 서버. 오늘 438개 스타 획득.",
+      "url": "https://github.com/atilaahmettaner/tradingview-mcp",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "mcp",
+        "trading",
+        "ai",
+        "crypto"
+      ],
+      "score": 62.1,
+      "published_at": "2026-04-08",
+      "final_score": 62.1
+    },
+    {
+      "id": "hacker_news-82a631a7",
+      "title": "System Card: Claude Mythos Preview [pdf]",
+      "title_ko": "시스템 카드: Claude Mythos 프리뷰 [PDF]",
+      "summary_ko": "Anthropic의 새로운 AI 모델 Claude Mythos의 시스템 카드가 공개되어 모델의 능력과 안전성 평가를 상세히 설명합니다.",
+      "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "machine-learning",
+        "safety"
+      ],
+      "score": 61.8,
+      "published_at": "2026-04-07T18:18:36Z",
+      "final_score": 61.8
+    },
+    {
+      "id": "hacker_news-60487483",
+      "title": "I've Sold Out",
+      "title_ko": "나는 매각했다",
+      "summary_ko": "개발자가 자신의 프로젝트를 매각한 경험과 그 과정에서의 결정에 대해 이야기합니다.",
+      "url": "https://mariozechner.at/posts/2026-04-08-ive-sold-out/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "indie-dev",
+        "startup",
+        "entrepreneurship"
+      ],
+      "score": 61.3,
+      "published_at": "2026-04-08T09:21:38Z",
+      "final_score": 61.3
+    },
+    {
+      "id": "hacker_news-7761d89b",
+      "title": "GLM-5.1: Towards Long-Horizon Tasks",
+      "title_ko": "GLM-5.1: 장기 과제를 향하여",
+      "summary_ko": "GLM-5.1 모델이 발표되었으며, 장기적인 복잡한 작업을 처리하는 능력이 크게 향상되었습니다.",
+      "url": "https://z.ai/blog/glm-5.1",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "llm",
+        "research"
+      ],
+      "score": 59.8,
+      "published_at": "2026-04-07T16:32:15Z",
+      "final_score": 59.8
+    },
+    {
+      "id": "hf-bidirlm-release",
+      "title": "BidirLM: Turning Generative LLMs into the Best Open-Source Omnimodal Encoders",
+      "title_ko": "BidirLM: 생성형 LLM을 최고의 오픈소스 옴니모달 인코더로 전환",
+      "summary_ko": "생성형 LLM을 양방향 인코더로 변환하여 최고 수준의 오픈소스 옴니모달 인코더를 구현하는 BidirLM이 공개되었습니다.",
+      "url": "https://huggingface.co/blog/Nicolas-BZRD/bidirlm-release",
+      "source": "huggingface",
+      "category": "ai_research",
+      "tags": [
+        "encoder",
+        "multimodal",
+        "open-source",
+        "llm"
+      ],
+      "score": 59.1,
+      "published_at": "2026-04-08",
+      "final_score": 59.1
+    },
+    {
+      "id": "hf-darwin-v6",
+      "title": "Darwin V6: Diagnostic-Guided Evolutionary Model Merging",
+      "title_ko": "Darwin V6: 진단 가이드 진화적 모델 병합",
+      "summary_ko": "진단 기반 진화적 접근법을 통한 모델 병합 기법 Darwin V6이 공개되었습니다.",
+      "url": "https://huggingface.co/blog/FINAL-Bench/darwin-v6",
+      "source": "huggingface",
+      "category": "ai_research",
+      "tags": [
+        "model-merging",
+        "evolution",
+        "optimization"
+      ],
+      "score": 59.1,
+      "published_at": "2026-04-08",
+      "final_score": 59.1
+    },
+    {
+      "id": "eng_blogs-vercel-20260408-sandbox-snapshots",
+      "title": "Optimizing Vercel Sandbox snapshots",
+      "title_ko": "Vercel 샌드박스 스냅샷 최적화",
+      "summary_ko": "병렬화와 캐싱을 통해 Vercel 샌드박스 파일시스템 스냅샷 복원 시간을 40초에서 1초 미만으로 단축한 성능 개선 사례를 공유합니다.",
+      "url": "https://vercel.com/blog/optimizing-vercel-sandbox-snapshots",
+      "source": "Vercel Blog",
+      "category": "eng_blogs",
+      "tags": [
+        "performance",
+        "sandboxing",
+        "caching",
+        "parallelization",
+        "infrastructure"
+      ],
+      "score": 59.0,
+      "published_at": "2026-04-08T00:00:00+00:00",
+      "final_score": 59.0
+    },
+    {
+      "id": "eng_blogs-vercel-20260408-turborepo-96-percent-faster",
+      "title": "Making Turborepo 96% faster with agents, sandboxes, and humans",
+      "title_ko": "에이전트, 샌드박스, 사람으로 Turborepo를 96% 더 빠르게 만들기",
+      "summary_ko": "코딩 에이전트와 깔끔한 벤치마킹을 활용한 8일간의 최적화 작업으로 Turborepo의 태스크 그래프 계산 속도를 91% 향상시킨 과정을 소개합니다.",
+      "url": "https://vercel.com/blog/making-turborepo-ninety-six-percent-faster-with-agents-sandboxes-and-humans",
+      "source": "Vercel Blog",
+      "category": "eng_blogs",
+      "tags": [
+        "turborepo",
+        "performance",
+        "monorepo",
+        "developer-tools",
+        "optimization"
+      ],
+      "score": 59.0,
+      "published_at": "2026-04-08T00:00:00+00:00",
+      "final_score": 59.0
+    },
+    {
+      "id": "eng_blogs-vercel-20260408-knowledge-agents-without-embeddings",
+      "title": "Build knowledge agents without embeddings",
+      "title_ko": "임베딩 없이 지식 에이전트 구축하기",
+      "summary_ko": "벡터 데이터베이스 대신 파일시스템 기반으로 투명하고 디버깅 가능한 에이전트 지식 검색을 제공하는 지식 에이전트 템플릿을 소개합니다.",
+      "url": "https://vercel.com/blog/build-knowledge-agents-without-embeddings",
+      "source": "Vercel Blog",
+      "category": "eng_blogs",
+      "tags": [
+        "ai-agents",
+        "knowledge-retrieval",
+        "architecture",
+        "developer-tools"
+      ],
+      "score": 59.0,
+      "published_at": "2026-04-08T00:00:00+00:00",
+      "final_score": 59.0
+    },
+    {
+      "id": "hacker_news-5be52ef9",
+      "title": "Cambodia unveils statue to honour famous landmine-sniffing rat",
+      "title_ko": "캄보디아, 유명한 지뢰 탐지 쥐를 기리는 동상 공개",
+      "summary_ko": "캄보디아에서 수천 개의 지뢰를 탐지한 영웅 쥐 마가와를 기리는 동상이 공개되었습니다.",
+      "url": "https://www.bbc.com/news/articles/c0rx7xzd10xo",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "cambodia",
+        "landmines",
+        "animals",
+        "humanitarian"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07T17:23:43Z",
+      "final_score": 58.1
+    },
+    {
+      "id": "hacker_news-5a0b30ec",
+      "title": "S3 Files",
+      "title_ko": "S3 파일: S3의 변화하는 모습",
+      "summary_ko": "AWS S3가 파일 시스템 인터페이스를 도입하여 기존 파일 기반 워크플로우와의 호환성을 높였습니다.",
+      "url": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "aws",
+        "cloud",
+        "s3",
+        "infrastructure"
+      ],
+      "score": 57.1,
+      "published_at": "2026-04-07T19:44:01Z",
+      "final_score": 57.1
+    },
+    {
+      "id": "techcrunch-f0cb2e33",
+      "title": "Google quietly launched an AI dictation app that works offline",
+      "title_ko": "구글, 오프라인 AI 받아쓰기 앱 조용히 출시",
+      "summary_ko": "구글이 Gemma AI 모델을 활용한 오프라인 우선 받아쓰기 앱을 iOS에 출시했습니다.",
+      "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "google",
+        "ai",
+        "mobile",
+        "offline"
+      ],
+      "score": 57.0,
+      "published_at": "2026-04-08T05:40:19Z",
+      "final_score": 57.0
+    },
+    {
+      "id": "arxiv-ai-2604-04937",
+      "title": "Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya",
+      "title_ko": "프라마나: 나비야-니야야를 통한 LLM의 인식론적 추론 미세조정",
+      "summary_ko": "Sharath Sathish가 제안한 Pramana는 나비야-니야야 논리학 기반으로 LLM을 미세조정하여 6단계 구조화된 추론을 통해 AI 신뢰성을 제한하는 인식론적 격차를 해소합니다.",
+      "url": "https://arxiv.org/abs/2604.04937",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "llm",
+        "reasoning",
+        "fine-tuning",
+        "epistemology"
+      ],
+      "score": 55.6,
+      "published_at": "2026-04-07",
+      "final_score": 55.6
+    },
+    {
+      "id": "hacker_news-724b53",
+      "title": "I Ported Mac OS X to the Nintendo Wii",
+      "title_ko": "I Ported Mac OS X to the Nintendo Wii",
+      "summary_ko": "",
+      "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "hacker-news"
+      ],
+      "final_score": 84.5,
+      "published_at": "2026-04-08T15:40:00+00:00"
+    },
+    {
+      "id": "hacker_news-6d2f0f",
+      "title": "Muse Spark – Meta Superintelligence Labs",
+      "title_ko": "Muse Spark – Meta Superintelligence Labs",
+      "summary_ko": "https://ai.",
+      "url": "https://meta.ai/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "hacker-news"
+      ],
+      "final_score": 74.4,
+      "published_at": "2026-04-08T16:05:54+00:00"
+    },
+    {
+      "id": "hacker_news-02bd7f",
+      "title": "Muse Spark: Scaling Towards Personal Superintelligence",
+      "title_ko": "Muse Spark: Scaling Towards Personal Superintelligence",
+      "summary_ko": "",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "hacker-news"
+      ],
+      "final_score": 74.4,
+      "published_at": "2026-04-08T16:01:32+00:00"
+    },
+    {
+      "id": "techcrunch-768398",
+      "title": "These are the countries moving to ban social media for children",
+      "title_ko": "These are the countries moving to ban social media for children",
+      "summary_ko": "Australia was the first country to issue a ban in late 2025, aiming to reduce the pressures and risks that young users may face on social media, including cyberbullying, social media addiction, and ex...",
+      "url": "https://techcrunch.com/2026/04/08/social-media-ban-children-countries-list/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "final_score": 54.4,
+      "published_at": "2026-04-08T16:30:53+00:00"
+    },
+    {
+      "id": "techcrunch-18db91",
+      "title": "British cryptographer Adam Back denies NYT report that he is Bitcoin creator Satoshi Nakamoto",
+      "title_ko": "British cryptographer Adam Back denies NYT report that he is Bitcoin creator Satoshi Nakamoto",
+      "summary_ko": "Back, a longtime researcher and pioneer in cryptography, denies the allegation that he is the secretive creator of Bitcoin.",
+      "url": "https://techcrunch.com/2026/04/08/british-cryptographer-adam-back-denies-nyt-report-that-he-is-bitcoin-creator-satoshi-nakamoto/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "final_score": 53.9,
+      "published_at": "2026-04-08T16:03:21+00:00"
+    },
+    {
+      "id": "techcrunch-bc940f",
+      "title": "Astropad's Workbench reimagines remote desktop for AI agents, not IT support",
+      "title_ko": "Astropad's Workbench reimagines remote desktop for AI agents, not IT support",
+      "summary_ko": "Astropad's Workbench lets users remotely monitor and control AI agents on Mac Minis from iPhone or iPad, with low-latency streaming and mobile access.",
+      "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "final_score": 53.9,
+      "published_at": "2026-04-08T16:01:09+00:00"
+    },
+    {
+      "id": "techcrunch-c8364a",
+      "title": "Hackers steal and leak sensitive LAPD police documents",
+      "title_ko": "Hackers steal and leak sensitive LAPD police documents",
+      "summary_ko": "The LAPD said the breach affected \"a digital storage system\" belonging to the city's Attorney's Office.",
+      "url": "https://techcrunch.com/2026/04/08/hackers-steal-and-leak-sensitive-lapd-police-documents/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "final_score": 53.5,
+      "published_at": "2026-04-08T15:38:34+00:00"
+    },
+    {
+      "id": "techcrunch-cc0717",
+      "title": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
+      "title_ko": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
+      "summary_ko": "OpenAI's new Child Safety Blueprint aims to tackle the alarming rise in child sexual exploitation linked to advancements in AI.",
+      "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "final_score": 53.2,
+      "published_at": "2026-04-08T15:23:44+00:00"
+    },
+    {
+      "id": "7f10b03d93a8",
+      "title": "Verifying human authorship with human.json",
+      "title_ko": "Verifying human authorship with human.json",
+      "summary_ko": "",
+      "url": "https://joelchrono.xyz/blog/implementing-human-json/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "web"
+      ],
+      "final_score": 51.4,
+      "published_at": "2026-04-08T10:35:46-05:00"
+    },
+    {
+      "id": "ca2f7b70a780",
+      "title": "On Vinyl Cache and Varnish Cache",
+      "title_ko": "On Vinyl Cache and Varnish Cache",
+      "summary_ko": "",
+      "url": "https://vinyl-cache.org/organization/on_vinyl_cache_and_varnish_cache.html",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "release"
+      ],
+      "final_score": 51.2,
+      "published_at": "2026-04-08T10:20:42-05:00"
+    },
+    {
+      "id": "dd1dcff9be93",
+      "title": "Open source security at Astral",
+      "title_ko": "Open source security at Astral",
+      "summary_ko": "",
+      "url": "https://astral.sh/blog/open-source-security-at-astral",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "security"
+      ],
+      "final_score": 51.2,
+      "published_at": "2026-04-08T10:25:29-05:00"
+    },
+    {
+      "id": "25cc5e9b23d3",
+      "title": "The Future of Everything is Lies, I Guess",
+      "title_ko": "The Future of Everything is Lies, I Guess",
+      "summary_ko": "",
+      "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "ai"
+      ],
+      "final_score": 49.8,
+      "published_at": "2026-04-08T09:04:03-05:00"
+    },
+    {
+      "id": "500a3b2e0be8",
+      "title": "Full Text Search with IndexedDB",
+      "title_ko": "Full Text Search with IndexedDB",
+      "summary_ko": "",
+      "url": "https://blog.jmp.chat/b/2026-full-text-search-indexeddb",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "javascript",
+        "databases"
+      ],
+      "final_score": 49.3,
+      "published_at": "2026-04-08T08:35:27-05:00"
+    },
+    {
+      "id": "2b5a87013440",
+      "title": "Audio Reactive LED Strips Are Diabolically Hard",
+      "title_ko": "Audio Reactive LED Strips Are Diabolically Hard",
+      "summary_ko": "",
+      "url": "https://scottlawsonbc.com/post/audio-led",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "hardware",
+        "graphics"
+      ],
+      "final_score": 49.3,
+      "published_at": "2026-04-08T08:35:34-05:00"
+    },
+    {
+      "id": "devto-43dc60",
+      "title": "Tu score de accesibilidad te está mintiendo",
+      "title_ko": "Tu score de accesibilidad te está mintiendo",
+      "summary_ko": "¿Por qué seguimos tratando la accesibilidad como si fuera un test que se aprueba? Llevamos años construyendo herramientas que miden lo que pueden medir automáticamente, y mientras tanto asumimos que e...",
+      "url": "https://dev.to/jtorchia/tu-score-de-accesibilidad-te-esta-mintiendo-4efo",
+      "source": "devto",
+      "category": "news_blogs",
+      "tags": [
+        "blog",
+        "development",
+        "programming"
+      ],
+      "final_score": 48.4,
+      "published_at": "2026-04-08T16:31:06+00:00"
+    },
+    {
+      "id": "devto-a22930",
+      "title": "Your AI Agent Gets Dumber the More You Teach It. Skill Graphs Are the Fix.",
+      "title_ko": "Your AI Agent Gets Dumber the More You Teach It. Skill Graphs Are the Fix.",
+      "summary_ko": "The Context Window Paradox Nobody Warned You About\n\n\nHere's the problem nobody talks about: every time you load a large skill file into your AI agent's context, you're making it worse at reasoning.",
+      "url": "https://dev.to/o96a/your-ai-agent-gets-dumber-the-more-you-teach-it-skill-graphs-are-the-fix-1fba",
+      "source": "devto",
+      "category": "news_blogs",
+      "tags": [
+        "blog",
+        "development",
+        "programming"
+      ],
+      "final_score": 48.4,
+      "published_at": "2026-04-08T16:30:45+00:00"
+    },
+    {
+      "id": "devto-caa30d",
+      "title": "Why Your AI Coding Agent Needs a Digital Straitjacket",
+      "title_ko": "Why Your AI Coding Agent Needs a Digital Straitjacket",
+      "summary_ko": "We are giving AI coding agents way too much freedom.",
+      "url": "https://dev.to/haabe/why-your-ai-coding-agent-needs-a-digital-straitjacket-5beb",
+      "source": "devto",
+      "category": "news_blogs",
+      "tags": [
+        "blog",
+        "development",
+        "programming"
+      ],
+      "final_score": 48.3,
+      "published_at": "2026-04-08T16:27:07+00:00"
+    },
+    {
+      "id": "devto-e6148c",
+      "title": "How to Reduce Deployment Anxiety: Making Deploys Boring (Yes, Boring Is the Goal)",
+      "title_ko": "How to Reduce Deployment Anxiety: Making Deploys Boring (Yes, Boring Is the Goal)",
+      "summary_ko": "Cross-posted from the Unitix Flow Blog\n\n\nI used to dread Fridays because someone always wanted to deploy.",
+      "url": "https://dev.to/unitix_flow/how-to-reduce-deployment-anxiety-making-deploys-boring-yes-boring-is-the-goal-1ojo",
+      "source": "devto",
+      "category": "news_blogs",
+      "tags": [
+        "blog",
+        "development",
+        "programming"
+      ],
+      "final_score": 48.3,
+      "published_at": "2026-04-08T16:26:32+00:00"
+    },
+    {
+      "id": "ebc243360c1b",
+      "title": "Under the hood of MDN's new frontend",
+      "title_ko": "Under the hood of MDN's new frontend",
+      "summary_ko": "",
+      "url": "https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "web"
+      ],
+      "final_score": 44.9,
+      "published_at": "2026-04-08T04:20:30-05:00"
+    },
+    {
+      "id": "098f2d324ee0",
+      "title": "forrestchang/andrej-karpathy-skills",
+      "title_ko": "forrestchang/andrej-karpathy-skills",
+      "summary_ko": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473490"
+    },
+    {
+      "id": "29093b3e32ca",
+      "title": "google-ai-edge/gallery",
+      "title_ko": "google-ai-edge/gallery",
+      "summary_ko": "A gallery that showcases on-device ML/GenAI use cases and allows people to try and use models locally.",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473510"
+    },
+    {
+      "id": "22e8f3650109",
+      "title": "NVIDIA/personaplex",
+      "title_ko": "NVIDIA/personaplex",
+      "summary_ko": "PersonaPlex code.",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473516"
+    },
+    {
+      "id": "56bdfc6f48d8",
+      "title": "google-ai-edge/LiteRT-LM",
+      "title_ko": "google-ai-edge/LiteRT-LM",
+      "summary_ko": "Create Reddit Videos with just✨ one command ✨",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473520"
+    },
+    {
+      "id": "c3257d531a3c",
+      "title": "obra/superpowers",
+      "title_ko": "obra/superpowers",
+      "summary_ko": "An agentic skills framework &amp; software development methodology that works.",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473524"
+    },
+    {
+      "id": "4a53340cdd41",
+      "title": "newton-physics/newton",
+      "title_ko": "newton-physics/newton",
+      "summary_ko": "An open-source, GPU-accelerated physics simulation engine built upon NVIDIA Warp, specifically targeting roboticists and simulation researchers.",
+      "url": "https://github.com/newton-physics/newton",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473529"
+    },
+    {
+      "id": "46e24096af5a",
+      "title": "abhigyanpatwari/GitNexus",
+      "title_ko": "abhigyanpatwari/GitNexus",
+      "summary_ko": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive kno",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript"
+      ],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473533"
+    },
+    {
+      "id": "86aa53f1b076",
+      "title": "virattt/ai-hedge-fund",
+      "title_ko": "virattt/ai-hedge-fund",
+      "summary_ko": "An AI Hedge Fund Team",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473537"
+    },
+    {
+      "id": "2844fb5f4495",
+      "title": "goharbor/harbor",
+      "title_ko": "goharbor/harbor",
+      "summary_ko": "An open source trusted cloud native registry project that stores, signs, and scans content.",
+      "url": "https://github.com/goharbor/harbor",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473541"
+    },
+    {
+      "id": "398facd358d5",
+      "title": "TheCraigHewitt/seomachine",
+      "title_ko": "TheCraigHewitt/seomachine",
+      "summary_ko": "A specialized Claude Code workspace for creating long-form, SEO-optimized blog content for any business. This system helps you research, write, analyze, and optimize content that ranks well and serves",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473545"
+    },
+    {
+      "id": "134275397b64",
+      "title": "elebumm/RedditVideoMakerBot",
+      "title_ko": "elebumm/RedditVideoMakerBot",
+      "summary_ko": "Create Reddit Videos with just✨ one command ✨",
+      "url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "final_score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473549"
+    }
+  ]
+}

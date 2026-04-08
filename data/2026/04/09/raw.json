@@ -1,0 +1,517 @@
+{
+  "date": "2026-04-09",
+  "collected_at": "2026-04-09T01:38:11.844118+09:00",
+  "items": [
+    {
+      "id": "hacker_news-724b53",
+      "title": "I Ported Mac OS X to the Nintendo Wii",
+      "title_ko": "Mac OS X을 Nintendo Wii로 포팅했습니다.",
+      "summary_ko": "",
+      "url": "https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "hacker-news"
+      ],
+      "score": 84.5,
+      "published_at": "2026-04-08T15:40:00+00:00",
+      "detail_ko": "닌텐도 위에 Mac OS X 10.0 (Cheetah)을 이식한 기술 프로젝트입니다. 위의 PowerPC 750CL 프로세서는 구형 G3 iBook 및 iMac과 아키텍처를 공유하여 호환성을 가능하게 합니다. 저자는 부트로더 개발, 커널 패칭, 드라이버 작성 및 하드웨어 호환성 문제를 극복합니다. 88MB 메모리 제약(권장 128MB)에도 불구하고 QEMU 검증을 통해 프로젝트는 성공합니다. 이 작업은 저수준 엔지니어링과 부트 시퀀스 리버스 엔지니어링을 통해 레트로 게임 하드웨어가 레거시 운영 체제를 실행할 수 있음을 보여주며, 개발자들에게 OS 내부 및 하드웨어 추상화에 대한 통찰력을 제공합니다.",
+      "detail_en": "This technical project demonstrates porting Mac OS X 10.0 (Cheetah) to the Nintendo Wii by leveraging the PowerPC 750CL processor found in the Wii, which shares architecture with vintage G3 iBooks and iMacs. The author navigates bootloader development, kernel patching, driver writing, and hardware compatibility challenges. Despite RAM constraints (88 MB vs required 128 MB), the project succeeds by using QEMU verification. The initiative showcases how retro gaming hardware can run legacy operating systems through careful low-level engineering and reverse engineering of boot sequences, offering developers insights into OS internals and hardware abstraction layers."
+    },
+    {
+      "id": "hacker_news-6d2f0f",
+      "title": "Muse Spark – Meta Superintelligence Labs",
+      "title_ko": "뮤즈 스파크 – 메타 슈퍼 인텔리전스 연구소",
+      "summary_ko": "https://ai.",
+      "url": "https://meta.ai/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "hacker-news"
+      ],
+      "score": 74.4,
+      "published_at": "2026-04-08T16:05:54+00:00",
+      "detail_ko": "",
+      "detail_en": ""
+    },
+    {
+      "id": "hacker_news-02bd7f",
+      "title": "Muse Spark: Scaling Towards Personal Superintelligence",
+      "title_ko": "뮤즈 스파크: 개인 슈퍼 인텔리전스를 향한 확장",
+      "summary_ko": "",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "hacker-news"
+      ],
+      "score": 74.4,
+      "published_at": "2026-04-08T16:01:32+00:00",
+      "detail_ko": "메타의 Muse Spark는 개인 초지능을 향한 확장 사다리의 첫 단계로 설계된 기본적으로 멀티모달 추론 모델입니다. 도구 사용, 시각적 사고의 연쇄, 다중 에이전트 오케스트레이션이 특징입니다. 멀티모달 인식, 추론, 건강 및 에이전트 작업에서 경쟁력 있는 성능을 달성합니다. 메타는 여러 병렬 추론 에이전트를 오케스트레이션하는 Contemplating 모드를 도입하여 Humanity's Last Exam에서 58%, FrontierScience Research에서 38%를 달성합니다. Hyperion 데이터 센터를 포함한 인프라 전략적 투자를 통한 메타의 AI 노력의 근본적인 개편을 나타냅니다.",
+      "detail_en": "Meta's Muse Spark is a natively multimodal reasoning model designed as the first step in their scaling ladder toward personal superintelligence. It features tool-use capabilities, visual chain-of-thought reasoning, and multi-agent orchestration. The model achieves competitive performance in multimodal perception, reasoning, health, and agentic tasks. Meta introduces Contemplating mode, which orchestrates multiple parallel reasoning agents, achieving 58% on Humanity's Last Exam and 38% on FrontierScience Research. This represents a ground-up overhaul of Meta's AI efforts with strategic investments in infrastructure including the Hyperion data center."
+    },
+    {
+      "id": "techcrunch-768398",
+      "title": "These are the countries moving to ban social media for children",
+      "title_ko": "이들은 어린이들을 위한 소셜 미디어를 금지하기 위해 움직이는 국가들입니다.",
+      "summary_ko": "호주는 2025년 후반에 사이버 괴롭힘, 소셜 미디어 중독 및 전과 같은 젊은 사용자가 소셜 미디어에서 직면할 수 있는 압력과 위험을 줄이기 위해 금지 조치를 내린 최초의 국가였습니다.",
+      "url": "https://techcrunch.com/2026/04/08/social-media-ban-children-countries-list/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "score": 54.4,
+      "published_at": "2026-04-08T16:30:53+00:00",
+      "detail_ko": "자녀를 위한 소셜 미디어 금지를 시행하는 국가들의 정책 이니셔티브에 관한 TechCrunch 기사입니다. 정신 건강 영향, 온라인 안전, 연령에 맞는 디지털 접근에 대한 우려에 대해 다룹니다.",
+      "detail_en": "File content not fully extracted. TechCrunch article about policy initiatives across countries implementing social media bans for children to address concerns about mental health impacts, online safety, and age-appropriate digital access."
+    },
+    {
+      "id": "techcrunch-18db91",
+      "title": "British cryptographer Adam Back denies NYT report that he is Bitcoin creator Satoshi Nakamoto",
+      "title_ko": "영국의 암호학자 애덤 백 (Adam Back) 은 자신이 비트코인 제작자 사토시 나카모토 (Satoshi Nakamoto) 라는 NYT 보고서를 부인합니다",
+      "summary_ko": "오랜 연구자이자 암호학의 선구자인 Back은 자신이 비트코인의 비밀스런 창조자라는 주장을 부인합니다.",
+      "url": "https://techcrunch.com/2026/04/08/british-cryptographer-adam-back-denies-nyt-report-that-he-is-bitcoin-creator-satoshi-nakamoto/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "score": 53.9,
+      "published_at": "2026-04-08T16:03:21+00:00",
+      "detail_ko": "블록스트림의 CEO이자 영국의 암호화 전문가인 Adam Back이 자신이 비트코인 창시자 Satoshi Nakamoto라는 뉴욕타임즈 보도를 부인합니다. Back은 비트코인 이전의 암호화 및 해시캐시 기술의 개척 작업으로 인해 이전에 가능한 후보로 추측되었습니다. 이 부인은 암호화폐 개발에서의 그의 역할을 명확히 하면서 블록체인 기술의 영향력 있는 인물로서의 위치를 유지합니다.",
+      "detail_en": "Adam Back, British cryptographer and CEO of Blockstream, denies New York Times report alleging he is Bitcoin's creator Satoshi Nakamoto. Back has previously been speculated as a possible candidate due to his pioneering work in cryptography and hash cash technology that predates Bitcoin. The denial clarifies his role in cryptocurrency development while maintaining his position as influential figure in blockchain technology."
+    },
+    {
+      "id": "techcrunch-bc940f",
+      "title": "Astropad's Workbench reimagines remote desktop for AI agents, not IT support",
+      "title_ko": "Astropad의 Workbench는 IT 지원이 아닌 AI 상담원을 위한 원격 데스크톱을 재구상합니다.",
+      "summary_ko": "Astropad의 Workbench를 사용하면 대기 시간이 짧은 스트리밍 및 모바일 액세스를 통해 iPhone 또는 iPad에서 Mac Minis의 AI 에이전트를 원격으로 모니터링하고 제어할 수 있습니다.",
+      "url": "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "score": 53.9,
+      "published_at": "2026-04-08T16:01:09+00:00",
+      "detail_ko": "Astropad의 Workbench 소프트웨어에 관한 TechCrunch 기사입니다. AI 에이전트가 원격으로 데스크톱 환경 및 애플리케이션과 상호작용할 수 있도록 특별히 설계된 도구로, IT 지원 및 인간 사용자를 위한 전통적인 원격 데스크톱 솔루션과는 구별됩니다.",
+      "detail_en": "File content not fully extracted. TechCrunch article about Astropad's Workbench software, a tool designed specifically for AI agents to interact with desktop environments and applications remotely, distinct from traditional remote desktop solutions built for IT support and human users."
+    },
+    {
+      "id": "techcrunch-c8364a",
+      "title": "Hackers steal and leak sensitive LAPD police documents",
+      "title_ko": "해커가 민감한 LAPD 경찰 문서를 훔쳐 유출",
+      "summary_ko": "LAPD는 이 위반이 시 검찰청에 속한 \"디지털 스토리지 시스템\" 에 영향을 미쳤다고 밝혔다.",
+      "url": "https://techcrunch.com/2026/04/08/hackers-steal-and-leak-sensitive-lapd-police-documents/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "score": 53.5,
+      "published_at": "2026-04-08T15:38:34+00:00",
+      "detail_ko": "로스앤젤레스 경찰청(LAPD) 시스템에 대한 무단 접근을 포함한 보안 사건입니다. 민감한 법 집행 문서의 도용 및 공개로 인해 경찰 데이터 보안 및 수사 무결성에 대한 우려가 제기됩니다.",
+      "detail_en": "File content not fully extracted. Security incident involving unauthorized access to Los Angeles Police Department systems, resulting in theft and public disclosure of sensitive law enforcement documents, raising concerns about police data security and investigative integrity."
+    },
+    {
+      "id": "techcrunch-cc0717",
+      "title": "OpenAI releases a new safety blueprint to address the rise in child sexual exploitation",
+      "title_ko": "OpenAI, 아동 성 착취의 증가를 해결하기 위한 새로운 안전 청사진 발표",
+      "summary_ko": "OpenAI의 새로운 아동 안전 청사진은 AI의 발전과 관련된 아동 성 착취의 놀라운 증가를 해결하는 것을 목표로 합니다.",
+      "url": "https://techcrunch.com/2026/04/08/openai-releases-a-new-safety-blueprint-to-address-the-rise-in-child-sexual-exploitation/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "news",
+        "technology",
+        "startup"
+      ],
+      "score": 53.2,
+      "published_at": "2026-04-08T15:23:44+00:00",
+      "detail_ko": "OpenAI가 아동 성적 착취 물질(CSEM) 생성 및 온라인 배포에 대응하기 위한 포괄적 안전 프레임워크 및 기술적 조치를 도입합니다. 아동 안전 맥락에서 AI 오용에 대한 우려가 증가하고 있습니다.",
+      "detail_en": "File content not fully extracted. OpenAI introduces comprehensive safety framework and technical measures to combat child sexual exploitation material (CSEM) generation and distribution online, addressing growing concerns about AI misuse in child safety contexts."
+    },
+    {
+      "id": "7f10b03d93a8",
+      "title": "Verifying human authorship with human.json",
+      "title_ko": "Human.json으로 인간 저작자 확인하기",
+      "summary_ko": "",
+      "url": "https://joelchrono.xyz/blog/implementing-human-json/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "web"
+      ],
+      "score": 51.4,
+      "published_at": "2026-04-08T10:35:46-05:00",
+      "detail_ko": "human.json 프로토콜을 구현한 블로그 게시물입니다. 이는 웹사이트가 다른 사이트의 인간 저작권을 보증할 수 있도록 하는 분산 시스템입니다. 저자는 Jekyll을 통해 JSON으로 변환되는 YAML 데이터 파일을 작성하여 웹사이트 소유자가 인간이 만든 콘텐츠에 대한 신뢰 네트워크를 구축할 수 있게 합니다. 프로토콜에는 검증 상태를 표시하는 브라우저 확장 프로그램이 포함됩니다. 저자는 특히 AI 생성 자산과 근본적으로 인간이 만든 작업과 관련하여 인간이 만든 콘텐츠로 무엇을 고려할지에 관한 윤리적 고려사항을 논의합니다.",
+      "detail_en": "A blog post implementing the human.json protocol, a decentralized system allowing websites to vouch for human authorship of other sites. The author creates a YAML data file transformed into JSON through Jekyll, enabling website owners to build a web of trust for human-created content. The protocol includes a browser extension that displays verification status. The author discusses ethical considerations about what qualifies as human-made content, particularly regarding AI-generated assets versus fundamentally human-created work."
+    },
+    {
+      "id": "ca2f7b70a780",
+      "title": "On Vinyl Cache and Varnish Cache",
+      "title_ko": "비닐 캐시 및 바니시 캐시에",
+      "summary_ko": "",
+      "url": "https://vinyl-cache.org/organization/on_vinyl_cache_and_varnish_cache.html",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "release"
+      ],
+      "score": 51.2,
+      "published_at": "2026-04-08T10:20:42-05:00",
+      "detail_ko": "Varnish Cache의 보안 중심 포크인 Vinyl Cache에 관한 기술 문서입니다. Varnish Cache는 HTTP 캐싱 리버스 프록시입니다. 페이지는 HTTP/2 공격, 요청 스머글링, DoS 공격 및 데이터 누출을 포함하여 Varnish Cache에 영향을 미치는 수많은 보안 취약점(VSV 시리즈)을 나열합니다. 다양한 Varnish Cache 버전에 대한 릴리스 및 보안 공지를 추적하며 캐시 인프라 문제에 대한 보안 데이터베이스로 제공됩니다.",
+      "detail_en": "Technical documentation about Vinyl Cache, a security-focused fork or variant of Varnish Cache (an HTTP caching reverse proxy). The page lists numerous security vulnerabilities (VSV series) affecting Varnish Cache including HTTP/2 attacks, request smuggling, DoS attacks, and data leaks. It tracks releases and provides security advisories for various Varnish Cache versions, serving as a security database for cache infrastructure issues."
+    },
+    {
+      "id": "dd1dcff9be93",
+      "title": "Open source security at Astral",
+      "title_ko": "Astral의 오픈 소스 보안",
+      "summary_ko": "",
+      "url": "https://astral.sh/blog/open-source-security-at-astral",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "security"
+      ],
+      "score": 51.2,
+      "published_at": "2026-04-08T10:25:29-05:00",
+      "detail_ko": "Astral은 수백만 개발자가 의존하는 개발 도구를 만드는 회사로, 공급망 공격 증가에 따라 보안 강화에 주력하고 있습니다. GitHub Actions 기반 CI/CD 워크플로우를 통해 개발과 릴리스 프로세스를 안전하고 관찰 가능한 환경에서 관리하고 있습니다. pwn request 같은 GitHub Actions의 일반적인 보안 취약점들을 해결하기 위해 고급 기술들을 적용하고 있으며, 이러한 경험을 업계와 공유하여 다른 프로젝트들도 견고한 보안 체계를 구축하도록 돕고 있습니다.",
+      "detail_en": "Astral, a company building developer tools trusted by millions, is strengthening its security practices in response to rising supply chain attacks like those affecting Trivy and LiteLLM. The company uses GitHub Actions-based CI/CD workflows to keep critical development and release processes in controlled, observable environments away from local developer machines. Astral is addressing GitHub Actions' poor security defaults and well-known vulnerabilities like pwn requests, sharing these security techniques with the community to help other projects maintain robust and secure development processes."
+    },
+    {
+      "id": "25cc5e9b23d3",
+      "title": "The Future of Everything is Lies, I Guess",
+      "title_ko": "모든 것의 미래는 거짓말입니다.",
+      "summary_ko": "",
+      "url": "https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "ai"
+      ],
+      "score": 49.8,
+      "published_at": "2026-04-08T09:04:03-05:00",
+      "detail_ko": "Kyle Kingsbury의 이 글은 현대 LLM(대규모언어모델)의 능력과 한계를 비판적으로 분석합니다. LLM은 훈련된 데이터에서 통계적으로 가능성 높은 답변을 생성하는 '거짓말 기계'로, 스스로의 행동을 정확히 설명할 수 없고 자주 거짓된 정보를 생성합니다. 개별 작업에서는 뛰어난 능력을 보이지만, 경계가 불규칙하게 분포하는 문제(jagged frontier)를 가지고 있으며, 이는 AI 시스템의 신뢰성과 안전성에 대한 우려를 증가시키고 있습니다.",
+      "detail_en": "Kyle Kingsbury critically examines modern LLMs as sophisticated statistical machines that generate plausible-sounding but often unreliable outputs. LLMs cannot accurately explain their own behavior and frequently confabulate facts, resembling 'bullshit machines' rather than truly intelligent systems. While showing impressive capability in specific tasks, they exhibit a jagged competence frontier—excelling unpredictably in some areas while failing catastrophically in others. This irregular pattern, combined with constant hallucination and inability to reason reliably, raises fundamental concerns about deploying these systems in critical applications."
+    },
+    {
+      "id": "500a3b2e0be8",
+      "title": "Full Text Search with IndexedDB",
+      "title_ko": "IndexedDB로 전체 텍스트 검색",
+      "summary_ko": "",
+      "url": "https://blog.jmp.chat/b/2026-full-text-search-indexeddb",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "javascript",
+        "databases"
+      ],
+      "score": 49.3,
+      "published_at": "2026-04-08T08:35:27-05:00",
+      "detail_ko": "IndexedDB를 사용하는 웹 애플리케이션에서 채팅 메시지 히스토리의 전체 텍스트 검색을 구현하는 방법을 다룹니다. 간단한 테이블 스캔부터 시작하여 토큰화, 불용어 제거, 어간 추출 등 기본적인 자연어 처리 기법을 소개합니다. 소규모 데이터셋(10k 문서 이하)에서는 테이블 스캔이 충분히 빠르고 간단하지만, 더 큰 데이터셋을 위한 최적화된 접근 방식도 제시합니다.",
+      "detail_en": "This article explores implementing full-text search on IndexedDB for locally-stored chat history in web applications. It starts with the simplest approach—table scans—suitable for small datasets (under 10k documents), then demonstrates tokenization, stopword filtering, and stemming techniques. The piece provides practical JavaScript examples for building search functionality and discusses performance considerations and optimization strategies for handling larger datasets efficiently."
+    },
+    {
+      "id": "2b5a87013440",
+      "title": "Audio Reactive LED Strips Are Diabolically Hard",
+      "title_ko": "오디오 반응 LED 스트립은 악마처럼 단단합니다",
+      "summary_ko": "",
+      "url": "https://scottlawsonbc.com/post/audio-led",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "hardware",
+        "graphics"
+      ],
+      "score": 49.3,
+      "published_at": "2026-04-08T08:35:34-05:00",
+      "detail_ko": "Scott Lawson은 2016년부터 진행 중인 오디오 반응 LED 스트립 프로젝트의 10년 진화 과정을 기록했습니다. 단순한 음량 감지에서 시작하여 FFT와 멜 스케일(mel scale) 기반의 주파수 분석으로 발전했으며, 신경망을 통한 음악 지각 모델링의 중요성을 강조합니다. 픽셀 부족(pixel poverty) 문제 해결과 감마 보정, 색 이론 등을 통해 시각적으로 음악을 표현하는 것이 얼마나 어려운지를 보여줍니다.",
+      "detail_en": "Scott Lawson documents a decade-long evolution of his popular audio-reactive LED strip visualizer, which has gained 2,800+ GitHub stars. Starting from simple volume detection, the project evolved through FFT analysis to mel-scale frequency mapping, incorporating perceptual audio models. The core challenge—pixel poverty—requires selecting only the most musically-relevant features for limited LED count. The work demonstrates deep insights into human audio perception, signal processing, gamma correction, and color theory applied to real-time visualization."
+    },
+    {
+      "id": "devto-43dc60",
+      "title": "Tu score de accesibilidad te está mintiendo",
+      "title_ko": "Tu score de accesibilidad te está mintiendo",
+      "summary_ko": "¿Por qué seguimos tratando la accesibilidad como si fuera un test que se aprueba? Llevamos años construyendo herramientas que miden lo que pueden medir automáticamente, y mientras tanto asumimos que e...",
+      "url": "https://dev.to/jtorchia/tu-score-de-accesibilidad-te-esta-mintiendo-4efo",
+      "source": "devto",
+      "category": "news_blogs",
+      "tags": [
+        "blog",
+        "development",
+        "programming"
+      ],
+      "score": 48.4,
+      "published_at": "2026-04-08T16:31:06+00:00",
+      "detail_ko": "Juan Torchia는 웹 접근성 점수가 실제 사용자 경험을 제대로 반영하지 못한다고 지적합니다. Lighthouse와 axe-core는 자동으로 검증 가능한 것(색상 대비, alt 속성, 폼 레이블 등)만 측정하지만, 전체 접근성 문제의 30-40%만 해결합니다. 나머지 60%는 aria-label의 문맥 적절성, 키보드 네비게이션 흐름, 동적 상태 공지의 타이밍 같은 인간의 검토가 필요한 항목들입니다.",
+      "detail_en": "Juan Torchia argues that accessibility scores don't reflect real user experience. Automated tools like Lighthouse and axe-core only check automatically-verifiable aspects (color contrast, alt attributes, form labels)—covering just 30-40% of actual accessibility issues. The remaining 60% requires human testing, including contextual aria-label relevance, keyboard navigation clarity, and proper timing of dynamic announcements. Manual auditing with screen reader users reveals problems automated tools cannot detect."
+    },
+    {
+      "id": "devto-a22930",
+      "title": "Your AI Agent Gets Dumber the More You Teach It. Skill Graphs Are the Fix.",
+      "title_ko": "AI 에이전트는 가르칠수록 멍청해집니다. 기술 그래프가 수정되었습니다.",
+      "summary_ko": "아무도 경고하지 않은 상황 창 패러독스\n\n\n아무도 이야기하지 않는 문제는 다음과 같습니다. 대용량 스킬 파일을 AI 상담원의 컨텍스트에 로드할 때마다 추론 능력이 저하됩니다.",
+      "url": "https://dev.to/o96a/your-ai-agent-gets-dumber-the-more-you-teach-it-skill-graphs-are-the-fix-1fba",
+      "source": "devto",
+      "category": "news_blogs",
+      "tags": [
+        "blog",
+        "development",
+        "programming"
+      ],
+      "score": 48.4,
+      "published_at": "2026-04-08T16:30:45+00:00",
+      "detail_ko": "AI 에이전트에 많은 스킬과 지식을 로드할수록 추론 능력이 저하되는 역설적 문제를 다룹니다. Chroma의 2025년 연구에 따르면 입력 길이 증가에 따라 GPT-4.1, Claude, Gemini 2.5 등 대형 모델들의 성능이 선형적으로 감소합니다. 단순한 벡터 검색 RAG로는 충분하지 않으며, 스킬 그래프 아키텍처처럼 지식을 구조화하여 모델의 주의(attention)를 집중시키는 새로운 접근이 필요합니다.",
+      "detail_en": "This piece identifies a paradox in AI agent design: adding more knowledge to an agent's context degrades its reasoning performance. Chroma's 2025 study shows frontier models like GPT-4.1, Claude, and Gemini 2.5 have linearly degrading performance as context length increases. Traditional monolithic skill files overwhelm attention mechanisms. The article proposes skill graphs as an alternative architecture—structuring domain knowledge hierarchically rather than loading everything into context, enabling better reasoning about relevant information."
+    },
+    {
+      "id": "devto-caa30d",
+      "title": "Why Your AI Coding Agent Needs a Digital Straitjacket",
+      "title_ko": "AI 코딩 에이전트가 디지털 스트레이트 재킷을 필요로 하는 이유",
+      "summary_ko": "우리는 AI 코딩 에이전트에게 너무 많은 자유를 주고 있습니다.",
+      "url": "https://dev.to/haabe/why-your-ai-coding-agent-needs-a-digital-straitjacket-5beb",
+      "source": "devto",
+      "category": "news_blogs",
+      "tags": [
+        "blog",
+        "development",
+        "programming"
+      ],
+      "score": 48.3,
+      "published_at": "2026-04-08T16:27:07+00:00",
+      "detail_ko": "Håvard Bartnes는 AI 코딩 에이전트에 더 많은 제약(digital straitjacket)이 필요하다고 주장합니다. 에이전트는 인간과 같은 지름길과 실수를 극도로 빠르게 반복하므로, 제품 프레임워크와 최적 실천법을 강제하는 미들웨어가 필수적입니다. 그는 Claude Code 같은 도구를 통해 에이전트가 유지보수 가능하고 가치 있는 결과물을 생성하도록 제한하는 방법을 탐색했습니다.",
+      "detail_en": "Håvard Bartnes argues AI coding agents need tighter constraints ('digital straitjackets') to ensure quality output. Agents replicate human shortcuts and mistakes at 100x speed without proper guardrails, making middleware that enforces product frameworks and best practices essential. His experience moving from AWS to Claude Code revealed how mechanical constraints during the delivery phase can harness agent productivity while maintaining code quality and team satisfaction—achieving Better Value Sooner Safer Happier (BVSSH)."
+    },
+    {
+      "id": "devto-e6148c",
+      "title": "How to Reduce Deployment Anxiety: Making Deploys Boring (Yes, Boring Is the Goal)",
+      "title_ko": "배포 불안을 줄이는 방법: 지루하게 배포하기 (예, 지루한 것이 목표입니다)",
+      "summary_ko": "Unitix Flow 블로그에서 교차 게시됨\n\n\n저는 누군가가 항상 배치를 원했기 때문에 금요일을 두려워하곤 했습니다.",
+      "url": "https://dev.to/unitix_flow/how-to-reduce-deployment-anxiety-making-deploys-boring-yes-boring-is-the-goal-1ojo",
+      "source": "devto",
+      "category": "news_blogs",
+      "tags": [
+        "blog",
+        "development",
+        "programming"
+      ],
+      "score": 48.3,
+      "published_at": "2026-04-08T16:26:32+00:00",
+      "detail_ko": "배포 불안감(deployment anxiety)은 개인의 성격이 아닌 불신할만한 프로세스에 대한 합리적 반응입니다. 배포 윈도우 축소, 배치 누적, 영웅적 배포자에 대한 의존성이 순환적 악순환을 만듭니다. 근본 원인은 이전의 실패 경험, 낮은 가시성, 롤백 불가능성, 자동화 부족, 승인 복잡성입니다. 작은 배포, 자동화된 테스트, 롤백 능력, 실시간 모니터링을 통해 배포를 '지루한' 일상 작업으로 변환할 수 있습니다.",
+      "detail_en": "Deployment anxiety stems from processes that lack confidence, not personality traits. Symptoms include shrinking deploy windows, batch accumulation, single-person deploy heroes, and VP-level approvals. Root causes include previous pain, low visibility, missing rollback safety, automation gaps, and approval overhead. Solutions include smaller batch deployments, comprehensive automated testing, quick rollback capabilities, and real-time visibility dashboards—transforming deployment into a routine, low-risk operation rather than a high-stakes event."
+    },
+    {
+      "id": "ebc243360c1b",
+      "title": "Under the hood of MDN's new frontend",
+      "title_ko": "MDN의 새로운 프론트엔드 후드 아래",
+      "summary_ko": "",
+      "url": "https://developer.mozilla.org/en-US/blog/mdn-front-end-deep-dive/",
+      "source": "lobsters",
+      "category": "community",
+      "tags": [
+        "web"
+      ],
+      "score": 44.9,
+      "published_at": "2026-04-08T04:20:30-05:00",
+      "detail_ko": "MDN은 최근 프론트엔드를 전면 재구축했습니다. 새로운 아키텍처는 기술 선택, 아키텍처 결정, 재구축이 필요했던 이유를 포함하고 있습니다. 페이지 내용 구조와 기술 스택이 대폭 개선되었으며, 성능, 접근성, 사용자 경험을 중심으로 설계되었습니다.",
+      "detail_en": "MDN Web Docs underwent a significant frontend rebuild. The article details the architectural decisions, technology choices, and rationale behind the complete redesign. The new frontend improves content structure and technical infrastructure while maintaining MDN's mission as a comprehensive web development resource. Focus areas include performance optimization, accessibility compliance, and enhanced user experience across the documentation platform."
+    },
+    {
+      "id": "098f2d324ee0",
+      "title": "forrestchang/andrej-karpathy-skills",
+      "title_ko": "forrestchang/andrej-karpathy-skills",
+      "summary_ko": "모든 비즈니스를 위한 긴 형식의 SEO에 최적화된 블로그 콘텐츠를 만들기 위한 전문 Claude Code 작업 공간입니다. 이 시스템은 순위를 높이고 서비스를 제공하는 콘텐츠를 조사, 작성, 분석 및 최적화하는 데 도움이 됩니다.",
+      "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473490",
+      "detail_ko": "이 GitHub 저장소는 머신 러닝 연구자 Andrej Karpathy의 개발 및 학습 방법론을 체계적으로 정리한 프로젝트입니다. AI/머신러닝 커뮤니티가 그의 접근법과 실천법을 학습할 수 있도록 개발 스킬과 사고방식을 문서화하고 있습니다.",
+      "detail_en": "This GitHub repository compiles Andrej Karpathy's development and learning methodologies. It documents his technical skills and problem-solving approaches as a machine learning research pioneer, enabling the AI community to learn from his practices and thought processes. The project serves as a resource for understanding effective strategies in deep learning research and implementation."
+    },
+    {
+      "id": "29093b3e32ca",
+      "title": "google-ai-edge/gallery",
+      "title_ko": "google-ai-edge/gallery",
+      "summary_ko": "장치 내 ML/GenAI 사용 사례를 보여주고 사람들이 로컬에서 모델을 시도하고 사용할 수 있는 갤러리입니다.",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473510",
+      "detail_ko": "Google AI Edge Gallery는 온디바이스 머신러닝과 생성형 AI 사용 사례를 보여주는 갤러리입니다. 사용자가 다양한 ML/GenAI 모델을 로컬 환경에서 직접 시도하고 사용할 수 있도록 제공됩니다. 엣지 디바이스에서의 AI 모델 배포와 실행에 중점을 두고 있으며, 실무 개발자와 연구자들이 온디바이스 AI 기술을 탐색할 수 있는 실질적인 플랫폼입니다.",
+      "detail_en": "Google AI Edge Gallery is a curated collection showcasing on-device machine learning and generative AI applications. It enables users to explore and experiment with various ML/GenAI models directly in local environments. The platform focuses on practical deployment of AI models on edge devices, providing developers and researchers with hands-on experience in building on-device AI solutions. It serves as both an educational resource and a practical reference for implementing edge-based AI applications."
+    },
+    {
+      "id": "22e8f3650109",
+      "title": "NVIDIA/personaplex",
+      "title_ko": "NVIDIA/PERSONAPLEX",
+      "summary_ko": "페르소나플렉스 코드.",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473516",
+      "detail_ko": "NVIDIA PersonaPlex는 개인화된 대형 언어 모델 개발을 위한 프레임워크와 코드입니다. 사용자별 특성과 선호도에 맞춰진 맞춤형 AI 모델을 구축할 수 있는 기술을 제공합니다. NVIDIA의 고성능 컴퓨팅 인프라를 활용하여 대규모 개인화 모델을 효율적으로 학습하고 배포하는 데 초점을 맞추고 있습니다.",
+      "detail_en": "NVIDIA PersonaPlex is a framework and implementation for developing personalized large language models. It provides techniques for building AI models customized to individual user characteristics and preferences. The project leverages NVIDIA's high-performance computing infrastructure to efficiently train and deploy large-scale personalized models. It focuses on enabling scalable personalization of language models across diverse user bases."
+    },
+    {
+      "id": "56bdfc6f48d8",
+      "title": "google-ai-edge/LiteRT-LM",
+      "title_ko": "google-ai-edge/LiteRT-LM",
+      "summary_ko": "단 ✨ 한 번의 명령으로 Reddit 동영상 만들기 ✨",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473520",
+      "detail_ko": "Google AI Edge의 LiteRT-LM은 온디바이스에서 실행되는 경량 언어 모델입니다. 모바일 기기, 임베디드 시스템 등 제한된 리소스 환경에서도 고성능의 언어 모델을 활용할 수 있도록 설계되었습니다. 오픈소스로 제공되어 개발자들이 자신의 프로젝트에 맞춰 커스터마이징하고 배포할 수 있습니다.",
+      "detail_en": "Google AI Edge's LiteRT-LM is a lightweight language model designed for on-device execution. It enables high-performance language model inference on resource-constrained devices including mobile phones and embedded systems. The project is open-source, allowing developers to customize and deploy language models according to their specific project requirements. It emphasizes efficiency and reduced latency for edge-based natural language processing."
+    },
+    {
+      "id": "c3257d531a3c",
+      "title": "obra/superpowers",
+      "title_ko": "obra/superpowers",
+      "summary_ko": "에이전트 기술 프레임워크 및 소프트웨어 개발 방법론이 작동합니다.",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473524",
+      "detail_ko": "Superpowers는 에이전트 기반의 스킬 프레임워크와 소프트웨어 개발 방법론입니다. AI 에이전트가 다양한 작업을 자동으로 수행할 수 있도록 스킬 기반의 아키텍처를 제공합니다. 실증된 개발 방법론을 통해 에이전트 기반 시스템의 구축과 배포를 효율적으로 관리할 수 있게 합니다.",
+      "detail_en": "Superpowers is an agentic skills framework combined with a proven software development methodology. It provides a skill-based architecture enabling AI agents to perform diverse tasks autonomously. The framework offers practical approaches for building and managing agent-based systems through tested development practices. It emphasizes creating functional agentic applications that integrate multiple capabilities seamlessly."
+    },
+    {
+      "id": "4a53340cdd41",
+      "title": "newton-physics/newton",
+      "title_ko": "뉴턴-물리학/뉴턴",
+      "summary_ko": "NVIDIA WARP를 기반으로 구축된 오픈 소스, GPU 가속 물리 시뮬레이션 엔진으로, 특히 로봇 공학자 및 시뮬레이션 연구원을 대상으로 합니다.",
+      "url": "https://github.com/newton-physics/newton",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473529",
+      "detail_ko": "Newton은 NVIDIA Warp 기반의 오픈소스 GPU 가속 물리 시뮬레이션 엔진입니다. 로봇공학자와 시뮬레이션 연구자들을 위해 특별히 설계되었으며, 복잡한 물리 현상을 고속으로 계산할 수 있습니다. 로봇 제어, 동역학 시뮬레이션, 강화학습 환경 구성 등 다양한 응용에 활용됩니다.",
+      "detail_en": "Newton is an open-source GPU-accelerated physics simulation engine built on NVIDIA Warp, specifically designed for roboticists and simulation researchers. It enables high-speed computation of complex physical phenomena with GPU acceleration. The engine supports various applications including robot control, dynamics simulation, and reinforcement learning environment creation. It provides efficient and scalable physics-based simulations for advanced robotics research."
+    },
+    {
+      "id": "46e24096af5a",
+      "title": "abhigyanpatwari/GitNexus",
+      "title_ko": "abhigyanpatwari/GitNexus",
+      "summary_ko": "GitNexus: 제로 서버 코드 인텔리전스 엔진 - GitNexus는 전적으로 브라우저에서 실행되는 클라이언트 측 지식 그래프 작성자입니다. GitHub 저장소 또는 ZIP 파일을 드롭하고 대화형 kno를 가져옵니다.",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "TypeScript"
+      ],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473533",
+      "detail_ko": "GitNexus는 영 서버 아키텍처 기반의 코드 인텔리전스 엔진입니다. 브라우저에서 완전히 작동하는 클라이언트 기반 지식 그래프 생성기로, GitHub 저장소나 ZIP 파일을 업로드하면 대화형 지식 그래프와 내장된 Graph RAG 에이전트를 제공합니다. 코드 탐색과 이해를 위한 강력한 도구입니다.",
+      "detail_en": "GitNexus is a Zero-Server Code Intelligence Engine operating entirely client-side in the browser. It generates interactive knowledge graphs from GitHub repositories or ZIP files, featuring a built-in Graph RAG Agent for enhanced code understanding. The tool enables developers to explore and comprehend code structures without backend dependencies. It serves as a powerful aid for code exploration, architecture analysis, and codebase comprehension."
+    },
+    {
+      "id": "86aa53f1b076",
+      "title": "virattt/ai-hedge-fund",
+      "title_ko": "virattt/ai-hedge-fund",
+      "summary_ko": "AI 헤지 펀드 팀",
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473537",
+      "detail_ko": "AI Hedge Fund는 인공지능 기술을 활용한 투자 팀 시뮬레이션 프로젝트입니다. 여러 AI 에이전트가 협력하여 투자 의사결정을 수행하는 시스템을 구현합니다. 시장 분석, 포트폴리오 관리, 리스크 평가 등 헤지펀드의 다양한 기능을 AI 에이전트 팀으로 모델링합니다.",
+      "detail_en": "AI Hedge Fund is a project demonstrating investment team simulation using artificial intelligence. It implements a system where multiple AI agents collaborate to make investment decisions. The project models various hedge fund functions including market analysis, portfolio management, and risk assessment through an AI agent team. It showcases practical applications of multi-agent systems in financial decision-making."
+    },
+    {
+      "id": "2844fb5f4495",
+      "title": "goharbor/harbor",
+      "title_ko": "고하버/하버",
+      "summary_ko": "콘텐츠를 저장, 서명 및 스캔하는 오픈 소스 신뢰할 수 있는 클라우드 기본 레지스트리 프로젝트입니다.",
+      "url": "https://github.com/goharbor/harbor",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473541",
+      "detail_ko": "Harbor는 오픈소스 신뢰 기반 클라우드 네이티브 레지스트리 프로젝트입니다. 컨테이너 이미지와 아티팩트를 저장, 서명, 스캔할 수 있는 엔터프라이즈급 이미지 레지스트리입니다. 보안, 접근 제어, 취약점 스캔 등 프로덕션 환경에 필요한 다양한 기능을 제공합니다.",
+      "detail_en": "Harbor is an open-source, enterprise-grade container image registry project. It provides trusted storage, signing, and scanning capabilities for container images and artifacts in cloud-native environments. The project includes security features such as access control, vulnerability scanning, and compliance checking. It serves as a critical component for secure container image management in production Kubernetes environments."
+    },
+    {
+      "id": "398facd358d5",
+      "title": "TheCraigHewitt/seomachine",
+      "title_ko": "TheCraigHewitt/seomachine",
+      "summary_ko": "모든 비즈니스를 위한 긴 형식의 SEO에 최적화된 블로그 콘텐츠를 만들기 위한 전문 Claude Code 작업 공간입니다. 이 시스템은 순위를 높이고 서비스를 제공하는 콘텐츠를 조사, 작성, 분석 및 최적화하는 데 도움이 됩니다.",
+      "url": "https://github.com/TheCraigHewitt/seomachine",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473545",
+      "detail_ko": "SEO Machine은 장문의 SEO 최적화 블로그 콘텐츠를 작성하기 위한 Claude Code 전문 워크스페이스입니다. 어떤 비즈니스든 검색 엔진에 잘 노출되고 타겟 고객에게 효과적인 장문의 콘텐츠를 작성, 분석, 최적화할 수 있게 지원합니다.",
+      "detail_en": "SEO Machine is a specialized Claude Code workspace designed for creating long-form, SEO-optimized blog content. It provides comprehensive tools for researching, writing, analyzing, and optimizing content that ranks well in search engines while serving target audiences effectively. The workspace helps businesses develop high-quality, search-optimized content strategies that drive organic traffic and engagement."
+    },
+    {
+      "id": "134275397b64",
+      "title": "elebumm/RedditVideoMakerBot",
+      "title_ko": "elebumm/RedditVideoMakerBot",
+      "summary_ko": "단 ✨ 한 번의 명령으로 Reddit 동영상 만들기 ✨",
+      "url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "Python"
+      ],
+      "score": 44.0,
+      "published_at": "2026-04-09T01:35:35.473549",
+      "detail_ko": "RedditVideoMakerBot는 Reddit 콘텐츠를 자동으로 변환하여 영상으로 만드는 도구입니다. 한 줄의 명령어만으로 Reddit 게시물을 비디오 형식으로 변환할 수 있으며, 자막, 음성, 시각 효과를 자동으로 추가합니다. 콘텐츠 크리에이터들이 Reddit 콘텐츠를 활용하여 소셜 미디어 영상을 빠르게 제작할 수 있게 합니다.",
+      "detail_en": "RedditVideoMakerBot is an automation tool that transforms Reddit content into video format. With a single command, it converts Reddit posts into complete videos with automatic captions, voiceovers, and visual effects. The tool enables content creators to quickly produce social media-ready videos by leveraging Reddit's rich content ecosystem. It streamlines the video production workflow for creators seeking to repurpose Reddit discussions into engaging video content."
+    }
+  ],
+  "meta": {
+    "total_collected": 169,
+    "after_dedup": 160,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "ai_research",
+      "community",
+      "eng_blogs",
+      "github_oss",
+      "news_blogs"
+    ],
+    "sources_failed": [
+      "community.json"
+    ]
+  }
+}

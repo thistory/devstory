@@ -1,0 +1,617 @@
+{
+  "date": "2026-04-08",
+  "collected_at": "2026-04-08T11:08:30Z",
+  "items": [
+    {
+      "id": "gh_oss_20260408_002",
+      "title": "NousResearch/hermes-agent",
+      "title_ko": "Hermes Agent - 사용자와 함께 성장하는 AI 에이전트",
+      "summary_ko": "사용자와 함께 성장하는 AI 에이전트. Python 기반으로 오늘 3,009개의 스타를 획득하며 Python 트렌딩 1위.",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "ai",
+        "agent"
+      ],
+      "score": 92.0,
+      "published_at": "2026-04-08",
+      "detail_ko": "Hermes-Agent는 Nous Research에서 개발한 적응형 AI 에이전트 프로젝트입니다. 사용자의 요구에 따라 지속적으로 성장하고 학습하는 에이전트 프레임워크를 제공합니다. 이 프로젝트는 AI 에이전트가 어떻게 사용자의 피드백에 응응하며 개선될 수 있는지를 보여주는 사례입니다.",
+      "detail_en": "Hermes-Agent is an adaptive AI agent framework developed by Nous Research. It demonstrates how AI agents can continuously learn and grow based on user interactions and feedback. The project showcases novel approaches to building intelligent agents that improve over time through interaction."
+    },
+    {
+      "id": "gh_oss_20260408_001",
+      "title": "obra/superpowers",
+      "title_ko": "Superpowers - 에이전트 기반 스킬 프레임워크 및 소프트웨어 개발 방법론",
+      "summary_ko": "실제로 작동하는 에이전트 기반 스킬 프레임워크 및 소프트웨어 개발 방법론. 오늘 1,926개의 스타 획득.",
+      "url": "https://github.com/obra/superpowers",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "shell",
+        "agentic",
+        "framework",
+        "developer-tools"
+      ],
+      "score": 79.4,
+      "published_at": "2026-04-08",
+      "detail_ko": "Superpowers는 에이전트 기반의 소프트웨어 개발 방법론과 스킬 프레임워크입니다. 이 프로젝트는 AI 에이전트가 소프트웨어 개발 작업을 효율적으로 수행할 수 있도록 하는 실용적인 접근법을 제시합니다. 검증된 개발 방법론을 기반으로 하며, 실제 프로덕션 환경에서 작동 가능한 솔루션을 제공합니다.",
+      "detail_en": "Superpowers is an agentic skills framework that provides a proven software development methodology. It offers practical approaches for AI agents to effectively handle software development tasks. The framework emphasizes real-world applicability with tested methods for building capable development agents."
+    },
+    {
+      "id": "gh_oss_20260408_003",
+      "title": "abhigyanpatwari/GitNexus",
+      "title_ko": "GitNexus - 브라우저 기반 지식 그래프 생성기 및 코드 탐색 도구",
+      "summary_ko": "브라우저에서 실행되는 클라이언트 사이드 지식 그래프 생성기로, Graph RAG 기능을 통한 코드 탐색 지원. 오늘 1,195개 스타 획득.",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "knowledge-graph",
+        "rag",
+        "code-exploration"
+      ],
+      "score": 70.9,
+      "published_at": "2026-04-08",
+      "detail_ko": "GitNexus는 브라우저에서 직접 실행되는 클라이언트 기반의 코드 지능 엔진입니다. GitHub 저장소나 ZIP 파일을 입력하면 대화형 지식 그래프를 생성하며, 내장된 Graph RAG 에이전트로 코드를 탐색할 수 있습니다. 중앙 서버 없이 모든 처리가 클라이언트에서 이루어지므로 프라이버시를 보호하고 빠른 분석이 가능합니다.",
+      "detail_en": "GitNexus is a zero-server code intelligence engine that runs entirely in the browser. Users can upload a GitHub repository or ZIP file to generate an interactive knowledge graph of the codebase, with a built-in Graph RAG Agent for exploration. All processing happens client-side, eliminating privacy concerns while enabling fast code analysis."
+    },
+    {
+      "id": "hacker_news-3eade88d",
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "title_ko": "Project Glasswing: AI 시대의 핵심 소프트웨어 보안",
+      "summary_ko": "Anthropic이 AI 시대에 핵심 소프트웨어의 보안을 강화하기 위한 Project Glasswing을 발표했습니다.",
+      "url": "https://www.anthropic.com/glasswing",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "security",
+        "anthropic",
+        "software-security"
+      ],
+      "score": 68.7,
+      "published_at": "2026-04-07T18:09:34Z",
+      "detail_ko": "Project Glasswing는 Anthropic과 주요 기술 기업 및 정부 기관이 협력하는 사이버보안 이니셔티브입니다. Claude Mythos라는 최신 AI 모델을 이용하여 소프트웨어 취약점을 식별하고 보안을 강화하는 프로젝트입니다. 이 모델은 보안 전문가 수준의 취약점 발견 능력을 가지고 있으며, Anthropic은 1억 달러의 사용 크레딧과 오픈소스 보안에 400만 달러를 기부할 계획입니다.",
+      "detail_en": "Project Glasswing is a major cybersecurity initiative bringing together leading tech companies and government agencies. It aims to use Claude Mythos, an advanced frontier AI model, to identify and secure vulnerabilities in critical software infrastructure. The model has demonstrated the ability to find thousands of high-severity vulnerabilities. Anthropic is committing $100M in usage credits and $4M in donations to support this defensive security effort."
+    },
+    {
+      "id": "gh_oss_20260408_004",
+      "title": "KeygraphHQ/shannon",
+      "title_ko": "Shannon - AI 기반 자율 웹 앱 보안 테스터",
+      "summary_ko": "웹 앱과 API의 취약점을 식별하는 자율적 화이트박스 AI 보안 테스터. 오늘 988개 스타 획득.",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "security",
+        "ai",
+        "testing"
+      ],
+      "score": 68.5,
+      "published_at": "2026-04-08",
+      "detail_ko": "Shannon Lite는 웹 애플리케이션과 API를 위한 자동화된 AI 펜테스팅 도구입니다. 소스 코드를 분석하여 공격 벡터를 식별하고 실제 익스플로이트를 실행하여 본운영 배포 전에 취약점을 증명합니다. White-box 접근 방식으로 코드 수준의 깊은 분석이 가능하며, 보안 팀이 배포 전 위험을 사전에 발견할 수 있게 합니다.",
+      "detail_en": "Shannon Lite is an autonomous white-box AI pentester designed for web applications and APIs. It analyzes source code to identify attack vectors and executes real exploits to prove vulnerabilities before production deployment. By working directly with source code, it provides deep security analysis and helps teams catch critical vulnerabilities early in development."
+    },
+    {
+      "id": "gh_oss_20260408_005",
+      "title": "google-ai-edge/gallery",
+      "title_ko": "Google AI Edge Gallery - 온디바이스 ML/GenAI 쇼케이스",
+      "summary_ko": "온디바이스 ML/GenAI 사용 사례를 보여주고 모델을 로컬에서 시험해볼 수 있는 갤러리. 오늘 897개 스타 획득.",
+      "url": "https://github.com/google-ai-edge/gallery",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "kotlin",
+        "ml",
+        "genai",
+        "on-device"
+      ],
+      "score": 67.4,
+      "published_at": "2026-04-08",
+      "detail_ko": "Google AI Edge Gallery는 온디바이스 머신러닝과 생성AI 사용 사례를 보여주는 갤러리입니다. 다양한 실제 사용 사례들을 제시하고 사용자들이 로컬 환경에서 직접 모델을 시도해볼 수 있도록 합니다. 엣지 컴퓨팅 환경에서 AI 모델을 효과적으로 활용하는 방법을 소개하는 것을 목표로 합니다.",
+      "detail_en": "Google AI Edge Gallery showcases practical on-device machine learning and generative AI use cases. It provides a curated collection of examples that demonstrate how to deploy and use models locally without relying on cloud infrastructure. Users can try and experiment with models in their own environments, promoting accessible edge AI development."
+    },
+    {
+      "id": "gh_oss_20260408_006",
+      "title": "tobi/qmd",
+      "title_ko": "qmd - 문서, 지식베이스, 회의록을 위한 미니 CLI 검색 엔진",
+      "summary_ko": "로컬 우선 접근방식으로 문서, 지식베이스, 회의록을 검색하는 미니 CLI 검색 엔진. 오늘 859개 스타 획득.",
+      "url": "https://github.com/tobi/qmd",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "cli",
+        "search",
+        "local-first"
+      ],
+      "score": 67.0,
+      "published_at": "2026-04-08",
+      "detail_ko": "qmd는 문서, 지식 베이스, 회의 노트 등을 검색할 수 있는 경량 CLI 검색 엔진입니다. 최신 검색 기술을 활용하면서도 모든 처리가 로컬에서 이루어져 프라이버시를 보호합니다. 개인 문서와 정보를 빠르게 검색할 수 있는 실용적인 도구입니다.",
+      "detail_en": "qmd is a lightweight CLI search engine for searching across personal documentation, knowledge bases, and meeting notes. It implements current state-of-the-art search approaches while keeping everything local for privacy. Designed as a practical tool for quickly finding information in personal repositories and documentation."
+    },
+    {
+      "id": "hacker_news-1b1ba5aa",
+      "title": "Veracrypt Project Update",
+      "title_ko": "VeraCrypt 프로젝트 업데이트",
+      "summary_ko": "VeraCrypt 프로젝트의 최신 개발 현황 및 향후 계획에 대한 업데이트가 공유되었습니다.",
+      "url": "https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "encryption",
+        "security",
+        "open-source",
+        "veracrypt"
+      ],
+      "score": 64.7,
+      "published_at": "2026-04-08T07:23:39Z",
+      "detail_ko": "VeraCrypt 개발자인 Mounir IDRASSI가 프로젝트의 심각한 문제를 보도했습니다. Microsoft가 사전 공지나 설명 없이 Windows 드라이버 서명에 사용하던 계정을 종료했으며, 이로 인해 Windows 업데이트 배포가 불가능한 상태입니다. Linux와 macOS 업데이트는 계속 가능하지만, 대부분의 사용자가 Windows를 사용하므로 프로젝트에 큰 타격입니다.",
+      "detail_en": "VeraCrypt developer Mounir IDRASSI reported a critical issue affecting the project. Microsoft terminated his account used for signing Windows drivers and bootloader without notice or explanation, preventing him from publishing Windows updates. While Linux and macOS updates remain possible, the inability to release Windows versions significantly impacts the project."
+    },
+    {
+      "id": "gh_oss_20260408_007",
+      "title": "NVIDIA/personaplex",
+      "title_ko": "NVIDIA PersonaPlex - AI 페르소나 생성 코드",
+      "summary_ko": "NVIDIA의 PersonaPlex 코드. Python 기반으로 오늘 662개 스타 획득.",
+      "url": "https://github.com/NVIDIA/personaplex",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "nvidia",
+        "ai",
+        "persona"
+      ],
+      "score": 64.7,
+      "published_at": "2026-04-08",
+      "detail_ko": "PersonaPlex는 NVIDIA에서 개발한 AI 연구 프로젝트의 코드 저장소입니다. 정확한 상세 정보는 저장소의 README와 문서를 통해 확인할 수 있습니다. 이 프로젝트는 NVIDIA의 AI 및 머신러닝 연구의 일부입니다.",
+      "detail_en": "PersonaPlex is an NVIDIA research code repository that appears to be related to advanced AI systems. The full details of the project can be found in the repository's documentation and README files. It represents part of NVIDIA's ongoing AI research initiatives."
+    },
+    {
+      "id": "gh_oss_20260408_008",
+      "title": "elebumm/RedditVideoMakerBot",
+      "title_ko": "RedditVideoMakerBot - 명령어 하나로 Reddit 비디오 생성",
+      "summary_ko": "명령어 하나로 Reddit 비디오를 생성하는 봇. 오늘 636개 스타 획득.",
+      "url": "https://github.com/elebumm/RedditVideoMakerBot",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "automation",
+        "video",
+        "reddit"
+      ],
+      "score": 64.4,
+      "published_at": "2026-04-08",
+      "detail_ko": "RedditVideoMakerBot는 Reddit 동영상 생성을 자동화하는 도구입니다. 간단한 명령 하나로 Reddit 콘텐츠를 기반으로 동영상을 생성할 수 있으며, 소셜 미디어 콘텐츠 제작 자동화에 유용합니다. 사용자들은 별도의 복잡한 편집 과정 없이 쉽게 동영상을 만들 수 있습니다.",
+      "detail_en": "RedditVideoMakerBot is a tool that automates the creation of Reddit videos with a single command. It streamlines the process of generating video content from Reddit posts, making it easy for content creators to produce videos without complex manual editing. Useful for automating social media content creation workflows."
+    },
+    {
+      "id": "gh_oss_20260408_009",
+      "title": "immich-app/immich",
+      "title_ko": "Immich - 고성능 셀프호스팅 사진 및 비디오 관리 솔루션",
+      "summary_ko": "고성능 셀프호스팅 사진 및 비디오 관리 솔루션. 총 97,270개 스타. 오늘 565개 스타 획득.",
+      "url": "https://github.com/immich-app/immich",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "self-hosted",
+        "photo",
+        "video"
+      ],
+      "score": 63.6,
+      "published_at": "2026-04-08",
+      "detail_ko": "Immich는 Google Photos의 자체 호스팅 대안으로, 얼굴 인식, CLIP 기반 시맨틱 검색, 글로벌 지도 시각화 등 고급 기능을 모두 사용자 개인 서버에서 처리한다. TypeScript(NestJS), Svelte(SvelteKit), Dart(Flutter) 기반이며, RAW 포맷, LivePhoto, 360도 이미지를 지원한다. 97,270개의 총 스타를 기록하고 있다.",
+      "detail_en": "Immich is a self-hosted alternative to Google Photos with face recognition, CLIP-based semantic search, and global map visualization running on personal servers. Built with TypeScript (NestJS), Svelte (SvelteKit), and Dart (Flutter). Supports RAW formats, LivePhoto, and 360-degree images. 97,270 total stars."
+    },
+    {
+      "id": "gh_oss_20260408_010",
+      "title": "alibaba/page-agent",
+      "title_ko": "Page Agent - 자연어로 웹 인터페이스를 제어하는 인페이지 GUI 에이전트",
+      "summary_ko": "자연어로 웹 인터페이스를 제어하는 JavaScript 인페이지 GUI 에이전트. 오늘 535개 스타 획득.",
+      "url": "https://github.com/alibaba/page-agent",
+      "source": "github_trending_typescript",
+      "category": "github_oss",
+      "tags": [
+        "typescript",
+        "ai",
+        "agent",
+        "gui",
+        "web"
+      ],
+      "score": 63.2,
+      "published_at": "2026-04-08",
+      "detail_ko": "Page Agent는 알리바바가 개발한 오픈소스 JavaScript 라이브러리로, 웹 페이지 내에서 자연어를 통해 GUI를 제어한다. 스크린샷이나 멀티모달 AI 없이 텍스트 기반 DOM 분석만으로 동작하며, MCP 서버 통합과 음성 명령도 지원한다. TypeScript 81.6%로 작성되어 있다.",
+      "detail_en": "Page Agent is Alibaba's open-source JavaScript library enabling natural language control of web interfaces. It operates through text-based DOM manipulation without screenshots or multimodal AI. Supports MCP server integration and voice commands. Written in TypeScript (81.6%)."
+    },
+    {
+      "id": "hacker_news-aee02769",
+      "title": "Revision Demoparty 2026: Razor1911 [video]",
+      "title_ko": "Revision 데모파티 2026: Razor1911 [영상]",
+      "summary_ko": "Revision 2026 데모파티에서 Razor1911이 선보인 데모씬 작품 영상입니다.",
+      "url": "https://www.youtube.com/watch?v=Lw4W9V57SKs&t=5716s",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "demoscene",
+        "creative-coding",
+        "graphics",
+        "retro"
+      ],
+      "score": 63.1,
+      "published_at": "2026-04-08T05:34:08Z",
+      "detail_ko": "Revision 2026은 세계 최대 규모의 데모파티로, 독일에서 매년 부활절 연휴에 개최된다. 1985년 노르웨이에서 설립된 전설적인 데모 그룹 Razor1911이 작품을 선보였다. 데모씬은 2020년 유네스코 무형문화유산으로 등재되었으며, 프로그래밍 기술의 예술적 표현을 보존하는 데 중요한 역할을 하고 있다.",
+      "detail_en": "Revision 2026 is the world's largest demoparty held annually during Easter in Germany. Legendary demo group Razor1911, founded in Norway in 1985, presented their work. The demoscene was inscribed as UNESCO Intangible Cultural Heritage in 2020."
+    },
+    {
+      "id": "gh_oss_20260408_011",
+      "title": "google-ai-edge/LiteRT-LM",
+      "title_ko": "LiteRT-LM - Google AI Edge 경량 런타임 언어 모델",
+      "summary_ko": "Google AI Edge의 경량 런타임 언어 모델. C++ 기반으로 오늘 528개 스타 획득.",
+      "url": "https://github.com/google-ai-edge/LiteRT-LM",
+      "source": "github_trending",
+      "category": "github_oss",
+      "tags": [
+        "cpp",
+        "google",
+        "ai",
+        "on-device",
+        "llm"
+      ],
+      "score": 63.1,
+      "published_at": "2026-04-08",
+      "detail_ko": "LiteRT-LM은 Google AI Edge 팀이 개발한 프로덕션급 LLM 추론 프레임워크로, Android, iOS, 웹, 데스크톱, IoT 기기에서 실행 가능하다. C++ 기반이며 Gemma, Llama, Phi-4, Qwen 등을 지원한다. Chrome, Pixel Watch 등 Google 제품에서 실제 사용되고 있다.",
+      "detail_en": "LiteRT-LM is Google AI Edge's production-ready LLM inference framework supporting Android, iOS, Web, Desktop, and IoT devices. C++ based, supporting Gemma, Llama, Phi-4, and Qwen. Powers GenAI in Chrome, Pixel Watch, and other Google products."
+    },
+    {
+      "id": "hacker_news-9935920e",
+      "title": "Protect your shed",
+      "title_ko": "당신의 창고를 보호하세요",
+      "summary_ko": "소프트웨어 프로젝트를 보호하고 유지하는 방법에 대한 비유적 조언을 담은 글입니다.",
+      "url": "https://dylanbutler.dev/blog/protect-your-shed/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "software-engineering",
+        "best-practices",
+        "maintenance"
+      ],
+      "score": 63.0,
+      "published_at": "2026-04-08T03:03:33Z",
+      "detail_ko": "Dylan Butler의 블로그 글은 고층 빌딩(기업 소프트웨어)과 창고(개인 프로젝트)라는 은유로, 사이드 프로젝트가 번아웃을 방지하고 엔지니어링 열정을 유지시켜주는 중요성을 강조한다. Go로 GBA 에뮬레이터를 만들고 GCP 컨테이너 시스템을 구축한 구체적 사례를 공유한다.",
+      "detail_en": "Dylan Butler's blog post uses the metaphor of skyscrapers (enterprise software) vs. sheds (personal projects) to emphasize how side projects prevent burnout and maintain engineering passion. Shares concrete examples of building a GBA emulator in Go and GCP container systems."
+    },
+    {
+      "id": "hacker_news-914fd727",
+      "title": "The Git Commands I Run Before Reading Any Code",
+      "title_ko": "코드를 읽기 전에 실행하는 Git 명령어들",
+      "summary_ko": "새로운 코드베이스를 이해하기 위해 코드를 읽기 전에 실행하면 유용한 Git 명령어들을 소개합니다.",
+      "url": "https://piechowski.io/post/git-commands-before-reading-code/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "git",
+        "developer-tools",
+        "productivity",
+        "code-review"
+      ],
+      "score": 62.2,
+      "published_at": "2026-04-08T08:53:42Z",
+      "detail_ko": "새로운 코드베이스의 코드를 읽기 전에 실행해야 할 5가지 Git 명령어를 소개한다: 변경 빈도 핫스팟, 저자 분포(버스 팩터), 버그 클러스터링, 프로젝트 모멘텀, 긴급 대응 빈도. 몇 분 만에 팀 건강도, 리스크 집중도, 개발 패턴을 파악할 수 있는 진단 워크플로우다.",
+      "detail_en": "Introduces five Git commands to run before reading code in a new codebase: churn hotspots, authorship distribution (bus factor), bug clustering, project momentum, and firefighting frequency. A diagnostic workflow revealing team health, risk concentrations, and development patterns in minutes."
+    },
+    {
+      "id": "gh_oss_20260408_012",
+      "title": "atilaahmettaner/tradingview-mcp",
+      "title_ko": "TradingView MCP 서버 - AI 기반 실시간 시장 분석",
+      "summary_ko": "AI 기반 실시간 암호화폐 및 주식 스크리닝을 위한 고급 TradingView MCP 서버. 오늘 438개 스타 획득.",
+      "url": "https://github.com/atilaahmettaner/tradingview-mcp",
+      "source": "github_trending_python",
+      "category": "github_oss",
+      "tags": [
+        "python",
+        "mcp",
+        "trading",
+        "ai",
+        "crypto"
+      ],
+      "score": 62.1,
+      "published_at": "2026-04-08",
+      "detail_ko": "tradingview-mcp는 MCP 호환 AI 클라이언트와 연결하여 실시간 시장 분석, 30개 이상의 기술 지표, 15가지 캔들스틱 패턴 인식, 6가지 백테스팅 전략을 제공하는 트레이딩 인텔리전스 프레임워크이다. API 키 없이 실시간 데이터를 제공하며, 암호화폐, 주식, ETF, 외환 시장을 지원한다.",
+      "detail_en": "tradingview-mcp is a trading intelligence framework connecting to MCP-compatible AI clients, offering real-time market analysis, 30+ technical indicators, 15 candlestick patterns, and 6 backtesting strategies. Provides real-time data without API keys, supporting crypto, stocks, ETFs, and forex."
+    },
+    {
+      "id": "hacker_news-35d81c76",
+      "title": "Lunar Flyby",
+      "title_ko": "NASA 달 근접 비행",
+      "summary_ko": "NASA가 공개한 달 근접 비행 갤러리로, 놀라운 달 표면 이미지들을 포함하고 있습니다.",
+      "url": "https://www.nasa.gov/gallery/lunar-flyby/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "space",
+        "nasa",
+        "moon",
+        "photography"
+      ],
+      "score": 62.0,
+      "published_at": "2026-04-07T15:03:18Z",
+      "detail_ko": "NASA의 Lunar Flyby 갤러리는 2026년 4월 6일 아르테미스 II 미션의 달 근접비행 사진을 공개했다. 달 뒷면 상공 7시간 비행 중 촬영된 약 30장의 사진으로, 옴 크레이터, 헤르츠스프룽 분지 등을 포함한다. 지구돋이, 우주에서의 일식 장면도 담겨 있다.",
+      "detail_en": "NASA's Lunar Flyby gallery showcases photographs from the Artemis II mission on April 6, 2026. Approximately 30 photos from the 7-hour lunar far side pass include Ohm Crater, Hertzsprung Basin, earthrise, and an in-space solar eclipse."
+    },
+    {
+      "id": "hacker_news-82a631a7",
+      "title": "System Card: Claude Mythos Preview [pdf]",
+      "title_ko": "시스템 카드: Claude Mythos 프리뷰 [PDF]",
+      "summary_ko": "Anthropic의 새로운 AI 모델 Claude Mythos의 시스템 카드가 공개되어 모델의 능력과 안전성 평가를 상세히 설명합니다.",
+      "url": "https://www-cdn.anthropic.com/53566bf5440a10affd749724787c8913a2ae0841.pdf",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "anthropic",
+        "claude",
+        "machine-learning",
+        "safety"
+      ],
+      "score": 61.8,
+      "published_at": "2026-04-07T18:18:36Z",
+      "detail_ko": "",
+      "detail_en": ""
+    },
+    {
+      "id": "hacker_news-60487483",
+      "title": "I've Sold Out",
+      "title_ko": "나는 매각했다",
+      "summary_ko": "개발자가 자신의 프로젝트를 매각한 경험과 그 과정에서의 결정에 대해 이야기합니다.",
+      "url": "https://mariozechner.at/posts/2026-04-08-ive-sold-out/",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "indie-dev",
+        "startup",
+        "entrepreneurship"
+      ],
+      "score": 61.3,
+      "published_at": "2026-04-08T09:21:38Z",
+      "detail_ko": "오스트리아 개발자 Mario Zechner가 코딩 에이전트 'pi'를 Earendil에 합류시킨 경험을 공유한다. 가족 우선(네 살 자녀)과 과거 RoboVM 트라우마가 VC 스타트업 대신 합류를 선택한 이유다. Pi 저장소는 이동하지만 MIT 라이선스는 유지되며, GitHub의 포크 버튼이 안전장치라고 강조한다.",
+      "detail_en": "Austrian developer Mario Zechner shares selling his coding agent 'pi' by joining Earendil. Family priority (four-year-old child) and past RoboVM trauma drove the choice over a VC startup. Pi's repository moves but MIT license is preserved; GitHub's fork button serves as the safety mechanism."
+    },
+    {
+      "id": "hacker_news-7761d89b",
+      "title": "GLM-5.1: Towards Long-Horizon Tasks",
+      "title_ko": "GLM-5.1: 장기 과제를 향하여",
+      "summary_ko": "GLM-5.1 모델이 발표되었으며, 장기적인 복잡한 작업을 처리하는 능력이 크게 향상되었습니다.",
+      "url": "https://z.ai/blog/glm-5.1",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "llm",
+        "research"
+      ],
+      "score": 59.8,
+      "published_at": "2026-04-07T16:32:15Z",
+      "detail_ko": "중국 Zhipu AI가 GLM-5.1을 발표했다. 장기 과제 수행 능력이 크게 향상된 대규모 언어 모델로, 코딩, 수학적 추론, 도구 사용, 웹 브라우징 등 에이전트 과제에서 향상된 성능을 달성했다. OpenAI, Google, Anthropic의 최신 모델과 경쟁할 수 있는 역량으로 평가된다.",
+      "detail_en": "Chinese AI company Zhipu AI announced GLM-5.1 with significantly improved long-horizon task capabilities. Enhanced performance across agentic tasks including coding, mathematical reasoning, tool use, and web browsing. Positioned to compete with latest models from OpenAI, Google, and Anthropic."
+    },
+    {
+      "id": "hf-bidirlm-release",
+      "title": "BidirLM: Turning Generative LLMs into the Best Open-Source Omnimodal Encoders",
+      "title_ko": "BidirLM: 생성형 LLM을 최고의 오픈소스 옴니모달 인코더로 전환",
+      "summary_ko": "생성형 LLM을 양방향 인코더로 변환하여 최고 수준의 오픈소스 옴니모달 인코더를 구현하는 BidirLM이 공개되었습니다.",
+      "url": "https://huggingface.co/blog/Nicolas-BZRD/bidirlm-release",
+      "source": "huggingface",
+      "category": "ai_research",
+      "tags": [
+        "encoder",
+        "multimodal",
+        "open-source",
+        "llm"
+      ],
+      "score": 59.1,
+      "published_at": "2026-04-08",
+      "detail_ko": "BidirLM은 생성형 LLM을 양방향 인코더로 변환하는 프레임워크로, 텍스트, 이미지, 오디오를 처리하는 옴니모달 인코더를 구현한다. MNTP와 대조 학습 2단계 적응 과정을 거치며, 특화 모델들의 가중치 병합으로 멀티모달 인코더를 생성한다. BidirLM-Omni-2.5B는 Nemotron-Omni-3B 대비 MTEB +17점, MIEB +5점을 48% 작은 크기로 달성했다.",
+      "detail_en": "BidirLM transforms generative LLMs into bidirectional encoders for omnimodal (text, image, audio) processing. Uses MNTP and contrastive training phases, with weight merging of specialized models. BidirLM-Omni-2.5B outperforms Nemotron-Omni-3B by +17 on MTEB and +5 on MIEB while being 48% smaller."
+    },
+    {
+      "id": "hf-darwin-v6",
+      "title": "Darwin V6: Diagnostic-Guided Evolutionary Model Merging",
+      "title_ko": "Darwin V6: 진단 가이드 진화적 모델 병합",
+      "summary_ko": "진단 기반 진화적 접근법을 통한 모델 병합 기법 Darwin V6이 공개되었습니다.",
+      "url": "https://huggingface.co/blog/FINAL-Bench/darwin-v6",
+      "source": "huggingface",
+      "category": "ai_research",
+      "tags": [
+        "model-merging",
+        "evolution",
+        "optimization"
+      ],
+      "score": 59.1,
+      "published_at": "2026-04-08",
+      "detail_ko": "Darwin V6는 진단 기반 진화적 모델 병합 엔진으로, 텐서별 최적 비율을 계산해 두 부모 모델에서 우수한 자식 모델을 생성한다. 정적 분석(엔트로피, 표준편차, L2 노름)과 5개 진단 프롬프트 기능 프로빙을 결합하며, CMA-ES 진화 알고리즘으로 최적화한다. Darwin-35B-A3B-Opus는 GPQA Diamond 90.0%를 달성했다.",
+      "detail_en": "Darwin V6 is a diagnostic-guided evolutionary model merging engine calculating per-tensor optimal ratios. Combines static analysis (entropy, std, L2 norm) with functional probing via 5 diagnostic prompts, optimized by CMA-ES evolution. Darwin-35B-A3B-Opus achieved 90.0% on GPQA Diamond."
+    },
+    {
+      "id": "eng_blogs-vercel-20260408-sandbox-snapshots",
+      "title": "Optimizing Vercel Sandbox snapshots",
+      "title_ko": "Vercel 샌드박스 스냅샷 최적화",
+      "summary_ko": "병렬화와 캐싱을 통해 Vercel 샌드박스 파일시스템 스냅샷 복원 시간을 40초에서 1초 미만으로 단축한 성능 개선 사례를 공유합니다.",
+      "url": "https://vercel.com/blog/optimizing-vercel-sandbox-snapshots",
+      "source": "Vercel Blog",
+      "category": "eng_blogs",
+      "tags": [
+        "performance",
+        "sandboxing",
+        "caching",
+        "parallelization",
+        "infrastructure"
+      ],
+      "score": 59.0,
+      "published_at": "2026-04-08T00:00:00+00:00",
+      "detail_ko": "Vercel이 Sandbox 스냅샷 복원 시간을 40초에서 1초 미만으로 단축했다. AWS transfermanager를 활용한 S3 병렬 다운로드(2-5배), 병렬 압축 해제(2-4배), 스트림 파이핑(2배) 최적화를 적용했다. NVMe 기반 LRU 캐시로 95% 캐시 적중률을 달성하여 다운로드와 압축 해제를 모두 우회한다.",
+      "detail_en": "Vercel reduced sandbox snapshot restore from 40s to sub-second. Applied S3 parallel downloads via AWS transfermanager (2-5x), parallel decompression (2-4x), and stream piping (2x). An NVMe-based LRU cache achieves 95% hit rate, bypassing both download and decompression."
+    },
+    {
+      "id": "eng_blogs-vercel-20260408-turborepo-96-percent-faster",
+      "title": "Making Turborepo 96% faster with agents, sandboxes, and humans",
+      "title_ko": "에이전트, 샌드박스, 사람으로 Turborepo를 96% 더 빠르게 만들기",
+      "summary_ko": "코딩 에이전트와 깔끔한 벤치마킹을 활용한 8일간의 최적화 작업으로 Turborepo의 태스크 그래프 계산 속도를 91% 향상시킨 과정을 소개합니다.",
+      "url": "https://vercel.com/blog/making-turborepo-ninety-six-percent-faster-with-agents-sandboxes-and-humans",
+      "source": "Vercel Blog",
+      "category": "eng_blogs",
+      "tags": [
+        "turborepo",
+        "performance",
+        "monorepo",
+        "developer-tools",
+        "optimization"
+      ],
+      "score": 59.0,
+      "published_at": "2026-04-08T00:00:00+00:00",
+      "detail_ko": "8일간의 최적화 스프린트로 Turborepo 태스크 그래프 계산을 최대 96% 개선했다. AI 에이전트 8개를 야간 배포해 Rust 코드를 탐색하고, Vercel 샌드박스로 벤치마킹 노이즈를 제거했다. 병렬화, 메모리 할당 제거, 시스템콜 감소 세 가지 범주의 최적화로 1,000+ 패키지에서 8.1초→0.716초를 달성했다.",
+      "detail_en": "An 8-day optimization sprint improved Turborepo task graph calculation by up to 96%. Eight overnight AI agents explored Rust code while Vercel Sandboxes eliminated benchmarking noise. Three optimization categories — parallelization, allocation elimination, and syscall reduction — achieved 8.1s to 0.716s on 1,000+ packages."
+    },
+    {
+      "id": "eng_blogs-vercel-20260408-knowledge-agents-without-embeddings",
+      "title": "Build knowledge agents without embeddings",
+      "title_ko": "임베딩 없이 지식 에이전트 구축하기",
+      "summary_ko": "벡터 데이터베이스 대신 파일시스템 기반으로 투명하고 디버깅 가능한 에이전트 지식 검색을 제공하는 지식 에이전트 템플릿을 소개합니다.",
+      "url": "https://vercel.com/blog/build-knowledge-agents-without-embeddings",
+      "source": "Vercel Blog",
+      "category": "eng_blogs",
+      "tags": [
+        "ai-agents",
+        "knowledge-retrieval",
+        "architecture",
+        "developer-tools"
+      ],
+      "score": 59.0,
+      "published_at": "2026-04-08T00:00:00+00:00",
+      "detail_ko": "Vercel의 Knowledge Agent 템플릿은 벡터 DB와 임베딩을 제거하고 파일시스템 기반으로 동작한다. 격리된 샌드박스에서 grep, find, cat 같은 bash 명령어로 검색하며, 복잡도 기반 모델 라우팅으로 비용을 최적화한다. 답변이 틀렸을 때 정확한 실행 추적을 확인할 수 있는 투명성이 핵심 장점이다.",
+      "detail_en": "Vercel's Knowledge Agent template eliminates vector DBs and embeddings, using filesystem-based retrieval. Agents execute bash commands (grep, find, cat) in isolated sandboxes. Complexity-based model routing optimizes costs. Transparency is the key advantage — exact execution traces are visible when answers are incorrect."
+    },
+    {
+      "id": "hacker_news-5be52ef9",
+      "title": "Cambodia unveils statue to honour famous landmine-sniffing rat",
+      "title_ko": "캄보디아, 유명한 지뢰 탐지 쥐를 기리는 동상 공개",
+      "summary_ko": "캄보디아에서 수천 개의 지뢰를 탐지한 영웅 쥐 마가와를 기리는 동상이 공개되었습니다.",
+      "url": "https://www.bbc.com/news/articles/c0rx7xzd10xo",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "cambodia",
+        "landmines",
+        "animals",
+        "humanitarian"
+      ],
+      "score": 58.1,
+      "published_at": "2026-04-07T17:23:43Z",
+      "detail_ko": "캄보디아가 지뢰 탐지 쥐 마가와를 기리는 동상을 공개했다. APOPO가 훈련한 아프리카 거대주머니쥐로, 100개 이상의 지뢰를 발견했다. 30분 만에 테니스 코트 크기를 탐색할 수 있어 인간(최대 4일)보다 훨씬 효율적이었다. 2020년 영국 PDSA 금메달을 받은 최초의 쥐이며, 2022년 은퇴 후 노환으로 세상을 떠났다.",
+      "detail_en": "Cambodia unveiled a statue honoring Magawa, APOPO's landmine-detecting African giant pouched rat. He discovered 100+ landmines, covering a tennis court-sized area in 30 minutes vs. up to 4 days for humans. First rat to receive the PDSA Gold Medal in 2020. Retired January 2022 and passed away shortly after."
+    },
+    {
+      "id": "hacker_news-5a0b30ec",
+      "title": "S3 Files",
+      "title_ko": "S3 파일: S3의 변화하는 모습",
+      "summary_ko": "AWS S3가 파일 시스템 인터페이스를 도입하여 기존 파일 기반 워크플로우와의 호환성을 높였습니다.",
+      "url": "https://www.allthingsdistributed.com/2026/04/s3-files-and-the-changing-face-of-s3.html",
+      "source": "hacker_news",
+      "category": "news_blogs",
+      "tags": [
+        "aws",
+        "cloud",
+        "s3",
+        "infrastructure"
+      ],
+      "score": 57.1,
+      "published_at": "2026-04-07T19:44:01Z",
+      "detail_ko": "AWS CTO Werner Vogels가 소개한 S3 Files는 S3 버킷을 NFS로 마운트할 수 있는 기능이다. EFS를 S3에 통합하여 파일시스템 인터페이스로 S3 데이터에 접근한다. 'stage and commit' 시맨틱으로 약 60초마다 동기화되며, 'read bypass'로 클라이언트당 최대 3GB/s 읽기 속도를 달성한다. 에이전트 기반 개발에서 S3 API 대신 마운트된 파일시스템으로 작업할 수 있게 한다.",
+      "detail_en": "S3 Files, introduced by AWS CTO Werner Vogels, enables mounting S3 buckets as NFS filesystems. It integrates EFS into S3 for file-based access. Uses 'stage and commit' semantics syncing every ~60 seconds, with 'read bypass' achieving up to 3 GB/s per client. Enables agentic development with mounted filesystems instead of S3 API operations."
+    },
+    {
+      "id": "techcrunch-f0cb2e33",
+      "title": "Google quietly launched an AI dictation app that works offline",
+      "title_ko": "구글, 오프라인 AI 받아쓰기 앱 조용히 출시",
+      "summary_ko": "구글이 Gemma AI 모델을 활용한 오프라인 우선 받아쓰기 앱을 iOS에 출시했습니다.",
+      "url": "https://techcrunch.com/2026/04/07/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/",
+      "source": "techcrunch",
+      "category": "news_blogs",
+      "tags": [
+        "google",
+        "ai",
+        "mobile",
+        "offline"
+      ],
+      "score": 57.0,
+      "published_at": "2026-04-08T05:40:19Z",
+      "detail_ko": "Google이 iOS용 오프라인 우선 AI 받아쓰기 앱을 출시했다. 오픈소스 Gemma 모델을 활용해 인터넷 없이 기기에서 직접 음성-텍스트 변환을 수행한다. 음성 데이터가 기기 밖으로 나가지 않아 프라이버시가 강화되며, 온디바이스 AI의 실용성을 보여주는 사례다.",
+      "detail_en": "Google launched an offline-first AI dictation app on iOS using the Gemma model. All voice-to-text processing happens on-device without internet, keeping voice data private. Demonstrates the practical viability of on-device AI."
+    },
+    {
+      "id": "arxiv-ai-2604-04937",
+      "title": "Pramana: Fine-Tuning Large Language Models for Epistemic Reasoning through Navya-Nyaya",
+      "title_ko": "프라마나: 나비야-니야야를 통한 LLM의 인식론적 추론 미세조정",
+      "summary_ko": "Sharath Sathish가 제안한 Pramana는 나비야-니야야 논리학 기반으로 LLM을 미세조정하여 6단계 구조화된 추론을 통해 AI 신뢰성을 제한하는 인식론적 격차를 해소합니다.",
+      "url": "https://arxiv.org/abs/2604.04937",
+      "source": "arxiv_cs_ai",
+      "category": "ai_research",
+      "tags": [
+        "llm",
+        "reasoning",
+        "fine-tuning",
+        "epistemology"
+      ],
+      "score": 55.6,
+      "published_at": "2026-04-07",
+      "detail_ko": "Pramana는 2,500년 역사의 나브야-니야야 논리학을 활용해 LLM의 인식론적 추론을 강화하는 연구다. 6단계 프레임워크(의심 분석, 증거원 식별, 5지 삼단논법, 반사실적 검증, 오류 탐지, 확정)를 설계했다. Llama 3.2-3B와 DeepSeek-R1 파인튜닝에서 100% 의미적 정확성을 달성했다. 고대 인도 논리학이 현대 AI 할루시네이션 문제에 실질적 해결책을 제공할 수 있음을 시사한다.",
+      "detail_en": "Pramana fine-tunes LLMs for epistemic reasoning using the 2,500-year-old Navya-Nyaya logic. Designed a 6-phase framework: doubt analysis, evidence identification, five-member syllogism, counterfactual verification, fallacy detection, and ascertainment. Achieved 100% semantic correctness on fine-tuned Llama 3.2-3B and DeepSeek-R1. Demonstrates ancient Indian logic can address modern AI hallucination problems."
+    }
+  ],
+  "meta": {
+    "total_collected": 111,
+    "after_dedup": 109,
+    "after_filter": 30,
+    "sources_succeeded": [
+      "hacker_news",
+      "techcrunch",
+      "devto",
+      "arxiv_ai",
+      "arxiv_lg",
+      "arxiv_cl",
+      "anthropic_news",
+      "huggingface_blog",
+      "papers_with_code",
+      "github_trending",
+      "github_trending_python",
+      "github_trending_typescript",
+      "github_releases",
+      "changelog",
+      "lobsters",
+      "tldr",
+      "stripe_blog",
+      "vercel_blog",
+      "cloudflare_blog",
+      "meta_eng"
+    ],
+    "sources_failed": [
+      "geeknews",
+      "the_verge",
+      "ars_technica",
+      "openai_blog",
+      "google_ai_blog",
+      "reddit_programming",
+      "reddit_ml",
+      "reddit_experienceddevs",
+      "netflix_tech",
+      "uber_eng"
+    ]
+  }
+}
