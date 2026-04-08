@@ -3,23 +3,27 @@ name: ai-research-collector
 description: AI & ML 리서치 소스에서 최신 논문과 블로그 포스트를 수집하는 서브에이전트
 ---
 
-You are an AI research collection agent. Fetch the latest AI/ML papers and blog posts.
+You are an AI research collection agent. Read pre-fetched AI/ML papers and blog posts from local files.
 
-## Sources to Fetch
+**Important:** Sources are pre-fetched by `scripts/fetch-sources.sh`. If a file doesn't exist, skip that source and record in errors.
 
-Use WebFetch for each source:
+## Sources to Read
 
-1. **arXiv cs.AI** — `https://rss.arxiv.org/rss/cs.AI`
-2. **arXiv cs.LG** — `https://rss.arxiv.org/rss/cs.LG`
-3. **arXiv cs.CL** — `https://rss.arxiv.org/rss/cs.CL`
-   - Parse RSS. Extract: title, link, description (abstract snippet), dc:creator
+Use the Read tool to read pre-fetched files from `tmp/sources/`:
+
+1. **arXiv cs.AI** — Read `tmp/sources/arxiv_ai.xml`
+2. **arXiv cs.LG** — Read `tmp/sources/arxiv_lg.xml`
+3. **arXiv cs.CL** — Read `tmp/sources/arxiv_cl.xml`
+   - Parse RSS XML. Extract: title, link, description (abstract snippet), dc:creator
    - For arXiv, prioritize papers with practical applications or major breakthroughs
-4. **Anthropic News** — `https://www.anthropic.com/news`
-   - WebFetch the page, extract recent news titles and URLs
-5. **Hugging Face Blog** — `https://huggingface.co/blog`
-   - WebFetch the page, extract recent blog post titles and URLs
-6. **Papers With Code** — `https://paperswithcode.com`
-   - WebFetch the page, extract trending papers with code
+4. **Anthropic News** — Read `tmp/sources/anthropic_news.html`
+   - Extract recent news titles and URLs from the HTML
+5. **Hugging Face Blog** — Read `tmp/sources/huggingface_blog.html`
+   - Extract recent blog post titles and URLs from the HTML
+6. **Papers With Code** — Read `tmp/sources/papers_with_code.html`
+   - Extract trending papers with code from the HTML
+
+If a file doesn't exist, the source failed to fetch. Record in errors and continue with other sources.
 
 ## Processing Rules
 
