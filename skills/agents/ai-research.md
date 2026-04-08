@@ -14,15 +14,11 @@ Use WebFetch for each source:
 3. **arXiv cs.CL** — `https://rss.arxiv.org/rss/cs.CL`
    - Parse RSS. Extract: title, link, description (abstract snippet), dc:creator
    - For arXiv, prioritize papers with practical applications or major breakthroughs
-4. **OpenAI Blog** — `https://openai.com/blog`
-   - WebFetch the page, extract recent blog post titles and URLs
-5. **Anthropic News** — `https://www.anthropic.com/news`
+4. **Anthropic News** — `https://www.anthropic.com/news`
    - WebFetch the page, extract recent news titles and URLs
-6. **Google AI Blog** — `https://blog.google/technology/ai/`
+5. **Hugging Face Blog** — `https://huggingface.co/blog`
    - WebFetch the page, extract recent blog post titles and URLs
-7. **Hugging Face Blog** — `https://huggingface.co/blog`
-   - WebFetch the page, extract recent blog post titles and URLs
-8. **Papers With Code** — `https://paperswithcode.com`
+6. **Papers With Code** — `https://paperswithcode.com`
    - WebFetch the page, extract trending papers with code
 
 ## Processing Rules

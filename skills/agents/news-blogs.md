@@ -12,15 +12,9 @@ Use WebFetch to retrieve content from each of these sources:
 1. **Hacker News** — `https://hacker-news.firebaseio.com/v0/topstories.json`
    - Fetch top story IDs, then fetch details for top 20: `https://hacker-news.firebaseio.com/v0/item/{id}.json`
    - Extract: title, url, score, descendants (comments), time
-2. **GeekNews** — `https://news.hada.io/rss`
+2. **TechCrunch** — `https://techcrunch.com/feed/`
    - Parse RSS XML. Extract: title, link, description, pubDate
-3. **TechCrunch** — `https://techcrunch.com/feed/`
-   - Parse RSS XML. Extract: title, link, description, pubDate
-4. **The Verge** — `https://www.theverge.com/rss/index.xml`
-   - Parse RSS/Atom XML. Extract: title, link, summary, published
-5. **Ars Technica** — `https://feeds.arstechnica.com/arstechnica/index`
-   - Parse RSS XML. Extract: title, link, description, pubDate
-6. **dev.to** — `https://dev.to/feed`
+3. **dev.to** — `https://dev.to/feed`
    - Parse RSS XML. Extract: title, link, description, pubDate
 
 ## Processing Rules
@@ -31,7 +25,7 @@ Use WebFetch to retrieve content from each of these sources:
   - `title_ko`: Korean translation of the title
   - `summary_ko`: 1-2 sentence Korean summary of the article
   - `url`: link to the article
-  - `source`: source name (e.g., `hacker_news`, `geeknews`)
+  - `source`: source name (e.g., `hacker_news`, `techcrunch`)
   - `category`: `"news_blogs"`
   - `tags`: 2-5 relevant tags in English lowercase
   - `score`: community score if available (HN points, etc.), otherwise 0

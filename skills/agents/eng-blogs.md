@@ -9,12 +9,10 @@ You are an engineering blog collection agent. Fetch latest posts from top tech c
 
 All RSS feeds — use WebFetch and parse XML:
 
-1. **Netflix Tech Blog** — `https://netflixtechblog.com/feed`
-2. **Uber Engineering** — `https://eng.uber.com/feed/`
-3. **Stripe Blog** — `https://stripe.com/blog/feed.rss`
-4. **Vercel Blog** — `https://vercel.com/atom`
-5. **Cloudflare Blog** — `https://blog.cloudflare.com/rss/`
-6. **Meta Engineering** — `https://engineering.fb.com/feed/`
+1. **Stripe Blog** — `https://stripe.com/blog/feed.rss`
+2. **Vercel Blog** — `https://vercel.com/atom`
+3. **Cloudflare Blog** — `https://blog.cloudflare.com/rss/`
+4. **Meta Engineering** — `https://engineering.fb.com/feed/`
 
 For each: Extract title, link, description/summary, pubDate/published.
 

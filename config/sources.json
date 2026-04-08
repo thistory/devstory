@@ -7,10 +7,7 @@
       "agent": "news-blogs.md",
       "sources": [
         { "name": "hacker_news", "url": "https://hacker-news.firebaseio.com/v0/topstories.json", "type": "api" },
-        { "name": "geeknews", "url": "https://news.hada.io/rss", "type": "rss" },
         { "name": "techcrunch", "url": "https://techcrunch.com/feed/", "type": "rss" },
-        { "name": "the_verge", "url": "https://www.theverge.com/rss/index.xml", "type": "rss" },
-        { "name": "ars_technica", "url": "https://feeds.arstechnica.com/arstechnica/index", "type": "rss" },
         { "name": "devto", "url": "https://dev.to/feed", "type": "rss" }
       ]
     },
@@ -20,9 +17,7 @@
         { "name": "arxiv_ai", "url": "https://rss.arxiv.org/rss/cs.AI", "type": "rss" },
         { "name": "arxiv_lg", "url": "https://rss.arxiv.org/rss/cs.LG", "type": "rss" },
         { "name": "arxiv_cl", "url": "https://rss.arxiv.org/rss/cs.CL", "type": "rss" },
-        { "name": "openai_blog", "url": "https://openai.com/blog", "type": "web" },
         { "name": "anthropic_news", "url": "https://www.anthropic.com/news", "type": "web" },
-        { "name": "google_ai", "url": "https://blog.google/technology/ai/", "type": "web" },
         { "name": "huggingface_blog", "url": "https://huggingface.co/blog", "type": "web" },
         { "name": "papers_with_code", "url": "https://paperswithcode.com", "type": "web" }
       ]
@@ -40,9 +35,6 @@
     "community": {
       "agent": "community.md",
       "sources": [
-        { "name": "reddit_programming", "url": "https://www.reddit.com/r/programming/top.json?t=day", "type": "api" },
-        { "name": "reddit_ml", "url": "https://www.reddit.com/r/MachineLearning/top.json?t=day", "type": "api" },
-        { "name": "reddit_experienceddevs", "url": "https://www.reddit.com/r/ExperiencedDevs/top.json?t=day", "type": "api" },
         { "name": "lobsters", "url": "https://lobste.rs/rss", "type": "rss" },
         { "name": "tldr", "url": "https://tldr.tech", "type": "web" }
       ]
@@ -50,8 +42,6 @@
     "eng_blogs": {
       "agent": "eng-blogs.md",
       "sources": [
-        { "name": "netflix_tech", "url": "https://netflixtechblog.com/feed", "type": "rss" },
-        { "name": "uber_eng", "url": "https://eng.uber.com/feed/", "type": "rss" },
         { "name": "stripe_blog", "url": "https://stripe.com/blog/feed.rss", "type": "rss" },
         { "name": "vercel_blog", "url": "https://vercel.com/atom", "type": "rss" },
         { "name": "cloudflare_blog", "url": "https://blog.cloudflare.com/rss/", "type": "rss" },
