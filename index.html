@@ -427,9 +427,9 @@ function createCard(item) {
 function render(data) {
   var t = I18N[currentLang];
   var items = data.items;
-  var meta = data.meta;
+  var meta = data.meta || { sources_failed: [] };
 
-  var dateObj = new Date(data.collected_at);
+  var dateObj = data.collected_at ? new Date(data.collected_at) : new Date(data.date);
   var dateStr = t.dateFmt(dateObj) + ' \u00B7 ' + t.timeFmt(dateObj) + ' ' + t.latest;
 
   var content = document.getElementById('content');
@@ -526,8 +526,8 @@ var currentObserver = null;
   var d = String(now.getDate()).padStart(2, '0');
   var loaded = false;
 
-  // Try: 1) processed_data.json, 2) today raw.json, 3) latest.json manifest
-  var paths = ['processed_data.json', 'data/' + y + '/' + m + '/' + d + '/raw.json', 'data/latest.json'];
+  // Try: 1) today's raw.json, 2) latest.json manifest, 3) processed_data.json fallback
+  var paths = ['data/' + y + '/' + m + '/' + d + '/raw.json', 'data/latest.json', 'processed_data.json'];
   for (var pi = 0; pi < paths.length; pi++) {
     try {
       var res = await fetch(paths[pi]);
