@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Merge agent results, deduplicate, score, rank, and save raw.json + summary.md"""
 import json
+import re
 import os
 import glob
 import hashlib
@@ -32,9 +33,27 @@ def load_agent_results():
     
     for f in sorted(glob.glob(f"{COLLECT_DIR}/*.json")):
         try:
-            data = json.load(open(f))
+            raw = open(f).read().strip()
+            # Strip markdown code fences if present
+            if raw.startswith("```"):
+                raw = re.sub(r"^```[a-z]*\n?", "", raw)
+                raw = re.sub(r"\n?```$", "", raw.strip())
+            data = json.loads(raw)
+            # Handle case where data is a string (double-encoded JSON)
+            if isinstance(data, str):
+                data = json.loads(data)
+            if not isinstance(data, dict):
+                print(f"  WARNING: {f} is not a JSON object, skipping")
+                failed.append(os.path.basename(f))
+                continue
             items = data.get("items", [])
+            # Validate items are dicts
+            items = [i for i in items if isinstance(i, dict)]
             errs = data.get("errors", [])
+            if isinstance(errs, list):
+                errs = [e for e in errs if isinstance(e, dict)]
+            else:
+                errs = []
             category = data.get("category", os.path.basename(f).replace(".json", ""))
             all_items.extend(items)
             errors.extend(errs)
