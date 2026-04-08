@@ -12,7 +12,8 @@ Read `config/sources.json` to load source definitions.
 ## Step 2: Check for Existing Data
 
 Determine today's date. Check if `data/YYYY/MM/DD/raw.json` already exists.
-- If it exists, inform the user and ask whether to overwrite or skip.
+- If it exists and already has items with non-empty `detail_ko`, skip collection entirely and report "Already collected today."
+- If it exists but has no enrichment, proceed from Step 9.
 - If it doesn't exist, proceed.
 
 ## Step 3: Dispatch 5 Parallel Agents
@@ -43,7 +44,7 @@ Keep the version with the higher score.
 ## Step 6: Quality Score & Rank
 
 Assign a score (0-100) to each item based on:
-- **Source reliability** (weight 40%): HN, arXiv, major eng blogs = high; Reddit, dev.to = medium
+- **Source reliability** (weight 40%): HN, arXiv, major eng blogs = high; dev.to = medium
 - **Community signal** (weight 35%): upvotes, stars, comments (normalize across sources)
 - **Recency** (weight 25%): prefer items from last 12 hours over 12-24 hours
 
@@ -103,25 +104,25 @@ Write `data/YYYY/MM/DD/summary.md` in this format:
 
 *Collected by DevStory Collector*
 
-## Step 9: Enrich with Detailed Translations
+## Step 9: Enrich with Translations
 
-After saving raw.json, run the enrichment process:
+After saving raw.json, enrich items with detailed content:
 
-1. Split the saved items into 5 batches
-2. Dispatch 5 parallel agents — each agent receives a batch of items and for each:
+1. Split the saved items into 3 batches (10 items each)
+2. Dispatch 3 parallel agents — each receives a batch and for each item:
    - Use WebFetch to fetch the original URL
-   - Generate `detail_ko`: detailed Korean summary/translation (300-500 words, 3-5 paragraphs)
-   - Generate `detail_en`: detailed English summary (300-500 words, 3-5 paragraphs)
-   - If WebFetch fails, generate both based on existing title/summary
+   - Generate `detail_ko`: Korean summary (100-200 words, 2-3 paragraphs, concise)
+   - Generate `detail_en`: English summary (100-200 words, 2-3 paragraphs, concise)
+   - If WebFetch fails, set both to empty string "" (skip enrichment for that item)
    - Return JSON array: [{ "id": "...", "detail_ko": "...", "detail_en": "..." }]
 3. Merge detail_ko and detail_en into each item in raw.json
 4. Overwrite the same raw.json with enriched data
 
 Content rules for detail_ko / detail_en:
-- Articles/blog posts: summarize key points
-- GitHub repos: explain what it does, features, tech stack, why notable
-- Discussions: summarize main arguments and reactions
-- Papers: explain research question, methodology, findings, implications
+- Articles/blog posts: key points only
+- GitHub repos: what it does, why notable
+- Discussions: main arguments
+- Papers: research question, findings
 
 ## Step 10: Report to User
 
