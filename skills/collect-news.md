@@ -1,9 +1,11 @@
 ---
 name: collect-news
-description: 최신 개발/AI 뉴스를 수집하는 오케스트레이터 스킬. 5개 카테고리별 에이전트를 병렬 디스패치하여 데이터를 수집하고, 품질 필터링 후 JSON + 마크다운으로 저장한다.
+description: 최신 개발/AI 뉴스를 수집하는 오케스트레이터 스킬. 5개 카테고리별 에이전트를 병렬 디스패치하여 pre-fetched 데이터를 파싱하고, 품질 필터링 후 JSON + 마크다운으로 저장한다.
 ---
 
 You are the DevStory news collection orchestrator. Follow these steps exactly.
+
+**Important:** All source data is pre-fetched by `scripts/fetch-sources.sh` and saved in `tmp/sources/`. Agents should use the Read tool to read these local files — do NOT use WebFetch for source collection.
 
 ## Step 1: Read Configuration
 
@@ -12,23 +14,20 @@ Read `config/sources.json` to load source definitions.
 ## Step 2: Check for Existing Data
 
 Determine today's date. Check if `data/YYYY/MM/DD/raw.json` already exists.
-- If it exists and already has items with non-empty `detail_ko`, skip collection entirely and report "Already collected today."
-- If it exists but has no enrichment, proceed from Step 9.
+- If it exists, skip collection entirely and report "Already collected today."
 - If it doesn't exist, proceed.
 
 ## Step 3: Dispatch 5 Parallel Agents
 
 Launch ALL 5 agents in a SINGLE message using the Agent tool (this enables parallel execution):
 
-1. **news-blogs agent**: Read `skills/agents/news-blogs.md` and follow its instructions to collect news/blog data. Return result as JSON.
-2. **ai-research agent**: Read `skills/agents/ai-research.md` and follow its instructions to collect AI research data. Return result as JSON.
-3. **github-oss agent**: Read `skills/agents/github-oss.md` and follow its instructions to collect GitHub/OSS data. Return result as JSON.
-4. **community agent**: Read `skills/agents/community.md` and follow its instructions to collect community discussion data. Return result as JSON.
-5. **eng-blogs agent**: Read `skills/agents/eng-blogs.md` and follow its instructions to collect engineering blog data. Return result as JSON.
+1. **news-blogs agent**: Read `skills/agents/news-blogs.md` and follow its instructions to collect news/blog data from pre-fetched files in `tmp/sources/`. Return result as JSON.
+2. **ai-research agent**: Read `skills/agents/ai-research.md` and follow its instructions to collect AI research data from pre-fetched files in `tmp/sources/`. Return result as JSON.
+3. **github-oss agent**: Read `skills/agents/github-oss.md` and follow its instructions to collect GitHub/OSS data from pre-fetched files in `tmp/sources/`. Return result as JSON.
+4. **community agent**: Read `skills/agents/community.md` and follow its instructions to collect community discussion data from pre-fetched files in `tmp/sources/`. Return result as JSON.
+5. **eng-blogs agent**: Read `skills/agents/eng-blogs.md` and follow its instructions to collect engineering blog data from pre-fetched files in `tmp/sources/`. Return result as JSON.
 
-Each agent prompt MUST include: "Read skills/agents/{name}.md and follow its instructions exactly. Return your result as raw JSON."
-
-**Note:** Agent prompts have source URLs hardcoded for reliability (LLM prompts cannot dynamically read JSON configs). When adding a new source, update BOTH `config/sources.json` and the corresponding agent prompt file.
+Each agent prompt MUST include: "Read skills/agents/{name}.md and follow its instructions exactly. Sources are pre-fetched in tmp/sources/. Return your result as raw JSON."
 
 ## Step 4: Merge Results
 
@@ -104,30 +103,12 @@ Write `data/YYYY/MM/DD/summary.md` in this format:
 
 *Collected by DevStory Collector*
 
-## Step 9: Enrich with Translations
-
-After saving raw.json, enrich items with detailed content:
-
-1. Split the saved items into 3 batches (10 items each)
-2. Dispatch 3 parallel agents — each receives a batch and for each item:
-   - Use WebFetch to fetch the original URL
-   - Generate `detail_ko`: Korean summary (100-200 words, 2-3 paragraphs, concise)
-   - Generate `detail_en`: English summary (100-200 words, 2-3 paragraphs, concise)
-   - If WebFetch fails, set both to empty string "" (skip enrichment for that item)
-   - Return JSON array: [{ "id": "...", "detail_ko": "...", "detail_en": "..." }]
-3. Merge detail_ko and detail_en into each item in raw.json
-4. Overwrite the same raw.json with enriched data
-
-Content rules for detail_ko / detail_en:
-- Articles/blog posts: key points only
-- GitHub repos: what it does, why notable
-- Discussions: main arguments
-- Papers: research question, findings
-
-## Step 10: Report to User
+## Step 9: Report
 
 Print a brief summary:
-- Total items collected / filtered / saved / enriched
+- Total items collected / filtered / saved
 - Any source errors
 - Path to saved files
 - Top 5 items as a preview
+
+**Note:** Enrichment (detail_ko/detail_en) is handled separately by `scripts/cron-collect.sh` Step 4.
