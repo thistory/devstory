@@ -51,7 +51,7 @@ rsync -avz \
   -e "ssh -i $SSH_KEY -o StrictHostKeyChecking=no" \
   "$DEVSTORY_DIR/index.html" \
   "$DEVSTORY_DIR/processed_data.json" \
-  "$DEVSTORY_DIR/data/" \
+  "$DEVSTORY_DIR/data" \
   devstory:/home/opc/devstory/
 
 echo "[$(date)] Deploy complete."

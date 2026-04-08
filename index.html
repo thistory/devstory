@@ -524,17 +524,15 @@ var currentObserver = null;
   var y = now.getFullYear();
   var m = String(now.getMonth() + 1).padStart(2, '0');
   var d = String(now.getDate()).padStart(2, '0');
-  var todayPath = 'data/' + y + '/' + m + '/' + d + '/raw.json';
   var loaded = false;
 
-  // Try today's data first, then fall back to latest.json manifest
-  var paths = [todayPath, 'data/latest.json'];
+  // Try: 1) processed_data.json, 2) today raw.json, 3) latest.json manifest
+  var paths = ['processed_data.json', 'data/' + y + '/' + m + '/' + d + '/raw.json', 'data/latest.json'];
   for (var pi = 0; pi < paths.length; pi++) {
     try {
       var res = await fetch(paths[pi]);
       if (!res.ok) continue;
       var json = await res.json();
-      // latest.json may contain { "path": "data/2026/03/22/raw.json" }
       if (json.path && !json.items) {
         res = await fetch(json.path);
         if (!res.ok) continue;
@@ -544,27 +542,7 @@ var currentObserver = null;
     } catch(e) { continue; }
   }
 
-  // Fallback: scan known dates (hardcoded first run)
-  if (!loaded) {
-    try {
-      var res = await fetch('data/2026/03/22/raw.json');
-      if (res.ok) { globalData = await res.json(); loaded = true; }
-    } catch(e) {}
-  }
-
-  if (loaded) {
-    render(globalData);
-  } else {
-    var content = document.getElementById('content');
-    var msg = el('div', { className: 'section' });
-    msg.appendChild(el('p', {
-      textContent: currentLang === 'ko'
-        ? '\uB370\uC774\uD130\uB97C \uBD88\uB7EC\uC62C \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. /collect-news \uC2A4\uD0AC\uC744 \uC2E4\uD589\uD574\uC8FC\uC138\uC694.'
-        : 'No data available. Please run the /collect-news skill first.',
-      className: 'detail-text'
-    }));
-    content.appendChild(msg);
-  }
+  if (loaded) { render(globalData); }
 })();
 </script>
 </body>
