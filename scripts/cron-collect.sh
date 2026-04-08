@@ -1,54 +1,93 @@
 #!/bin/bash
-# DevStory Collector — cron wrapper for Claude Code on server
-# Flow: bash pre-fetch → Claude haiku (collect) → bash pre-fetch articles → Claude haiku (enrich) → bash post-process
+# DevStory Daily Collector
+# Triggered by: claude-devstory.timer (daily 18:30 UTC = 03:30 KST)
+# Flow: pre-fetch → Claude collect → Python merge → pre-fetch articles → Claude enrich → bash deploy
+set -uo pipefail
 
 export HOME="/home/openclaw"
 export PATH="$HOME/.bun/bin:$HOME/.npm-global/bin:/usr/local/bin:/usr/bin:/bin"
+export TZ="Asia/Seoul"
 
 DEVSTORY_DIR="$HOME/devstory"
 LOG_DIR="$DEVSTORY_DIR/logs"
 TODAY=$(date +%Y-%m-%d)
+TODAY_PATH=$(date +%Y/%m/%d)
 LOG_FILE="${LOG_DIR}/collect-${TODAY}.log"
 
 mkdir -p "$LOG_DIR"
 
-log() { echo "[$(date)] $1" | tee -a "$LOG_FILE"; }
+log() { echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] $1" | tee -a "$LOG_FILE"; }
 
-log "Starting DevStory collection..."
+# Log rotation: keep last 14 days
+find "$LOG_DIR" -name "collect-*.log" -mtime +14 -delete 2>/dev/null
+
+log "========================================="
+log "DevStory Daily Collection — $TODAY"
+log "========================================="
+
 cd "$DEVSTORY_DIR"
 
-# Step 1: Pre-fetch all source feeds/pages (bash, ~5 sec)
-log "Step 1: Pre-fetching sources..."
-"$DEVSTORY_DIR/scripts/fetch-sources.sh" 2>&1 | tee -a "$LOG_FILE"
+# Check if already collected today
+if [ -f "$DEVSTORY_DIR/data/${TODAY_PATH}/raw.json" ]; then
+  EXISTING=$(python3 -c "import json; print(len(json.load(open('$DEVSTORY_DIR/data/${TODAY_PATH}/raw.json')).get('items',[])))" 2>/dev/null || echo "0")
+  if [ "$EXISTING" -gt 1 ]; then
+    log "Today's data already exists ($EXISTING items). Running deploy only."
+    "$DEVSTORY_DIR/scripts/post-process.sh" 2>&1 | tee -a "$LOG_FILE"
+    exit 0
+  fi
+  log "Existing data has only $EXISTING items. Re-collecting."
+fi
 
-# Step 2: Collect + score + save raw.json (Claude haiku, reads local files)
-log "Step 2: Collecting and scoring news (haiku)..."
+# Step 1: Pre-fetch all source feeds/pages (~5 sec)
+log "[Step 1/6] Pre-fetching sources..."
+"$DEVSTORY_DIR/scripts/fetch-sources.sh" 2>&1 | tee -a "$LOG_FILE"
+log "[Step 1/6] Done."
+
+# Step 2: Collect via Claude haiku (agents save to tmp/collect/*.json)
+log "[Step 2/6] Collecting news (haiku)..."
 claude --dangerously-skip-permissions --model haiku -p \
-  "Read skills/collect-news.md and follow Steps 1-8 only (stop before Step 9). Today is ${TODAY}. Sources are pre-fetched in tmp/sources/." \
+  "Read skills/collect-news.md and follow its instructions exactly. Today is ${TODAY}." \
   --allowedTools "Bash,Write,Read,Glob,Grep,Agent" \
   --max-turns 40 \
   2>&1 | tee -a "$LOG_FILE"
+log "[Step 2/6] Done."
 
-# Step 3: Pre-fetch article URLs for enrichment (bash, ~10 sec)
-TODAY_RAW="$DEVSTORY_DIR/data/$(date +%Y/%m/%d)/raw.json"
-if [ -f "$TODAY_RAW" ]; then
-  log "Step 3: Pre-fetching article URLs for enrichment..."
-  "$DEVSTORY_DIR/scripts/fetch-enrichment.sh" 2>&1 | tee -a "$LOG_FILE"
+# Step 3: Merge, dedup, score, rank via Python → raw.json
+log "[Step 3/6] Merging and scoring (Python)..."
+python3 "$DEVSTORY_DIR/scripts/merge-results.py" 2>&1 | tee -a "$LOG_FILE"
+log "[Step 3/6] Done."
 
-  # Step 4: Enrich with translations (Claude haiku, reads local files)
-  log "Step 4: Enriching news (haiku)..."
-  claude --dangerously-skip-permissions --model haiku -p \
-    "Read skills/enrich-news.md and follow its instructions. Today is ${TODAY}. Article content is pre-fetched in tmp/enrichment/{id}.html — use Read tool to read these files instead of WebFetch. If a file doesn't exist for an item, set detail_ko and detail_en to empty string." \
-    --allowedTools "Bash,Write,Read,Glob,Grep,Agent" \
-    --max-turns 30 \
-    2>&1 | tee -a "$LOG_FILE"
-
-  # Step 5: Post-process + deploy (bash)
-  log "Step 5: Post-processing and deploying..."
-  "$DEVSTORY_DIR/scripts/post-process.sh" 2>&1 | tee -a "$LOG_FILE"
-else
-  log "ERROR: No raw.json found for today ($TODAY_RAW). Skipping enrichment + deploy."
+# Verify raw.json
+TODAY_RAW="$DEVSTORY_DIR/data/${TODAY_PATH}/raw.json"
+if [ ! -f "$TODAY_RAW" ]; then
+  log "FATAL: raw.json not created. Aborting."
   exit 1
 fi
+ITEM_COUNT=$(python3 -c "import json; print(len(json.load(open('$TODAY_RAW')).get('items',[])))" 2>/dev/null || echo "0")
+log "raw.json: $ITEM_COUNT items."
+if [ "$ITEM_COUNT" -lt 5 ]; then
+  log "WARNING: Very few items ($ITEM_COUNT). Check agent results in tmp/collect/."
+fi
 
-log "Collection and deploy complete."
+# Step 4: Pre-fetch article URLs for enrichment (~10 sec)
+log "[Step 4/6] Pre-fetching article URLs..."
+"$DEVSTORY_DIR/scripts/fetch-enrichment.sh" 2>&1 | tee -a "$LOG_FILE"
+log "[Step 4/6] Done."
+
+# Step 5: Enrich with translations (Claude haiku)
+log "[Step 5/6] Enriching news (haiku)..."
+claude --dangerously-skip-permissions --model haiku -p \
+  "Read skills/enrich-news.md and follow its instructions. Today is ${TODAY}. Article content is pre-fetched in tmp/enrichment/{id}.html — use Read tool instead of WebFetch. If a file doesn't exist, set detail_ko and detail_en to empty string." \
+  --allowedTools "Bash,Write,Read,Glob,Grep,Agent" \
+  --max-turns 30 \
+  2>&1 | tee -a "$LOG_FILE"
+log "[Step 5/6] Done."
+
+# Step 6: Post-process + deploy
+log "[Step 6/6] Post-processing and deploying..."
+"$DEVSTORY_DIR/scripts/post-process.sh" 2>&1 | tee -a "$LOG_FILE"
+log "[Step 6/6] Done."
+
+log "========================================="
+log "DevStory Daily Collection — COMPLETE"
+log "========================================="

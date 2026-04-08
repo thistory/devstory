@@ -1,5 +1,6 @@
 #!/bin/bash
 # Pre-fetch all news sources in parallel using curl
+export TZ="Asia/Seoul"
 # Saves to tmp/sources/{source_name}.{xml|json|html}
 set -euo pipefail
 

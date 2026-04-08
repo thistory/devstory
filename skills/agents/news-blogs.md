@@ -40,7 +40,7 @@ If a file doesn't exist, the source failed to fetch. Record in errors and contin
 
 ## Output Format
 
-Return your result as a single JSON object (no markdown code fences, just raw JSON):
+Write your result as a single JSON object to `tmp/collect/news_blogs.json` using the Write tool:
 
 {
   "category": "news_blogs",

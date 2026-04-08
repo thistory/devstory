@@ -3,6 +3,8 @@
 set -euo pipefail
 
 export HOME="/home/openclaw"
+export TZ="Asia/Seoul"
+
 DEVSTORY_DIR="$HOME/devstory"
 TODAY_DIR="$DEVSTORY_DIR/data/$(date +%Y/%m/%d)"
 RAW_JSON="$TODAY_DIR/raw.json"
@@ -16,37 +18,38 @@ if [ ! -f "$RAW_JSON" ]; then
   exit 1
 fi
 
-echo "[$(date)] Merging today's data into processed_data.json..."
+echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] Merging today's data into processed_data.json..."
 
 # Initialize processed_data.json if missing
 if [ ! -f "$PROCESSED" ]; then
   echo '{"date":"","items":[]}' > "$PROCESSED"
 fi
 
-# Check if today's data is already merged (idempotency)
-EXISTING_TODAY=$(jq --arg date "$TODAY_DATE" '[.items[] | select(.published_at | startswith($date))] | length' "$PROCESSED" 2>/dev/null || echo "0")
-if [ "$EXISTING_TODAY" -gt 0 ]; then
-  echo "[$(date)] Today's data already in processed_data.json ($EXISTING_TODAY items). Skipping merge."
-else
-  # Merge using jq: append today's items, map score->final_score, drop detail fields, update date
-  jq --arg date "$TODAY_DATE" --slurpfile new "$RAW_JSON" '
-    .date = $date |
-    .items += [
-      $new[0].items[] |
-      {
-        id, title, title_ko, summary_ko, url, source, category, tags,
-        final_score: .score,
-        published_at
-      }
-    ]
-  ' "$PROCESSED" > "${PROCESSED}.tmp" && mv "${PROCESSED}.tmp" "$PROCESSED"
-
-  TOTAL=$(jq '.items | length' "$PROCESSED")
-  echo "[$(date)] processed_data.json updated. Total items: $TOTAL"
+# Check if today's data is already merged (idempotency by item ID)
+FIRST_ID=$(python3 -c "import json; items=json.load(open('$RAW_JSON')).get('items',[]); print(items[0]['id'] if items else '')" 2>/dev/null || echo "")
+if [ -n "$FIRST_ID" ]; then
+  ALREADY=$(python3 -c "import json; items=json.load(open('$PROCESSED')).get('items',[]); print('yes' if any(i['id']=='$FIRST_ID' for i in items) else 'no')" 2>/dev/null || echo "no")
+  if [ "$ALREADY" = "yes" ]; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] Today's data already merged. Skipping."
+  else
+    jq --arg date "$TODAY_DATE" --slurpfile new "$RAW_JSON" '
+      .date = $date |
+      .items += [
+        $new[0].items[] |
+        {
+          id, title, title_ko, summary_ko, url, source, category, tags,
+          final_score: .score,
+          published_at
+        }
+      ]
+    ' "$PROCESSED" > "${PROCESSED}.tmp" && mv "${PROCESSED}.tmp" "$PROCESSED"
+    TOTAL=$(jq '.items | length' "$PROCESSED")
+    echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] processed_data.json updated. Total items: $TOTAL"
+  fi
 fi
 
 # Deploy via rsync
-echo "[$(date)] Deploying to devstory server..."
+echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] Deploying to devstory server..."
 rsync -avz \
   -e "ssh -i $SSH_KEY -o StrictHostKeyChecking=no" \
   "$DEVSTORY_DIR/index.html" \
@@ -54,4 +57,4 @@ rsync -avz \
   "$DEVSTORY_DIR/data" \
   devstory:/home/opc/devstory/
 
-echo "[$(date)] Deploy complete."
+echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] Deploy complete."

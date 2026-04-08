@@ -1,5 +1,6 @@
 #!/bin/bash
 # Pre-fetch article URLs from raw.json for enrichment
+export TZ="Asia/Seoul"
 # Saves to tmp/enrichment/{id}.html
 set -euo pipefail
 
