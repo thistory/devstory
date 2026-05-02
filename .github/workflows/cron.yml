@@ -1,0 +1,111 @@
+name: Cron (Claude Code)
+on:
+  schedule:
+    - cron: '30 18 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: cron
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    permissions:
+      contents: read
+    env:
+      TZ: Asia/Seoul
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Install repo deps (npm if package.json exists)
+        run: |
+          if [[ -f package-lock.json ]]; then
+            npm ci
+          elif [[ -f package.json ]]; then
+            npm install
+          fi
+          if [[ -f requirements.txt ]]; then
+            python3 -m pip install --quiet -r requirements.txt
+          fi
+
+      - name: Restore Claude credentials (subscription OAuth)
+        env:
+          CREDS: ${{ secrets.CLAUDE_CREDENTIALS }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.claude"
+          printf '%s' "$CREDS" > "$HOME/.claude/.credentials.json"
+          chmod 600 "$HOME/.claude/.credentials.json"
+          jq -e '.claudeAiOauth.accessToken' "$HOME/.claude/.credentials.json" >/dev/null \
+            || (echo "credentials file shape unexpected" >&2; exit 1)
+
+      - name: Restore deploy SSH key + alias 'devstory'
+        env:
+          KEY:  ${{ secrets.DEPLOY_SSH_KEY }}
+          HOST: ${{ secrets.DEPLOY_HOST }}
+          USER: ${{ secrets.DEPLOY_USER }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
+          printf '%s\n' "$KEY" > "$HOME/.ssh/id_deploy"
+          chmod 600 "$HOME/.ssh/id_deploy"
+          # The cron script uses 'ssh devstory' / 'rsync ... devstory:...'
+          # Set up the same alias here so the script is unmodified.
+          cat > "$HOME/.ssh/config" <<EOF
+          Host devstory
+            HostName $HOST
+            User $USER
+            IdentityFile ~/.ssh/id_deploy
+            StrictHostKeyChecking accept-new
+            UserKnownHostsFile ~/.ssh/known_hosts
+          EOF
+          chmod 600 "$HOME/.ssh/config"
+          ssh-keyscan -H "$HOST" >> "$HOME/.ssh/known_hosts" 2>/dev/null || true
+
+      # The original script calls "$HOME/bin/notify-telegram.sh" — that file
+      # only exists on apiecebot. Provide a no-op stub so the script's exit
+      # status isn't affected.
+      - name: Stub notify-telegram (no-op)
+        run: |
+          mkdir -p "$HOME/bin"
+          cat > "$HOME/bin/notify-telegram.sh" <<'EOF'
+          #!/usr/bin/env bash
+          # no-op stub for GitHub Actions environment
+          echo "[notify-telegram stub] $*" >&2
+          exit 0
+          EOF
+          chmod +x "$HOME/bin/notify-telegram.sh"
+
+      - name: Run cron job
+        run: bash ./scripts/cron-collect.sh
+
+      # Refresh-token rotation: persist updated credentials back into the
+      # secret so the NEXT run can authenticate. Uses the GH_PAT (fine-grained
+      # PAT with 'Secrets: read/write' scope on this repo).
+      - name: Save refreshed credentials
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          set -euo pipefail
+          if [[ -f "$HOME/.claude/.credentials.json" ]]; then
+            gh secret set CLAUDE_CREDENTIALS \
+              --repo "${{ github.repository }}" \
+              < "$HOME/.claude/.credentials.json"
+            echo "credentials secret updated"
+          else
+            echo "no credentials file to save" >&2
+          fi
