@@ -104,13 +104,29 @@ jobs:
           ls -la /home/openclaw
 
       # The cron script does `export PATH="$HOME/.bun/bin:$HOME/.npm-global/bin:..."`,
-      # so 'claude' must live at /home/openclaw/.npm-global/bin/claude after the
-      # script's HOME override. Install it directly into that prefix.
-      - name: Install Claude Code at /home/openclaw/.npm-global
+      # so the agent CLI must live at /home/openclaw/.npm-global/bin/. Cache the
+      # whole install dir keyed by the latest version on npm, so we only re-download
+      # when a new version is published.
+      - name: Resolve agent CLI version
+        id: agent-ver
+        run: echo "v=$(npm view @anthropic-ai/claude-code version)" >> "$GITHUB_OUTPUT"
+
+      - name: Cache agent CLI install
+        id: agent-cache
+        uses: actions/cache@v4
+        with:
+          path: /home/openclaw/.npm-global
+          key: agent-cli-${{ runner.os }}-${{ steps.agent-ver.outputs.v }}
+
+      - name: Install agent CLI (cache miss)
+        if: steps.agent-cache.outputs.cache-hit != 'true'
         run: |
           set -euo pipefail
-          npm install -g --prefix /home/openclaw/.npm-global @anthropic-ai/claude-code
-          /home/openclaw/.npm-global/bin/claude --version
+          npm install -g --prefix /home/openclaw/.npm-global \
+            "@anthropic-ai/claude-code@${{ steps.agent-ver.outputs.v }}"
+
+      - name: Verify agent CLI
+        run: /home/openclaw/.npm-global/bin/claude --version
 
       - name: Run cron job
         run: bash ./scripts/cron-collect.sh
