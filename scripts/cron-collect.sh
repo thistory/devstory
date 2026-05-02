@@ -1,5 +1,5 @@
 #!/bin/bash
-# DevStory Daily Collector
+# DevStory Daily Collector — script/LLM hybrid
 # Triggered by: claude-devstory.timer (daily 18:30 UTC = 03:30 KST)
 # Flow: pre-fetch → Claude collect → Python merge → pre-fetch articles → Claude enrich → bash deploy
 set -uo pipefail
