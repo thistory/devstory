@@ -1,4 +1,4 @@
-name: Cron (Claude Code)
+name: AI Agent Analysis
 on:
   schedule:
     - cron: '30 18 * * *'
