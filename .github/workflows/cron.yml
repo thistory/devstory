@@ -1,7 +1,7 @@
 name: AI Agent Analysis
 on:
   schedule:
-    - cron: '30 18 * * *'
+    - cron: '0 18 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -127,6 +127,12 @@ jobs:
 
       - name: Verify agent CLI
         run: /home/openclaw/.npm-global/bin/claude --version
+
+      - name: Runner resources
+        run: |
+          echo "--- memory ---"; free -h
+          echo "--- disk ---";   df -h /
+          echo "--- cpu ---";    nproc
 
       - name: Run cron job
         run: bash ./scripts/cron-collect.sh
