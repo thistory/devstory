@@ -89,11 +89,22 @@ jobs:
           EOF
           chmod +x "$HOME/bin/notify-telegram.sh"
 
-      # The cron script hardcodes paths like "$HOME/devstory" (because it
-      # was written for apiecebot where the user is 'openclaw' with that layout).
-      # Symlink so 'cd $HOME/devstory' lands in the checkout dir.
-      - name: Symlink $HOME/devstory → workspace
-        run: ln -sfn "$GITHUB_WORKSPACE" "$HOME/devstory"
+      # The cron script does `export HOME="/home/openclaw"` at the top, so all
+      # path references like "$HOME/devstory/logs" resolve to
+      # /home/openclaw/devstory/logs — which doesn't exist on a GH runner.
+      # Provision /home/openclaw as a symlink farm pointing at runner-owned dirs.
+      - name: Provision /home/openclaw layout
+        run: |
+          set -euo pipefail
+          sudo mkdir -p /home/openclaw
+          sudo ln -sfn "$GITHUB_WORKSPACE" /home/openclaw/devstory
+          sudo mkdir -p /home/openclaw/bin
+          sudo cp "$HOME/bin/notify-telegram.sh" /home/openclaw/bin/
+          # Also point Claude Code's expected $HOME/.claude at the runner's copy
+          sudo ln -sfn "$HOME/.claude" /home/openclaw/.claude
+          sudo ln -sfn "$HOME/.ssh"    /home/openclaw/.ssh
+          sudo chown -R runner:runner /home/openclaw
+          ls -la /home/openclaw
 
       - name: Run cron job
         run: bash ./scripts/cron-collect.sh
