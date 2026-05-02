@@ -27,9 +27,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Claude Code
-        run: npm install -g @anthropic-ai/claude-code
-
       - name: Install repo deps (npm if package.json exists)
         run: |
           if [[ -f package-lock.json ]]; then
@@ -98,13 +95,22 @@ jobs:
           set -euo pipefail
           sudo mkdir -p /home/openclaw
           sudo ln -sfn "$GITHUB_WORKSPACE" /home/openclaw/devstory
-          sudo mkdir -p /home/openclaw/bin
+          sudo mkdir -p /home/openclaw/bin /home/openclaw/.npm-global
           sudo cp "$HOME/bin/notify-telegram.sh" /home/openclaw/bin/
           # Also point Claude Code's expected $HOME/.claude at the runner's copy
           sudo ln -sfn "$HOME/.claude" /home/openclaw/.claude
           sudo ln -sfn "$HOME/.ssh"    /home/openclaw/.ssh
           sudo chown -R runner:runner /home/openclaw
           ls -la /home/openclaw
+
+      # The cron script does `export PATH="$HOME/.bun/bin:$HOME/.npm-global/bin:..."`,
+      # so 'claude' must live at /home/openclaw/.npm-global/bin/claude after the
+      # script's HOME override. Install it directly into that prefix.
+      - name: Install Claude Code at /home/openclaw/.npm-global
+        run: |
+          set -euo pipefail
+          npm install -g --prefix /home/openclaw/.npm-global @anthropic-ai/claude-code
+          /home/openclaw/.npm-global/bin/claude --version
 
       - name: Run cron job
         run: bash ./scripts/cron-collect.sh
