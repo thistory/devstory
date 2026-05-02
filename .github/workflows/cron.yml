@@ -89,6 +89,12 @@ jobs:
           EOF
           chmod +x "$HOME/bin/notify-telegram.sh"
 
+      # The cron script hardcodes paths like "$HOME/devstory" (because it
+      # was written for apiecebot where the user is 'openclaw' with that layout).
+      # Symlink so 'cd $HOME/devstory' lands in the checkout dir.
+      - name: Symlink $HOME/devstory → workspace
+        run: ln -sfn "$GITHUB_WORKSPACE" "$HOME/devstory"
+
       - name: Run cron job
         run: bash ./scripts/cron-collect.sh
 
