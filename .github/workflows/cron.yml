@@ -72,16 +72,33 @@ jobs:
           chmod 600 "$HOME/.ssh/config"
           ssh-keyscan -H "$HOST" >> "$HOME/.ssh/known_hosts" 2>/dev/null || true
 
-      # The original script calls "$HOME/bin/notify-telegram.sh" — that file
-      # only exists on apiecebot. Provide a no-op stub so the script's exit
-      # status isn't affected.
-      - name: Stub notify-telegram (no-op)
+      # Replacement for apiecebot's notify-telegram.sh.
+      # Reads TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID from env (injected from
+      # GH Secrets at the run step). curl is silent (-s -o /dev/null) so the
+      # token (which is in the URL path) never appears in logs.
+      - name: Install Telegram notifier
         run: |
           mkdir -p "$HOME/bin"
           cat > "$HOME/bin/notify-telegram.sh" <<'EOF'
           #!/usr/bin/env bash
-          # no-op stub for GitHub Actions environment
-          echo "[notify-telegram stub] $*" >&2
+          set -uo pipefail
+          MSG="${1:-}"
+          [[ -z "$MSG" ]] && exit 0
+          if [[ -z "${TELEGRAM_BOT_TOKEN:-}" || -z "${TELEGRAM_CHAT_ID:-}" ]]; then
+            echo "[notify-telegram] missing env vars — skipping" >&2
+            exit 0
+          fi
+          HTTP=$(curl -s -o /dev/null -w "%{http_code}" \
+            --data-urlencode "chat_id=${TELEGRAM_CHAT_ID}" \
+            --data-urlencode "text=${MSG}" \
+            --data-urlencode "parse_mode=Markdown" \
+            "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            || echo "000")
+          if [[ "$HTTP" =~ ^2 ]]; then
+            echo "[notify-telegram] OK ($HTTP)"
+          else
+            echo "[notify-telegram] failed: HTTP $HTTP" >&2
+          fi
           exit 0
           EOF
           chmod +x "$HOME/bin/notify-telegram.sh"
@@ -135,6 +152,9 @@ jobs:
           echo "--- cpu ---";    nproc
 
       - name: Run cron job
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
         run: bash ./scripts/cron-collect.sh
 
       # Refresh-token rotation: persist updated credentials back into the
