@@ -157,20 +157,24 @@ jobs:
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
         run: bash ./scripts/cron-collect.sh
 
-      # Refresh-token rotation: persist updated credentials back into the
-      # secret so the NEXT run can authenticate. Uses the GH_PAT (fine-grained
-      # PAT with 'Secrets: read/write' scope on this repo).
-      - name: Save refreshed credentials
+      # Refresh-token rotation: a refresh on one repo invalidates the old
+      # refresh_token, so BOTH repos' secrets must be updated synchronously to
+      # avoid the next run on the other repo getting 401.
+      - name: Save refreshed credentials (both repos)
         if: always()
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          set -euo pipefail
-          if [[ -f "$HOME/.claude/.credentials.json" ]]; then
-            gh secret set CLAUDE_CREDENTIALS \
-              --repo "${{ github.repository }}" \
-              < "$HOME/.claude/.credentials.json"
-            echo "credentials secret updated"
-          else
+          set -uo pipefail
+          if [[ ! -f "$HOME/.claude/.credentials.json" ]]; then
             echo "no credentials file to save" >&2
+            exit 0
           fi
+          for repo in thistory/investory thistory/devstory; do
+            if gh secret set CLAUDE_CREDENTIALS --repo "$repo" \
+                  < "$HOME/.claude/.credentials.json"; then
+              echo "updated CLAUDE_CREDENTIALS in $repo"
+            else
+              echo "FAILED to update CLAUDE_CREDENTIALS in $repo" >&2
+            fi
+          done
