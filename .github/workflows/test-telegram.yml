@@ -1,0 +1,29 @@
+name: Telegram Ping (manual)
+on: workflow_dispatch
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Send test message
+        env:
+          T: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          C: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          set -uo pipefail
+          if [[ -z "$T" || -z "$C" ]]; then
+            echo "missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID secret"; exit 1
+          fi
+          HTTP=$(curl -s -o /tmp/resp -w "%{http_code}" \
+            --data-urlencode "chat_id=${C}" \
+            --data-urlencode "text=🧪 GitHub Actions → Telegram 연결 테스트 (devstory)" \
+            --data-urlencode "parse_mode=Markdown" \
+            "https://api.telegram.org/bot${T}/sendMessage" \
+            || echo "000")
+          if [[ "$HTTP" =~ ^2 ]]; then
+            echo "OK ($HTTP)"
+          else
+            echo "FAIL: HTTP $HTTP"
+            jq '{ok, description, error_code}' /tmp/resp 2>/dev/null || cat /tmp/resp
+            exit 1
+          fi
