@@ -18,6 +18,11 @@ mkdir -p "$LOG_DIR"
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] $1" | tee -a "$LOG_FILE"; }
 
+notify() {
+  "$HOME/bin/notify-telegram.sh" "$(printf '📰 *DevStory 수집 완료*\n\n• 날짜: %s\n• 수집 기사: %s건\n• 링크: https://devstory.is-an.ai' "$TODAY" "$1")"
+  log "Telegram notification sent."
+}
+
 # Log rotation: keep last 14 days
 find "$LOG_DIR" -name "collect-*.log" -mtime +14 -delete 2>/dev/null
 
@@ -33,6 +38,7 @@ if [ -f "$DEVSTORY_DIR/data/${TODAY_PATH}/raw.json" ]; then
   if [ "$EXISTING" -gt 1 ]; then
     log "Today's data already exists ($EXISTING items). Running deploy only."
     "$DEVSTORY_DIR/scripts/post-process.sh" 2>&1 | tee -a "$LOG_FILE"
+    notify "$EXISTING"
     exit 0
   fi
   log "Existing data has only $EXISTING items. Re-collecting."
@@ -91,3 +97,5 @@ log "[Step 6/6] Done."
 log "========================================="
 log "DevStory Daily Collection — COMPLETE"
 log "========================================="
+
+notify "$ITEM_COUNT"
