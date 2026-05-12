@@ -44,17 +44,47 @@ fetch papers_with_code "https://paperswithcode.com" html &
 fetch github_trending "https://github.com/trending" html &
 fetch github_trending_python "https://github.com/trending/python" html &
 fetch github_trending_typescript "https://github.com/trending/typescript" html &
+fetch github_trending_go "https://github.com/trending/go" html &
+fetch github_trending_rust "https://github.com/trending/rust" html &
 fetch changelog "https://changelog.com/feed" xml &
 
-# community
+# community — 백엔드 개발자에게 회자되는 인기 토론
 fetch lobsters "https://lobste.rs/rss" xml &
 fetch tldr "https://tldr.tech" html &
+fetch hn_best "https://hnrss.org/best.atom" xml &
+fetch reddit_programming "https://www.reddit.com/r/programming/.rss" xml &
+fetch reddit_experienced_devs "https://www.reddit.com/r/ExperiencedDevs/.rss" xml &
 
 # eng_blogs
 fetch stripe_blog "https://stripe.com/blog/feed.rss" xml &
 fetch vercel_blog "https://vercel.com/atom" xml &
 fetch cloudflare_blog "https://blog.cloudflare.com/rss/" xml &
 fetch meta_eng "https://engineering.fb.com/feed/" xml &
+# eng_blogs — backend / 소프트웨어 엔지니어링 핵심 소스
+fetch netflix_tech "https://netflixtechblog.com/feed" xml &
+fetch slack_eng "https://slack.engineering/feed/" xml &
+fetch spotify_eng "https://engineering.atspotify.com/feed/" xml &
+fetch linkedin_eng "https://engineering.linkedin.com/blog.rss.html" xml &
+fetch airbnb_eng "https://medium.com/feed/airbnb-engineering" xml &
+fetch pinterest_eng "https://medium.com/feed/pinterest-engineering" xml &
+fetch discord_eng "https://discord.com/blog/rss.xml" xml &
+fetch uber_eng "https://eng.uber.com/?get_data=rss-feed&_format=raw" xml &
+fetch shopify_eng "https://shopify.engineering/blog.atom" xml &
+fetch atlassian_eng "https://www.atlassian.com/blog/feed" xml &
+fetch bytebytego "https://blog.bytebytego.com/feed" xml &
+fetch github_eng "https://github.blog/engineering/feed/" xml &
+fetch aws_arch "https://aws.amazon.com/blogs/architecture/feed/" xml &
+fetch high_scalability "https://highscalability.com/rss/" xml &
+# 백엔드 개발자에게 정말 도움되는 권위자/뉴스레터
+fetch pragmatic_engineer "https://newsletter.pragmaticengineer.com/feed" xml &
+fetch martin_fowler "https://martinfowler.com/feed.atom" xml &
+fetch marc_brooker "https://brooker.co.za/blog/atom.xml" xml &
+fetch werner_vogels "https://www.allthingsdistributed.com/atom.xml" xml &
+fetch stackoverflow_blog "https://stackoverflow.blog/engineering/feed/" xml &
+fetch infoq_arch "https://feed.infoq.com/architecture-design/" xml &
+fetch hashicorp_blog "https://www.hashicorp.com/blog/feed.xml" xml &
+fetch morning_paper "https://blog.acolyer.org/feed/" xml &
+fetch dan_slimmon "https://blog.danslimmon.com/feed/" xml &
 
 wait
 

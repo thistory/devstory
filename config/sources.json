@@ -28,6 +28,8 @@
         { "name": "github_trending", "url": "https://github.com/trending", "type": "web" },
         { "name": "github_trending_python", "url": "https://github.com/trending/python", "type": "web" },
         { "name": "github_trending_typescript", "url": "https://github.com/trending/typescript", "type": "web" },
+        { "name": "github_trending_go", "url": "https://github.com/trending/go", "type": "web", "backend": true },
+        { "name": "github_trending_rust", "url": "https://github.com/trending/rust", "type": "web", "backend": true },
         { "name": "changelog", "url": "https://changelog.com/feed", "type": "rss" },
         { "name": "github_releases", "url": "https://github.com/trending", "type": "web", "note": "Track major project releases via WebSearch for: React, Next.js, Node.js, Rust, Python, TypeScript new releases" }
       ]
@@ -36,7 +38,10 @@
       "agent": "community.md",
       "sources": [
         { "name": "lobsters", "url": "https://lobste.rs/rss", "type": "rss" },
-        { "name": "tldr", "url": "https://tldr.tech", "type": "web" }
+        { "name": "tldr", "url": "https://tldr.tech", "type": "web" },
+        { "name": "hn_best", "url": "https://hnrss.org/best.atom", "type": "rss", "backend": true, "note": "HN에서 widely upvoted된 글. SNS/커뮤니티에서 가장 회자되는 글의 풀" },
+        { "name": "reddit_programming", "url": "https://www.reddit.com/r/programming/.rss", "type": "rss", "backend": true },
+        { "name": "reddit_experienced_devs", "url": "https://www.reddit.com/r/ExperiencedDevs/.rss", "type": "rss", "backend": true, "note": "시니어+ 엔지니어 커뮤니티" }
       ]
     },
     "eng_blogs": {
@@ -45,7 +50,30 @@
         { "name": "stripe_blog", "url": "https://stripe.com/blog/feed.rss", "type": "rss" },
         { "name": "vercel_blog", "url": "https://vercel.com/atom", "type": "rss" },
         { "name": "cloudflare_blog", "url": "https://blog.cloudflare.com/rss/", "type": "rss" },
-        { "name": "meta_eng", "url": "https://engineering.fb.com/feed/", "type": "rss" }
+        { "name": "meta_eng", "url": "https://engineering.fb.com/feed/", "type": "rss" },
+        { "name": "netflix_tech", "url": "https://netflixtechblog.com/feed", "type": "rss", "backend": true },
+        { "name": "slack_eng", "url": "https://slack.engineering/feed/", "type": "rss", "backend": true },
+        { "name": "spotify_eng", "url": "https://engineering.atspotify.com/feed/", "type": "rss", "backend": true },
+        { "name": "linkedin_eng", "url": "https://engineering.linkedin.com/blog.rss.html", "type": "rss", "backend": true },
+        { "name": "airbnb_eng", "url": "https://medium.com/feed/airbnb-engineering", "type": "rss", "backend": true },
+        { "name": "pinterest_eng", "url": "https://medium.com/feed/pinterest-engineering", "type": "rss", "backend": true },
+        { "name": "discord_eng", "url": "https://discord.com/blog/rss.xml", "type": "rss", "backend": true },
+        { "name": "uber_eng", "url": "https://eng.uber.com/?get_data=rss-feed&_format=raw", "type": "rss", "backend": true },
+        { "name": "shopify_eng", "url": "https://shopify.engineering/blog.atom", "type": "rss", "backend": true },
+        { "name": "atlassian_eng", "url": "https://www.atlassian.com/blog/feed", "type": "rss", "backend": true },
+        { "name": "bytebytego", "url": "https://blog.bytebytego.com/feed", "type": "rss", "backend": true },
+        { "name": "github_eng", "url": "https://github.blog/engineering/feed/", "type": "rss", "backend": true },
+        { "name": "aws_arch", "url": "https://aws.amazon.com/blogs/architecture/feed/", "type": "rss", "backend": true },
+        { "name": "high_scalability", "url": "https://highscalability.com/rss/", "type": "rss", "backend": true },
+        { "name": "pragmatic_engineer", "url": "https://newsletter.pragmaticengineer.com/feed", "type": "rss", "backend": true, "note": "널리 인용되는 senior+ 엔지니어링 뉴스레터" },
+        { "name": "martin_fowler", "url": "https://martinfowler.com/feed.atom", "type": "rss", "backend": true, "note": "소프트웨어 아키텍처 권위자" },
+        { "name": "marc_brooker", "url": "https://brooker.co.za/blog/atom.xml", "type": "rss", "backend": true, "note": "AWS Principal Engineer, 분산 시스템" },
+        { "name": "werner_vogels", "url": "https://www.allthingsdistributed.com/atom.xml", "type": "rss", "backend": true, "note": "Amazon CTO Werner Vogels의 distributed systems 블로그" },
+        { "name": "stackoverflow_blog", "url": "https://stackoverflow.blog/engineering/feed/", "type": "rss", "backend": true },
+        { "name": "infoq_arch", "url": "https://feed.infoq.com/architecture-design/", "type": "rss", "backend": true },
+        { "name": "hashicorp_blog", "url": "https://www.hashicorp.com/blog/feed.xml", "type": "rss", "backend": true },
+        { "name": "morning_paper", "url": "https://blog.acolyer.org/feed/", "type": "rss", "backend": true, "note": "CS 논문 매일 정리" },
+        { "name": "dan_slimmon", "url": "https://blog.danslimmon.com/feed/", "type": "rss", "backend": true, "note": "SRE/observability 깊이 있는 글" }
       ]
     }
   }

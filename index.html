@@ -95,6 +95,72 @@
     font-style: italic; font-weight: 400; white-space: nowrap;
   }
 
+  /* ===== HERO (curated main feed) ===== */
+  .hero-section {
+    padding: 1.25rem 0 2rem;
+  }
+  .hero-eyebrow {
+    font-family: var(--sans); font-size: 0.65rem; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--terracotta);
+    margin-bottom: 0.5rem;
+  }
+  .hero-meta {
+    display: flex; align-items: center; gap: 0.75rem;
+    font-family: var(--sans); font-size: 0.7rem; color: var(--sage);
+    font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+    margin: 0.5rem 0 1.5rem; padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--stone);
+  }
+  .other-cats-divider {
+    text-align: center; font-family: var(--serif); font-style: italic;
+    font-size: 0.8rem; color: var(--sage); letter-spacing: 0.15em;
+    margin: 3rem 0 0.5rem; padding-top: 1.5rem;
+    border-top: 1px solid var(--stone);
+  }
+  @media (max-width: 767px) {
+    .hero-meta { font-size: 0.6rem; gap: 0.5rem; }
+  }
+
+  /* ===== BOTTOM NAV (plain tab bar, auto-hide while reading) ===== */
+  .bottom-nav {
+    position: fixed; left: 0; right: 0; bottom: 0;
+    z-index: 90;
+    display: flex; align-items: stretch;
+    background: var(--card-bg);
+    border-top: 1px solid var(--stone);
+    transition: transform 0.35s cubic-bezier(.22,.61,.36,1);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+  .bottom-nav.hidden {
+    transform: translateY(100%);
+    pointer-events: none;
+  }
+  .nav-btn {
+    flex: 1 1 0; min-width: 0;
+    font-family: var(--sans); font-size: 0.72rem; font-weight: 500;
+    color: var(--sage); background: none; border: none;
+    padding: 0.65rem 0.4rem 0.7rem;
+    cursor: pointer;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.2rem;
+    transition: color 0.2s ease, background 0.2s ease;
+    border-top: 2px solid transparent;
+  }
+  .nav-btn:hover { color: var(--fg); }
+  .nav-btn.active { color: var(--fg); border-top-color: var(--terracotta); }
+  .nav-btn-icon { font-size: 1.05rem; line-height: 1; }
+  .nav-btn-label {
+    max-width: 100%; overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap; letter-spacing: 0.01em;
+  }
+  @media (max-width: 480px) {
+    .nav-btn { font-size: 0.62rem; padding: 0.55rem 0.25rem 0.6rem; gap: 0.15rem; }
+    .nav-btn-icon { font-size: 1rem; }
+  }
+
+  /* Bottom padding so cards don't hide behind the nav */
+  body { padding-bottom: 4.5rem; }
+  @media (max-width: 480px) { body { padding-bottom: 4rem; } }
+
   /* ===== CARDS ===== */
   .card-list { display: flex; flex-direction: column; gap: 1rem; }
   .card {
@@ -257,6 +323,8 @@
   </footer>
 </div>
 
+<nav class="bottom-nav hidden" id="bottomNav" aria-label="Section navigation"></nav>
+
 <script>
 /* ===== i18n ===== */
 var I18N = {
@@ -272,6 +340,7 @@ var I18N = {
     viewOriginal: '\uC6D0\uBB38 \uBCF4\uAE30',
     failedSources: '\uC2E4\uD328\uD55C \uC18C\uC2A4 \uBCF4\uAE30',
     items: '\uAC1C',
+    moreInOtherCategories: '\u2014 \uADF8 \uC678 \u2014',
     weekdays: ['\uC77C', '\uC6D4', '\uD654', '\uC218', '\uBAA9', '\uAE08', '\uD1A0'],
     dateFmt: function(d) {
       return d.getFullYear() + '\uB144 ' + (d.getMonth()+1) + '\uC6D4 ' + d.getDate() + '\uC77C '
@@ -297,6 +366,7 @@ var I18N = {
     latest: 'Latest',
     viewOriginal: 'View Original',
     failedSources: 'View failed sources',
+    moreInOtherCategories: '— More —',
     items: 'items',
     weekdays: ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],
     dateFmt: function(d) {
@@ -318,6 +388,98 @@ var I18N = {
 var currentLang = localStorage.getItem('ds-lang') || 'ko';
 var currentTheme = localStorage.getItem('ds-theme') || 'light';
 var globalData = null;
+
+/* ===== Backend relevance scoring =====
+ * Backend engineering 관련성을 휴리스틱으로 추정.
+ * 태그/소스/제목·본문 키워드/카테고리/품질을 가중 합산.
+ * 파이프라인에서 item.backend_score를 미리 계산해 보내면 그 값을 우선 사용. */
+var BACKEND_TAGS = {
+  'backend':3,'server':3,'distributed':3,'distributed-systems':4,'microservices':3,'microservice':3,
+  'database':3,'db':3,'sql':2,'nosql':2,'postgres':3,'postgresql':3,'mysql':3,'sqlite':2,
+  'redis':3,'mongodb':3,'cassandra':3,'dynamodb':3,'cockroachdb':3,'spanner':3,
+  'cache':2,'caching':2,'queue':2,'kafka':3,'rabbitmq':3,'nats':3,'pubsub':2,
+  'scale':2,'scaling':3,'performance':2,'latency':3,'throughput':2,'concurrency':3,
+  'infrastructure':3,'devops':2,'platform':2,'kubernetes':3,'k8s':3,'docker':2,'container':2,
+  'cloud':1,'aws':2,'gcp':2,'azure':2,'terraform':2,'serverless':2,'lambda':2,'edge':2,
+  'api':2,'rest':2,'grpc':3,'graphql':2,'http':2,'http2':2,'http3':2,'tcp':2,'networking':3,
+  'system-design':4,'architecture':3,'observability':3,'monitoring':2,'tracing':3,'logging':2,
+  'reliability':3,'sre':4,'incident':2,'fault-tolerance':3,'resilience':2,
+  'golang':3,'go':2,'rust':2,'java':1,'jvm':2,'kotlin':1,
+  'spring':2,'fastapi':2,'django':2,'flask':1,'express':1,'nodejs':1,'node':1,
+  'consistency':3,'transaction':3,'replication':3,'sharding':3,'partitioning':3,
+  'load-balancer':3,'message-queue':3,'streaming':2,
+  'authentication':2,'authorization':2,'oauth':2,'jwt':2,
+  'compiler':2,'runtime':2,'kernel':2,'linux':2,'unix':1,
+  'security':1,'cryptography':2,'tls':2,'ssl':1,
+  'data-engineering':3,'etl':3,'data-pipeline':3,'spark':2,'flink':2,'duckdb':2
+};
+var BACKEND_NEG_TAGS = {
+  'react':-2,'vue':-2,'svelte':-2,'angular':-2,'css':-2,'tailwind':-2,
+  'frontend':-3,'ui':-2,'ux':-2,'design':-1,
+  'mobile':-1,'ios':-1,'android':-1,'swift':-1,
+  'transformer':-1,'attention':-1,'neural-networks':-2,'gpt':-1,'prompt':-1,'reasoning':-1
+};
+var BACKEND_SOURCE_BOOST = {
+  'stripe_blog':5,'Stripe Blog':5,
+  'vercel_blog':3,'Vercel Blog':3,
+  'cloudflare_blog':5,'Cloudflare Blog':5,
+  'meta_eng':5,'Meta Engineering':5,
+  'netflix_tech':6,'Netflix Tech':6,
+  'slack_eng':5,'spotify_eng':4,'linkedin_eng':4,
+  'airbnb_eng':4,'pinterest_eng':4,'discord_eng':4,
+  'uber_eng':5,'shopify_eng':5,'atlassian_eng':3,
+  'bytebytego':6,'github_eng':4,'aws_arch':6,'high_scalability':6,
+  'pragmatic_engineer':7,'martin_fowler':7,'marc_brooker':7,
+  'werner_vogels':6,'stackoverflow_blog':4,'infoq_arch':5,
+  'hashicorp_blog':4,'morning_paper':5,'dan_slimmon':5,
+  'hn_best':3,'reddit_experienced_devs':3,'reddit_programming':2,
+  'lobsters':1,'Lobsters':1,'devto':0,'hacker_news':0
+};
+var BACKEND_KEYWORDS = [
+  'backend','distributed','microservice','scaling','latency','throughput',
+  'database','postgres','mysql','redis','kafka','queue','cache','sharding','replication',
+  'kubernetes','docker','system design','architecture','observability','tracing',
+  'sre ','reliab','incident','outage','postmortem',
+  ' api','rest ','grpc','graphql','rpc',
+  'server','serverless','consistency','transaction','eventual',
+  'load balanc','message queue','pub/sub','stream',
+  '백엔드','분산','마이크로서비스','데이터베이스','확장','인프라','아키텍처','지연','처리량',
+  '캐시','큐','복제','샤딩','일관성','트랜잭션','관측','장애','신뢰성','파이프라인'
+];
+
+function backendScore(item) {
+  if (typeof item.backend_score === 'number') return item.backend_score;
+  var score = 0;
+  var tags = (item.tags || []).map(function(t) { return String(t).toLowerCase(); });
+  for (var i = 0; i < tags.length; i++) {
+    if (BACKEND_TAGS[tags[i]]) score += BACKEND_TAGS[tags[i]];
+    if (BACKEND_NEG_TAGS[tags[i]]) score += BACKEND_NEG_TAGS[tags[i]];
+  }
+  var text = ((item.title || '') + ' ' + (item.title_ko || '') + ' ' +
+              (item.summary_ko || '') + ' ' + (item.detail_ko || '') + ' ' +
+              (item.detail_en || '')).toLowerCase();
+  for (var k = 0; k < BACKEND_KEYWORDS.length; k++) {
+    if (text.indexOf(BACKEND_KEYWORDS[k]) !== -1) score += 2;
+  }
+  var src = item.source;
+  if (src && BACKEND_SOURCE_BOOST.hasOwnProperty(src)) score += BACKEND_SOURCE_BOOST[src];
+  if (item.category === 'ai_research') score -= 4;
+  if (item.category === 'eng_blogs') score += 2;
+  score += Math.min(5, Math.floor((item.final_score || 0) / 25));
+  return score;
+}
+
+/* Engineering 메인 섹션 = eng_blogs 카테고리 아이템을 backend_score → score 순으로 정렬.
+ * 백엔드 개발자에게 정말 도움되는 깊이를 우선. 프론트/인프라/언어 관련도 약간 섞여 OK. */
+function pickEngineeringItems(items) {
+  var picked = items.filter(function(it) { return it.category === 'eng_blogs'; });
+  picked.sort(function(a, b) {
+    var ba = backendScore(a), bb = backendScore(b);
+    if (bb !== ba) return bb - ba;
+    return (b.score || 0) - (a.score || 0);
+  });
+  return picked;
+}
 
 function el(tag, attrs, children) {
   var e = document.createElement(tag);
@@ -386,6 +548,7 @@ function createCard(item) {
     if (e.type === 'keydown') e.preventDefault();
     var isOpen = card.classList.toggle('open');
     card.setAttribute('aria-expanded', String(isOpen));
+    if (typeof onCardOpenStateChange === 'function') onCardOpenStateChange();
   }
   card.addEventListener('click', toggleCard);
   card.addEventListener('keydown', toggleCard);
@@ -435,7 +598,25 @@ function render(data) {
   var content = document.getElementById('content');
   content.textContent = '';
 
-  var categories = ['news_blogs', 'ai_research', 'github_oss', 'community', 'eng_blogs'];
+  // ===== Hero: Engineering (eng_blogs sorted by backend relevance) =====
+  var engItems = pickEngineeringItems(items);
+  if (engItems.length > 0) {
+    var hero = el('section', { className: 'hero-section fade-in', id: 'section-engineering' });
+    hero.appendChild(el('div', { className: 'hero-eyebrow', textContent: t.latest + ' \u00B7 ' + dateStr.split(' \u00B7 ')[0] }));
+
+    var heroMeta = el('div', { className: 'hero-meta' });
+    heroMeta.appendChild(el('span', { textContent: engItems.length + ' ' + t.items }));
+    hero.appendChild(heroMeta);
+
+    var heroList = el('div', { className: 'card-list' });
+    for (var bi = 0; bi < engItems.length; bi++) heroList.appendChild(createCard(engItems[bi]));
+    hero.appendChild(heroList);
+    content.appendChild(hero);
+
+    content.appendChild(el('div', { className: 'other-cats-divider', textContent: t.moreInOtherCategories }));
+  }
+
+  var categories = ['news_blogs', 'github_oss', 'community'];
   var rendered = 0;
   for (var c = 0; c < categories.length; c++) {
     var cat = categories[c];
@@ -444,7 +625,7 @@ function render(data) {
     if (rendered > 0) content.appendChild(createVineSvg());
     var cfg = t.categories[cat];
 
-    var section = el('div', { className: 'section fade-in' });
+    var section = el('div', { className: 'section fade-in', id: 'section-' + cat });
     var header = el('div', { className: 'section-header' });
     header.appendChild(el('span', { className: 'section-icon', textContent: cfg.icon }));
     header.appendChild(el('h2', { className: 'section-title', textContent: cfg.label }));
@@ -481,7 +662,142 @@ function render(data) {
     }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
     document.querySelectorAll('.fade-in').forEach(function(e) { currentObserver.observe(e); });
   });
+
+  buildBottomNav();
 }
+
+/* ===== BOTTOM NAV =====
+ * Visibility = NOT(hiddenForReading || hiddenForScrollDir)
+ *  - hiddenForReading: 카드 펼친 채로 일정 시간 idle 이면 true (몰입 상태로 가린다)
+ *  - hiddenForScrollDir: 카드 안 열린 상태에서 아래로 스크롤할 때 true (목록 탐색 중 절약)
+ * 사용자가 스크롤하면 두 플래그 모두 풀어 즉시 노출. 1.5s 후 다시 가린다.
+ */
+var bottomNavSections = [];
+var lastScrollY = 0;
+var hiddenForReading = false;
+var hiddenForScrollDir = false;
+var navClickGuardUntil = 0;
+var readingHideTimer = null;
+var READING_HIDE_DELAY = 1500;
+
+function buildBottomNav() {
+  var nav = document.getElementById('bottomNav');
+  if (!nav) return;
+  nav.textContent = '';
+
+  var navLabels = currentLang === 'ko'
+    ? { engineering: '엔지니어링', news_blogs: '뉴스', github_oss: 'GitHub', community: '커뮤니티' }
+    : { engineering: 'Engineering', news_blogs: 'News', github_oss: 'GitHub', community: 'Community' };
+
+  bottomNavSections = [];
+  if (document.getElementById('section-engineering')) {
+    bottomNavSections.push({ id: 'section-engineering', label: navLabels.engineering });
+  }
+  var orderedCats = ['news_blogs', 'github_oss', 'community'];
+  for (var i = 0; i < orderedCats.length; i++) {
+    var cat = orderedCats[i];
+    if (!document.getElementById('section-' + cat)) continue;
+    bottomNavSections.push({ id: 'section-' + cat, label: navLabels[cat] });
+  }
+
+  for (var s = 0; s < bottomNavSections.length; s++) {
+    (function(sec) {
+      var btn = el('button', { className: 'nav-btn', type: 'button', 'data-target': sec.id });
+      btn.appendChild(el('span', { className: 'nav-btn-label', textContent: sec.label }));
+      btn.addEventListener('click', function() {
+        var target = document.getElementById(sec.id);
+        if (!target) return;
+        var y = target.getBoundingClientRect().top + window.scrollY - 16;
+        navClickGuardUntil = Date.now() + 900;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      });
+      nav.appendChild(btn);
+    })(bottomNavSections[s]);
+  }
+
+  lastScrollY = window.scrollY;
+  hiddenForReading = false;
+  hiddenForScrollDir = false;
+  updateBottomNavVisibility();
+  updateBottomNavActive();
+}
+
+function anyCardOpen() {
+  return !!document.querySelector('.card.open');
+}
+
+function updateBottomNavVisibility() {
+  var nav = document.getElementById('bottomNav');
+  if (!nav) return;
+  nav.classList.toggle('hidden', hiddenForReading || hiddenForScrollDir);
+}
+
+function scheduleReadingHide() {
+  clearTimeout(readingHideTimer);
+  if (!anyCardOpen()) return;
+  readingHideTimer = setTimeout(function() {
+    if (anyCardOpen()) {
+      hiddenForReading = true;
+      updateBottomNavVisibility();
+    }
+  }, READING_HIDE_DELAY);
+}
+
+function onCardOpenStateChange() {
+  if (anyCardOpen()) {
+    scheduleReadingHide();
+  } else {
+    clearTimeout(readingHideTimer);
+    hiddenForReading = false;
+    updateBottomNavVisibility();
+  }
+}
+
+function updateBottomNavActive() {
+  var nav = document.getElementById('bottomNav');
+  if (!nav || bottomNavSections.length === 0) return;
+  var probe = window.scrollY + window.innerHeight * 0.35;
+  var activeId = bottomNavSections[0].id;
+  for (var i = 0; i < bottomNavSections.length; i++) {
+    var node = document.getElementById(bottomNavSections[i].id);
+    if (!node) continue;
+    var top = node.getBoundingClientRect().top + window.scrollY;
+    if (top <= probe) activeId = bottomNavSections[i].id;
+  }
+  var btns = nav.querySelectorAll('.nav-btn');
+  for (var j = 0; j < btns.length; j++) {
+    btns[j].classList.toggle('active', btns[j].getAttribute('data-target') === activeId);
+  }
+}
+
+var navScrollTicking = false;
+window.addEventListener('scroll', function() {
+  if (navScrollTicking) return;
+  navScrollTicking = true;
+  requestAnimationFrame(function() {
+    var y = window.scrollY;
+    var dy = y - lastScrollY;
+    // 스크롤이 발생하면 reading-hide는 즉시 해제 — 다시 사용 가능하게.
+    hiddenForReading = false;
+
+    // 카드를 펼친 채 읽는 중에는 방향 기반 자동 숨김 금지.
+    // 평소(목록 탐색)에는: 상단 부근 노출 / 아래로 의미 있게 내리면 숨김 / 위로 올리면 노출.
+    if (anyCardOpen() || Date.now() < navClickGuardUntil || y < 80) {
+      hiddenForScrollDir = false;
+    } else if (dy > 6) {
+      hiddenForScrollDir = true;
+    } else if (dy < -4) {
+      hiddenForScrollDir = false;
+    }
+
+    lastScrollY = y;
+    updateBottomNavVisibility();
+    updateBottomNavActive();
+    // 카드 펼친 채로 스크롤이 멈춘 뒤 다시 가린다.
+    scheduleReadingHide();
+    navScrollTicking = false;
+  });
+}, { passive: true });
 
 /* ===== THEME ===== */
 function applyTheme(theme) {

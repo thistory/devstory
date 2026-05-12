@@ -20,9 +20,93 @@ SOURCE_RELIABILITY = {
     "hacker_news": 90, "arxiv_ai": 85, "arxiv_lg": 85, "arxiv_cl": 85,
     "anthropic_news": 80, "papers_with_code": 75, "huggingface_blog": 75,
     "github_trending": 70, "github_trending_python": 70, "github_trending_typescript": 70,
+    "github_trending_go": 70, "github_trending_rust": 70,
     "stripe_blog": 70, "cloudflare_blog": 70, "meta_eng": 70, "vercel_blog": 65,
+    # FAANG / scale-up engineering blogs
+    "netflix_tech": 85, "slack_eng": 75, "spotify_eng": 75, "linkedin_eng": 75,
+    "airbnb_eng": 75, "pinterest_eng": 70, "discord_eng": 70,
+    "uber_eng": 80, "shopify_eng": 75, "atlassian_eng": 65,
+    "bytebytego": 80, "github_eng": 80, "aws_arch": 75, "high_scalability": 70,
+    # 권위자 / 뉴스레터
+    "pragmatic_engineer": 90, "martin_fowler": 90, "marc_brooker": 90,
+    "werner_vogels": 85, "stackoverflow_blog": 75, "infoq_arch": 75,
+    "hashicorp_blog": 70, "morning_paper": 80, "dan_slimmon": 75,
+    # community
+    "hn_best": 90, "reddit_programming": 70, "reddit_experienced_devs": 80,
     "techcrunch": 65, "lobsters": 60, "changelog": 60, "tldr": 55, "devto": 50,
 }
+
+# Backend-relevance heuristic (mirrors frontend backendScore in index.html).
+# Used as a fallback when an agent didn't supply backend_score.
+BACKEND_TAGS = {
+    'backend':3,'server':3,'distributed':3,'distributed-systems':4,'microservices':3,'microservice':3,
+    'database':3,'db':3,'sql':2,'nosql':2,'postgres':3,'postgresql':3,'mysql':3,'sqlite':2,
+    'redis':3,'mongodb':3,'cassandra':3,'dynamodb':3,'cockroachdb':3,'spanner':3,
+    'cache':2,'caching':2,'queue':2,'kafka':3,'rabbitmq':3,'nats':3,'pubsub':2,
+    'scale':2,'scaling':3,'performance':2,'latency':3,'throughput':2,'concurrency':3,
+    'infrastructure':3,'devops':2,'platform':2,'kubernetes':3,'k8s':3,'docker':2,'container':2,
+    'cloud':1,'aws':2,'gcp':2,'azure':2,'terraform':2,'serverless':2,'lambda':2,'edge':2,
+    'api':2,'rest':2,'grpc':3,'graphql':2,'http':2,'http2':2,'http3':2,'tcp':2,'networking':3,
+    'system-design':4,'architecture':3,'observability':3,'monitoring':2,'tracing':3,'logging':2,
+    'reliability':3,'sre':4,'incident':2,'fault-tolerance':3,'resilience':2,
+    'golang':3,'go':2,'rust':2,'java':1,'jvm':2,
+    'spring':2,'fastapi':2,'django':2,'flask':1,'express':1,'nodejs':1,'node':1,
+    'consistency':3,'transaction':3,'replication':3,'sharding':3,'partitioning':3,
+    'load-balancer':3,'message-queue':3,'streaming':2,
+    'authentication':2,'authorization':2,'oauth':2,'jwt':2,
+    'compiler':2,'runtime':2,'kernel':2,'linux':2,
+    'cryptography':2,'tls':2,
+    'data-engineering':3,'etl':3,'data-pipeline':3,'spark':2,'flink':2,'duckdb':2,
+}
+BACKEND_NEG_TAGS = {
+    'react':-2,'vue':-2,'svelte':-2,'angular':-2,'css':-2,'tailwind':-2,
+    'frontend':-3,'ui':-2,'ux':-2,'design':-1,
+    'mobile':-1,'ios':-1,'android':-1,'swift':-1,
+    'transformer':-1,'attention':-1,'neural-networks':-2,'gpt':-1,'prompt':-1,'reasoning':-1,
+}
+BACKEND_SOURCE_BOOST = {
+    'stripe_blog':5,'cloudflare_blog':5,'meta_eng':5,'netflix_tech':6,
+    'slack_eng':5,'spotify_eng':4,'linkedin_eng':4,'airbnb_eng':4,
+    'pinterest_eng':4,'discord_eng':4,'uber_eng':5,'shopify_eng':5,
+    'atlassian_eng':3,'bytebytego':6,'github_eng':4,
+    'aws_arch':6,'high_scalability':6,'vercel_blog':3,
+    'pragmatic_engineer':7,'martin_fowler':7,'marc_brooker':7,
+    'werner_vogels':6,'stackoverflow_blog':4,'infoq_arch':5,
+    'hashicorp_blog':4,'morning_paper':5,'dan_slimmon':5,
+    'hn_best':3,'reddit_experienced_devs':3,'reddit_programming':2,
+    'lobsters':1,
+}
+BACKEND_KEYWORDS = [
+    'backend','distributed','microservice','scaling','latency','throughput',
+    'database','postgres','mysql','redis','kafka','queue','cache','sharding','replication',
+    'kubernetes','docker','system design','architecture','observability','tracing',
+    'sre ','reliab','incident','outage','postmortem',
+    ' api','rest ','grpc','graphql','rpc',
+    'server','serverless','consistency','transaction','eventual',
+    'load balanc','message queue','pub/sub','stream',
+    '백엔드','분산','마이크로서비스','데이터베이스','확장','인프라','아키텍처','지연','처리량',
+    '캐시','큐','복제','샤딩','일관성','트랜잭션','관측','장애','신뢰성','파이프라인',
+]
+
+def compute_backend_score(item):
+    """Backend engineering 관련성. agent가 이미 backend_score를 줬으면 그대로 사용."""
+    existing = item.get("backend_score")
+    if isinstance(existing, (int, float)) and existing > 0:
+        return float(existing)
+    score = 0
+    tags = [str(t).lower() for t in (item.get("tags") or [])]
+    for t in tags:
+        if t in BACKEND_TAGS: score += BACKEND_TAGS[t]
+        if t in BACKEND_NEG_TAGS: score += BACKEND_NEG_TAGS[t]
+    text = ' '.join(str(item.get(k) or '') for k in ('title','title_ko','summary_ko','detail_ko','detail_en')).lower()
+    for kw in BACKEND_KEYWORDS:
+        if kw in text: score += 2
+    src = item.get('source') or ''
+    if src in BACKEND_SOURCE_BOOST: score += BACKEND_SOURCE_BOOST[src]
+    if item.get('category') == 'ai_research': score -= 4
+    if item.get('category') == 'eng_blogs': score += 2
+    score += min(5, int((item.get('final_score') or 0) // 25))
+    return float(score)
 
 def load_agent_results():
     """Load all JSON files from tmp/collect/"""
@@ -130,27 +214,34 @@ def score_item(item):
     score = reliability * 40 + community * 35 + recency * 25
     return round(score, 1)
 
-def diversity_rebalance(items, max_per_category=12, total=30):
-    """No single category may exceed 40% of final items"""
+def diversity_rebalance(items, total=40):
+    """카테고리별 상한. eng_blogs는 백엔드 메인 섹션 재료라 cap을 크게 잡는다."""
+    cat_caps = {
+        'eng_blogs': 18,  # backend hero 재료
+        'news_blogs': 10,
+        'github_oss': 8,
+        'community': 8,
+        'ai_research': 6,
+    }
+    default_cap = 8
     by_cat = {}
     for item in items:
         cat = item.get("category", "other")
         by_cat.setdefault(cat, []).append(item)
-    
+
     result = []
     overflow = []
-    
     for cat, cat_items in by_cat.items():
         cat_items.sort(key=lambda x: x.get("score", 0), reverse=True)
-        result.extend(cat_items[:max_per_category])
-        overflow.extend(cat_items[max_per_category:])
-    
+        cap = cat_caps.get(cat, default_cap)
+        result.extend(cat_items[:cap])
+        overflow.extend(cat_items[cap:])
+
     result.sort(key=lambda x: x.get("score", 0), reverse=True)
-    
     if len(result) < total:
         overflow.sort(key=lambda x: x.get("score", 0), reverse=True)
         result.extend(overflow[:total - len(result)])
-    
+
     return result[:total]
 
 def generate_summary(items):
@@ -212,11 +303,13 @@ def main():
     # Score
     for item in items:
         item["score"] = score_item(item)
+        item["backend_score"] = compute_backend_score(item)
     items.sort(key=lambda x: x["score"], reverse=True)
-    
-    # Diversity rebalance and select top 30
+
+    # Diversity rebalance and select top N
     items = diversity_rebalance(items)
-    print(f"  After filter: {len(items)}")
+    backend_count = sum(1 for i in items if (i.get("backend_score") or 0) >= 4)
+    print(f"  After filter: {len(items)} (backend-relevant: {backend_count})")
     
     # Save raw.json
     os.makedirs(DATA_DIR, exist_ok=True)
