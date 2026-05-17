@@ -49,7 +49,7 @@ jobs:
           jq -e '.claudeAiOauth.accessToken' "$HOME/.claude/.credentials.json" >/dev/null \
             || (echo "credentials file shape unexpected" >&2; exit 1)
 
-      - name: Restore deploy SSH key + alias 'devstory'
+      - name: Restore deploy SSH key + alias 'thistory'
         env:
           KEY:  ${{ secrets.DEPLOY_SSH_KEY }}
           HOST: ${{ secrets.DEPLOY_HOST }}
@@ -59,10 +59,10 @@ jobs:
           mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
           printf '%s\n' "$KEY" > "$HOME/.ssh/id_deploy"
           chmod 600 "$HOME/.ssh/id_deploy"
-          # The cron script uses 'ssh devstory' / 'rsync ... devstory:...'
+          # The cron script uses 'ssh thistory' / 'rsync ... thistory:...'
           # Set up the same alias here so the script is unmodified.
           cat > "$HOME/.ssh/config" <<EOF
-          Host devstory
+          Host thistory
             HostName $HOST
             User $USER
             IdentityFile ~/.ssh/id_deploy

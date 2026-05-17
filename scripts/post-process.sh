@@ -9,7 +9,6 @@ DEVSTORY_DIR="$HOME/devstory"
 TODAY_DIR="$DEVSTORY_DIR/data/$(date +%Y/%m/%d)"
 RAW_JSON="$TODAY_DIR/raw.json"
 PROCESSED="$DEVSTORY_DIR/processed_data.json"
-SSH_KEY="$HOME/.ssh/devstory_deploy"
 TODAY_DATE=$(date +%Y-%m-%d)
 
 # Check raw.json exists
@@ -49,12 +48,12 @@ if [ -n "$FIRST_ID" ]; then
 fi
 
 # Deploy via rsync
-echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] Deploying to devstory server..."
+echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] Deploying to thistory server..."
 rsync -avz \
-  -e "ssh -i $SSH_KEY -o StrictHostKeyChecking=no" \
+  -e "ssh -o StrictHostKeyChecking=no" \
   "$DEVSTORY_DIR/index.html" \
   "$DEVSTORY_DIR/processed_data.json" \
   "$DEVSTORY_DIR/data" \
-  devstory:/home/opc/devstory/
+  thistory:/var/www/devstory/
 
 echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] Deploy complete."

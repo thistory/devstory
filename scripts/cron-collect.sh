@@ -19,7 +19,7 @@ mkdir -p "$LOG_DIR"
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S KST')] $1" | tee -a "$LOG_FILE"; }
 
 notify() {
-  "$HOME/bin/notify-telegram.sh" "$(printf '📰 *DevStory 수집 완료*\n\n• 날짜: %s\n• 수집 기사: %s건\n• 링크: https://devstory.is-an.ai' "$TODAY" "$1")"
+  "$HOME/bin/notify-telegram.sh" "$(printf '📰 *DevStory 수집 완료*\n\n• 날짜: %s\n• 수집 기사: %s건\n• 링크: https://thistory.is-a.dev/devstory' "$TODAY" "$1")"
   log "Telegram notification sent."
 }
 
